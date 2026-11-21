@@ -1,0 +1,188 @@
+{
+  "file": "public/assets/animations/qv_male_clips.glb",
+  "source_character": "davogar",
+  "clips": {
+    "Idle_Stand": {
+      "duration_s": 8.0,
+      "loop": true
+    },
+    "Idle_Seated": {
+      "duration_s": 8.0,
+      "loop": true
+    },
+    "Idle_Seated_Lap": {
+      "duration_s": 8.0,
+      "loop": true
+    },
+    "Walk": {
+      "duration_s": 1.067,
+      "loop": true,
+      "root_motion": "in_place",
+      "speed_mps": 1.1
+    },
+    "Turn_Left_90": {
+      "duration_s": 1.0,
+      "loop": false,
+      "root_yaw_delta_deg": 90,
+      "note": "Hips rotate 90 deg in-clip; on finish add the yaw to the root and play an idle"
+    },
+    "Turn_Right_90": {
+      "duration_s": 1.0,
+      "loop": false,
+      "root_yaw_delta_deg": -90,
+      "note": "Hips rotate 90 deg in-clip; on finish add the yaw to the root and play an idle"
+    },
+    "Sit_Down": {
+      "duration_s": 1.6,
+      "loop": false,
+      "start_offset_m": [
+        0,
+        -0.32,
+        0
+      ],
+      "note": "Root sits at the seat origin; clip starts standing 0.32 m in front"
+    },
+    "Stand_Up": {
+      "duration_s": 1.6,
+      "loop": false,
+      "end_offset_m": [
+        0,
+        -0.32,
+        0
+      ]
+    },
+    "Talk_Standing": {
+      "duration_s": 4.0,
+      "loop": true,
+      "face_clip": "Face_Talk"
+    },
+    "Talk_Seated": {
+      "duration_s": 4.0,
+      "loop": true,
+      "face_clip": "Face_Talk"
+    },
+    "Address_Judge": {
+      "duration_s": 5.2,
+      "loop": true,
+      "face_clip": "Face_Talk"
+    },
+    "Present_Evidence": {
+      "duration_s": 3.6,
+      "loop": false,
+      "prop_socket": "mixamorig:RightHand",
+      "prop": "evidence_folder",
+      "events": {
+        "grab": 0.5,
+        "handover": 2.3
+      }
+    },
+    "Read_Document_Standing": {
+      "duration_s": 4.0,
+      "loop": true,
+      "prop_socket": "mixamorig:RightHand"
+    },
+    "Read_Document_Seated": {
+      "duration_s": 4.0,
+      "loop": true
+    },
+    "Gesture_OpenHand": {
+      "duration_s": 2.0,
+      "loop": false
+    },
+    "Gesture_OpenHand_Seated": {
+      "duration_s": 2.0,
+      "loop": false
+    },
+    "Gesture_Point": {
+      "duration_s": 2.2,
+      "loop": false
+    },
+    "Gesture_Point_Seated": {
+      "duration_s": 2.2,
+      "loop": false
+    },
+    "Objection": {
+      "duration_s": 2.0,
+      "loop": false
+    },
+    "Objection_Seated": {
+      "duration_s": 2.0,
+      "loop": false
+    },
+    "Head_Nod": {
+      "duration_s": 1.2,
+      "loop": false
+    },
+    "Head_Nod_Seated": {
+      "duration_s": 1.2,
+      "loop": false
+    },
+    "Head_Shake": {
+      "duration_s": 1.4,
+      "loop": false
+    },
+    "Head_Shake_Seated": {
+      "duration_s": 1.4,
+      "loop": false
+    },
+    "Look_Left": {
+      "duration_s": 2.4,
+      "loop": false
+    },
+    "Look_Left_Seated": {
+      "duration_s": 2.4,
+      "loop": false
+    },
+    "Look_Right": {
+      "duration_s": 2.4,
+      "loop": false
+    },
+    "Look_Right_Seated": {
+      "duration_s": 2.4,
+      "loop": false
+    },
+    "React_Surprised": {
+      "duration_s": 1.6,
+      "loop": false
+    },
+    "React_Surprised_Seated": {
+      "duration_s": 1.6,
+      "loop": false
+    },
+    "React_Concerned": {
+      "duration_s": 3.0,
+      "loop": false
+    },
+    "React_Concerned_Seated": {
+      "duration_s": 3.0,
+      "loop": false
+    },
+    "Deliver_Verdict": {
+      "duration_s": 4.0,
+      "loop": false,
+      "face_clip": "Face_Talk"
+    },
+    "Typing": {
+      "duration_s": 2.0,
+      "loop": true
+    },
+    "Announce": {
+      "duration_s": 3.0,
+      "loop": false,
+      "face_clip": "Face_Talk"
+    },
+    "Testify": {
+      "duration_s": 5.0,
+      "loop": false,
+      "face_clip": "Face_Talk"
+    },
+    "Nervous_Idle": {
+      "duration_s": 6.0,
+      "loop": true
+    },
+    "Guard_Idle": {
+      "duration_s": 12.0,
+      "loop": true
+    }
+  }
+}

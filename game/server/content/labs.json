@@ -1,0 +1,2567 @@
+{
+  "A-B01": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Murojaat",
+        "body": "Fuqaro internet do‘konidan xarid qilgan, sotuvchi murojaatiga javob bermagan. U huquqiy yordam so‘raydi.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Yordam so‘rovi",
+        "body": "Murojaatchi: advokat do‘konga pulni darhol undirish haqida buyruq bera oladimi?",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Huquq kartasi",
+        "body": "Konstitutsiya 29-modda: malakali yuridik yordam. 55-modda: huquqlarni himoya qilish va sud orqali himoya kafolatlari.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Fuqaroning dastlabki ehtiyoji nima?",
+        "options": [
+          "Huquqiy yordam va murojaat yo‘lini aniqlash",
+          "Darhol ayblov hukmi",
+          "Sudga murojaatdan voz kechish"
+        ],
+        "correct": 0,
+        "feedback": "Yordam turi vaziyatga mos tanlanadi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Advokat qanday harakat qiladi?",
+        "options": [
+          "Fakt va hujjatlarni aniqlab, vakolat doirasida yordam beradi",
+          "Sotuvchiga majburiy sud buyrug‘ini o‘zi beradi",
+          "Natijani tekshirmay kafolatlaydi"
+        ],
+        "correct": 0,
+        "feedback": "Advokat yordam beradi; sud vakolatini egallamaydi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Qaysi bog‘lanish to‘g‘ri?",
+        "options": [
+          "Yuridik yordam — 29, sud orqali himoya — 55-modda",
+          "Yuridik yordam sudga murojaatni taqiqlaydi",
+          "Sotuvchi javob bermasa huquqlar tugaydi"
+        ],
+        "correct": 0,
+        "feedback": "Konstitutsiyaviy kafolatlar bir-birini to‘ldiradi."
+      }
+    ]
+  },
+  "A-B02": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Oldingi topshiriq",
+        "body": "Advokat avval Rustamga aynan shu qarz nizosida huquqiy yordam ko‘rsatgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Yangi mijoz",
+        "body": "Endi qarshi taraf Malika Rustamga qarshi shu ishni olib borishni so‘raydi.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Maxfiy xabar",
+        "body": "Malika avvalgi mijozning yozishmasini ko‘rsatishni so‘ramoqda. Ruxsat yoki alohida qonuniy asos berilmagan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Qaysi xavf mavjud?",
+        "options": [
+          "Aynan bir ishda zid manfaatlar",
+          "Faqat uchrashuv vaqti noqulayligi",
+          "Hech qanday tekshiruv kerak emas"
+        ],
+        "correct": 0,
+        "feedback": "Oldingi va yangi topshiriq manfaatlari tekshiriladi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Yozishmani qanday tutasiz?",
+        "options": [
+          "Maxfiy saqlayman",
+          "Yangi mijozga ko‘rsataman",
+          "Ijtimoiy tarmoqqa joylayman"
+        ],
+        "correct": 0,
+        "feedback": "Mijoz ma’lumoti muzokara vositasi emas."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Qanday javob mos?",
+        "options": [
+          "Sirni ochmasdan topshiriqni qabul qila olmasligimni tushuntiraman",
+          "Ikki tarafdan ham topshiriq olaman",
+          "Sirni ko‘rsatsam manfaatlar to‘qnashuvi tugaydi"
+        ],
+        "correct": 0,
+        "feedback": "Topshiriqni rad etishning o‘zi sirni oshkor qilishni talab qilmaydi."
+      }
+    ]
+  },
+  "A-B03": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Mijoz bayoni",
+        "body": "Dilshod: avval pul to‘ladim, keyin xizmat va’dasi bajarilmadi. Sanani aniq eslamayman.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Kvitansiya",
+        "body": "O‘quv kvitansiyasi: 12-mart, xizmat uchun to‘lov. Xizmat yakuni qayd etilmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Yozishma",
+        "body": "15-martdagi xabarda ijrochi 20-martga tayyorlashni aytgan. Bajarilgani haqida hujjat yo‘q.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Qaysi savol foydali?",
+        "options": [
+          "To‘lovni tasdiqlovchi hujjatni ko‘rsata olasizmi?",
+          "Demak xizmat bajarilgan, shundaymi?",
+          "Kerakli voqeani o‘zim yozib beraymi?"
+        ],
+        "correct": 0,
+        "feedback": "Ochiq va aniqlashtiruvchi savol faktni tekshiradi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Qaysi vaqt ketma-ketligi materialga mos?",
+        "options": [
+          "12-mart to‘lov, 15-mart xabar, 20-mart va’da",
+          "20-mart to‘lov, 12-mart bajarish",
+          "Barcha sanalar noma’lum"
+        ],
+        "correct": 0,
+        "feedback": "Faqat hujjatdagi sanalarni aniqlangan deb oling."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Nima hali aniqlashtiriladi?",
+        "options": [
+          "Xizmat amalda bajarilgan-bajarilmagani",
+          "To‘lov kvitansiyasidagi sana",
+          "15-mart xabar borligi"
+        ],
+        "correct": 0,
+        "feedback": "Va’da bilan bajarilgan ish bir xil fakt emas."
+      }
+    ]
+  },
+  "A-B04": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "To‘lov",
+        "body": "3-aprelda mebel uchun pul to‘langan. Hujjatda sifat haqida xulosa yo‘q.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Yetkazish",
+        "body": "Mebel 10-aprelda topshirilgan; qabul hujjatida ko‘rinadigan shikast yozilmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Foto",
+        "body": "Shikast fotosi mavjud, ammo suratning sanasi va kelib chiqishi tasdiqlanmagan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "To‘lov hujjati bevosita nimani ko‘rsatadi?",
+        "options": [
+          "Pul to‘langanini",
+          "Nuqson qachon paydo bo‘lganini",
+          "Mebel hech qachon yetkazilmaganini"
+        ],
+        "correct": 0,
+        "feedback": "Hujjat daliliy chegarasi bilan o‘qiladi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Foto uchun qanday savol kerak?",
+        "options": [
+          "Qachon va kim olgan, asl manba bormi?",
+          "U mijozga foydali bo‘lsa yetarlimi?",
+          "Surat bo‘lsa barcha talab avtomatik isbotmi?"
+        ],
+        "correct": 0,
+        "feedback": "Kelib chiqish va vaqt tekshiriladi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Qabul hujjati bilan nima qilasiz?",
+        "options": [
+          "Qarshi material sifatida saqlab, mazmunini tekshiraman",
+          "Mijozga zarar deb o‘chiraman",
+          "Uni avtomatik soxta deyman"
+        ],
+        "correct": 0,
+        "feedback": "Noqulay material ham baholanishi kerak."
+      }
+    ]
+  },
+  "A-B05": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Xarid",
+        "body": "O‘quv cheki: telefon shaxsiy foydalanish uchun olingan. Xarid sanasi va sotuvchi qayd etilgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Servis",
+        "body": "O‘quv servis xulosasi ishlab chiqarish nuqsonini qayd etadi. Almashtirish talabi ko‘rib chiqilishi so‘ralgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Sotuvchi javobi",
+        "body": "Sotuvchi mijoz aybi bo‘lishi mumkinligini aytgan, ammo bu haqda material taqdim etmagan. Barcha matnlar sintetik moslashtirish.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Talabga qaysi material bevosita aloqador?",
+        "options": [
+          "Xarid va servis hujjatlari",
+          "Mijozning sevimli rangi",
+          "Sotuvchining mashhurligi"
+        ],
+        "correct": 0,
+        "feedback": "Xarid va nuqson holatlari bog‘lanadi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Qarshi vajga qanday javob kerak?",
+        "options": [
+          "Mijoz aybi vajining dalilini so‘rab servis xulosasi bilan solishtirish",
+          "Sotuvchini tinglamaslik",
+          "Mijozni avtomatik aybdor qilish"
+        ],
+        "correct": 0,
+        "feedback": "Qarshi fikr dalil bilan tekshiriladi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Qaysi yakuniy yo‘l asosli?",
+        "options": [
+          "Tanlangan almashtirish talabini tekshirilgan hujjat va iste’molchi normasi bilan asoslash",
+          "Barcha talablarni sababsiz birga qo‘yish",
+          "Natijani kafolatlash"
+        ],
+        "correct": 0,
+        "feedback": "Talab turi, fakt va huquqiy asos mos bo‘lishi kerak."
+      }
+    ]
+  },
+  "A-J01": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Vaziyat sanasi",
+        "body": "O‘quv nizosi 2026-yil 20-noyabr holatiga baholanadi.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Manba A",
+        "body": "Rasmiy kodeksning shu sanada kuchda bo‘lgan deb belgilangan o‘quv kartasi mavjud. Maqomi: amaldagi matn.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Manba B va C",
+        "body": "B — 2027-yilda kuchga kiradigan o‘zgarish. C — 2020-yilgi darslik. Kartalar manba turlarini o‘rganish uchun sintetik.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Asosiy norma uchun qaysi karta olinadi?",
+        "options": [
+          "A: vaziyat sanasiga mos amaldagi matn",
+          "B: kelajakdagi matn avtomatik",
+          "C: darslik qonundan ustun"
+        ],
+        "correct": 0,
+        "feedback": "Vaqt bo‘yicha qo‘llash tekshiriladi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Darslik qanday ishlatiladi?",
+        "options": [
+          "Tushuncha va metod uchun, normani tekshirish bilan",
+          "Har doim eng yangi qonun o‘rnida",
+          "Qonun loyihasiga teng"
+        ],
+        "correct": 0,
+        "feedback": "Ta’lim manbasi normativ maqomga aylantirilmaydi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Qaydda nima saqlanadi?",
+        "options": [
+          "Hujjat, modda, havola va foydalanilgan tahrir",
+          "Faqat qidiruvdagi birinchi sarlavha",
+          "Faqat muallifning obro‘si"
+        ],
+        "correct": 0,
+        "feedback": "Manbaga qaytib tekshirish mumkin bo‘lishi kerak."
+      }
+    ]
+  },
+  "A-J02": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Ariza loyihasi",
+        "body": "Arizada taraflar nomi va talab bor, lekin faktik asos hamda ilovalar ro‘yxati yo‘q.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Vakil qaydi",
+        "body": "Arizani vakil topshiradi; vakolatini tasdiqlovchi hujjat ilova qilinmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Materiallar",
+        "body": "Xizmat shartnomasi va to‘lov hujjati mavjud. Boshqa mijozning pasport nusxasi tasodifan papkaga qo‘shilgan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Arizaga nima yetishmaydi?",
+        "options": [
+          "Faktik asos va ilovalar ro‘yxati",
+          "Ko‘proq bezak",
+          "Sotuvchiga tahdid"
+        ],
+        "correct": 0,
+        "feedback": "Talab bilan uni asoslovchi faktlar bog‘lanadi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Vakil uchun nima tekshiriladi?",
+        "options": [
+          "Vakolatni tasdiqlovchi hujjat va uning doirasi",
+          "Faqat kiyim rangi",
+          "Sud natijasini kafolatlash"
+        ],
+        "correct": 0,
+        "feedback": "Vakolat rasmiylashtirilishi tekshiriladi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Begona pasport bilan nima qilinadi?",
+        "options": [
+          "Ish ilovalaridan chiqariladi, maxfiy saqlash tartibiga qaytariladi",
+          "Da’voga qo‘shiladi",
+          "Ommaviy tarqatiladi"
+        ],
+        "correct": 0,
+        "feedback": "Faqat tegishli va qonuniy material ishlatiladi."
+      }
+    ]
+  },
+  "A-J03": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Mijoz maqsadi",
+        "body": "Mijoz xizmat uchun to‘lovni qaytarish bo‘yicha ixtiyoriy kelishuvni ko‘rib chiqishga tayyor.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Taklif",
+        "body": "Loyihada faqat “tez orada to‘laydi” deb yozilgan. Miqdor va sana ko‘rsatilmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Uchinchi shaxs",
+        "body": "Bir band mediatsiyada qatnashmayotgan boshqa mijozning talabidan ham voz kechishni nazarda tutadi.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Kelishuvning boshlang‘ich sharti nima?",
+        "options": [
+          "Taraflarning ixtiyoriy roziligi",
+          "Majburlash",
+          "Faqat mediator xohishi"
+        ],
+        "correct": 0,
+        "feedback": "Ixtiyoriylik asosiy mezon."
+      },
+      {
+        "id": "Q2",
+        "prompt": "To‘lov bandi qanday tuzatiladi?",
+        "options": [
+          "Kim, qancha va qachon bajarishini aniqlash",
+          "“Keyinroq” bilan almashtirish",
+          "Umuman olib tashlash"
+        ],
+        "correct": 0,
+        "feedback": "Aniq majburiyat ijroni tushunarli qiladi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Begona mijoz bandi bilan nima qilinadi?",
+        "options": [
+          "Uning huquqini tasarruf etuvchi band chiqariladi",
+          "Uchinchining roziligisiz qoldiriladi",
+          "Barcha jinoyat ayblovlari yopiladi"
+        ],
+        "correct": 0,
+        "feedback": "Mediatsiya chegaralari saqlanadi."
+      }
+    ]
+  },
+  "A-J04": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Guvoh bayoni",
+        "body": "Guvoh yetkazish kunini avval 8-may, keyin 10-may degan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Hujjat",
+        "body": "Yetkazish qaydida 10-may ko‘rsatilgan; guvoh nimaga tayanib eslagani noma’lum.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Savol loyihasi",
+        "body": "Savol: “Siz 10-may bo‘lganini bilasiz, shundaymi?” Topshiriq: faktni savol ichida majburan bermasdan aniqlashtirish.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Qaysi savol mos?",
+        "options": [
+          "Sanani nimaga qarab eslayapsiz?",
+          "10-mayligini tasdiqlang",
+          "Mening javobimni qaytaring"
+        ],
+        "correct": 0,
+        "feedback": "Savol ma’lumot manbasini aniqlashtiradi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Ziddiyat qanday tekshiriladi?",
+        "options": [
+          "Ikki bayon va hujjatni solishtirib sababini so‘rash",
+          "Guvohni darhol yolg‘onchi deyish",
+          "Hujjatni yashirish"
+        ],
+        "correct": 0,
+        "feedback": "Farq aniqlanadi va tekshiriladi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Iltimosnomada nima bo‘ladi?",
+        "options": [
+          "Aniq so‘ralgan harakat, sabab va aloqador holat",
+          "Faqat norozilik belgisi",
+          "Natija kafolati"
+        ],
+        "correct": 0,
+        "feedback": "Murojaat maqsadi va asosi tushunarli bo‘lishi kerak."
+      }
+    ]
+  },
+  "A-J05": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Ta’til arizasi",
+        "body": "Xodim ta’til so‘rab ariza yozgan. Arizada tasdiq qaydi yo‘q.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Ish beruvchi",
+        "body": "Ish beruvchi kelmagan kunlar haqida davomat yozuvi va bo‘shatish buyrug‘ini ko‘rsatadi.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Bahs",
+        "body": "Xodim rahbar og‘zaki ruxsat berganini aytadi. Ruxsat holati va bo‘shatish tartibi alohida tekshirilishi kerak.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Ariza o‘zi nimani isbotlaydi?",
+        "options": [
+          "Ta’til so‘ralganini, tasdiq holati alohida tekshiriladi",
+          "Ta’til albatta tasdiqlanganini",
+          "Xodim albatta yolg‘onchi ekanini"
+        ],
+        "correct": 0,
+        "feedback": "So‘rash bilan ruxsat berilishi farqlanadi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Qaysi masalalar ajratiladi?",
+        "options": [
+          "Bo‘shatish asosi va rasmiylashtirish tartibi",
+          "Faqat buyruqning shrift turi",
+          "Faqat xodimning ovozi"
+        ],
+        "correct": 0,
+        "feedback": "Moddiy asos va protsessual tartib alohida."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Davomat yozuvi bilan nima qilinadi?",
+        "options": [
+          "Mijozga noqulay bo‘lsa ham tekshiriladi",
+          "O‘chirib tashlanadi",
+          "Yangi sana yoziladi"
+        ],
+        "correct": 0,
+        "feedback": "Himoya dalilni buzib ko‘rsatmaydi."
+      }
+    ]
+  },
+  "A-S01": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Ikki epizod",
+        "body": "Birinchi epizod 1-iyun, ikkinchisi 8-iyun. Bitta kirish qaydi faqat 1-iyunga tegishli.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Himoya",
+        "body": "Shaxs 8-iyundagi harakatni inkor etadi. Mustaqil tasdiq berilmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Reja",
+        "body": "Har epizod uchun alohida da’vo, material, qarshi ma’lumot va tekshiruv savoli jadvali berilgan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Kirish qaydi qaysi epizodga bevosita tegishli?",
+        "options": [
+          "1-iyun epizodiga",
+          "Ikkalasiga avtomatik",
+          "Hech biriga tekshirmasdan"
+        ],
+        "correct": 0,
+        "feedback": "Dalil doirasi sanasi bilan chegaralanadi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Ikkinchi epizodda nima qayd etiladi?",
+        "options": [
+          "Mustaqil asos yo‘qligi va tekshiruv savoli",
+          "Birinchi epizoddan avtomatik ayb",
+          "To‘qilgan alibi"
+        ],
+        "correct": 0,
+        "feedback": "Bo‘shliq yashirilmaydi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Himoya rejasi qanday bo‘ladi?",
+        "options": [
+          "Har epizod alohida va vakolatga mos",
+          "Barcha fakt bir katakka",
+          "Aybsizlikni isbotlashni mijozga majburlash"
+        ],
+        "correct": 0,
+        "feedback": "Individual baho va huquqlar saqlanadi."
+      }
+    ]
+  },
+  "A-S02": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Bayonot",
+        "body": "Bayonot olish vaqtida himoyachi masalasi qaydda tushuntirilmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Raqamli nusxa",
+        "body": "Fayl mazmuni ishga aloqador, ammo uning qanday olingani haqida ma’lumot yetishmaydi.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Iltimosnoma",
+        "body": "Maqbullik, aloqadorlik va ishonchlilik alohida ustunlarda baholanadi; aniq norma ko‘rsatiladi.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Mazmun aloqadorligi nimani hal qilmaydi?",
+        "options": [
+          "Olish tartibi va maqbullik masalasini",
+          "Faqat hujjat rangini",
+          "Barcha huquqiy savollarni hal qiladi"
+        ],
+        "correct": 0,
+        "feedback": "Uch mezon bir-birini almashtirmaydi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Qanday tekshiruv kerak?",
+        "options": [
+          "Bayonot va nusxani olish sharoitini hujjat bilan aniqlash",
+          "Foydali bo‘lsa nuqsonni yashirish",
+          "Darhol barchasini yolg‘on deyish"
+        ],
+        "correct": 0,
+        "feedback": "Nuqson aniq holat bilan bog‘lanadi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Murojaat qanday asoslanadi?",
+        "options": [
+          "Aniq material, nuqson, norma va so‘ralgan chora bilan",
+          "Faqat “mijozga zarar” degan sabab bilan",
+          "Barcha materialni sababsiz yo‘qotish bilan"
+        ],
+        "correct": 0,
+        "feedback": "Chora aniqlangan muammoga mos bo‘ladi."
+      }
+    ]
+  },
+  "A-S03": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Bank qaydi",
+        "body": "Bir hisobdan boshqasiga pul o‘tkazilgan. To‘lov maqsadi maydoni bo‘sh.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Yozishma",
+        "body": "Bir xabar pul qarz ekanini, boshqa xabar esa xizmat avansi ekanini bildiradi.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Ekspert izohi",
+        "body": "Ekspert faqat fayl nusxasini ko‘rgan, yozishmaning to‘liq konteksti berilmagan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Pul o‘tkazmasi nimani o‘zi hal qilmaydi?",
+        "options": [
+          "Pulning huquqiy maqsadini",
+          "Pul o‘tkazilgani haqidagi yozuvni",
+          "Barcha qarshi fikrlarni yo‘qqa chiqaradi"
+        ],
+        "correct": 0,
+        "feedback": "Maqsad uchun boshqa material kerak."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Ekspert cheklovi qanday hisobga olinadi?",
+        "options": [
+          "Xulosaning ko‘lami sifatida ochiq qayd etiladi",
+          "Yashiriladi",
+          "Mutlaq isbot deb olinadi"
+        ],
+        "correct": 0,
+        "feedback": "Cheklov ham baholashning bir qismi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Keyingi foydali tekshiruv nima?",
+        "options": [
+          "To‘liq yozishma va kelishuv kontekstini so‘rash",
+          "Yangi xabar yasash",
+          "Faqat mijozga foydali jumlani qoldirish"
+        ],
+        "correct": 0,
+        "feedback": "Muqobil izohlar tekshiriladigan savolga aylanadi."
+      }
+    ]
+  },
+  "A-S04": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Nutq loyihasi",
+        "body": "Loyihada “barcha hujjatlar soxta” deyiladi, lekin ekspert yoki boshqa asos ko‘rsatilmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Sud jurnali",
+        "body": "Faqat ikki hujjat tekshirilgan. Uchinchi material hali sudda tekshirilmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Qarshi vaj",
+        "body": "Qarshi taraf to‘lov yozuviga tayanmoqda. Nutq unga javob bermagan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "“Barcha hujjatlar soxta” jumlasi bilan nima qilinadi?",
+        "options": [
+          "Asos bo‘lmasa olib tashlanadi yoki tekshiriladigan savolga aylantiriladi",
+          "Qattiqroq ovozda takrorlanadi",
+          "Modda raqami to‘qib qo‘shiladi"
+        ],
+        "correct": 0,
+        "feedback": "Da’vo dalilga bog‘lanadi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Tekshirilmagan material qanday beriladi?",
+        "options": [
+          "Tekshirilmagan deb ajratiladi",
+          "Sud aniqlagan fakt deb ko‘rsatiladi",
+          "Yashirincha jurnalga qo‘shiladi"
+        ],
+        "correct": 0,
+        "feedback": "Nutq material holatini buzmaydi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Yakuniy nutqda nima yetishmaydi?",
+        "options": [
+          "Qarshi to‘lov daliliga mazmunli javob",
+          "Ko‘proq shior",
+          "Natijaga kafolat"
+        ],
+        "correct": 0,
+        "feedback": "Qarama-qarshi fikr bilan ishlash asoslashning bir qismi."
+      }
+    ]
+  },
+  "A-S05": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Avtomobil kelishuvi",
+        "body": "Tomonlar avtomobil savdosi uchun pul o‘tkazgan, shartnoma ijrosi yuzasidan nizo chiqqan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Materiallar",
+        "body": "Pul yozuvi bor, ammo dastlabki aldov niyati haqida materiallar bir-biriga mos emas.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Himoya vaji",
+        "body": "Himoya shartnoma majburiyati bilan jinoyat belgilarini ajratishni so‘raydi. Bu o‘quv moslashtirish; asl ish hujjati emas.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Bajarilmagan shartnoma nimani avtomatik anglatmaydi?",
+        "options": [
+          "Barcha firibgarlik belgilarini",
+          "Pul nizosi borligini",
+          "Sudga murojaat imkoni yo‘qligini"
+        ],
+        "correct": 0,
+        "feedback": "Jinoyat belgilari alohida tekshiriladi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Qaysi savol markaziy?",
+        "options": [
+          "Har muhim element qaysi tekshirilgan materialga tayanadi?",
+          "Kim balandroq gapiradi?",
+          "Kim albatta yutishi kerak?"
+        ],
+        "correct": 0,
+        "feedback": "Element va dalil bog‘lanishi tekshiriladi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Yakuniy himoya qanday bo‘ladi?",
+        "options": [
+          "Qarshi materialga javob va manbali muqobil tahlil bilan",
+          "Qarz bo‘lsa jinoyat hech qachon bo‘lmaydi deyish bilan",
+          "Niyatni o‘zi to‘qish bilan"
+        ],
+        "correct": 0,
+        "feedback": "Avtomatik umumlashtirish o‘rniga konkret ish tahlil qilinadi."
+      }
+    ]
+  },
+  "S-B01": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Xabar",
+        "body": "Mansabdor shaxs sudyadan oldindan bir taraf foydasiga qaror qilishni so‘raydi.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Taraf talabi",
+        "body": "Taraf o‘z hujjatini taqdim etib, qarshi tarafni tinglamaslikni so‘raydi.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Vakolat",
+        "body": "O‘quv manbasi: mustaqil sud, qonuniy asos va taraflar huquqlari.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Tashqi xabar qaror asosi bo‘ladimi?",
+        "options": [
+          "Yo‘q, qonun va tekshirilgan holatlar asos bo‘ladi",
+          "Ha, mansab baland bo‘lsa",
+          "Ha, og‘zaki bo‘lsa"
+        ],
+        "correct": 0,
+        "feedback": "Sud mustaqilligi saqlanadi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Taraf iltimosiga qanday yondashasiz?",
+        "options": [
+          "Qarshi taraf huquqini saqlab qonuniy tartibda ko‘raman",
+          "Qarshi tarafni darhol chetlataman",
+          "Oldindan yutqazaman"
+        ],
+        "correct": 0,
+        "feedback": "Tartib bir taraf xohishiga berilmaydi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Qaysi vazifa sudyaga tegishli?",
+        "options": [
+          "Ishni xolis ko‘rib sababli qaror qilish",
+          "Bir tarafga yashirin maslahat berish",
+          "Dalil to‘qib ishni tugatish"
+        ],
+        "correct": 0,
+        "feedback": "Sud vakolati taraf vakolatidan farq qiladi."
+      }
+    ]
+  },
+  "S-B02": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Yangi hujjat",
+        "body": "Da’vogar yangi material topshirdi. Javobgar uni ko‘rmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Til ehtiyoji",
+        "body": "Ishtirokchi ayrim protsessual tushuntirishlarni anglamayotganini bildirgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Jadval",
+        "body": "Dastlabki jadval faqat da’vogarning nutqini nazarda tutadi.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Yangi material bo‘yicha nima kerak?",
+        "options": [
+          "Qarshi tarafga tanishish va munosabat bildirish imkoniyati",
+          "Darhol yakuniy qaror",
+          "Faqat topshirgan tarafni eshitish"
+        ],
+        "correct": 0,
+        "feedback": "Teng protsessual imkoniyat saqlanadi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Til ehtiyoji qanday ko‘riladi?",
+        "options": [
+          "Protsessual huquq masalasi sifatida",
+          "E’tiborsiz",
+          "Aybdorlik belgisi sifatida"
+        ],
+        "correct": 0,
+        "feedback": "Tushunish va til kafolatlari muhim."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Jadval qanday tuzatiladi?",
+        "options": [
+          "Har ikkala tarafga tegishli imkoniyat beriladi",
+          "Faqat boyroq tarafga vaqt beriladi",
+          "Hech kim tinglanmaydi"
+        ],
+        "correct": 0,
+        "feedback": "Teng imkoniyat dalillarga oldindan teng kuch bermaydi."
+      }
+    ]
+  },
+  "S-B03": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Ish turi",
+        "body": "Xizmat nizosi fuqarolik tartibida ko‘riladi.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Harakatlar",
+        "body": "Material taqdim etilgan, lekin hali taraflar bilan tekshirilmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Chalg‘ituvchi karta",
+        "body": "Kartalar orasida “sudlanuvchining oxirgi so‘zi” bor; bu jinoyat protsessiga tegishli.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Qaysi protsess marshruti tanlanadi?",
+        "options": [
+          "Fuqarolik majlisi",
+          "Jinoyat majlisi avtomatik",
+          "Har ikkalasi farqsiz"
+        ],
+        "correct": 0,
+        "feedback": "Protsess turi muhim."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Taqdim etilgan material keyin nima qilinadi?",
+        "options": [
+          "Qonuniy tartibda tekshiriladi va baholanadi",
+          "Avtomatik yakuniy isbot bo‘ladi",
+          "Jurnaldan o‘chiriladi"
+        ],
+        "correct": 0,
+        "feedback": "Taqdim etish bilan tekshirish ajratiladi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Chalg‘ituvchi karta bilan nima qilasiz?",
+        "options": [
+          "Fuqarolik marshrutining majburiy bosqichiga qo‘shmayman",
+          "Har ishda majburiy qilaman",
+          "Da’vogarga jazo beraman"
+        ],
+        "correct": 0,
+        "feedback": "Jinoyat va fuqarolik tartiblari aralashtirilmaydi."
+      }
+    ]
+  },
+  "S-B04": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Nusxa A",
+        "body": "Kvitansiya nusxasida 2-iyul deb yozilgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Nusxa B",
+        "body": "Xuddi shu kvitansiyaning boshqa nusxasida 12-iyul ko‘rsatilgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Bank",
+        "body": "Bank qaydi pul o‘tganini ko‘rsatadi, lekin qaysi majburiyatga tegishli ekani bahsli.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Asosiy ziddiyat nima?",
+        "options": [
+          "Bir kvitansiya nusxalaridagi sana farqi",
+          "Bank yozuvining rangi",
+          "Tarafning kiyimi"
+        ],
+        "correct": 0,
+        "feedback": "Aniq farq qayd etiladi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Qaysi tekshiruv mos?",
+        "options": [
+          "Asl manba va to‘lov maqsadini aniqlash",
+          "Yoqimli nusxani tanlash",
+          "Har ikkisini sababsiz soxta deyish"
+        ],
+        "correct": 0,
+        "feedback": "Manba va kontekst tekshiriladi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "To‘g‘ri yondashuv qaysi?",
+        "options": [
+          "Har bir materialning ko‘lami va cheklovini baholash",
+          "Obro‘li taraf hujjatiga avtomatik ishonish",
+          "Nusxa bo‘lsa ishni ko‘rmaslik"
+        ],
+        "correct": 0,
+        "feedback": "Baholash xolis va individual bo‘ladi."
+      }
+    ]
+  },
+  "S-B05": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Qarz qaydi",
+        "body": "O‘quv qaydi: 10 000 000 so‘m qarz berilgan, qaytarish muddati o‘tgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Qisman to‘lov",
+        "body": "3 000 000 so‘m qaytarilgani har ikki taraf tomonidan shu qarzga tegishli deb tan olingan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Talab",
+        "body": "Da’vogar asosiy qarzning butun 10 000 000 so‘mini yana talab qilmoqda. Ushbu mashqda foiz va xarajatlar qo‘yilmagan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Mazkur materiallarda qolgan asosiy qarz qancha?",
+        "options": [
+          "7 000 000 so‘m",
+          "10 000 000 so‘m",
+          "13 000 000 so‘m"
+        ],
+        "correct": 0,
+        "feedback": "Tasdiqlangan qaytim asosiy summadan ayriladi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Qisman to‘lov qanday ko‘riladi?",
+        "options": [
+          "Aynan shu majburiyatga tegishli tasdiqlangan to‘lov sifatida",
+          "E’tiborsiz",
+          "Butun qarz yo‘q degan sabab sifatida"
+        ],
+        "correct": 0,
+        "feedback": "Hujjat va taraflar qaydi hisobga olinadi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Qaror qanday asoslanadi?",
+        "options": [
+          "Qarz, qaytim va qolgan summa alohida sabab bilan",
+          "Faqat da’vogarning talabi ko‘chiriladi",
+          "Hujjatlarda yo‘q foiz o‘zi qo‘shiladi"
+        ],
+        "correct": 0,
+        "feedback": "Natija va hisob materiallarga mos bo‘ladi."
+      }
+    ]
+  },
+  "S-J01": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Ariza",
+        "body": "Xodim uch oy ish haqi berilmaganini da’vo qiladi.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Javob",
+        "body": "Ish beruvchi ikki oy to‘langanini aytadi, bir oy bo‘yicha hisob varag‘ini bermagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Tayyorgarlik",
+        "body": "Davomat va bank to‘lovlari ro‘yxati mavjud, lekin ularning davri hali solishtirilmagan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Birinchi masala nima?",
+        "options": [
+          "Qaysi davr va to‘lovlar bahsli ekanini ajratish",
+          "Oldindan ish beruvchini yutqazish",
+          "Tarafga yashirin maslahat"
+        ],
+        "correct": 0,
+        "feedback": "Nizoli masalalar aniqlanadi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Qaysi material zarur?",
+        "options": [
+          "Yetishmayotgan hisob varag‘i va davrga mos to‘lovlar",
+          "Begona ish hujjati",
+          "Faqat tarjimai hol"
+        ],
+        "correct": 0,
+        "feedback": "Material nizoli holatga aloqador bo‘ladi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Tayyorgarlik rejasida nima yoziladi?",
+        "options": [
+          "Tekshiriladigan davr, hujjat va savollar",
+          "Ish albatta kimga yutishi",
+          "Sudya o‘zi yangi fakt yaratishi"
+        ],
+        "correct": 0,
+        "feedback": "Reja yakuniy natija emas."
+      }
+    ]
+  },
+  "S-J02": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Murojaat 1",
+        "body": "Taraf asl kvitansiyani talab qilishni so‘raydi; ikki nusxa turlicha.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Murojaat 2",
+        "body": "Guvohning aynan yetkazish vaqtini ko‘rganini aytib uni chaqirish so‘ralgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Qarshi taraf",
+        "body": "U ikkala murojaat yuzasidan fikr bildirishga tayyor.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Aslni talab qilish uchun qaysi sabab aloqador?",
+        "options": [
+          "Nusxalar o‘rtasidagi aniq farq",
+          "Tarafning mashhurligi",
+          "Murojaat uzunligi"
+        ],
+        "correct": 0,
+        "feedback": "Protsessual chora aniq muammoga bog‘lanadi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Guvoh uchun nima baholanadi?",
+        "options": [
+          "Qaysi muhim holat haqida ma’lumot bera olishi",
+          "Kim uni yaxshi ko‘rishi",
+          "Qaysi taraf yutishi kerakligi"
+        ],
+        "correct": 0,
+        "feedback": "Guvohning ma’lumoti ishga aloqador bo‘lishi kerak."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Javobda nima bo‘ladi?",
+        "options": [
+          "Taraflar fikri, sabab va protsessual natija",
+          "Faqat bitta yorliq",
+          "Yashirin qaror"
+        ],
+        "correct": 0,
+        "feedback": "Sabab tushunarli qayd etiladi."
+      }
+    ]
+  },
+  "S-J03": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Guvoh",
+        "body": "Guvoh voqeani soat 09:00 da ko‘rganini eslaydi.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Elektron jurnal",
+        "body": "Kirish qurilmasi 10:00 deb qayd etgan; qurilma vaqt sozlamasi tekshirilmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Qo‘shimcha izoh",
+        "body": "Guvoh vaqtni o‘z soatidan emas, keyin boshqa odamdan eshitgan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Avval nima aniqlanadi?",
+        "options": [
+          "Vaqt manbalari va qurilma sozlamasi",
+          "Guvoh albatta yolg‘onchi",
+          "Jurnal mutlaq xatosiz"
+        ],
+        "correct": 0,
+        "feedback": "Ziddiyat manbalari tekshiriladi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Guvohning vaqt haqidagi bilimi qanday?",
+        "options": [
+          "Boshqadan eshitilgan ma’lumot sifatida ajratiladi",
+          "Bevosita vaqt o‘lchovi deb olinadi",
+          "Yo‘q qilib tashlanadi"
+        ],
+        "correct": 0,
+        "feedback": "Shaxsiy kuzatuv va eshitilgan gap ajratiladi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Hali qolgan cheklov nima?",
+        "options": [
+          "Vaqt farqi sababini tekshirmasdan qat’iy xulosa qilib bo‘lmaydi",
+          "Har qanday farq butun ishni tugatadi",
+          "Raqamli yozuv bo‘lsa savol kerak emas"
+        ],
+        "correct": 0,
+        "feedback": "Cheklov xulosada ochiq ko‘rsatiladi."
+      }
+    ]
+  },
+  "S-J04": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Talablar",
+        "body": "Da’voda qarzni qaytarish va xarajatni qoplash haqida ikkita talab bor.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Loyiha",
+        "body": "Qaror loyihasi faqat qarz bo‘yicha xulosa qilgan, ikkinchi talabga javob yo‘q.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Nomuvofiqlik",
+        "body": "Asoslantirishda qisman, xulosa qismida esa to‘liq qanoatlantirish yozilgan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Qaysi kamchilik mavjud?",
+        "options": [
+          "Ikkinchi talab javobsiz qolgan",
+          "Matn yetarlicha uzun emas",
+          "Faqat bezak kam"
+        ],
+        "correct": 0,
+        "feedback": "Har talabga javob tekshiriladi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Nomuvofiqlik qanday tuzatiladi?",
+        "options": [
+          "Asos va xulosa bir-biriga moslashtiriladi",
+          "Faqat shrift o‘zgartiriladi",
+          "Qarshi dalil olib tashlanadi"
+        ],
+        "correct": 0,
+        "feedback": "Sabab natijaga mos kelishi kerak."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Qarorning asosiy tarkibi qaysi?",
+        "options": [
+          "Kirish, bayon, asoslantirish va xulosa",
+          "Faqat natija",
+          "Faqat taraflar ismi"
+        ],
+        "correct": 0,
+        "feedback": "FPKdagi tarkib o‘rganiladi."
+      }
+    ]
+  },
+  "S-J05": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Hisob",
+        "body": "Ikki oy uchun o‘quv hisob varag‘ida jami 8 000 000 so‘m ish haqi ko‘rsatilgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "To‘lov",
+        "body": "Aynan shu davr uchun 3 000 000 so‘m to‘langan. Bir to‘lov ikki hujjatda takror qayd etilgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Chegara",
+        "body": "Tomonlar ushbu summalar va davrni tasdiqlagan; boshqa kompensatsiya bu mashqda so‘ralmagan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Qolgan tasdiqlangan ish haqi qancha?",
+        "options": [
+          "5 000 000 so‘m",
+          "2 000 000 so‘m",
+          "8 000 000 so‘m"
+        ],
+        "correct": 0,
+        "feedback": "Bitta haqiqiy to‘lov ikki marta ayrilmaydi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Takroriy yozuv qanday ko‘riladi?",
+        "options": [
+          "Bitta operatsiyaning ikki qaydi deb tekshiriladi",
+          "Ikki alohida to‘lov deb avtomatik olinadi",
+          "Ikkalasi yo‘q qilinadi"
+        ],
+        "correct": 0,
+        "feedback": "Operatsiya identifikatori va davr mosligi muhim."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Qaror doirasi qanday?",
+        "options": [
+          "Tasdiqlangan davr va qo‘yilgan talablar bo‘yicha sababli",
+          "Hujjatda yo‘q summalarni o‘zi qo‘shib",
+          "Natijani taxmin qilib"
+        ],
+        "correct": 0,
+        "feedback": "Qaror material va talabga tayanadi."
+      }
+    ]
+  },
+  "S-S01": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Vaqt",
+        "body": "Erkinlik cheklanishi qayd etilgan, lekin huquqlar tushuntirilgan vaqt yozilmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Himoyachi",
+        "body": "Shaxs himoyachi so‘ragan, bayonot esa himoyachi kelishidan oldin olingan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Sukut",
+        "body": "Shaxs keyin sukut saqlashni tanlagan. Bu o‘quv materialidir, asl bayonnoma emas.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Qaysi masala tekshiriladi?",
+        "options": [
+          "Huquqlar va himoyachi amalda qanday ta’minlangani",
+          "Faqat imzo borligi",
+          "Faqat matn uzunligi"
+        ],
+        "correct": 0,
+        "feedback": "Kafolatlar qayd va sharoit bilan tekshiriladi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Sukut qanday baholanadi?",
+        "options": [
+          "Aybning mustaqil isboti qilib olinmaydi",
+          "Avtomatik aybdorlik",
+          "Himoyachi kerak emasligi"
+        ],
+        "correct": 0,
+        "feedback": "Sukut huquqi saqlanadi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Himoyachi keyin kelishi nimani anglatadi?",
+        "options": [
+          "Oldingi olish shartlari alohida tekshiriladi",
+          "Oldingi barcha muammo avtomatik yo‘qoladi",
+          "Shaxs aybini isbotlaydi"
+        ],
+        "correct": 0,
+        "feedback": "Keyingi harakat oldingi sharoitni o‘zgartirmaydi."
+      }
+    ]
+  },
+  "S-S02": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Nusxa",
+        "body": "Raqamli nusxani olish qaydida manba ko‘rsatilmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Bayonot",
+        "body": "Bayonot olishdagi shartlarga himoya e’tiroz bildirgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Boshqa dalil",
+        "body": "Mustaqil hujjat boshqa manbadan qonuniy olingani haqida alohida qayd bor.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Maqbullik masalasi qanday ko‘riladi?",
+        "options": [
+          "Har materialning olish sharoiti alohida",
+          "Barcha material bir yorliqda",
+          "Faqat taraf xohishi bilan"
+        ],
+        "correct": 0,
+        "feedback": "Individual asos talab etiladi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Qaror uchun nima kerak?",
+        "options": [
+          "Taraflar vaji, tekshirilgan nuqson va tegishli norma",
+          "Faqat yoqimli natija",
+          "Hujjat rangi"
+        ],
+        "correct": 0,
+        "feedback": "Chora sababli bo‘lishi kerak."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Bitta dalil chiqarilsa nima bo‘ladi?",
+        "options": [
+          "Qolgan mustaqil materiallar alohida baholanadi",
+          "Barchasi avtomatik yo‘q bo‘ladi",
+          "Barcha ayblov avtomatik tasdiqlanadi"
+        ],
+        "correct": 0,
+        "feedback": "Maqbullik va umumiy yetarlilik ajratiladi."
+      }
+    ]
+  },
+  "S-S03": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Izoh A",
+        "body": "Ayblov shaxs omborga kirgan deb hisoblaydi; bir jurnal bunga ishora qiladi.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Izoh B",
+        "body": "Tashish qaydi shaxs boshqa joyda bo‘lishi mumkinligini ko‘rsatadi.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Tekshiruv",
+        "body": "Qo‘shimcha tekshiruv vaqtlar farqini bartaraf etmagan; shaxsning ishtirokiga doir muhim savol ochiq qolgan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Ikki izoh bilan nima qilinadi?",
+        "options": [
+          "Ikkalasining daliliy asosi tekshiriladi",
+          "Faqat ayblov tanlanadi",
+          "Faqat ohangiga qaraladi"
+        ],
+        "correct": 0,
+        "feedback": "Muqobil izoh adolatli ko‘riladi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Qolgan savol qaysi?",
+        "options": [
+          "Shaxsning hodisadagi ishtiroki",
+          "Hujjat qog‘ozi rangi",
+          "Hakamning shaxsiy fikri"
+        ],
+        "correct": 0,
+        "feedback": "Shubhaning mohiyati aniq yoziladi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Qaysi mezon noto‘g‘ri?",
+        "options": [
+          "Shaxs aybsizligini isbotlamasa aybdor",
+          "Muhim shubhani qonun bo‘yicha baholash",
+          "Dalillarni xolis tekshirish"
+        ],
+        "correct": 0,
+        "feedback": "Isbotlash vazifasi teskari qo‘yilmaydi."
+      }
+    ]
+  },
+  "S-S04": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Hukm loyihasi",
+        "body": "Loyiha ayblov hujjatlarini sanagan, himoyaning bank qaydiga javob bermagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Jarayon jurnali",
+        "body": "Sudlanuvchining oxirgi so‘zi berilgani qayd etilmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Yangi taxmin",
+        "body": "Loyihaga sudda muhokama qilinmagan boshqa ayblov qo‘shilgan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Dalillarni sanash nimaning o‘rnini bosmaydi?",
+        "options": [
+          "Ularni baholash va qarshi vajga javobni",
+          "Sahifa sonini",
+          "Sarlavhani"
+        ],
+        "correct": 0,
+        "feedback": "Hukm sabablarini tushuntirishi kerak."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Qaysi protsessual nuqta tekshiriladi?",
+        "options": [
+          "Oxirgi so‘z va majlis bosqichlari",
+          "Guvohning kiyimi",
+          "Mikrofon markasi"
+        ],
+        "correct": 0,
+        "feedback": "Jinoyat protsessi kafolatlari tekshiriladi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Muhokama qilinmagan ayblov qanday?",
+        "options": [
+          "Qonuniy doira va himoya huquqi bo‘yicha qayta ko‘riladi",
+          "Yashirincha hukmda qoldiriladi",
+          "Matn uzun bo‘lsa qabul"
+        ],
+        "correct": 0,
+        "feedback": "Ayblov doirasi protsessual tartib bilan cheklangan."
+      }
+    ]
+  },
+  "S-S05": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Bahsli bayonot",
+        "body": "Bayonotning olish sharoiti bo‘yicha huquqiy e’tiroz bor; u faqat mazmuniga qarab qabul qilinmaydi.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Qolgan material",
+        "body": "Bir mustaqil hujjat va bir-biriga mos kelmaydigan ikkita yozuv mavjud.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Topshiriq",
+        "body": "Maqbullik masalasi bilan ishning mazmuni haqida xulosani alohida asoslash kerak.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Avval qaysi farq saqlanadi?",
+        "options": [
+          "Dalil maqbulligi va qolgan dalillar yetarliligi",
+          "Faqat hujjatlar soni",
+          "Natija oldindan aniq"
+        ],
+        "correct": 0,
+        "feedback": "Ikki huquqiy savol alohida."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Taraflar uchun nima ta’minlanadi?",
+        "options": [
+          "Vaj bildirish va materiallarga javob imkoniyati",
+          "Faqat bitta taraf ovozi",
+          "Yashirin suhbat"
+        ],
+        "correct": 0,
+        "feedback": "Xolis jarayon muhim."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Yakuniy xulosa qanday bo‘ladi?",
+        "options": [
+          "Qolgan tekshirilgan material va muhim qarshi vajlar bo‘yicha sababli",
+          "Faqat iqrorlikdan",
+          "Original xabar natijasini ko‘chirib"
+        ],
+        "correct": 0,
+        "feedback": "O‘quv vaziyat mustaqil materiallar asosida baholanadi."
+      }
+    ]
+  },
+  "P-B01": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Murojaat 1",
+        "body": "Xodim ish haqi hisob-kitobiga e’tiroz bildirgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Murojaat 2",
+        "body": "Iste’molchi sotuvchining xizmatiga shikoyat qilgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Murojaat 3",
+        "body": "Ombordan buyum yo‘qolgani haqida xabar berilgan. Hali tekshiruv o‘tkazilmagan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Prokuror faoliyati faqat nimadan iborat emas?",
+        "options": [
+          "Sudda ayblovni quvvatlashdan",
+          "Qonuniylikni ta’minlashdan",
+          "Huquqlar masalasini ko‘rishdan"
+        ],
+        "correct": 0,
+        "feedback": "Prokuratura vazifalari kengroq."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Oddiy xizmat nizosi qanday olinadi?",
+        "options": [
+          "Avval huquqiy tabiati va vakolat aniqlanadi",
+          "Darhol jinoyat deb e’lon qilinadi",
+          "Sudga murojaat taqiqlanadi"
+        ],
+        "correct": 0,
+        "feedback": "Har norozilik avtomatik jinoyat emas."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Yo‘qolish xabari nimani anglatadi?",
+        "options": [
+          "Tekshiruv uchun xabar, yakuniy aybdorlik emas",
+          "Shaxs allaqachon aybdor",
+          "Himoya kerak emas"
+        ],
+        "correct": 0,
+        "feedback": "Xabar bilan isbotlangan ayb farqlanadi."
+      }
+    ]
+  },
+  "P-B02": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Iqrorlik",
+        "body": "Shaxsning iqrorlik yozuvi bor; uni tasdiqlaydigan mustaqil material berilmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Sukut",
+        "body": "Shaxs keyingi savollarga javob bermaslik huquqidan foydalangan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Vazifa",
+        "body": "Prokuror ayblovni tekshirilgan dalillar asosida baholaydi; aybsizlikni isbotlash shaxsga yuklanmaydi.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Iqrorlikning o‘zi yetarlimi?",
+        "options": [
+          "Boshqa material bilan tekshirilishi kerak",
+          "Ha, har doim yakuniy isbot",
+          "Ha, imzo bo‘lsa boshqa savol yo‘q"
+        ],
+        "correct": 0,
+        "feedback": "Iqrorlik boshqa dalillar bilan baholanadi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Sukut nima?",
+        "options": [
+          "Huquqdan foydalanish, mustaqil ayb isboti emas",
+          "Avtomatik aybdorlik",
+          "Himoyadan voz kechish"
+        ],
+        "correct": 0,
+        "feedback": "Sukut kafolati saqlanadi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Prokuror nima qiladi?",
+        "options": [
+          "Dalil bo‘shliqlarini qayd etib tekshiradi",
+          "Yetishmayotgan faktni to‘qiydi",
+          "Aybsizlikni isbotlashni talab qiladi"
+        ],
+        "correct": 0,
+        "feedback": "Xolis tekshiruv talab etiladi."
+      }
+    ]
+  },
+  "P-B03": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Hodisa",
+        "body": "Ombordan buyum yo‘qolgan. Zarar miqdori to‘liq hisoblanmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Kirish",
+        "body": "Shaxs binoga kirgani yozilgan, lekin nimani olib chiqqani ko‘rsatilmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Bo‘shliq",
+        "body": "Hodisa vaqti hamda buyum mansubligi bo‘yicha material yetishmaydi.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Kirish qaydi nimani bevosita ko‘rsatadi?",
+        "options": [
+          "Binoga kirilganini",
+          "Buyumni aynan olganini",
+          "Niyatning barcha belgilarini"
+        ],
+        "correct": 0,
+        "feedback": "Dalil ko‘lami saqlanadi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Zarar miqdori qanday olinadi?",
+        "options": [
+          "Tegishli material bilan aniqlashtiriladi",
+          "Taxminan yoziladi",
+          "Eng katta raqam tanlanadi"
+        ],
+        "correct": 0,
+        "feedback": "Noma’lum fakt uydirilmaydi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Keyingi to‘g‘ri ish nima?",
+        "options": [
+          "Vaqt, buyum va harakat bo‘shliqlarini ajratish",
+          "Darhol hukm so‘rash",
+          "Kirishni barcha elementga almashtirish"
+        ],
+        "correct": 0,
+        "feedback": "Muhim holatlar alohida isbotlanadi."
+      }
+    ]
+  },
+  "P-B04": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Til",
+        "body": "Ishtirokchi hujjat tilini tushunmasligini bildirgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Himoyachi",
+        "body": "Himoyachi so‘ralgan, kelish va bayonot olish vaqtlari farq qiladi.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Imzo",
+        "body": "Huquqlar shaklida imzo bor, lekin tushuntirish vaqti qayd etilmagan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Til masalasi qanday?",
+        "options": [
+          "Protsessual kafolat sifatida tekshiriladi",
+          "Imzo bo‘lsa ahamiyatsiz",
+          "Aybdorlik belgisi"
+        ],
+        "correct": 0,
+        "feedback": "Tushunish va til huquqi muhim."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Imzo o‘zi nimani isbotlamaydi?",
+        "options": [
+          "Barcha huquqlar amalda ta’minlanganini",
+          "Imzo borligi haqida qaydni",
+          "Hech qanday savol qolmaganini"
+        ],
+        "correct": 0,
+        "feedback": "Qayd va amaliy sharoit birga baholanadi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Vaqtlar bilan nima qilinadi?",
+        "options": [
+          "Himoyachi va bayonot sharoiti solishtiriladi",
+          "Keyin sana o‘zgartiriladi",
+          "Oldingi muammo yashiriladi"
+        ],
+        "correct": 0,
+        "feedback": "Huquqlarni orqaga sana bilan tuzatib bo‘lmaydi."
+      }
+    ]
+  },
+  "P-B05": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Yo‘qolgan telefon",
+        "body": "Telefon egasi identifikatorning oxirgi raqamlari 4102 ekanini hujjat bilan ko‘rsatgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Topilgan buyum",
+        "body": "Topilgan o‘xshash model telefon identifikatori 9017 bilan tugaydi.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Guvoh",
+        "body": "Guvoh faqat o‘xshash rangli telefonni ko‘rgan, aniq identifikatorni bilmaydi.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Asosiy farq nima?",
+        "options": [
+          "Telefon identifikatorlari mos emas",
+          "Rang bir xil",
+          "Guvohning nutqi qisqa"
+        ],
+        "correct": 0,
+        "feedback": "Mansublik alohida tekshiriladi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Qaysi pozitsiya asosli?",
+        "options": [
+          "Aynan shu telefon ekanini qo‘shimcha tekshirish",
+          "Model bir xil bo‘lsa ayb tayyor",
+          "Guvohga kerakli raqamni aytish"
+        ],
+        "correct": 0,
+        "feedback": "O‘xshashlik aynanlik emas."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Himoya foydasidagi farq bilan nima qilinadi?",
+        "options": [
+          "Ochiq qayd etiladi va baholanadi",
+          "Yashiriladi",
+          "Qog‘oz yo‘q qilinadi"
+        ],
+        "correct": 0,
+        "feedback": "Prokuror zid materialni ham ko‘radi."
+      }
+    ]
+  },
+  "P-J01": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "To‘lov",
+        "body": "Pul bir hisobga tushgan. Hisobni aynan kim boshqargani hali tekshirilmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Buyurtma",
+        "body": "Mahsulot jo‘natilgani haqida raqam bor, lekin qabul qiluvchi qaydi yetishmaydi.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Qarshi bayon",
+        "body": "Himoya hisobdan boshqa shaxs ham foydalanganini aytadi; bu da’vo ham tekshiriladi.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Qaysi tezis alohida tekshiriladi?",
+        "options": [
+          "Hisobni boshqargan shaxs va harakat",
+          "Faqat pulning rangi",
+          "Ovoz kuchi"
+        ],
+        "correct": 0,
+        "feedback": "Har tezisning o‘z asosi kerak."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Jo‘natma raqami nimani o‘zi hal qilmaydi?",
+        "options": [
+          "Qabul va mahsulotning holatini",
+          "Raqam borligini",
+          "Barcha himoya vajlarini yo‘q qiladi"
+        ],
+        "correct": 0,
+        "feedback": "Dalil chegarasi bor."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Qarshi bayon qanday?",
+        "options": [
+          "Tekshirish rejasiga kiritiladi",
+          "Ayblovga zarar deb chiqariladi",
+          "Avtomatik yolg‘on"
+        ],
+        "correct": 0,
+        "feedback": "Zid material ham tekshiriladi."
+      }
+    ]
+  },
+  "P-J02": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Olish qaydi",
+        "body": "Flesh-xotira olingani qayd etilgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Topshirish",
+        "body": "Bir saqlovchidan boshqasiga o‘tkazish qaydi yetishmaydi.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Nusxa",
+        "body": "Nusxa va asl faylning xeshi teng, ammo bu olish tartibi haqidagi bo‘shliqni tushuntirmaydi.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Qaysi bog‘lanish uzilgan?",
+        "options": [
+          "Saqlovchilar o‘rtasidagi topshirish qaydi",
+          "Fayl nomi chiroyliligi",
+          "Bino rangi"
+        ],
+        "correct": 0,
+        "feedback": "Kelib chiqish va saqlash izlari tekshiriladi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Xesh tengligi nimani anglatmaydi?",
+        "options": [
+          "Barcha protsessual talablar bajarilganini",
+          "Fayllar tengligi haqidagi texnik tekshiruvni",
+          "Nusxa mavjudligini"
+        ],
+        "correct": 0,
+        "feedback": "Texnik yaxlitlik qonuniy olish o‘rnini bosmaydi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Yo‘q qayd uchun qanday yo‘l to‘g‘ri?",
+        "options": [
+          "Bo‘shliqni ochiq qayd etib tekshiruv so‘rash",
+          "Orqaga sana bilan hujjat yasash",
+          "Yashirish"
+        ],
+        "correct": 0,
+        "feedback": "Nuqson qonuniy tartibda ko‘riladi."
+      }
+    ]
+  },
+  "P-J03": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Avvalgi bayon",
+        "body": "Guvoh soatni ko‘rmaganini aytgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Savol loyihasi",
+        "body": "“Siz uni soat o‘nda ko‘rgansiz, to‘g‘rimi?” deb so‘rash taklif qilingan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Hujjat",
+        "body": "Vaqt qaydi mavjud, lekin guvohning kuzatuvi bilan hali solishtirilmagan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Savol loyihasidagi muammo nima?",
+        "options": [
+          "Kutilayotgan javobga yo‘naltirish",
+          "Savol juda xolis",
+          "Hech qachon savol berib bo‘lmaydi"
+        ],
+        "correct": 0,
+        "feedback": "JPK 102 qoidasiga e’tibor bering."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Qaysi savol yaxshiroq?",
+        "options": [
+          "Vaqtni qayerdan bilasiz?",
+          "Soat o‘nligini qaytaring",
+          "Kerakli javobni o‘rgataymi?"
+        ],
+        "correct": 0,
+        "feedback": "Ma’lumot manbasi aniqlashtiriladi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Ziddiyat qanday aniqlashtiriladi?",
+        "options": [
+          "Bayon va hujjatni ko‘rsatib manbani so‘rash",
+          "Guvohga yangi fakt aytish",
+          "Bitta jumlani yashirish"
+        ],
+        "correct": 0,
+        "feedback": "Qonuniy savol tekshiruvga xizmat qiladi."
+      }
+    ]
+  },
+  "P-J04": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Dastlabki tezis",
+        "body": "Shaxs hodisa joyida bo‘lgan deb taxmin qilingan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Yangi material",
+        "body": "Mustaqil tekshirilgan qayd shaxs o‘sha vaqtda boshqa joyda bo‘lganini ko‘rsatadi; shu epizoddagi ishtirok inkor etilgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Vazifa",
+        "body": "Prokuror dastlabki pozitsiyani yangi sud ma’lumotiga mos qayta baholashi kerak.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Yangi material qanday olinadi?",
+        "options": [
+          "Oqlovchi ahamiyati bilan ochiq baholanadi",
+          "Yashiriladi",
+          "Oldingi fikr uchun yo‘q qilinadi"
+        ],
+        "correct": 0,
+        "feedback": "Xolislik yangi materialni qamrab oladi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Pozitsiya o‘zgarishi qanday asoslanadi?",
+        "options": [
+          "Qaysi tekshirilgan qayd avvalgi tezisni inkor etganini yozish",
+          "Faqat kayfiyat bilan",
+          "Baland nutq bilan"
+        ],
+        "correct": 0,
+        "feedback": "Daliliy sabab aniq bo‘ladi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Asosiy kasbiy mezon nima?",
+        "options": [
+          "Dalilga mos qonuniy pozitsiya",
+          "Har qanday yo‘l bilan ayblov hukmi",
+          "Oldingi fikrni hech o‘zgartirmaslik"
+        ],
+        "correct": 0,
+        "feedback": "Qayta baholash mas’uliyatdir."
+      }
+    ]
+  },
+  "P-J05": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Buyurtma",
+        "body": "Mahsulot uchun avans olingan, belgilangan muddatda yetkazilmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Yozishma",
+        "body": "Qaytim va’dasi va yetkazishdagi to‘siq haqida xabarlar bor.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Bo‘shliq",
+        "body": "Dastlabki aldov niyati haqidagi materiallar to‘liq emas; zarar va norozi xaridor borligi qayd etilgan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Qaysi xulosa avtomatik emas?",
+        "options": [
+          "Kechikishning o‘zi barcha firibgarlik belgilarini isbotlaydi",
+          "Kechikish tekshirilishi kerak",
+          "Zarar haqidagi material baholanadi"
+        ],
+        "correct": 0,
+        "feedback": "Shartnoma nizosi va jinoyat belgilari ajratiladi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Qaytim va’dasi qanday?",
+        "options": [
+          "Kontekst va boshqa material bilan tekshiriladi",
+          "Hamma ayblovni avtomatik yo‘q qiladi",
+          "Hamma ayblovni avtomatik isbotlaydi"
+        ],
+        "correct": 0,
+        "feedback": "Bir xabar butun ish o‘rnini bosmaydi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Yakuniy pozitsiya nimaga tayanadi?",
+        "options": [
+          "Har muhim element va qarshi izohning tekshirilgan asosiga",
+          "Faqat mijozning noroziligiga",
+          "Hisobot uzunligiga"
+        ],
+        "correct": 0,
+        "feedback": "Elementlar bilan dalillar bog‘lanadi."
+      }
+    ]
+  },
+  "P-S01": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Shaxslar",
+        "body": "A va B bir-birini taniydi; C faqat birinchi epizoddagi hujjatda ko‘rsatilgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Epizodlar",
+        "body": "Ikkinchi epizodda A haqida mustaqil material bor, B va C haqida yo‘q.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Jadval",
+        "body": "Har shaxs va har epizod uchun alohida olti katak baholanadi.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "C haqidagi birinchi epizod qaydi nimani qilmaydi?",
+        "options": [
+          "Ikkinchi epizoddagi ishtirokni avtomatik isbotlamaydi",
+          "Birinchi qaydni mavjud qiladi",
+          "Tekshiriladigan material bo‘ladi"
+        ],
+        "correct": 0,
+        "feedback": "Shaxs va epizod doirasi saqlanadi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Tanishlik qanday baholanadi?",
+        "options": [
+          "O‘zi barcha ishtirokchilik belgilarini isbotlamaydi",
+          "Guruhdagi barchani aybdor qiladi",
+          "Boshqa dalil kerak emas"
+        ],
+        "correct": 0,
+        "feedback": "Individual harakat tekshiriladi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Jadval qanday to‘ldiriladi?",
+        "options": [
+          "Har katakka o‘z dalili yoki bo‘shlig‘i bilan",
+          "Barcha katakka bitta xulosa",
+          "Faqat kuchli epizodni ko‘chirib"
+        ],
+        "correct": 0,
+        "feedback": "Individual asos muhim."
+      }
+    ]
+  },
+  "P-S02": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Vaqt nuqsoni",
+        "body": "Bayonnomaning vaqt qaydi boshqa hujjat bilan mos emas.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Huquq nuqsoni",
+        "body": "Huquqlar ta’minlangani haqida bahs bor.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Taklif",
+        "body": "Xodim hujjatga orqaga sana qo‘yib imzo qo‘shishni taklif qilmoqda.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Nuqsonlar qanday ko‘riladi?",
+        "options": [
+          "Har biri tegishli norma va fakt bilan alohida",
+          "Barchasi bir xil natija bilan",
+          "Hech biri muhim emas"
+        ],
+        "correct": 0,
+        "feedback": "Huquqiy oqibat individual tekshiriladi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Orqaga sana taklifi qanday?",
+        "options": [
+          "Rad etiladi, bo‘shliq qonuniy tekshiriladi",
+          "Qabul qilinadi",
+          "Ayblovga yordam bo‘lsa ruxsat"
+        ],
+        "correct": 0,
+        "feedback": "Soxtalashtirish tuzatish emas."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Maqbullik va yetarlilik qanday?",
+        "options": [
+          "Alohida savollar sifatida baholanadi",
+          "Bir xil tushuncha",
+          "Faqat hujjat soni"
+        ],
+        "correct": 0,
+        "feedback": "Dalilga oid mezonlar farqlanadi."
+      }
+    ]
+  },
+  "P-S03": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Epizod A",
+        "body": "A epizod bo‘yicha tasdiqlovchi material saqlangan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Epizod B",
+        "body": "B epizodning muhim dalili tekshiruvda tasdiqlanmagan.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Yangi taxmin",
+        "body": "Sudda boshqa taxmin paydo bo‘lgan, lekin unga nisbatan qonuniy ayblov tartibi va himoya imkoniyati ta’minlanmagan.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "B epizodga nima kerak?",
+        "options": [
+          "Daliliga mos alohida qayta baho",
+          "A epizod dalilini ko‘chirish",
+          "Yashirin tasdiqlash"
+        ],
+        "correct": 0,
+        "feedback": "Epizodlar aralashtirilmaydi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Yangi taxmin bilan nima qilinadi?",
+        "options": [
+          "Qonuniy doira va himoya huquqi tekshiriladi",
+          "Darhol hukmga qo‘shiladi",
+          "Himoyadan yashiriladi"
+        ],
+        "correct": 0,
+        "feedback": "Protsessual tartibni chetlab o‘tib bo‘lmaydi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Yangilangan bayonotda nima bor?",
+        "options": [
+          "O‘zgarish sababi va har epizodga alohida asos",
+          "Faqat oldingi xulosa",
+          "Faqat yakuniy raqam"
+        ],
+        "correct": 0,
+        "feedback": "Bayonot dalillarga mos bo‘ladi."
+      }
+    ]
+  },
+  "P-S04": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Nutq",
+        "body": "Nutq ayblov hujjatlarini sanaydi, himoya vajini chetlab o‘tgan.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Qarshi material",
+        "body": "Bir mustaqil hujjat ayrim tezisni zaiflashtiradi.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Jazo masalasi",
+        "body": "Jazo haqida fikr bo‘lsa, tegishli holatlar va huquqiy asos ko‘rsatilishi kerak; kuchli ohang mezon emas.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Nutqqa nima qo‘shiladi?",
+        "options": [
+          "Qarshi materialga mazmunli baho",
+          "Ko‘proq tahdid",
+          "Asossiz qat’iylik"
+        ],
+        "correct": 0,
+        "feedback": "Yakuniy pozitsiya zid ma’lumotni ham baholaydi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Jazo haqida fikr qanday?",
+        "options": [
+          "Norma va tekshirilgan holatlar bilan",
+          "Har doim eng og‘iri",
+          "Shaxsiy yoqtirmaslik bilan"
+        ],
+        "correct": 0,
+        "feedback": "Talab og‘irligi mahorat o‘lchovi emas."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Nima huquqiy ball bermaydi?",
+        "options": [
+          "Baland ovoz va aksent",
+          "Dalilga bog‘langan sabab",
+          "Huquqiy manba"
+        ],
+        "correct": 0,
+        "feedback": "Nutq uslubi qonuniylik o‘rnini bosmaydi."
+      }
+    ]
+  },
+  "P-S05": {
+    "documents": [
+      {
+        "id": "D1",
+        "title": "Aralash natija",
+        "body": "O‘quv ishida bir ayblov qismi tasdiqlanmagan. Boshqa qilmish bo‘yicha alohida huquqiy baho zarur.",
+        "synthetic": true
+      },
+      {
+        "id": "D2",
+        "title": "Jazo va oqlov",
+        "body": "Qilmish bo‘yicha jazodan ozod qilish bilan oqlov bir xil natija emas. Asl xabarning aralash natijasi alohida saqlanadi.",
+        "synthetic": true
+      },
+      {
+        "id": "D3",
+        "title": "Qarshi hujjat",
+        "body": "Qarshi hujjat bir epizodni inkor qiladi; uning ta’siri boshqa epizodga avtomatik ko‘chirilmaydi.",
+        "synthetic": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Aralash ishda to‘g‘ri yo‘l nima?",
+        "options": [
+          "Har qismga dalil va huquqiy asosni alohida berish",
+          "Barchasini to‘liq oqlov deb atash",
+          "Barchasini aybdor deb olish"
+        ],
+        "correct": 0,
+        "feedback": "Har natija to‘g‘ri nomlanadi."
+      },
+      {
+        "id": "Q2",
+        "prompt": "Jazodan ozod qilish nima bilan aynan bir emas?",
+        "options": [
+          "Oqlov bilan",
+          "Alohida huquqiy natija bilan",
+          "Qonunda baholanadigan masala bilan"
+        ],
+        "correct": 0,
+        "feedback": "Oqlov va jazoga oid natijalar ajratiladi."
+      },
+      {
+        "id": "Q3",
+        "prompt": "Muvaffaqiyat mezoni nima?",
+        "options": [
+          "Zid materialni ochiq baholab dalilga mos pozitsiya berish",
+          "Ayblov hukmlari soni",
+          "Qarshi hujjatni yashirish"
+        ],
+        "correct": 0,
+        "feedback": "Prokurorning mahorati qonuniy va asosli pozitsiyada."
+      }
+    ]
+  }
+}

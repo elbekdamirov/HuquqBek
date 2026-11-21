@@ -1,0 +1,160 @@
+{
+  "contentVersion": "1.0.0",
+  "asOf": "2026-11-20",
+  "releaseStatus": "requires_Uzbek_legal_review",
+  "sources": [
+    {
+      "id": "UZ-CONSUMER",
+      "title": "Iste’molçilarning huquqlarini himoya qiliş töğrisida",
+      "act": "221-I, 26 April 1996",
+      "url": "https://lex.uz/docs/-4704",
+      "editionUrl": "https://lex.uz/docs/-4704?ONDATE=02.02.2026%2000",
+      "edition": "2 February 2026",
+      "checked": "2026-11-20",
+      "authority": "Lex.uz official legislation",
+      "language": "uz-Latn"
+    },
+    {
+      "id": "UZ-CPC",
+      "title": "Özbekiston Respublikasining Fuqarolik protsessual kodeksi",
+      "act": "22 January 2018",
+      "url": "https://lex.uz/docs/-3517337",
+      "editionUrl": "https://lex.uz/docs/-3517337?ONDATE=12.09.2026%2002",
+      "edition": "12 September 2026, second listed edition",
+      "checked": "2026-11-20",
+      "authority": "Lex.uz official legislation",
+      "language": "uz-Latn"
+    }
+  ],
+  "claims": [
+    {
+      "id": "L13",
+      "sourceId": "UZ-CONSUMER",
+      "article": "13",
+      "paraphrase": "Undisclosed defects permit a choice among statutory remedies; the provision also addresses time and supporting documents.",
+      "missionApplication": "Use the receipt, warranty record and identity of the purchased device.",
+      "limit": "This case has a twelve-month warranty; do not teach a universal twelve-month statutory period.",
+      "reviewStatus": "source_checked_not_counsel_signed",
+      "paraphraseUz": "Nuqson oldi-sotdi paytida ma’lum qilinmagan bölsa, iste’molçi qonunda körsatilgan talablardan birini tanlaşi mumkin. Modda nuqson aniqlangan muddatlar va talabni tasdiqlovçi hujjatlarga ham taalluqli. Bu işda 12 oylik kafolat hujjatda belgilangan."
+    },
+    {
+      "id": "L14",
+      "sourceId": "UZ-CONSUMER",
+      "article": "14",
+      "paraphrase": "Replacement ordinarily has a seven-day period, or twenty days when additional quality checking is needed; absent stock and remote supply have separate rules.",
+      "missionApplication": "The retailer acknowledged stock and requested quality checking, then expressly refused replacement.",
+      "limit": "No penalty calculation in mission one. Do not turn twenty days into a universal refund deadline.",
+      "reviewStatus": "source_checked_not_counsel_signed",
+      "paraphraseUz": "Nuqsonli tovarni almaştiriş uçun odatda 7 kun, qöşimça sifat tekşiruvi zarur bölsa talab qöyilganidan 20 kun nazarda tutilgan. Şu tovar mavjud bölmasa yoki uzoq joylarga yetkaziş bilan boğliq holatlar bölsa, boşqa qoidalar ham bor. Bu hamma pul qaytariş talablariga bitta muddat degani emas."
+    },
+    {
+      "id": "L16",
+      "sourceId": "UZ-CONSUMER",
+      "article": "16",
+      "paraphrase": "An unfulfilled replacement or defect-removal demand supports the stated price-reduction or cancellation remedies.",
+      "missionApplication": "A documented replacement demand and subsequent refusal precede the cancellation claim.",
+      "limit": "The scenario uses these facts to avoid teaching an unconditional refund rule.",
+      "reviewStatus": "source_checked_not_counsel_signed",
+      "paraphraseUz": "Almaştiriş yoki nuqsonni bartaraf etiş talabi bajarilmasa, modda xarid narxini nuqsonga mutanosib kamaytiriş yoki şartnomani bekor qiliş talabini nazarda tutadi. Bu maşqda avvalgi almaştiriş talabi va rad javobi tekşiriladi."
+    },
+    {
+      "id": "L17",
+      "sourceId": "UZ-CONSUMER",
+      "article": "17",
+      "paraphrase": "Cancellation calculations depend on price movements under the provision.",
+      "missionApplication": "The scenario expressly fixes the relevant prices at 2,400,000 so‘m.",
+      "limit": "The purchase-price figure is a scenario fact, not a universal rule for every refund.",
+      "reviewStatus": "source_checked_not_counsel_signed",
+      "paraphraseUz": "Şartnoma bekor qilinganda hisob-kitob narx özgarişiga oid qoidalarga boğliq. Bu öquv holatida tegişli sanalardagi narx bir xil — 2 400 000 söm deb belgilangan."
+    },
+    {
+      "id": "L21",
+      "sourceId": "UZ-CONSUMER",
+      "article": "21",
+      "paraphrase": "Terms contrary to legislation that restrict consumer rights are invalid.",
+      "missionApplication": "Challenge a blanket no-returns term as applied to statutory defect remedies.",
+      "limit": "Opening a box alone does not establish that this defect claim fails; do not discuss all categories of quality-goods returns.",
+      "reviewStatus": "source_checked_not_counsel_signed",
+      "paraphraseUz": "Iste’molçi huquqlarini çeklaydigan va qonunçilikka zid şartlar haqiqiy emas. Dökonning içki qoidasi qonuniy huquqni bekor qila olmaydi. Nuqson va talab asosi boşqa dalillar bilan ham tekşiriladi."
+    },
+    {
+      "id": "L29",
+      "sourceId": "UZ-CONSUMER",
+      "article": "29",
+      "paraphrase": "Consumers may seek judicial protection; the provision addresses venue and exemption from state duty for claims concerning violations of their rights.",
+      "missionApplication": "An optional source card explains access to court.",
+      "limit": "Exemption from state duty does not mean every possible legal expense is free.",
+      "reviewStatus": "source_checked_not_counsel_signed",
+      "paraphraseUz": "Huquqi buzilgan iste’molçi sudga murojaat qilişi mumkin. Modda da’vo beriladigan joy va huquq buzilişi bilan boğliq da’volarda davlat bojidan ozod etiş haqida ham qoidalarni belgilaydi. Bu barça mumkin bölgan xarajatlar bepul degani emas."
+    },
+    {
+      "id": "P40",
+      "sourceId": "UZ-CPC",
+      "article": "40",
+      "paraphrase": "Participants may inspect case materials, present and examine evidence, ask questions, make applications and offer explanations under the provision.",
+      "missionApplication": "Provide meaningful opportunities for both parties to inspect and respond.",
+      "limit": "The adapted hearing compresses the full set of procedural rights and duties.",
+      "reviewStatus": "source_checked_not_counsel_signed",
+      "paraphraseUz": "Işda iştirok etuvçi şaxslar iş materiallari bilan tanişişi, dalillar taqdim etişi va tekşirişda qatnaşişi, savol va iltimosnoma berişi, tuşuntirişlarini aytişi mumkin. Töliq huquq va majburiyatlar rasmiy matnda keltirilgan."
+    },
+    {
+      "id": "P50",
+      "sourceId": "UZ-CPC",
+      "article": "50",
+      "paraphrase": "Participation by a prosecutor in civil proceedings is limited to the cases and grounds stated in the provision.",
+      "missionApplication": "No prosecutor participates in this privately initiated ordinary consumer case.",
+      "limit": "Do not generalize this to a ban on prosecutors in every civil case.",
+      "reviewStatus": "source_checked_not_counsel_signed",
+      "paraphraseUz": "Fuqarolik işida prokuror qonunda belgilangan holat va asoslarda qatnaşadi. Uşbu oddiy, xususiy tartibda boşlangan iste’molçi nizosida prokuror qatnaşmaydi. Bu barça fuqarolik işlarida prokuror qatnaşa olmaydi degani emas."
+    },
+    {
+      "id": "P71",
+      "sourceId": "UZ-CPC",
+      "article": "71",
+      "paraphrase": "Civil evidence may take the forms specified in the provision, including documentary and digital evidence; unlawful or unknown-origin material is excluded.",
+      "missionApplication": "Maintain provenance, the original device ID and readable documents.",
+      "limit": "A private service report is not automatically a court-appointed expert conclusion.",
+      "reviewStatus": "source_checked_not_counsel_signed",
+      "paraphraseUz": "Fuqarolik işida qonunda körsatilgan turdagi dalillar, jumladan yozma va raqamli dalillar tekşirilişi mumkin. Qonunni buzib olingan yoki kelib çiqişi noma’lum ma’lumot dalil böla olmaydi. Xususiy servis hisoboti avtomatik ravişda sud eksperti xulosasi bölib qolmaydi."
+    },
+    {
+      "id": "P72",
+      "sourceId": "UZ-CPC",
+      "article": "72",
+      "paraphrase": "Each party proves the circumstances underlying its demands and objections; the court identifies relevant issues and may assist evidence collection on request where difficult.",
+      "missionApplication": "The judge offers clarification and an evidence-request route before a weak record is finalized.",
+      "limit": "No score threshold represents the legal burden of proof.",
+      "reviewStatus": "source_checked_not_counsel_signed",
+      "paraphraseUz": "Har bir taraf öz talabi va e’tiroziga asos qilgan holatlarni isbotlaydi. Sud iş uçun muhim holatlarni aniqlaydi. Dalilni oliş qiyin bölsa, iltimosnomaga köra kömaklaşişi mumkin. Öyindagi model haqiqiy sudning bahosini almaştirmaydi."
+    },
+    {
+      "id": "P73",
+      "sourceId": "UZ-CPC",
+      "article": "73",
+      "paraphrase": "The court accepts evidence relevant to the case and must give reasons for refusal.",
+      "missionApplication": "Explain why a device report is relevant and gossip about a shop is not.",
+      "limit": "Relevance alone does not settle admissibility or reliability.",
+      "reviewStatus": "source_checked_not_counsel_signed",
+      "paraphraseUz": "Sud iş uçun ahamiyatli dalillarni qabul qiladi. Dalilni qabul qilişni rad etiş asoslantirilişi kerak. Aloqadorlik dalilning işonçliligi haqida yakuniy xulosa emas."
+    },
+    {
+      "id": "P80",
+      "sourceId": "UZ-CPC",
+      "article": "80",
+      "paraphrase": "The court evaluates evidence comprehensively and impartially; no evidence has predetermined force, and reasons must be recorded.",
+      "missionApplication": "The report is weighed with device identity, intake records and both parties’ explanations.",
+      "limit": "The authored outcome model is a teaching simplification, not a prediction of an actual judgment.",
+      "reviewStatus": "source_checked_not_counsel_signed",
+      "paraphraseUz": "Sud dalillarni har taraflama va xolis tekşiradi, har birining aloqadorligi, maqbulligi va işonçliligini, ularning birgalikdagi yetarliligini baholaydi. Heç bir dalil oldindan belgilangan kuçga ega emas. Qarorda baholaş sabablari körsatiladi."
+    }
+  ],
+  "excludedTopics": [
+    "criminal guilt",
+    "detention",
+    "statutory penalty amounts",
+    "appeal deadlines",
+    "moral damages quantum",
+    "enforcement deadlines",
+    "universal return period"
+  ]
+}

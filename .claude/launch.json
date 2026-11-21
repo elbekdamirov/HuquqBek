@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "asset-viewer",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8765", "--bind", "127.0.0.1"],
+      "port": 8765
+    },
+    {
+      "name": "huquqbek-package",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "set HUQUQBEK_PORT=4190&& node C:\Users\miron\AppData\Local\Temp\claude\37f2e35321cc5e2b\b2f97d39-f6e1-44c9-a3ee-0f7d952e461c\scratchpad\hb\HuquqBek\server\index.mjs"],
+      "port": 4190
+    },
+    {
+      "name": "huquqbek-demo",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["game/scripts/dev-demo.mjs"],
+      "port": 5173
+    }
+  ]
+}

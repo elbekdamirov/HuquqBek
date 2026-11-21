@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "Keyboard-only route reaches reasoned insufficient-record outcome after clarification",
+    "Keyboard-only replay returns to hearing checkpoint with branch disclosure",
+    "Text-only playthrough, focus containment, Escape close and replay passed"
+  ],
+  "errors": []
+}

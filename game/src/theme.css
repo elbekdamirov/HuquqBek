@@ -1,0 +1,28 @@
+/* HuquqBek identity: dark walnut, warm gold, cream, charcoal + a restrained Uzbek girih-style ornament. */
+.hb-app{--ink:#2a2119;--muted:#6f6352;--line:#e2d7c3;--gold:#c9a25a;--walnut:#2b1d14;--walnut2:#3a2819;--cream:#f7f1e6;--charcoal:#1b1917;background:var(--cream);color:var(--ink)}
+.hb-app a{color:#8a5f22}
+.hb-sidebar{background:linear-gradient(180deg,var(--walnut),#21160f);color:#efe4cf;position:relative}
+.hb-sidebar::after{content:'';position:absolute;inset:auto 0 0 0;height:120px;opacity:.12;pointer-events:none;
+  background:repeating-conic-gradient(from 45deg,#c9a25a 0 25%,transparent 0 50%) 0 0/22px 22px}
+.hb-brand{color:#e8c27a}.hb-sidebar button{color:#d9cbb2}.hb-sidebar button.active{background:#4a3322;color:#fff6e4;box-shadow:inset 3px 0 0 var(--gold)}
+.hb-sidebar-guide{border-color:#c9a25a33}.hb-sidebar-guide h3{color:#e8c27a}
+.hb-topbar{background:#fffaf1;border-bottom-color:var(--line)}
+.hb-hero{background:radial-gradient(circle at 85% 30%,#4a3322 0,transparent 45%),linear-gradient(135deg,var(--walnut),#45301f);color:#f7ecd8;position:relative}
+.hb-hero::before{content:'';position:absolute;inset:0;border-radius:inherit;opacity:.07;pointer-events:none;
+  background:repeating-linear-gradient(45deg,#e8c27a 0 2px,transparent 2px 14px),repeating-linear-gradient(-45deg,#e8c27a 0 2px,transparent 2px 14px)}
+.hb-hero>*{position:relative}.hb-hero em{color:#e8c27a}.hb-hero p{color:#e2d3b8}.hb-hero>svg{color:#c9a25a}
+.hb-learning-strip{background:#efe5d2;color:#5b4a33;border:1px solid #e2d3b8}
+.hb-category-tabs button{border-color:var(--line);color:#5b4a33;background:#fffaf1}.hb-category-tabs button.active{background:var(--walnut);border-color:var(--walnut);color:#f7ecd8}
+.hb-filters label,.hb-case-card,.hb-card,.hb-attempt,.hb-role-picker button,.hb-avatar-picker button{background:#fffcf6;border-color:var(--line)}
+.hb-case-card:hover{border-color:#c9a25a;box-shadow:0 10px 28px #2b1d1418}
+.hb-card-top>span{background:#efe5d2;color:#6b5228}.hb-criminal .hb-card-top>span{background:#efe0e0;color:#7a3434}.hb-employment .hb-card-top>span{background:#e3e7ee;color:#3d5170}
+.hb-button{background:var(--walnut);border-color:var(--walnut);color:#fbf3e3}.hb-button:hover:not(:disabled){background:#4a3322}
+.hb-secondary{background:#fffaf1;color:#4a3322;border-color:#d6c6a6}.hb-text-button,.hb-breadcrumb button,.hb-client-questions button{color:#7a5520}
+.hb-modal-shade{background:#1b1917c4}.hb-modal,.hb-modal>header{background:#fbf6ec}.hb-modal{border-color:#d6c6a6}
+.hb-role-picker .selected,.hb-avatar-picker .selected{border-color:#9a7637;background:#f4ead7}
+.hb-report-hero{background:linear-gradient(135deg,var(--walnut),#4a3322)}
+.hb-library-note{border-left-color:var(--gold);background:#f3ead8}.hb-ai-feedback{background:#f4ecdc;border-left-color:#9a7637}
+.hb-decision-options button{background:#fffcf6;border-color:#e2d3b8}.hb-decision-options button:hover{background:#f4ead7;border-color:#c9a25a}
+.hb-toast{background:var(--walnut)}.hb-app :focus-visible{outline-color:#c9a25a}
+.hb-legacy-return{background:#fbf6ec;color:var(--walnut,#2b1d14);border-color:#c9a25a}
+@media (max-width:760px){.hb-sidebar nav button{font-size:12.5px;padding:10px 8px}.hb-sidebar nav{grid-template-columns:repeat(3,auto)!important}}

@@ -1,0 +1,6993 @@
+{
+  "budgets": {
+    "character_lod0_mb": 6.0,
+    "character_lod1_mb": 3.0,
+    "environment_mb": 6.0,
+    "character_lod0_tris": 60000,
+    "environment_tris": 80000,
+    "max_texture_px": 2048,
+    "character_draw_calls": 14,
+    "environment_draw_calls": 40
+  },
+  "files": [
+    {
+      "file": "public/assets/animations/qv_female_clips.glb",
+      "size_mb": 2.108,
+      "errors": [],
+      "warnings": [],
+      "triangles": 0,
+      "primitives_draw_calls": 0,
+      "materials": 0,
+      "morph_targets": 0,
+      "textures": [],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [
+        {
+          "name": "Idle_Stand",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated_Lap",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Walk",
+          "duration_s": 1.067,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Turn_Left_90",
+          "duration_s": 1,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Turn_Right_90",
+          "duration_s": 1,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Sit_Down",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Stand_Up",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Standing",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Address_Judge",
+          "duration_s": 5.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Present_Evidence",
+          "duration_s": 3.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Read_Document_Standing",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Read_Document_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_OpenHand",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_OpenHand_Seated",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_Point",
+          "duration_s": 2.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_Point_Seated",
+          "duration_s": 2.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Objection",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Objection_Seated",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod_Seated",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Shake",
+          "duration_s": 1.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Shake_Seated",
+          "duration_s": 1.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Surprised",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Surprised_Seated",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned_Seated",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Deliver_Verdict",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Typing",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Announce",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Testify",
+          "duration_s": 5,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Nervous_Idle",
+          "duration_s": 6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Guard_Idle",
+          "duration_s": 12,
+          "channels": 156,
+          "morph": false
+        }
+      ],
+      "extras_nodes": 0
+    },
+    {
+      "file": "public/assets/animations/qv_male_clips.glb",
+      "size_mb": 2.108,
+      "errors": [],
+      "warnings": [],
+      "triangles": 0,
+      "primitives_draw_calls": 0,
+      "materials": 0,
+      "morph_targets": 0,
+      "textures": [],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [
+        {
+          "name": "Idle_Stand",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated_Lap",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Walk",
+          "duration_s": 1.067,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Turn_Left_90",
+          "duration_s": 1,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Turn_Right_90",
+          "duration_s": 1,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Sit_Down",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Stand_Up",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Standing",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Address_Judge",
+          "duration_s": 5.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Present_Evidence",
+          "duration_s": 3.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Read_Document_Standing",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Read_Document_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_OpenHand",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_OpenHand_Seated",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_Point",
+          "duration_s": 2.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_Point_Seated",
+          "duration_s": 2.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Objection",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Objection_Seated",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod_Seated",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Shake",
+          "duration_s": 1.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Shake_Seated",
+          "duration_s": 1.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Surprised",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Surprised_Seated",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned_Seated",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Deliver_Verdict",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Typing",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Announce",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Testify",
+          "duration_s": 5,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Nervous_Idle",
+          "duration_s": 6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Guard_Idle",
+          "duration_s": 12,
+          "channels": 156,
+          "morph": false
+        }
+      ],
+      "extras_nodes": 0
+    },
+    {
+      "file": "public/assets/characters/advokat.glb",
+      "size_mb": 4.682,
+      "errors": [],
+      "warnings": [],
+      "triangles": 36462,
+      "primitives_draw_calls": 11,
+      "materials": 11,
+      "morph_targets": 18,
+      "bounds_m": {
+        "min": [
+          -0.474,
+          -0.01,
+          -0.104
+        ],
+        "max": [
+          0.474,
+          1.557,
+          0.289
+        ],
+        "height": 1.567
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 374.8
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 110.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 64.8
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 31.8
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 29.1
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 735.2
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 29.6
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [
+        {
+          "name": "Idle_Stand",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated_Lap",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Walk",
+          "duration_s": 1.067,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Turn_Left_90",
+          "duration_s": 1,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Turn_Right_90",
+          "duration_s": 1,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Sit_Down",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Stand_Up",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Standing",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Address_Judge",
+          "duration_s": 5.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Present_Evidence",
+          "duration_s": 3.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Read_Document_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Read_Document_Standing",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_OpenHand",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_Point",
+          "duration_s": 2.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Objection",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Shake",
+          "duration_s": 1.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Surprised",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_OpenHand_Seated",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_Point_Seated",
+          "duration_s": 2.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Objection_Seated",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod_Seated",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Shake_Seated",
+          "duration_s": 1.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Surprised_Seated",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned_Seated",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Face_Idle",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Talk",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Smile",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Concerned",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Surprised",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Stern",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Blink",
+          "duration_s": 0.4,
+          "channels": 1,
+          "morph": true
+        }
+      ],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/advokat_lod1.glb",
+      "size_mb": 2.127,
+      "errors": [],
+      "warnings": [],
+      "triangles": 16403,
+      "primitives_draw_calls": 11,
+      "materials": 11,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.474,
+          -0.01,
+          -0.105
+        ],
+        "max": [
+          0.474,
+          1.557,
+          0.289
+        ],
+        "height": 1.567
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 374.8
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 110.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 64.8
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 31.8
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 29.1
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 735.2
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 29.6
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/advokat_lod2.glb",
+      "size_mb": 1.77,
+      "errors": [],
+      "warnings": [],
+      "triangles": 6557,
+      "primitives_draw_calls": 11,
+      "materials": 11,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.473,
+          -0.01,
+          -0.105
+        ],
+        "max": [
+          0.474,
+          1.556,
+          0.289
+        ],
+        "height": 1.567
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 374.8
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 110.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 64.8
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 31.8
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 29.1
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 735.2
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 29.6
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/davogar.glb",
+      "size_mb": 4.396,
+      "errors": [],
+      "warnings": [],
+      "triangles": 47136,
+      "primitives_draw_calls": 10,
+      "materials": 10,
+      "morph_targets": 18,
+      "bounds_m": {
+        "min": [
+          -0.56,
+          -0.003,
+          -0.127
+        ],
+        "max": [
+          0.56,
+          1.738,
+          0.366
+        ],
+        "height": 1.742
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 383.0
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 109.4
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 97.9
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 89.0
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 36.4
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 521.0
+        },
+        {
+          "name": "shoes_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 163.4
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 39.9
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [
+        {
+          "name": "Idle_Stand",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated_Lap",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Walk",
+          "duration_s": 1.067,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Sit_Down",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Stand_Up",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Standing",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Shake",
+          "duration_s": 1.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Surprised",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod_Seated",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Shake_Seated",
+          "duration_s": 1.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned_Seated",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Surprised_Seated",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Face_Idle",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Talk",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Smile",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Concerned",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Surprised",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Stern",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Blink",
+          "duration_s": 0.4,
+          "channels": 1,
+          "morph": true
+        }
+      ],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/davogar_lod1.glb",
+      "size_mb": 2.328,
+      "errors": [],
+      "warnings": [],
+      "triangles": 21208,
+      "primitives_draw_calls": 10,
+      "materials": 10,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.56,
+          -0.003,
+          -0.127
+        ],
+        "max": [
+          0.56,
+          1.738,
+          0.366
+        ],
+        "height": 1.742
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 383.0
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 109.4
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 97.9
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 89.0
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 36.4
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 521.0
+        },
+        {
+          "name": "shoes_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 163.4
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 39.9
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/davogar_lod2.glb",
+      "size_mb": 1.884,
+      "errors": [],
+      "warnings": [],
+      "triangles": 8479,
+      "primitives_draw_calls": 10,
+      "materials": 10,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.56,
+          -0.004,
+          -0.126
+        ],
+        "max": [
+          0.56,
+          1.738,
+          0.366
+        ],
+        "height": 1.742
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 383.0
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 109.4
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 97.9
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 89.0
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 36.4
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 521.0
+        },
+        {
+          "name": "shoes_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 163.4
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 39.9
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/guvoh.glb",
+      "size_mb": 4.461,
+      "errors": [],
+      "warnings": [],
+      "triangles": 38126,
+      "primitives_draw_calls": 10,
+      "materials": 10,
+      "morph_targets": 18,
+      "bounds_m": {
+        "min": [
+          -0.473,
+          -0.01,
+          -0.11
+        ],
+        "max": [
+          0.473,
+          1.552,
+          0.291
+        ],
+        "height": 1.562
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 368.4
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 151.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 64.8
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 83.9
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 41.3
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 749.6
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 52.2
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [
+        {
+          "name": "Idle_Stand",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated_Lap",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Walk",
+          "duration_s": 1.067,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Turn_Left_90",
+          "duration_s": 1,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Turn_Right_90",
+          "duration_s": 1,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Sit_Down",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Stand_Up",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Standing",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Testify",
+          "duration_s": 5,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Shake",
+          "duration_s": 1.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Surprised",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Nervous_Idle",
+          "duration_s": 6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod_Seated",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Shake_Seated",
+          "duration_s": 1.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned_Seated",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Surprised_Seated",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Face_Idle",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Talk",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Smile",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Concerned",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Surprised",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Stern",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Blink",
+          "duration_s": 0.4,
+          "channels": 1,
+          "morph": true
+        }
+      ],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/guvoh_lod1.glb",
+      "size_mb": 2.305,
+      "errors": [],
+      "warnings": [],
+      "triangles": 17154,
+      "primitives_draw_calls": 10,
+      "materials": 10,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.473,
+          -0.01,
+          -0.11
+        ],
+        "max": [
+          0.473,
+          1.552,
+          0.291
+        ],
+        "height": 1.562
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 368.4
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 151.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 64.8
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 83.9
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 41.3
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 749.6
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 52.2
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/guvoh_lod2.glb",
+      "size_mb": 1.925,
+      "errors": [],
+      "warnings": [],
+      "triangles": 6861,
+      "primitives_draw_calls": 10,
+      "materials": 10,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.473,
+          -0.011,
+          -0.11
+        ],
+        "max": [
+          0.473,
+          1.551,
+          0.292
+        ],
+        "height": 1.561
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 368.4
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 151.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 64.8
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 83.9
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 41.3
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 749.6
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 52.2
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/javobgar.glb",
+      "size_mb": 4.272,
+      "errors": [],
+      "warnings": [],
+      "triangles": 47136,
+      "primitives_draw_calls": 10,
+      "materials": 10,
+      "morph_targets": 18,
+      "bounds_m": {
+        "min": [
+          -0.544,
+          -0.003,
+          -0.127
+        ],
+        "max": [
+          0.544,
+          1.69,
+          0.355
+        ],
+        "height": 1.693
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 374.9
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 109.4
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 97.9
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 43.7
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 33.6
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 461.9
+        },
+        {
+          "name": "shoes_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 163.4
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 35.1
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [
+        {
+          "name": "Idle_Stand",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated_Lap",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Walk",
+          "duration_s": 1.067,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Sit_Down",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Stand_Up",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Standing",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Shake",
+          "duration_s": 1.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Surprised",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod_Seated",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Shake_Seated",
+          "duration_s": 1.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned_Seated",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Surprised_Seated",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Face_Idle",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Talk",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Smile",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Concerned",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Surprised",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Stern",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Blink",
+          "duration_s": 0.4,
+          "channels": 1,
+          "morph": true
+        }
+      ],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/javobgar_lod1.glb",
+      "size_mb": 2.205,
+      "errors": [],
+      "warnings": [],
+      "triangles": 21208,
+      "primitives_draw_calls": 10,
+      "materials": 10,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.544,
+          -0.004,
+          -0.127
+        ],
+        "max": [
+          0.544,
+          1.69,
+          0.355
+        ],
+        "height": 1.693
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 374.9
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 109.4
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 97.9
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 43.7
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 33.6
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 461.9
+        },
+        {
+          "name": "shoes_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 163.4
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 35.1
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/javobgar_lod2.glb",
+      "size_mb": 1.762,
+      "errors": [],
+      "warnings": [],
+      "triangles": 8479,
+      "primitives_draw_calls": 10,
+      "materials": 10,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.544,
+          -0.004,
+          -0.126
+        ],
+        "max": [
+          0.544,
+          1.69,
+          0.355
+        ],
+        "height": 1.693
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 374.9
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 109.4
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 97.9
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 43.7
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 33.6
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 461.9
+        },
+        {
+          "name": "shoes_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 163.4
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 35.1
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/kotib.glb",
+      "size_mb": 3.816,
+      "errors": [],
+      "warnings": [],
+      "triangles": 41248,
+      "primitives_draw_calls": 10,
+      "materials": 10,
+      "morph_targets": 18,
+      "bounds_m": {
+        "min": [
+          -0.471,
+          -0.01,
+          -0.095
+        ],
+        "max": [
+          0.471,
+          1.559,
+          0.282
+        ],
+        "height": 1.568
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 370.3
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 110.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 64.8
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 33.9
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 33.6
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 595.2
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 29.6
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [
+        {
+          "name": "Idle_Stand",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated_Lap",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Walk",
+          "duration_s": 1.067,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Sit_Down",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Stand_Up",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Typing",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Announce",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Read_Document_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod_Seated",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Face_Idle",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Talk",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Smile",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Concerned",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Surprised",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Stern",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Blink",
+          "duration_s": 0.4,
+          "channels": 1,
+          "morph": true
+        }
+      ],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/kotib_lod1.glb",
+      "size_mb": 2.069,
+      "errors": [],
+      "warnings": [],
+      "triangles": 18558,
+      "primitives_draw_calls": 10,
+      "materials": 10,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.471,
+          -0.01,
+          -0.094
+        ],
+        "max": [
+          0.471,
+          1.559,
+          0.282
+        ],
+        "height": 1.569
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 370.3
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 110.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 64.8
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 33.9
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 33.6
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 595.2
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 29.6
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/kotib_lod2.glb",
+      "size_mb": 1.663,
+      "errors": [],
+      "warnings": [],
+      "triangles": 7421,
+      "primitives_draw_calls": 10,
+      "materials": 10,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.47,
+          -0.01,
+          -0.094
+        ],
+        "max": [
+          0.471,
+          1.559,
+          0.282
+        ],
+        "height": 1.569
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 370.3
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 110.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 64.8
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 33.9
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 33.6
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 595.2
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 29.6
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/prokuror.glb",
+      "size_mb": 4.472,
+      "errors": [],
+      "warnings": [],
+      "triangles": 42898,
+      "primitives_draw_calls": 11,
+      "materials": 11,
+      "morph_targets": 18,
+      "bounds_m": {
+        "min": [
+          -0.561,
+          -0.018,
+          -0.127
+        ],
+        "max": [
+          0.561,
+          1.731,
+          0.361
+        ],
+        "height": 1.749
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 387.5
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 109.4
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 35.6
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 652.3
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 29.6
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [
+        {
+          "name": "Idle_Stand",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated_Lap",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Walk",
+          "duration_s": 1.067,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Sit_Down",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Stand_Up",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Standing",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Read_Document_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_Point",
+          "duration_s": 2.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_OpenHand",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Present_Evidence",
+          "duration_s": 3.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Objection",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Shake",
+          "duration_s": 1.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Turn_Left_90",
+          "duration_s": 1,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Turn_Right_90",
+          "duration_s": 1,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_Point_Seated",
+          "duration_s": 2.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_OpenHand_Seated",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Objection_Seated",
+          "duration_s": 2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod_Seated",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Shake_Seated",
+          "duration_s": 1.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned_Seated",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Face_Idle",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Talk",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Smile",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Concerned",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Surprised",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Stern",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Blink",
+          "duration_s": 0.4,
+          "channels": 1,
+          "morph": true
+        }
+      ],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/prokuror_lod1.glb",
+      "size_mb": 2.051,
+      "errors": [],
+      "warnings": [],
+      "triangles": 19299,
+      "primitives_draw_calls": 11,
+      "materials": 11,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.561,
+          -0.018,
+          -0.127
+        ],
+        "max": [
+          0.561,
+          1.734,
+          0.362
+        ],
+        "height": 1.753
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 387.5
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 109.4
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 35.6
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 652.3
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 29.6
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/prokuror_lod2.glb",
+      "size_mb": 1.638,
+      "errors": [],
+      "warnings": [],
+      "triangles": 7716,
+      "primitives_draw_calls": 11,
+      "materials": 11,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.561,
+          -0.019,
+          -0.127
+        ],
+        "max": [
+          0.561,
+          1.734,
+          0.362
+        ],
+        "height": 1.753
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 387.5
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 109.4
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 35.6
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 652.3
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 29.6
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/qonunai.glb",
+      "size_mb": 0.963,
+      "errors": [],
+      "warnings": [],
+      "triangles": 20576,
+      "primitives_draw_calls": 5,
+      "materials": 5,
+      "morph_targets": 5,
+      "bounds_m": {
+        "min": [
+          -0.467,
+          0.189,
+          -0.152
+        ],
+        "max": [
+          0.467,
+          1.013,
+          0.165
+        ],
+        "height": 0.824
+      },
+      "textures": [],
+      "skins": [
+        {
+          "joints": 10
+        }
+      ],
+      "has_mixamo_skeleton": false,
+      "animations": [
+        {
+          "name": "Idle_Float",
+          "duration_s": 4,
+          "channels": 31,
+          "morph": true
+        },
+        {
+          "name": "Greet",
+          "duration_s": 2.4,
+          "channels": 31,
+          "morph": true
+        },
+        {
+          "name": "Point",
+          "duration_s": 2,
+          "channels": 31,
+          "morph": true
+        },
+        {
+          "name": "Explain",
+          "duration_s": 4,
+          "channels": 31,
+          "morph": true
+        },
+        {
+          "name": "Positive",
+          "duration_s": 2,
+          "channels": 31,
+          "morph": true
+        },
+        {
+          "name": "Concerned",
+          "duration_s": 3,
+          "channels": 31,
+          "morph": true
+        },
+        {
+          "name": "Speak",
+          "duration_s": 3,
+          "channels": 31,
+          "morph": true
+        },
+        {
+          "name": "Appear",
+          "duration_s": 1,
+          "channels": 31,
+          "morph": true
+        },
+        {
+          "name": "Disappear",
+          "duration_s": 0.8,
+          "channels": 31,
+          "morph": true
+        }
+      ],
+      "extras_nodes": 1
+    },
+    {
+      "file": "public/assets/characters/qonunai_lod1.glb",
+      "size_mb": 0.371,
+      "errors": [],
+      "warnings": [],
+      "triangles": 8230,
+      "primitives_draw_calls": 5,
+      "materials": 5,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.467,
+          0.189,
+          -0.152
+        ],
+        "max": [
+          0.467,
+          1.013,
+          0.165
+        ],
+        "height": 0.824
+      },
+      "textures": [],
+      "skins": [
+        {
+          "joints": 10
+        }
+      ],
+      "has_mixamo_skeleton": false,
+      "animations": [],
+      "extras_nodes": 1
+    },
+    {
+      "file": "public/assets/characters/qoriqchi.glb",
+      "size_mb": 3.829,
+      "errors": [],
+      "warnings": [],
+      "triangles": 43258,
+      "primitives_draw_calls": 13,
+      "materials": 13,
+      "morph_targets": 18,
+      "bounds_m": {
+        "min": [
+          -0.581,
+          -0.019,
+          -0.13
+        ],
+        "max": [
+          0.581,
+          1.805,
+          0.379
+        ],
+        "height": 1.824
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 375.0
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 109.4
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 34.4
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 631.1
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 26.3
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [
+        {
+          "name": "Idle_Stand",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated_Lap",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Walk",
+          "duration_s": 1.067,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Guard_Idle",
+          "duration_s": 12,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Turn_Left_90",
+          "duration_s": 1,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Turn_Right_90",
+          "duration_s": 1,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_Point",
+          "duration_s": 2.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Standing",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod_Seated",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_Point_Seated",
+          "duration_s": 2.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Face_Idle",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Talk",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Smile",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Concerned",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Surprised",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Stern",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Blink",
+          "duration_s": 0.4,
+          "channels": 1,
+          "morph": true
+        }
+      ],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/qoriqchi_lod1.glb",
+      "size_mb": 2.03,
+      "errors": [],
+      "warnings": [],
+      "triangles": 19462,
+      "primitives_draw_calls": 13,
+      "materials": 13,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.581,
+          -0.019,
+          -0.13
+        ],
+        "max": [
+          0.581,
+          1.808,
+          0.379
+        ],
+        "height": 1.827
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 375.0
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 109.4
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 34.4
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 631.1
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 26.3
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/qoriqchi_lod2.glb",
+      "size_mb": 1.611,
+      "errors": [],
+      "warnings": [],
+      "triangles": 7778,
+      "primitives_draw_calls": 13,
+      "materials": 13,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.582,
+          -0.019,
+          -0.13
+        ],
+        "max": [
+          0.581,
+          1.808,
+          0.379
+        ],
+        "height": 1.828
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 375.0
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 109.4
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 34.4
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 631.1
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 26.3
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/sudya.glb",
+      "size_mb": 4.653,
+      "errors": [],
+      "warnings": [],
+      "triangles": 50424,
+      "primitives_draw_calls": 10,
+      "materials": 10,
+      "morph_targets": 18,
+      "bounds_m": {
+        "min": [
+          -0.535,
+          -0.018,
+          -0.187
+        ],
+        "max": [
+          0.535,
+          1.698,
+          0.343
+        ],
+        "height": 1.716
+      },
+      "textures": [
+        {
+          "name": "fabric_sudya_robe_normal",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 18.2
+        },
+        {
+          "name": "fabric_sudya_robe_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 1.6
+        },
+        {
+          "name": "fabric_sudya_robe_orm",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 1.6
+        },
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 415.0
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 151.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 23.1
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 679.6
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 32.4
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [
+        {
+          "name": "Idle_Stand",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated_Lap",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Walk",
+          "duration_s": 1.067,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Sit_Down",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Stand_Up",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Standing",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Read_Document_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Shake",
+          "duration_s": 1.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_Point",
+          "duration_s": 2.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Deliver_Verdict",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Turn_Left_90",
+          "duration_s": 1,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Turn_Right_90",
+          "duration_s": 1,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod_Seated",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Shake_Seated",
+          "duration_s": 1.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Gesture_Point_Seated",
+          "duration_s": 2.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned_Seated",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Face_Idle",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Talk",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Smile",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Concerned",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Surprised",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Stern",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Blink",
+          "duration_s": 0.4,
+          "channels": 1,
+          "morph": true
+        }
+      ],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/sudya_lod1.glb",
+      "size_mb": 2.3,
+      "errors": [],
+      "warnings": [],
+      "triangles": 22687,
+      "primitives_draw_calls": 10,
+      "materials": 10,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.535,
+          -0.018,
+          -0.187
+        ],
+        "max": [
+          0.535,
+          1.698,
+          0.343
+        ],
+        "height": 1.716
+      },
+      "textures": [
+        {
+          "name": "fabric_sudya_robe_normal",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 18.2
+        },
+        {
+          "name": "fabric_sudya_robe_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 1.6
+        },
+        {
+          "name": "fabric_sudya_robe_orm",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 1.6
+        },
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 415.0
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 151.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 23.1
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 679.6
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 32.4
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/sudya_lod2.glb",
+      "size_mb": 1.814,
+      "errors": [],
+      "warnings": [],
+      "triangles": 9072,
+      "primitives_draw_calls": 10,
+      "materials": 10,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.536,
+          -0.019,
+          -0.187
+        ],
+        "max": [
+          0.535,
+          1.698,
+          0.343
+        ],
+        "height": 1.716
+      },
+      "textures": [
+        {
+          "name": "fabric_sudya_robe_normal",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 18.2
+        },
+        {
+          "name": "fabric_sudya_robe_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 1.6
+        },
+        {
+          "name": "fabric_sudya_robe_orm",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 1.6
+        },
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            2048,
+            2048
+          ],
+          "kb": 415.0
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 151.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "tongue_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.0
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 23.1
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 679.6
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 32.4
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/tomoshabin_ayol.glb",
+      "size_mb": 2.567,
+      "errors": [],
+      "warnings": [],
+      "triangles": 33714,
+      "primitives_draw_calls": 9,
+      "materials": 9,
+      "morph_targets": 18,
+      "bounds_m": {
+        "min": [
+          -0.464,
+          0.002,
+          -0.093
+        ],
+        "max": [
+          0.464,
+          1.52,
+          0.301
+        ],
+        "height": 1.518
+      },
+      "textures": [
+        {
+          "name": "fabric_tomoshabin_ayol_scarf_normal",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 2.5
+        },
+        {
+          "name": "fabric_tomoshabin_ayol_scarf_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.4
+        },
+        {
+          "name": "fabric_tomoshabin_ayol_scarf_orm",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 1.6
+        },
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 94.8
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 151.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 11.5
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 16.9
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 7.3
+        },
+        {
+          "name": "shoes_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 49.2
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 14.8
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [
+        {
+          "name": "Idle_Stand",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated_Lap",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Walk",
+          "duration_s": 1.067,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Sit_Down",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Stand_Up",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod_Seated",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned_Seated",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Face_Idle",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Talk",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Smile",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Concerned",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Surprised",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Stern",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Blink",
+          "duration_s": 0.4,
+          "channels": 1,
+          "morph": true
+        }
+      ],
+      "extras_nodes": 4
+    },
+    {
+      "file": "public/assets/characters/tomoshabin_ayol_lod1.glb",
+      "size_mb": 1.01,
+      "errors": [],
+      "warnings": [],
+      "triangles": 15167,
+      "primitives_draw_calls": 9,
+      "materials": 9,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.464,
+          0.002,
+          -0.093
+        ],
+        "max": [
+          0.464,
+          1.52,
+          0.301
+        ],
+        "height": 1.518
+      },
+      "textures": [
+        {
+          "name": "fabric_tomoshabin_ayol_scarf_normal",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 2.5
+        },
+        {
+          "name": "fabric_tomoshabin_ayol_scarf_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.4
+        },
+        {
+          "name": "fabric_tomoshabin_ayol_scarf_orm",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 1.6
+        },
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 94.8
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 151.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 11.5
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 16.9
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 7.3
+        },
+        {
+          "name": "shoes_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 49.2
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 14.8
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 4
+    },
+    {
+      "file": "public/assets/characters/tomoshabin_ayol_lod2.glb",
+      "size_mb": 0.686,
+      "errors": [],
+      "warnings": [],
+      "triangles": 6066,
+      "primitives_draw_calls": 9,
+      "materials": 9,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.464,
+          0.001,
+          -0.093
+        ],
+        "max": [
+          0.464,
+          1.52,
+          0.301
+        ],
+        "height": 1.519
+      },
+      "textures": [
+        {
+          "name": "fabric_tomoshabin_ayol_scarf_normal",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 2.5
+        },
+        {
+          "name": "fabric_tomoshabin_ayol_scarf_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 7.4
+        },
+        {
+          "name": "fabric_tomoshabin_ayol_scarf_orm",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 1.6
+        },
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 94.8
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 151.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 11.5
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 16.9
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 7.3
+        },
+        {
+          "name": "shoes_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 49.2
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 14.8
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 4
+    },
+    {
+      "file": "public/assets/characters/tomoshabin_erkak.glb",
+      "size_mb": 2.993,
+      "errors": [],
+      "warnings": [],
+      "triangles": 36662,
+      "primitives_draw_calls": 9,
+      "materials": 9,
+      "morph_targets": 18,
+      "bounds_m": {
+        "min": [
+          -0.555,
+          -0.004,
+          -0.141
+        ],
+        "max": [
+          0.555,
+          1.756,
+          0.361
+        ],
+        "height": 1.76
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 110.0
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 109.4
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 13.4
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 20.8
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 9.8
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 296.5
+        },
+        {
+          "name": "shoes_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 49.2
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 12.7
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [
+        {
+          "name": "Idle_Stand",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated_Lap",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Walk",
+          "duration_s": 1.067,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Sit_Down",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Stand_Up",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod_Seated",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Concerned_Seated",
+          "duration_s": 3,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Face_Idle",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Talk",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Smile",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Concerned",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Surprised",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Stern",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Blink",
+          "duration_s": 0.4,
+          "channels": 1,
+          "morph": true
+        }
+      ],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/tomoshabin_erkak_lod1.glb",
+      "size_mb": 1.377,
+      "errors": [],
+      "warnings": [],
+      "triangles": 16496,
+      "primitives_draw_calls": 9,
+      "materials": 9,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.555,
+          -0.005,
+          -0.141
+        ],
+        "max": [
+          0.555,
+          1.756,
+          0.361
+        ],
+        "height": 1.76
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 110.0
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 109.4
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 13.4
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 20.8
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 9.8
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 296.5
+        },
+        {
+          "name": "shoes_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 49.2
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 12.7
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/tomoshabin_erkak_lod2.glb",
+      "size_mb": 1.008,
+      "errors": [],
+      "warnings": [],
+      "triangles": 6595,
+      "primitives_draw_calls": 9,
+      "materials": 9,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.555,
+          -0.005,
+          -0.141
+        ],
+        "max": [
+          0.556,
+          1.756,
+          0.361
+        ],
+        "height": 1.76
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 110.0
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 109.4
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 13.4
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 20.8
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 9.8
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 296.5
+        },
+        {
+          "name": "shoes_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 49.2
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 12.7
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/tomoshabin_yosh.glb",
+      "size_mb": 2.865,
+      "errors": [],
+      "warnings": [],
+      "triangles": 37844,
+      "primitives_draw_calls": 9,
+      "materials": 9,
+      "morph_targets": 18,
+      "bounds_m": {
+        "min": [
+          -0.464,
+          -0.01,
+          -0.1
+        ],
+        "max": [
+          0.464,
+          1.531,
+          0.279
+        ],
+        "height": 1.541
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 105.0
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 151.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 11.5
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 26.2
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 7.2
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 122.7
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 14.8
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [
+        {
+          "name": "Idle_Stand",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Idle_Seated_Lap",
+          "duration_s": 8,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Walk",
+          "duration_s": 1.067,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Surprised",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Talk_Seated",
+          "duration_s": 4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Sit_Down",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Stand_Up",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Head_Nod_Seated",
+          "duration_s": 1.2,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Left_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Look_Right_Seated",
+          "duration_s": 2.4,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "React_Surprised_Seated",
+          "duration_s": 1.6,
+          "channels": 156,
+          "morph": false
+        },
+        {
+          "name": "Face_Idle",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Talk",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Smile",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Concerned",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Surprised",
+          "duration_s": 3,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Stern",
+          "duration_s": 4,
+          "channels": 1,
+          "morph": true
+        },
+        {
+          "name": "Face_Blink",
+          "duration_s": 0.4,
+          "channels": 1,
+          "morph": true
+        }
+      ],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/tomoshabin_yosh_lod1.glb",
+      "size_mb": 1.207,
+      "errors": [],
+      "warnings": [],
+      "triangles": 17028,
+      "primitives_draw_calls": 9,
+      "materials": 9,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.464,
+          -0.01,
+          -0.1
+        ],
+        "max": [
+          0.464,
+          1.532,
+          0.279
+        ],
+        "height": 1.542
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 105.0
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 151.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 11.5
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 26.2
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 7.2
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 122.7
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 14.8
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/characters/tomoshabin_yosh_lod2.glb",
+      "size_mb": 0.825,
+      "errors": [],
+      "warnings": [],
+      "triangles": 6809,
+      "primitives_draw_calls": 9,
+      "materials": 9,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -0.464,
+          -0.01,
+          -0.1
+        ],
+        "max": [
+          0.464,
+          1.532,
+          0.279
+        ],
+        "height": 1.543
+      },
+      "textures": [
+        {
+          "name": "skin_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 105.0
+        },
+        {
+          "name": "brows_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 151.1
+        },
+        {
+          "name": "eyes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 6.1
+        },
+        {
+          "name": "teeth_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 21.6
+        },
+        {
+          "name": "clothes_bottom_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 11.5
+        },
+        {
+          "name": "clothes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 26.2
+        },
+        {
+          "name": "clothes_bottom_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 7.2
+        },
+        {
+          "name": "hair_albedo",
+          "mime": "image/png",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 122.7
+        },
+        {
+          "name": "shoes_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 14.8
+        }
+      ],
+      "skins": [
+        {
+          "joints": 52
+        }
+      ],
+      "has_mixamo_skeleton": true,
+      "animations": [],
+      "extras_nodes": 5
+    },
+    {
+      "file": "public/assets/environment/courtroom.glb",
+      "size_mb": 2.568,
+      "errors": [],
+      "warnings": [],
+      "triangles": 30744,
+      "primitives_draw_calls": 29,
+      "materials": 24,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -7.75,
+          -1.3,
+          -9.25
+        ],
+        "max": [
+          8.1,
+          5.75,
+          6.25
+        ],
+        "height": 7.05
+      },
+      "textures": [
+        {
+          "name": "book_covers_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 25.2
+        },
+        {
+          "name": "book_covers_orm",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 4.6
+        },
+        {
+          "name": "emblem_placeholder",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 65.0
+        },
+        {
+          "name": "fabric_bench_green_normal",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 18.2
+        },
+        {
+          "name": "fabric_bench_green_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 2.0
+        },
+        {
+          "name": "fabric_bench_green_orm",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 1.6
+        },
+        {
+          "name": "floor_stone_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 38.2
+        },
+        {
+          "name": "floor_stone_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 52.0
+        },
+        {
+          "name": "floor_stone_orm",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 48.7
+        },
+        {
+          "name": "leather_black_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 87.0
+        },
+        {
+          "name": "leather_black_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 17.5
+        },
+        {
+          "name": "leather_black_orm",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 37.6
+        },
+        {
+          "name": "paper_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 8.4
+        },
+        {
+          "name": "paper_orm",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 1.6
+        },
+        {
+          "name": "wall_plaster_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 4.9
+        },
+        {
+          "name": "wall_plaster_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 6.5
+        },
+        {
+          "name": "wall_plaster_orm",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 6.4
+        },
+        {
+          "name": "wood_walnut_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 70.6
+        },
+        {
+          "name": "wood_walnut_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 59.8
+        },
+        {
+          "name": "wood_walnut_orm",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 75.7
+        },
+        {
+          "name": "screen_qonunverse",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            576
+          ],
+          "kb": 18.7
+        },
+        {
+          "name": "flag_uzbekistan",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            512
+          ],
+          "kb": 33.1
+        }
+      ],
+      "skins": [],
+      "has_mixamo_skeleton": false,
+      "animations": [],
+      "extras_nodes": 47
+    },
+    {
+      "file": "public/assets/environment/courtroom_colliders.glb",
+      "size_mb": 0.029,
+      "errors": [],
+      "warnings": [],
+      "triangles": 240,
+      "primitives_draw_calls": 20,
+      "materials": 0,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -7.5,
+          -2.8,
+          -9
+        ],
+        "max": [
+          7.5,
+          2.8,
+          7.5
+        ],
+        "height": 5.6
+      },
+      "textures": [],
+      "skins": [],
+      "has_mixamo_skeleton": false,
+      "animations": [],
+      "extras_nodes": 16
+    },
+    {
+      "file": "public/assets/environment/courtroom_lod1.glb",
+      "size_mb": 2.365,
+      "errors": [],
+      "warnings": [],
+      "triangles": 27392,
+      "primitives_draw_calls": 28,
+      "materials": 23,
+      "morph_targets": 0,
+      "bounds_m": {
+        "min": [
+          -7.75,
+          -1.3,
+          -9.25
+        ],
+        "max": [
+          8.1,
+          5.75,
+          6.25
+        ],
+        "height": 7.05
+      },
+      "textures": [
+        {
+          "name": "book_covers_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 25.2
+        },
+        {
+          "name": "book_covers_orm",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 4.6
+        },
+        {
+          "name": "emblem_placeholder",
+          "mime": "image/png",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 65.0
+        },
+        {
+          "name": "fabric_bench_green_normal",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 18.2
+        },
+        {
+          "name": "fabric_bench_green_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 2.0
+        },
+        {
+          "name": "fabric_bench_green_orm",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 1.6
+        },
+        {
+          "name": "floor_stone_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 38.2
+        },
+        {
+          "name": "floor_stone_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 52.0
+        },
+        {
+          "name": "floor_stone_orm",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 48.7
+        },
+        {
+          "name": "leather_black_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 87.0
+        },
+        {
+          "name": "leather_black_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 17.5
+        },
+        {
+          "name": "leather_black_orm",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 37.6
+        },
+        {
+          "name": "paper_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 8.4
+        },
+        {
+          "name": "paper_orm",
+          "mime": "image/jpeg",
+          "px": [
+            256,
+            256
+          ],
+          "kb": 1.6
+        },
+        {
+          "name": "wall_plaster_normal",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 4.9
+        },
+        {
+          "name": "wall_plaster_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 6.5
+        },
+        {
+          "name": "wall_plaster_orm",
+          "mime": "image/jpeg",
+          "px": [
+            512,
+            512
+          ],
+          "kb": 6.4
+        },
+        {
+          "name": "wood_walnut_normal",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 70.6
+        },
+        {
+          "name": "wood_walnut_albedo",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 59.8
+        },
+        {
+          "name": "wood_walnut_orm",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            1024
+          ],
+          "kb": 75.7
+        },
+        {
+          "name": "screen_qonunverse",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            576
+          ],
+          "kb": 18.7
+        },
+        {
+          "name": "flag_uzbekistan",
+          "mime": "image/jpeg",
+          "px": [
+            1024,
+            512
+          ],
+          "kb": 33.1
+        }
+      ],
+      "skins": [],
+      "has_mixamo_skeleton": false,
+      "animations": [],
+      "extras_nodes": 47
+    }
+  ]
+}

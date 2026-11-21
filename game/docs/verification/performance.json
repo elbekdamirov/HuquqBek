@@ -1,0 +1,74 @@
+{
+  "browser": "157.0.8103.80",
+  "viewport": "1280x720",
+  "warmupSeconds": 15,
+  "balancedSamples": [
+    {
+      "fps": 60,
+      "calls": 160,
+      "triangles": 262774,
+      "textures": 230,
+      "estimatedTextureMB": 229,
+      "geometries": 121
+    },
+    {
+      "fps": 60,
+      "calls": 160,
+      "triangles": 262774,
+      "textures": 230,
+      "estimatedTextureMB": 229,
+      "geometries": 121
+    },
+    {
+      "fps": 60,
+      "calls": 160,
+      "triangles": 262774,
+      "textures": 230,
+      "estimatedTextureMB": 229,
+      "geometries": 121
+    },
+    {
+      "fps": 60,
+      "calls": 160,
+      "triangles": 262774,
+      "textures": 230,
+      "estimatedTextureMB": 229,
+      "geometries": 121
+    },
+    {
+      "fps": 60,
+      "calls": 160,
+      "triangles": 262774,
+      "textures": 230,
+      "estimatedTextureMB": 229,
+      "geometries": 121
+    }
+  ],
+  "errors": [],
+  "lowSamples": [
+    {
+      "fps": 60,
+      "calls": 147,
+      "triangles": 95312,
+      "textures": 371,
+      "estimatedTextureMB": 158,
+      "geometries": 157
+    },
+    {
+      "fps": 60,
+      "calls": 147,
+      "triangles": 95312,
+      "textures": 371,
+      "estimatedTextureMB": 158,
+      "geometries": 157
+    },
+    {
+      "fps": 60,
+      "calls": 147,
+      "triangles": 95312,
+      "textures": 371,
+      "estimatedTextureMB": 158,
+      "geometries": 157
+    }
+  ]
+}

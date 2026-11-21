@@ -1,0 +1,12 @@
+{
+  "errors": [],
+  "checks": [
+    "Desktop library",
+    "Prosecutor filtering",
+    "Character selection",
+    "All decisions",
+    "Evidence lifecycle",
+    "Final report",
+    "Mobile viewport"
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "prokuror",
+  "status": "built",
+  "warnings": [],
+  "assets": {
+    "skin": "young_asian_male.mhmat",
+    "eyes": [
+      "low-poly.mhclo"
+    ],
+    "eyebrows": [
+      "eyebrow001.mhclo"
+    ],
+    "eyelashes": [
+      "eyelashes01.mhclo"
+    ],
+    "teeth": [
+      "teeth_base.mhclo"
+    ],
+    "tongue": [
+      "tongue01.mhclo"
+    ],
+    "hair": [
+      "short04.mhclo"
+    ],
+    "clothes": [
+      "male_elegantsuit01.mhclo",
+      "shoes02.mhclo"
+    ]
+  },
+  "morphs": [
+    "Blink_L",
+    "Blink_R",
+    "Eye_Wide_L",
+    "Eye_Wide_R",
+    "Eye_Squint_L",
+    "Eye_Squint_R",
+    "Brow_Up_L",
+    "Brow_Up_R",
+    "Brow_Down_L",
+    "Brow_Down_R",
+    "Brow_Inner_Up_L",
+    "Brow_Inner_Up_R",
+    "Mouth_Open",
+    "Smile",
+    "Frown",
+    "Mouth_Pursing",
+    "Mouth_Wide",
+    "Mouth_Compress"
+  ],
+  "garments": [
+    "prokuror_Epaulette_Left",
+    "prokuror_EpauletteStripe_Left",
+    "prokuror_Epaulette_Right",
+    "prokuror_EpauletteStripe_Right"
+  ],
+  "clips": {
+    "Idle_Stand": {
+      "duration_s": 8.0,
+      "loop": true
+    },
+    "Idle_Seated": {
+      "duration_s": 8.0,
+      "loop": true
+    },
+    "Idle_Seated_Lap": {
+      "duration_s": 8.0,
+      "loop": true
+    },
+    "Walk": {
+      "duration_s": 1.067,
+      "loop": true,
+      "root_motion": "in_place",
+      "speed_mps": 1.104
+    },
+    "Sit_Down": {
+      "duration_s": 1.6,
+      "loop": false,
+      "start_offset_m": [
+        0,
+        -0.32,
+        0
+      ],
+      "note": "Root sits at the seat origin; clip starts standing 0.32 m in front"
+    },
+    "Stand_Up": {
+      "duration_s": 1.6,
+      "loop": false,
+      "end_offset_m": [
+        0,
+        -0.32,
+        0
+      ]
+    },
+    "Talk_Seated": {
+      "duration_s": 4.0,
+      "loop": true,
+      "face_clip": "Face_Talk"
+    },
+    "Talk_Standing": {
+      "duration_s": 4.0,
+      "loop": true,
+      "face_clip": "Face_Talk"
+    },
+    "Read_Document_Seated": {
+      "duration_s": 4.0,
+      "loop": true
+    },
+    "Gesture_Point": {
+      "duration_s": 2.2,
+      "loop": false
+    },
+    "Gesture_OpenHand": {
+      "duration_s": 2.0,
+      "loop": false
+    },
+    "Present_Evidence": {
+      "duration_s": 3.6,
+      "loop": false,
+      "prop_socket": "mixamorig:RightHand",
+      "prop": "evidence_folder",
+      "events": {
+        "grab": 0.5,
+        "handover": 2.3
+      }
+    },
+    "Objection": {
+      "duration_s": 2.0,
+      "loop": false
+    },
+    "Head_Nod": {
+      "duration_s": 1.2,
+      "loop": false
+    },
+    "Head_Shake": {
+      "duration_s": 1.4,
+      "loop": false
+    },
+    "Look_Left": {
+      "duration_s": 2.4,
+      "loop": false
+    },
+    "Look_Right": {
+      "duration_s": 2.4,
+      "loop": false
+    },
+    "Turn_Left_90": {
+      "duration_s": 1.0,
+      "loop": false,
+      "root_yaw_delta_deg": 90,
+      "note": "Hips rotate 90 deg in-clip; on finish add the yaw to the root and play an idle"
+    },
+    "Turn_Right_90": {
+      "duration_s": 1.0,
+      "loop": false,
+      "root_yaw_delta_deg": -90,
+      "note": "Hips rotate 90 deg in-clip; on finish add the yaw to the root and play an idle"
+    },
+    "React_Concerned": {
+      "duration_s": 3.0,
+      "loop": false
+    },
+    "Gesture_Point_Seated": {
+      "duration_s": 2.2,
+      "loop": false
+    },
+    "Gesture_OpenHand_Seated": {
+      "duration_s": 2.0,
+      "loop": false
+    },
+    "Objection_Seated": {
+      "duration_s": 2.0,
+      "loop": false
+    },
+    "Head_Nod_Seated": {
+      "duration_s": 1.2,
+      "loop": false
+    },
+    "Head_Shake_Seated": {
+      "duration_s": 1.4,
+      "loop": false
+    },
+    "Look_Left_Seated": {
+      "duration_s": 2.4,
+      "loop": false
+    },
+    "Look_Right_Seated": {
+      "duration_s": 2.4,
+      "loop": false
+    },
+    "React_Concerned_Seated": {
+      "duration_s": 3.0,
+      "loop": false
+    },
+    "Face_Idle": {
+      "duration_s": 4.0,
+      "loop": true,
+      "layer": "face"
+    },
+    "Face_Talk": {
+      "duration_s": 3.0,
+      "loop": true,
+      "layer": "face"
+    },
+    "Face_Smile": {
+      "duration_s": 4.0,
+      "loop": true,
+      "layer": "face"
+    },
+    "Face_Concerned": {
+      "duration_s": 4.0,
+      "loop": true,
+      "layer": "face"
+    },
+    "Face_Surprised": {
+      "duration_s": 3.0,
+      "loop": false,
+      "layer": "face"
+    },
+    "Face_Stern": {
+      "duration_s": 4.0,
+      "loop": true,
+      "layer": "face"
+    },
+    "Face_Blink": {
+      "duration_s": 0.4,
+      "loop": false,
+      "layer": "face"
+    }
+  },
+  "dims": {
+    "height_m": 1.791,
+    "hips_z": 0.97,
+    "leg_m": 0.854
+  },
+  "blend": "blender/characters/prokuror.blend",
+  "exports": {
+    "lod0": "public/assets/characters/prokuror.glb",
+    "lod1": "public/assets/characters/prokuror_lod1.glb",
+    "lod2": "public/assets/characters/prokuror_lod2.glb"
+  },
+  "build_seconds": 29.8
+}

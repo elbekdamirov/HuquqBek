@@ -1,0 +1,36 @@
+HuquqBek 0.4.1 — fixes and interface improvements
+20 November 2026
+
+Open the updated app: http://127.0.0.1:4196/
+Project: C:\Users\miron\QonunVerse\game
+Start-HuquqBek.cmd now opens port 4196. The old server on 4189 remains running: automatic approval review rejected stopping it, with no specific reason returned. The new server was launched separately and its health endpoint confirms 0.4.1. A frontend/server version mismatch now produces a visible notice; the launcher checks versions too.
+
+Fixed
+1. Groq handles all AI dialogue, legal reasoning, decision drafts, feedback, summaries and evidence analysis. Simple dialogue uses the available fast Groq model; complex tasks use the stronger model. Google calls and fallback, Gemini settings and provider choice were removed from the active code. VoiceLab still handles Uzbek speech. Existing encrypted local credentials load automatically; neither plaintext credentials nor audio were added to source or reports.
+2. Court clerk gaze no longer points at its own position. Speakers address the player, listeners follow the speaker, and the idle clerk returns to a neutral desk-facing target. Near-zero target distances return to neutral. Gaze is limited and smoothed. Last frame's additive head offset is removed before the animation mixer runs, preventing drift even when constant animation tracks skip writes. Original GLBs and manifest remain unchanged.
+3. Evidence examination is restricted to appropriate hearing phases. Paused, argument, final and completed stages cannot be reopened by that intent. Every mutating court intent is rejected after decision.
+4. Saved court fields are reconstructed and validated instead of spreading arbitrary stored values. Evidence IDs, examination membership, rulings, resume phases, counts, bounded logs and transcript messages are checked. Malformed feedback lists and final statements are guarded during restoration.
+5. A completed hearing now asks for the learner's own position, examined evidence, legal sources and reasons, then produces its own report. It does not start the separate multiple-choice test or fabricate quiz answers. Reports retain the hearing transcript and court action log for review and export.
+
+Interface improvements
+- One conversation panel; duplicate subtitles are hidden while chat is open.
+- Compact current-stage indicator, narrower participant list and less overlapping HUD content.
+- Removed internal AI routing labels from player conversations.
+- Speech stop control in the chat header.
+- Scrollable action strip, clearer focus states and larger touch controls.
+- Transcript follows new messages only when the reader is already near the bottom.
+- Mobile layout adapts to visual viewport height; the conversation can grow while typing.
+- Separate analytical test is explicitly labelled. Completed hearing opens its own report.
+
+Verification
+- 27 automated tests passed, including new regression tests for all AI entry points and failure paths calling Groq only; phase restrictions; corrupted saves; immersive reports; and constant/changing animation head drift over 1,200 frames each.
+- TypeScript and production build passed.
+- 40 GLB containers validated; 41 original GLB/manifest SHA-256 hashes match.
+- Chrome desktop/mobile browser QA: case entry, clerk conversation, 30 samples of actual rendered clerk head state, evidence reading/submission/examination, arguments, final statement, decision, learner reasons, report, and reload/restoration passed. No page errors. No horizontal overflow at 390 x 844. Send control stayed inside a 390 x 500 resized viewport after viewport updates.
+- Live API requests: dialogue, feedback and evidence comparison returned Groq responses using the configured encrypted credential.
+- Updated server health and configured Groq/VoiceLab status verified on port 4196.
+
+Limits
+The report's numerical score measures recorded preparation and process criteria. It does not certify legal correctness or declare a real case won or lost. Legal conclusions, role fairness and decision reasons still require educator/legal review. AI observations are identified as such. Characters remain the existing base models with procedural animation. Physical-phone keyboard behavior and a new human microphone session were not tested in this update; the mobile keyboard check used a reduced browser viewport. VoiceLab integration was preserved, but no new paid speech generation or transcription was needed for this fix pass.
+
+Backup before changes: work\before-report-fixes.zip in the Codex task workspace (source/server/tests/scripts/config only; no credentials).

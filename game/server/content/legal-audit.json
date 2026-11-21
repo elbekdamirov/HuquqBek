@@ -1,0 +1,1859 @@
+{
+  "auditedAt": "2026-11-20",
+  "scope": "45 existing three-paragraph theory briefs and core statutory citations; not a lawyer certification or complete fact-specific legal validation",
+  "all45LegallyCertified": false,
+  "sourceSelection": "Selected source editions dated no later than2026-11-20 where already pinned. Some source tabs list future2027 editions; those were not deliberately selected. Changes/effective-date conditions still require professional signoff.",
+  "rooms": [
+    {
+      "roomId": "A-B01",
+      "roomTitle": "Konstitutsiya va yuridik yordam",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Yuridik yordam va sud himoyasi",
+      "reading_note": "Konstitutsiyaning 29-moddasi har kimning malakali yuridik yordam olishini kafolatlaydi; davlat hisobidan yordam qonunda nazarda tutilgan hollarda ko‘rsatiladi. 55-modda sud orqali himoya va qonunga xilof qaror, harakat yoki harakatsizlik ustidan shikoyat qilish kafolatini belgilaydi. Advokat yordam ko‘rsatadi, sudning o‘rniga qaror chiqarmaydi.",
+      "source_id": "KON",
+      "verified_articles": [
+        {
+          "article": "29",
+          "title": "29-modda",
+          "url": "https://gov.uz/oz/mfa/sections/view/14475"
+        },
+        {
+          "article": "55",
+          "title": "55-modda",
+          "url": "https://gov.uz/oz/mfa/sections/view/14475"
+        }
+      ],
+      "source_url": "https://gov.uz/oz/mfa/sections/view/14475",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "A-B02",
+      "roomTitle": "Advokatlik siri va manfaatlar to‘qnashuvi",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Sir va topshiriqni qabul qilish",
+      "reading_note": "Advokatura haqidagi qonunning 9-moddasi advokatlik siri doirasini, 7-moddasi advokat vazifalari va topshiriqni qabul qilishdagi cheklovlarni belgilaydi. Mijoz murojaati va unga berilgan maslahatni boshqa mijoz uchun misol sifatida oshkor qilishdan oldin sirni saqlash talabini tekshirish zarur.",
+      "source_id": "ADV",
+      "verified_articles": [
+        {
+          "article": "7",
+          "found": true,
+          "title": "7-модда. Адвокатнинг вазифалари",
+          "url": "https://lex.uz/uz/docs/54503#1426214",
+          "excerpt": "Адвокат ўз профессионал фаолиятида амалдаги қонунчилик талабларига, Адвокатнинг касб этикаси қоидаларига, адвокатлик сири ва адвокат қасамёдига риоя этиши, ўзига юридик ёрдам сўраб мурожаат этган жисмоний ҳамда юридик шахсларнинг ҳуқуқлари ва қонуний манфаатларини ҳимоя қилишнинг қонунда назарда тутилган воситалари ҳамда усулларидан фойдаланиши шарт.\nАдвокат муайян иш бўйича юридик ёрдам кўрсатаётган ёки илгари юридик ёрдам кўрсатган шахсларнинг манфаатлари ишни олиб боришни сўраб мурожаат этган шахснинг манфаатларига зид келган ёки у судья, прокурор, терговчи, суриштирув ўтказувчи шахс, жамоат айбловчиси, суд мажлиси котиби, эксперт, мутахассис, жабрланувчининг, фуқаровий даъвогарнинг, фуқаровий жавобгарнинг вакили, гувоҳ, холис, таржимон сифатида иштирок этган ҳолларда, шунингдек агар ишни суриштирув ёки дастлабки тергов шаклида тергов қилишда ёхуд судда адвокатнинг қариндоши бўлган мансабдор шахс иштирок этган ёки иштирок этаётган бўлса, худди шунингдек агар адвокат бевосита ёки бил"
+        },
+        {
+          "article": "9",
+          "found": true,
+          "title": "9-модда. Адвокатлик сири",
+          "url": "https://lex.uz/uz/docs/54503#1426342",
+          "excerpt": "Адвокат адвокатлик сирини сақлаши шарт. Адвокатлик сири жумласига ишонч билдирувчи шахс (ҳимоя остидаги шахс) адвокатдан ёрдам сўраб мурожаат этганлигининг ўзи, ишонч билдирувчи шахс (ҳимоя остидаги шахс) ёрдам сўраб мурожаат этган масалалар, адвокатдан ишонч билдирувчи шахс (ҳимоя остидаги шахс) олган маслаҳатлар, насиҳатлар ва тушунтиришларнинг моҳияти, адвокатнинг ишонч билдирувчи шахс (ҳимоя остидаги шахс) билан ўтказган суҳбатида тўхтаб ўтилган барча масалалар киради.\nАдвокат, адвокат ёрдамчиси, адвокат стажёри, адвокатлар бюролари, ҳайъатлари ва фирмалари мансабдор шахслари ва техник ходимларининг адвокатлик сири бўлмиш маълумотларни ошкор этиши ва бу маълумотлардан ўз манфаатлари ёки учинчи шахслар манфаатлари йўлида фойдаланиши ман этилади."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/54503#1426214",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "A-B03",
+      "roomTitle": "Mijoz bilan suhbat va voqealar ketma-ketligi",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Huquqiy yordam uchun faktlarni yig‘ish",
+      "reading_note": "Qonunning 5-moddasi huquqiy yordam turlarini, 6-moddasi advokat huquqlarini belgilaydi. Sana, ishtirokchi, hujjat va mijoz maqsadini tartib bilan qayd etish ushbu yordamni sifatli bajarishning o‘quv usulidir; qonun aynan bitta suhbat jadvalini majburiy shakl qilib belgilamaydi.",
+      "source_id": "ADV",
+      "verified_articles": [
+        {
+          "article": "5",
+          "found": true,
+          "title": "5-модда. Адвокатлик фаолиятининг турлари",
+          "url": "https://lex.uz/uz/docs/54503#55641",
+          "excerpt": "Жисмоний ва юридик шахсларга юридик ёрдам кўрсатиш мақсадида адвокат:\nҳуқуқий масалалар бўйича маслаҳатлар ва тушунтиришлар, қонунчилик юзасидан оғзаки ва ёзма маълумотномалар беради;"
+        },
+        {
+          "article": "6",
+          "found": true,
+          "title": "6-модда. Адвокатнинг ҳуқуқлари",
+          "url": "https://lex.uz/uz/docs/54503#55655",
+          "excerpt": "Адвокат касбий фаолиятини амалга ошириш чоғида қуйидаги ҳуқуқларга эгадир:\nтегишли масалаларни ҳал этишга ваколатли бўлган барча органлар, корхоналар, муассасалар ва ташкилотларда жисмоний ва юридик шахсларнинг топшириғига мувофиқ уларнинг манфаатларини ифода этиш ва ҳуқуқларини ҳимоя қилиш;"
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/54503#55641",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "A-B04",
+      "roomTitle": "Fakt, da’vo va dalil xaritasi",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Isbotlash vositasi va baholash",
+      "reading_note": "FPK 72-moddasida talab va e’tirozlarga asos bo‘lgan holatlarni isbotlash mas’uliyati, 73–74-moddalarda aloqadorlik va maqbullik ajratiladi. 80-modda har bir dalilni va ularning majmuini baholashni talab qiladi; hech bir dalil oldindan mutlaq kuchga ega emas. Dalillar xaritasi shu farqlarni ko‘rish uchun o‘quv vositasidir.",
+      "source_id": "FPK",
+      "verified_articles": [
+        {
+          "article": "71",
+          "found": true,
+          "title": "71-модда. Исботлаш воситалари",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519250",
+          "excerpt": "Тарафларнинг талаблари ва эътирозларини асослайдиган ҳолатларнинг мавжудлигини ёки мавжуд эмаслигини суднинг қонунда белгиланган тартибда аниқлашига асос бўладиган ҳар қандай фактик маълумот ва ишни тўғри ҳал қилиш учун аҳамиятга эга бўлган бошқа ҳолатлар фуқаролик иши бўйича далиллардир. Бу маълумотлар қуйидаги воситалар, яъни: тарафларнинг ва учинчи шахсларнинг ҳамда улар қонуний вакилларининг тушунтиришлари, гувоҳларнинг кўрсатувлари, ашёвий, ёзма ва рақамли далиллар, экспертларнинг хулосалари, мутахассисларнинг маслаҳатлари (тушунтиришлари) билан аниқланади.\nАноним хатларда ва келиб чиқиши номаълум бўлган ёки қонунни бузган ҳолда олинган бошқа маълумотлар далил бўла олмайди."
+        },
+        {
+          "article": "72",
+          "found": true,
+          "title": "72-модда. Исботлаш ва далилларни тақдим этиш мажбурияти",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519259",
+          "excerpt": "Ҳар бир тараф ўзининг талаблари ва эътирозларига асос қилиб кўрсатган ҳолатларни исботлаши шарт.\nСуд қандай ҳолатлар иш учун аҳамиятга эга эканлигини, уларни тарафлардан қайси бири исботлаши кераклигини аниқлайди, ҳатто тарафлар бу ҳолатларни далил қилиб келтирмаган бўлса ҳам уларни муҳокамага қўяди."
+        },
+        {
+          "article": "73",
+          "found": true,
+          "title": "73-модда. Далилларнинг алоқадорлиги",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519269",
+          "excerpt": "Суд фақат иш учун аҳамиятга эга бўлган далилларни кўришга қабул қилади.\nСуднинг далилни қабул қилишни рад этиш тўғрисидаги ажрими асослантирилган бўлиши лозим."
+        },
+        {
+          "article": "74",
+          "found": true,
+          "title": "74-модда. Далилларнинг мақбуллиги",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519278",
+          "excerpt": "Қонун бўйича муайян исботлаш воситалари билан тасдиқланиши шарт бўлган ишнинг ҳолатлари бошқа ҳеч қандай исботлаш воситалари билан тасдиқланиши мумкин эмас."
+        },
+        {
+          "article": "80",
+          "found": true,
+          "title": "80-модда. Далилларга баҳо бериш",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519330",
+          "excerpt": "Суд далилларга ишнинг ҳамма ҳолатларини жамлаб, уларни суд мажлисида қонунга амал қилган ҳолда, ҳар тарафлама, тўлиқ ва холис кўриб чиқишга асосланган ўз ички ишончи бўйича баҳо беради.\nҲар бир далил алоқадорлик, мақбуллик ва ишончлилик нуқтаи назаридан, далилларнинг мажмуи эса етарлилик нуқтаи назаридан баҳоланиши лозим."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519250",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "A-B05",
+      "roomTitle": "Yakuniy boshlang‘ich lab: nuqsonli telefon",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Nuqsonli tovar bo‘yicha talab",
+      "reading_note": "Iste’molchilar huquqlari haqidagi qonunning 13-moddasi nuqsonli tovar sotilganda iste’molchining huquqlariga bag‘ishlangan. Talab tanlashda nuqson, xarid sharti, kafolat va tegishli qo‘shimcha qoidalar tekshiriladi. Regulyator aralashuvida almashtirilgan tovar haqidagi xabarni sud qarori deb ko‘rsatish mumkin emas.",
+      "source_id": "IST",
+      "verified_articles": [
+        {
+          "article": "13",
+          "found": true,
+          "title": "13-модда. Истеъмолчига нуқсонли товар сотилганда унинг ҳуқуқлари",
+          "url": "https://lex.uz/uz/docs/4704#5901",
+          "excerpt": "Нуқсонли товар сотилганда истеъмолчи, агар бу ҳол шартнома тузиш пайтида айтиб ўтилмаган бўлса, ўз хоҳишига қараб қуйидагилардан бирини талаб қилишга ҳақли:\nтоварни айни шундай маркали (моделли, артикулли) мақбул сифатли товарга алмаштириб бериш;"
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/4704#5901",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "A-J01",
+      "roomTitle": "Huquqiy manbani topish va tahrirni tekshirish",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Vaziyat sanasiga mos norma",
+      "reading_note": "FK 4-moddasi fuqarolik qonunchiligining vaqt bo‘yicha amal qilishini belgilaydi. Hujjatning qabul qilingan sanasi bilan muayyan norma kuchga kirgan sanasi bir xil bo‘lishi shart emas; o‘tish qoidalarini ham o‘qish kerak. Kelajak tahririni bugungi yoki oldingi voqeaga avtomatik qo‘llash noto‘g‘ri.",
+      "source_id": "FK1",
+      "verified_articles": [
+        {
+          "article": "4",
+          "found": true,
+          "title": "4-modda. Fuqarolik qonunchiligining vaqt boʻyicha amal qilishi",
+          "url": "https://lex.uz/uz/docs/-111189?ONDATE=12.09.2026+01#-5445592",
+          "excerpt": "Fuqarolik qonunchiligi hujjatlari orqaga qaytish kuchiga ega emas va ular amalga kiritilganidan keyin vujudga kelgan munosabatlarga nisbatan qoʻllaniladi.\nQonun u amalga kiritilgunga qadar vujudga kelgan munosabatlarga nisbatan qonunda toʻgʻridan-toʻgʻri nazarda tutilgan hollardagina tatbiq etiladi."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111189?ONDATE=12.09.2026+01#-5445592",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "A-J02",
+      "roomTitle": "Da’vo arizasi va vakolatlar",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Vakolat va ariza tuzilishi",
+      "reading_note": "FPK 68–69-moddalari vakilning vakolatlarini rasmiylashtirish va ayrim protsessual harakatlar uchun vakolatni tekshirishga asos bo‘ladi. 189 va 191-moddalarda ariza mazmuni va unga ilova qilinadigan hujjatlar tartibga solingan. Bo‘sh namuna ishdagi fakt, imzo va vakolatni tekshirish o‘rnini bosmaydi.",
+      "source_id": "FPK",
+      "verified_articles": [
+        {
+          "article": "68",
+          "found": true,
+          "title": "68-модда. Вакилнинг ваколатларини расмийлаштириш",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519213",
+          "excerpt": "Вакилнинг ваколатлари қонунга мувофиқ берилган ва расмийлаштирилган ишончномада кўрсатилган бўлиши керак.\nФуқаролар томонидан бериладиган ишончномалар нотариуслар ёки нотариал ҳаракатларни амалга ошириш ҳуқуқига эга бўлган бошқа мансабдор шахслар томонидан тасдиқланади."
+        },
+        {
+          "article": "69",
+          "found": true,
+          "title": "69-модда. Вакилнинг ваколатлари",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519227",
+          "excerpt": "Судда иш юритиш ваколатлари вакилга барча процессуал ҳаракатларни ваколат берувчи номидан амалга ошириш ҳуқуқини беради.\nШартнома бўйича вакиллик қилувчининг арз қилинган талаблардан тўлиқ ёки қисман воз кечиш, уларнинг асосини ёки предметини ўзгартириш, миқдорини кўпайтириш ёки камайтириш, даъвогарнинг талабларини тан олиш, келишув битими, медиация тартиб-таомилини амалга ошириш тўғрисидаги келишув ёки медиатив келишув тузиш, ваколатларни бошқа шахсга ўтказиш (бошқа шахсга ишониб топшириш), суд ҳужжати устидан шикоят қилиш, аризаларни имзолаш, ижро варақасини ундирувга тақдим этиш, ундирилган мол-мулкни ёки пулларни олиш ваколати ҳар бир алоҳида ҳолда ваколат берувчи томонидан берилган ишончномада махсус кўрсатилган бўлиши керак."
+        },
+        {
+          "article": "189",
+          "found": true,
+          "title": "189-модда. Аризанинг мазмуни",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522142",
+          "excerpt": "2) даъвогарнинг фамилияси, исми, отасининг исми, яшаш жойи, агар даъвогар ташкилот бўлса, унинг номи, жойлашган ери (почта манзили) ҳамда реквизитлари, шунингдек, агар ариза вакил томонидан берилаётган бўлса, вакилнинг фамилияси, исми, отасининг исми ва манзили;\n3) жавобгарнинг фамилияси, исми, отасининг исми, яшаш жойи, агар жавобгар ташкилот бўлса, унинг номи, жойлашган ери (почта манзили) ҳамда реквизитлари;"
+        },
+        {
+          "article": "191",
+          "found": true,
+          "title": "191-модда. Аризага илова қилинадиган ҳужжатлар",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522213",
+          "excerpt": "Аризага қуйидагиларни тасдиқловчи ҳужжатлар илова қилинади:\n1) арз қилинаётган талабларга асос бўлган ҳолатларни;"
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519213",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "A-J03",
+      "roomTitle": "Muzokara va mediatsiya chegaralari",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Ixtiyoriy mediatsiya",
+      "reading_note": "Mediatsiya haqidagi qonunning 3-moddasi qo‘llanish sohasini, 5–9-moddalari maxfiylik, ixtiyoriylik, hamkorlik, tenglik va xolislik prinsiplarini belgilaydi. 29-modda mediativ kelishuvga taalluqli. Ushbu fuqarolik-huquqiy mexanizm jinoyat ayblovini istalgan shart bilan yopish huquqini bermaydi.",
+      "source_id": "MED",
+      "verified_articles": [
+        {
+          "article": "3",
+          "found": true,
+          "title": "3-модда. Ушбу Қонуннинг амал қилиш соҳаси",
+          "url": "https://lex.uz/uz/docs/3805227#3806744",
+          "excerpt": "Ушбу Қонуннинг амал қилиши фуқаролик ҳуқуқий муносабатлардан, агар қонунда бошқача қоида назарда тутилмаган бўлса, шу жумладан тадбиркорлик фаолиятини амалга ошириш муносабати билан, мижоз ва банк (кредит ташкилотлари) ўртасидаги муносабатлардан, суғурта шартномасидан юзага келадиган муносабатлардан келиб чиқадиган низоларга, меҳнат ва оилавий ҳуқуқий муносабатлардан келиб чиқадиган низоларга медиацияни қўллаш билан боғлиқ муносабатларга нисбатан татбиқ этилади.\nУшбу Қонуннинг амал қилиши медиацияда иштирок этмаётган учинчи шахсларнинг ҳуқуқлари ва қонуний манфаатларига, жамоат манфаатларига дахл қиладиган ёки дахл қилиши мумкин бўлган низоларга нисбатан татбиқ этилмайди."
+        },
+        {
+          "article": "5",
+          "found": true,
+          "title": "5-модда. Медиациянинг асосий принциплари",
+          "url": "https://lex.uz/uz/docs/3805227#3806756",
+          "excerpt": "Медиация махфийлик, ихтиёрийлик, тарафларнинг ҳамкорлиги ва тенг ҳуқуқлилиги, медиаторнинг мустақиллиги ва холислиги принциплари асосида амалга оширилади."
+        },
+        {
+          "article": "6",
+          "found": true,
+          "title": "6-модда. Махфийлик принципи",
+          "url": "https://lex.uz/uz/docs/3805227#3806758",
+          "excerpt": "Медиация иштирокчилари медиация жараёнида ўзларига маълум бўлиб қолган маълумотларни уларни тақдим этган медиация тарафининг, унинг ҳуқуқий ворисининг ёки вакилининг ёзма розилигисиз ошкор қилишга ҳақли эмас.\nМедиация иштирокчилари ўзларига медиация жараёнида маълум бўлиб қолган ҳолатлар ҳақида гувоҳ сифатида сўроқ қилиниши мумкин эмас, шунингдек улардан медиацияга тааллуқли ахборотни талаб қилиб олиш мумкин эмас, бундан қонунда назарда тутилган ҳоллар мустасно."
+        },
+        {
+          "article": "7",
+          "found": true,
+          "title": "7-модда. Ихтиёрийлик принципи",
+          "url": "https://lex.uz/uz/docs/3805227#3806761",
+          "excerpt": "Медиация тарафларнинг медиацияни қўллаш тўғрисидаги келишувда ифодаланган ўзаро ихтиёрий хоҳиш-истаги бўлган тақдирда қўлланилади.\nМедиация тарафлари медиацияни қўллашдан унинг исталган босқичида воз кечишга ҳақли."
+        },
+        {
+          "article": "8",
+          "found": true,
+          "title": "8-модда. Тарафларнинг ҳамкорлиги ва тенг ҳуқуқлилиги принципи",
+          "url": "https://lex.uz/uz/docs/3805227#3806770",
+          "excerpt": "Медиация тартиб-таомили медиатив келишув шартларига бир томонлама таъсир кўрсатишни истисно этган ҳолда амалга оширилиши керак.\nМедиация тартиб-таомили низо хусусида тарафларнинг ҳамкорлиги асосида ўзаро мақбул қарорга эришиш мақсадида амалга оширилади."
+        },
+        {
+          "article": "9",
+          "found": true,
+          "title": "9-модда. Медиаторнинг мустақиллиги ва холислиги принципи",
+          "url": "https://lex.uz/uz/docs/3805227#3806779",
+          "excerpt": "Медиация тартиб-таомилини амалга оширишда медиатор мустақилдир. Медиация тартиб-таомилини амалга оширишда медиаторнинг фаолиятига бирор-бир тарзда аралашишга йўл қўйилмайди.\nМедиатор холис бўлиши, медиация тартиб-таомилини тарафларнинг манфаатларини кўзлаб амалга ошириши ва медиацияда уларнинг тенг иштирокини таъминлаши, тарафларга ўз мажбуриятларини бажариши ҳамда ўзларига берилган ҳуқуқларни амалга ошириши учун зарур шарт-шароитлар яратиши керак. Медиаторнинг мустақиллиги ва холислигига тўсқинлик қиладиган ҳолатлар мавжуд бўлган тақдирда, у медиация тартиб-таомилини амалга оширишдан воз кечиши керак."
+        },
+        {
+          "article": "29",
+          "found": true,
+          "title": "29-модда. Медиатив келишув",
+          "url": "https://lex.uz/uz/docs/3805227#3807012",
+          "excerpt": "Медиация тартиб-таомилини амалга ошириш натижалари бўйича тарафлар келиб чиққан низо ёхуд мажбуриятларни бажариш шартлари ва муддатлари хусусида ўзаро мақбул қарорга эришган тақдирда, тарафлар ўртасида ёзма шаклда медиатив келишув тузилади.\nДавлат органи ёки бошқа орган томонидан қайси шахснинг манфаатларини кўзлаб даъво тақдим этилган бўлса, ўша шахс мазкур давлат органининг ёки бошқа органнинг иштирокисиз медиатив келишув тузишга ҳақли."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/3805227#3806744",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "A-J04",
+      "roomTitle": "Guvohga savol va protsessual murojaat",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Guvoh savoli va sud tartibi",
+      "reading_note": "FPK 82-moddasi guvohni chaqirish iltimosnomasiga, 229-moddasi guvohni sudda so‘roq qilish tartibiga taalluqli. Har bir guvoh alohida so‘roq qilinadi; so‘roq qilinmagan guvohlar majlis zalida bo‘lishi mumkin emas. Jinoyat protsessidagi ishora qiluvchi savol taqiqi JPK 102-moddasida alohida ko‘rsatilgan.",
+      "source_id": "FPK",
+      "verified_articles": [
+        {
+          "article": "82",
+          "found": true,
+          "title": "82-модда. Гувоҳни чақириш тўғрисидаги илтимоснома",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519359",
+          "excerpt": "Гувоҳни чақириш тўғрисида илтимоснома тақдим этувчи шахс гувоҳнинг иш учун аҳамиятга эга бўлган қандай ҳолатларни тасдиқлай олиши мумкинлигини кўрсатиши ва судга унинг фамилияси, исми, отасининг исмини, яшаш жойини ёки иш, ўқиш жойини маълум қилиши шарт."
+        },
+        {
+          "article": "229",
+          "found": true,
+          "title": "229-модда. Гувоҳни сўроқ қилиш тартиби",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522986",
+          "excerpt": "Сўроқ қилинмаган гувоҳлар ишни муҳокама қилиш вақтида суд мажлиси залида бўлиши мумкин эмас.\nРаислик қилувчи гувоҳни сўроқ қилишдан олдин унинг шахсини, ёшини, машғулоти турини, ушбу ишга алоқасини ҳамда тарафлар ва ишда иштирок этувчи бошқа шахслар билан ўзаро муносабатларини аниқлайди, шунингдек уни била туриб ёлғон кўрсатув берганлик учун Ўзбекистон Республикаси Жиноят кодексининг 238-моддасига мувофиқ жавобгар бўлиши тўғрисида огоҳлантиради. Шундан кейин раислик қилувчи гувоҳга: «Иш юзасидан ўзимга маълум бўлган барча маълумотларни судга айтиб беришга қасамёд қиламан. Фақат ҳақиқатни, барча ҳақиқатни гапириб бераман, ҳақиқатдан ўзга нарсани гапирмайман» деб ошкора қасамёд қилишни таклиф этади."
+        },
+        {
+          "article": "230",
+          "found": true,
+          "title": "230-модда. Гувоҳнинг ёзма хотиралардан фойдаланиш ҳуқуқи",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3523094",
+          "excerpt": "Гувоҳ кўрсатув беришда унинг кўрсатувлари бирор-бир ҳисоблар ёки хотирада сақлаб қолиш қийин бошқа маълумотлар билан боғлиқ бўлган ҳолларда ёзма хотиралардан фойдаланиши мумкин. Бу ёзма хотиралар судга ва ишда иштирок этувчи шахсларга кўрсатилади ҳамда суднинг ажрими билан ишга қўшиб қўйилиши мумкин."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519359",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "A-J05",
+      "roomTitle": "O‘rta bosqich lab: mehnat nizosida himoya",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Mehnat shartnomasini bekor qilishni tekshirish",
+      "reading_note": "MK 161-moddasi ish beruvchi tashabbusi bilan bekor qilish asoslariga, 170-moddasi rasmiylashtirishga, 174-moddasi noqonuniy bekor qilish oqibatlariga taalluqli. 560-moddadagi sudga murojaat muddatini talab turiga qarab o‘qish kerak. Birgina buyruq borligi bekor qilishning qonuniyligini o‘z-o‘zidan tasdiqlamaydi.",
+      "source_id": "MK",
+      "verified_articles": [
+        {
+          "article": "161",
+          "found": true,
+          "title": "161-модда. Меҳнат шартномасини иш берувчининг ташаббусига кўра бекор қилиш",
+          "url": "https://lex.uz/uz/docs/6257288#6261562",
+          "excerpt": "Номуайян муддатга тузилган меҳнат шартномасини, шунингдек муддати тугагунига қадар муддатли меҳнат шартномасини иш берувчининг ташаббусига кўра бекор қилиш асосланган бўлиши керак.\nҚуйидаги сабаблардан (асослардан) бирининг мавжудлиги меҳнат шартномасини бекор қилишнинг асосланганлигини билдиради:"
+        },
+        {
+          "article": "170",
+          "found": true,
+          "title": "170-модда. Меҳнат шартномасини бекор қилишни расмийлаштириш",
+          "url": "https://lex.uz/uz/docs/6257288#6261706",
+          "excerpt": "Меҳнат шартномасини бекор қилиш ишга қабул қилиш ҳуқуқига эга бўлган шахслар томонидан амалга оширилади ва иш берувчининг буйруғи билан расмийлаштирилади.\nОхирги иш куни меҳнат шартномаси бекор қилинган кундир. Агар охирги иш куни дам олиш кунига ёхуд ишланмайдиган байрам кунига ёки бошқа ишланмайдиган кунга тўғри келса, ундан кейин келадиган биринчи иш куни охирги иш куни деб ҳисобланади."
+        },
+        {
+          "article": "174",
+          "found": true,
+          "title": "174-модда. Меҳнат шартномасини қонунга хилоф равишда бекор қилишнинг ҳуқуқий оқибатлари",
+          "url": "https://lex.uz/uz/docs/6257288#6261768",
+          "excerpt": "Ўзи билан меҳнат шартномаси қонунга хилоф равишда бекор қилинган деб ҳисоблайдиган ходим бевосита иш берувчига мурожаат қилиши ёки меҳнат шартномасининг бекор қилиниши устидан белгиланган тартибда, шу жумладан суд тартибида ҳам шикоят қилиши мумкин.\nЎзи билан меҳнат шартномаси қонунга хилоф равишда бекор қилинган ходимнинг унга аввалги ишини тақдим этиш ҳамда ўзига етказилган моддий зарарнинг ўрнини қоплаш ва маънавий зиённи (агар меҳнат шартномаси қонунга хилоф равишда бекор қилинганлиги натижасида ходимга маънавий ёки жисмоний азоблар етказилган бўлса) компенсация қилиш тўғрисидаги талаблари қаноатлантирилиши лозим."
+        },
+        {
+          "article": "560",
+          "found": true,
+          "title": "560-модда. Якка тартибдаги меҳнат низосининг кўриб чиқилиши учун судга мурожаат қилиш муддатлари",
+          "url": "https://lex.uz/uz/docs/6257288#6269139",
+          "excerpt": "Якка тартибдаги меҳнат низосининг кўриб чиқилиши учун судга мурожаат қилишнинг қуйидаги муддатлари белгиланади:\nишга тиклаш тўғрисидаги низолар бўйича — ходимга у билан меҳнат шартномаси бекор қилинганлиги ҳақидаги иш берувчи буйруғининг кўчирма нусхаси топширилган кундан эътиборан уч ой;"
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/6257288#6261562",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "A-S01",
+      "roomTitle": "Jinoyat ishida himoya rejasi",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Himoyachi va kafolatlar",
+      "reading_note": "JPK 49-moddasi himoyachi maqomini, 51-moddasi uning ishtiroki shart bo‘lgan hollarni, 53-moddasi huquq va majburiyatlarini belgilaydi. Himoya rejasi ayblovning har muhim elementi va unga aloqador materialni ajratadi. Aybsizligini isbotlash majburiyati himoya ostidagi shaxsga yuklanmaydi.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "49",
+          "found": true,
+          "title": "49-modda. Himoyachi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-1393287",
+          "excerpt": "Himoyachi gumon qilinuvchilarning, ayblanuvchilarning, sudlanuvchilarning huquqlari va qonuniy manfaatlarini qonunda belgilangan tartibda himoya qilishni amalga oshirish hamda ularga zarur yuridik yordam koʻrsatish vakolatiga ega boʻlgan shaxsdir.\nIshda himoyachilar sifatida advokatlar ishtirok etishlari mumkin. Advokatning ishda ishtirok etishiga u advokat guvohnomasini koʻrsatganidan va muayyan ishni yuritishga vakolatli ekanligini tasdiqlovchi orderni taqdim etganidan keyin yoʻl qoʻyiladi."
+        },
+        {
+          "article": "51",
+          "found": true,
+          "title": "51-modda. Himoyachi ishtirok etishi shart boʻlgan hollar",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253601",
+          "excerpt": "2) soqovlar, karlar, koʻrlar, jismoniy nuqsoni yoki ruhiy holati buzilganligi sababli oʻzini oʻzi himoya qilish huquqini amalga oshirishga qiynaladigan boshqa shaxslarning ishi boʻyicha;\n3) sudlov ishi olib borilayotgan tilni bilmaydigan shaxslarning ishi boʻyicha;"
+        },
+        {
+          "article": "53",
+          "found": true,
+          "title": "53-modda. Himoyachining huquq va majburiyatlari",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253617",
+          "excerpt": "Himoyachi: manfaatlarini himoya qilayotgan shaxsning nimada gumon qilinayotganligi yoki ayblanayotganligini bilish; advokatlik guvohnomasini koʻrsatganidan va muayyan ishni yuritishga vakolatli ekanligini tasdiqlovchi orderni taqdim etganidan soʻng ishda ishtirok etish; gumon qilinuvchi soʻroq qilinayotganda ishtirok etish, shaxsga ayblov eʼlon qilinayotganda hozir boʻlish hamda ayblanuvchi soʻroq qilinayotganda, shuningdek ularning ishtirokida oʻtkaziladigan boshqa tergov harakatlarida ishtirok etish va gumon qilinuvchilarga, ayblanuvchilarga, guvohlarga, ekspertlarga, mutaxassislarga savollar berish; boshqa tergov harakatlari yurgizilayotganda surishtiruvchi yoki tergovchining ruxsati bilan ishtirok etish; oʻzi ishtirok etgan tergov harakatining yuritilishi xususida yozma mulohazalar berish; iltimosnoma berish va rad etish; ushbu Kodeks 87-moddasining ikkinchi qismiga muvofiq dalillarni toʻplash va taqdim etish; gumon qilinuvchi yoki ayblanuvchi ishtirokida oʻtkazilgan protsessual ha"
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-1393287",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "A-S02",
+      "roomTitle": "Dalil maqbulligi va ishonchliligini farqlash",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Maqbullik va ishonchlilik farqi",
+      "reading_note": "JPK 95-moddasi aloqadorlik, maqbullik va ishonchlilikni farqlab baholashni talab qiladi; 95¹-modda maqbul bo‘lmagan dalillarga taalluqli. Protsessual nuqson materialning mazmuni yolg‘on ekanligini avtomatik anglatmaydi. Chiqarib tashlash so‘rovi aniq material, olish sharoiti va huquqiy asos bilan bog‘lanishi lozim.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "95",
+          "found": true,
+          "title": "95-modda. Dalillarga baho berish",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253833",
+          "excerpt": "Surishtiruvchi, tergovchi, prokuror va sud ishdagi barcha holatlarni sinchkovlik bilan, toʻla, har tomonlama va xolisona koʻrib chiqishga asoslangan holda qonunga va huquqiy ongga amal qilib oʻzlarining ichki ishonchlari boʻyicha dalillarga baho beradilar. Har bir dalil ishga aloqadorligi, maqbulligi va ishonchliligi nuqtai nazaridan baholanishi lozim.\nDalillar jinoyat ishi uchun ahamiyatli boʻlgan mavjud holatlar haqidagi xulosalarni tasdiqlovchi, rad etuvchi yoki shubha ostiga oluvchi faktlar yoki narsalar toʻgʻrisidagi maʼlumotlarni aks ettirgan taqdirdagina ishga aloqador deb eʼtirof etiladi."
+        },
+        {
+          "article": "95^1",
+          "found": true,
+          "title": "95^1-modda. Dalillarning maqbul emasligi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-3644484",
+          "excerpt": "Agar faktik maʼlumotlar qonunga xilof usullar orqali yoki jinoyat protsessi ishtirokchilarini qonun bilan kafolatlangan huquqlaridan mahrum qilish yoki bu huquqlarni cheklash yoʻli bilan yoxud ushbu Kodeks talablari buzilgan holda olingan boʻlsa, shu jumladan:\n1) jinoyat protsessi ishtirokchilariga yoki ularning yaqin qarindoshlariga nisbatan qiynoqqa solish va boshqa shafqatsiz, gʻayriinsoniy yoki qadr-qimmatni kamsituvchi muomala hamda jazo turlarini qoʻllagan holda;"
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253833",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "A-S03",
+      "roomTitle": "Qarama-qarshi dalil va muqobil izoh",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Muqobil izohni tekshirish",
+      "reading_note": "JPK 94-moddasida qaror sinchkovlik bilan, to‘la, har tomonlama va xolis tekshirilgan dalillargagina asoslanishi belgilangan. Muqobil izoh tasdiqlovchi va rad etuvchi materiallar orqali tekshiriladi. Jadval yoki raqamli ball qonundagi dalillar majmuini baholash o‘rnini bosmaydi.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "22",
+          "found": true,
+          "title": "22-modda. Haqiqatni aniqlash",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252886",
+          "excerpt": "Surishtiruvchi, tergovchi, prokuror va sud jinoyat yuz berganligini, uning sodir etilishida kim aybdorligini, shuningdek u bilan bogʻliq barcha holatlarni aniqlashi shart.\nIsh boʻyicha haqiqatni aniqlash uchun faqat ushbu Kodeksda nazarda tutilgan tartibda topilgan, tekshirilgan va baholangan maʼlumotlardan foydalanish mumkin. Gumon qilinuvchidan, ayblanuvchidan, sudlanuvchidan, jabrlanuvchidan, guvohdan va ishda ishtirok etuvchi boshqa shaxslardan zoʻrlash, qoʻrqitish, huquqlarini cheklash va qonunga xilof boʻlgan oʻzgacha choralar bilan koʻrsatuvlar olishga harakat qilish man etiladi."
+        },
+        {
+          "article": "94",
+          "found": true,
+          "title": "94-modda. Dalillarni tekshirish",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253831",
+          "excerpt": "Ish boʻyicha qabul qilinadigan qaror sinchkovlik bilan, toʻla, har tomonlama va xolisona tekshirilgan dalillargagina asoslangan boʻlishi lozim. Tekshiruv qoʻshimcha dalillarni toʻplashdan iborat boʻlib, ular tekshirilayotgan dalillarni tasdiqlashi yoki rad etishi mumkin."
+        },
+        {
+          "article": "95",
+          "found": true,
+          "title": "95-modda. Dalillarga baho berish",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253833",
+          "excerpt": "Surishtiruvchi, tergovchi, prokuror va sud ishdagi barcha holatlarni sinchkovlik bilan, toʻla, har tomonlama va xolisona koʻrib chiqishga asoslangan holda qonunga va huquqiy ongga amal qilib oʻzlarining ichki ishonchlari boʻyicha dalillarga baho beradilar. Har bir dalil ishga aloqadorligi, maqbulligi va ishonchliligi nuqtai nazaridan baholanishi lozim.\nDalillar jinoyat ishi uchun ahamiyatli boʻlgan mavjud holatlar haqidagi xulosalarni tasdiqlovchi, rad etuvchi yoki shubha ostiga oluvchi faktlar yoki narsalar toʻgʻrisidagi maʼlumotlarni aks ettirgan taqdirdagina ishga aloqador deb eʼtirof etiladi."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252886",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "A-S04",
+      "roomTitle": "Yakuniy himoya nutqi va tekshiruv yo‘li",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Himoya nutqi va oxirgi so‘z",
+      "reading_note": "JPK 449-moddasi taraflar muzokarasi, 450-moddasi ayblov mohiyati yuzasidan takliflar, 451-moddasi sudlanuvchining oxirgi so‘ziga bag‘ishlangan. Himoyachining nutqi sudlanuvchining oxirgi so‘zi o‘rnini bosmaydi. Sud hujjatini tekshirish tartibi va muddatini ish turi va tegishli bosqich bo‘yicha alohida aniqlash kerak.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "449",
+          "found": true,
+          "title": "449-modda. Taraflar muzokarasining mazmuni va tartibi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256480",
+          "excerpt": "Sud tergovi tamomlanganidan soʻng sud taraflarning muzokarasini eshitishga oʻtadi. Muzokara davlat ayblovchisi va jamoat ayblovchisining nutqlari bilan boshlanadi. Soʻngra jabrlanuvchi, fuqaroviy daʼvogar yoki ularning vakillari, himoyachi va jamoat himoyachisi, sudlanuvchi, fuqaroviy javobgar yoki uning vakili soʻzga chiqadi.\nDavlat ayblovchisi va jamoat ayblovchisining, shuningdek himoyachi va jamoat himoyachisining soʻzga chiqish navbatini sud ularning takliflarini inobatga olgan holda belgilaydi."
+        },
+        {
+          "article": "450",
+          "found": true,
+          "title": "450-modda. Taraflarning ayblovning mohiyati yuzasidan takliflari",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256492",
+          "excerpt": "Muzokara tamom boʻlganidan keyin taraflar ushbu Kodeks 457-moddasining birinchi qismidagi 1 — 6-bandlarda nazarda tutilgan masalalar yuzasidan chiqariladigan qarorning oʻzlari taklif etadigan mazmunini sudga yozma ravishda taqdim etishlari mumkin. Davlat ayblovchisi va himoyachi uchun qarorning bunday mazmunini sudga taqdim etish majburiydir."
+        },
+        {
+          "article": "451",
+          "found": true,
+          "title": "451-modda. Sudlanuvchining oxirgi soʻzi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256494",
+          "excerpt": "Taraflarning muzokarasi tamom boʻlganidan keyin raislik qiluvchi sudlanuvchiga oxirgi soʻz beradi. Sudlanuvchining oxirgi soʻzi vaqtida unga hech qanday savol berishga yoʻl qoʻyilmaydi.\nSud sudlanuvchining oxirgi soʻzini muayyan muddat bilan cheklab qoʻyishi mumkin emas, lekin raislik qiluvchi sudlanuvchining soʻzini, u ishga mutlaqo aloqasi yoʻq holatlarni bayon qila boshlagan hollarda, toʻxtatishga haqlidir."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256480",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "A-S05",
+      "roomTitle": "Final lab: avtomobil kelishuvi va firibgarlik ayblovi",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Fuqarolik majburiyati va firibgarlik",
+      "reading_note": "JK 168-moddasi aldash yoki ishonchni suiiste’mol qilish yo‘li bilan o‘zganing mulkini yoki unga bo‘lgan huquqni qo‘lga kiritishga taalluqli. Shartnoma bajarilmagani yoki pul kechikkani o‘z-o‘zidan barcha jinoyat belgilarini isbotlamaydi. Niyat, harakat va mulkni egallash usuliga doir materiallar alohida tekshiriladi.",
+      "source_id": "JK",
+      "verified_articles": [
+        {
+          "article": "168",
+          "found": true,
+          "title": "168-modda. Firibgarlik",
+          "url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-310589",
+          "excerpt": "Firibgarlik, yaʼni aldash yoki ishonchni suiisteʼmol qilish yoʻli bilan oʻzganing mulkini yoki oʻzganing mulkiga boʻlgan huquqni qoʻlga kiritish —\nbazaviy hisoblash miqdorining ellik baravaridan yuz baravarigacha miqdorda jarima yoki ikki yilgacha axloq tuzatish ishlari yoki bir yildan uch yilgacha ozodlikni cheklash yoxud uch yilgacha ozodlikdan mahrum qilish bilan jazolanadi."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-310589",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "S-B01",
+      "roomTitle": "Sud hokimiyati va sudyaning mustaqilligi",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Mustaqil sud vakolati",
+      "reading_note": "Sudlar haqidagi qonunning 1-moddasi sud hokimiyati va odil sudlovning faqat sud tomonidan amalga oshirilishini, 9-moddasi sudyalarning mustaqilligini belgilaydi. Xuddi shu mustaqillik Konstitutsiya 136-moddasida kafolatlangan. Sudyaning vazifasi taraflardan biriga yutishni tashkil qilib berish emas.",
+      "source_id": "SUD",
+      "verified_articles": [
+        {
+          "article": "1",
+          "found": true,
+          "title": "1-modda. Sud hokimiyati",
+          "url": "https://lex.uz/uz/docs/-5534923?ONDATE=15.10.2026+00#-5536741",
+          "excerpt": "Oʻzbekiston Respublikasida sud hokimiyati qonun chiqaruvchi va ijro etuvchi hokimiyatdan, siyosiy partiyalardan, fuqarolik jamiyatining boshqa institutlaridan mustaqil holda ish yuritadi.\nOʻzbekiston Respublikasida odil sudlov faqat sud tomonidan amalga oshiriladi. Hech qaysi boshqa organlar va shaxslar sud hokimiyati vakolatlarini oʻzlashtirib olishga haqli emas."
+        },
+        {
+          "article": "9",
+          "found": true,
+          "title": "9-modda. Sudyalarning mustaqilligi",
+          "url": "https://lex.uz/uz/docs/-5534923?ONDATE=15.10.2026+00#-5536807",
+          "excerpt": "Sudyalar mustaqildirlar, faqat Oʻzbekiston Respublikasi Konstitutsiyasi va qonunlariga boʻysunadilar. Sudyalarning odil sudlovni amalga oshirishga doir faoliyatiga har qanday tarzda aralashishga yoʻl qoʻyilmaydi va bunday aralashish qonunga muvofiq javobgarlikka sabab boʻladi. Sudyalar muayyan ishlar boʻyicha hisobdor boʻlmaydi.\nSudyalarga odil sudlovni amalga oshirish bilan bogʻliq boʻlmagan har qanday vazifalar yuklatilishiga yoʻl qoʻyilmaydi."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-5534923?ONDATE=15.10.2026+00#-5536741",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "S-B02",
+      "roomTitle": "Taraflar tengligi va eshitilish imkoniyati",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Teng huquqlilik va eshitilish",
+      "reading_note": "FPK 8 va 10-moddalari qonun va sud oldidagi tenglik hamda taraflar tortishuvi va teng huquqliligiga taalluqli. 11-modda ish yuritish tili, 40 va 44-moddalar ishtirokchi va taraflarning protsessual huquqlarini belgilaydi. Teng imkoniyat dalillarning teng ishonchliligini yoki har bir taraf uchun qat’iy bir xil soniya ajratilishini anglatmaydi.",
+      "source_id": "FPK",
+      "verified_articles": [
+        {
+          "article": "8",
+          "found": true,
+          "title": "8-модда. Қонун ва суд олдида тенглик",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3517962",
+          "excerpt": "Фуқаролик ишлари бўйича одил судлов фуқароларнинг жинси, ирқи, миллати, тили, дини, эътиқоди, ижтимоий келиб чиқиши, ижтимоий мавқеидан, ташкилотларнинг эса ташкилий-ҳуқуқий шаклидан, мулкчилик шаклидан, жойлашган ери, шунингдек бошқа ҳолатлардан қатъи назар, қонун ва суд олдида тенглиги асосида амалга оширилади."
+        },
+        {
+          "article": "10",
+          "found": true,
+          "title": "10-модда. Тарафлар тортишуви ва тенг ҳуқуқлилиги",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3517971",
+          "excerpt": "Фуқаролик суд ишларини юритиш тарафларнинг тортишуви ва тенг ҳуқуқлилиги асосида амалга оширилади."
+        },
+        {
+          "article": "11",
+          "found": true,
+          "title": "11-модда. Суд ишлари юритиладиган тил",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3517976",
+          "excerpt": "Ўзбекистон Республикасида фуқаролик суд ишлари ўзбек тилида, қорақалпоқ тилида ёки муайян жойдаги кўпчилик аҳоли сўзлашадиган тилда юритилади.\nСуд ишлари юритиладиган тилни билмайдиган шахсларга ишга тааллуқли материаллар билан ўз она тилида тўлиқ танишиб чиқиш, судда она тилида ёки ўзи биладиган бошқа тилда сўзлаш, кўрсатув ва тушунтиришлар бериш, арз билан мурожаат этиш, илтимосномалар тақдим этиш, шунингдек ушбу Кодексда белгиланган тартибда таржимоннинг хизматларидан фойдаланиш ҳуқуқи таъминланади."
+        },
+        {
+          "article": "40",
+          "found": true,
+          "title": "40-модда. Ишда иштирок этувчи шахсларнинг ҳуқуқ ва мажбуриятлари",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3518474",
+          "excerpt": "Ишда иштирок этувчи шахслар иш материаллари билан танишиш, улардан кўчирмалар олиш, нусхалар кўчириш, рад этиш тўғрисида арз қилиш, далиллар тақдим этиш, далилларни текширишда иштирок этиш, ишда иштирок этувчи бошқа шахсларга ва одил судловни амалга оширишга кўмаклашаётган шахсларга саволлар бериш, арз қилиш, илтимосномалар тақдим этиш, судга оғзаки ва ёзма тушунтиришлар бериш, суд муҳокамаси давомида юзага келадиган барча масалалар бўйича ўзларининг важларини баён қилиш, бошқа шахсларнинг арзлари, илтимосномалари, важларига қарши эътирозлар билдириш, суд ҳужжатлари устидан шикоят қилиш (протест келтириш), суд ҳужжатларининг мажбурий ижросини талаб қилиш, давлат ижрочиси томонидан ҳаракатлар содир этилишида ҳозир бўлиш ва ўз ҳуқуқларини амалга ошириш ҳуқуқига эгадир.\nИшда иштирок этувчи шахслар ушбу Кодексда назарда тутилган бошқа процессуал ҳуқуқлардан ҳам фойдаланади."
+        },
+        {
+          "article": "44",
+          "found": true,
+          "title": "44-модда. Тарафларнинг процессуал ҳуқуқ ва мажбуриятлари",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3518539",
+          "excerpt": "Тарафлар процессуал ҳуқуқлардан тенг фойдаланадилар ва тенг мажбуриятларга эга бўладилар.\nДаъвогар билдирилган талабларнинг асосини ёки предметини ўзгартиришга, қўшимча талаблар тақдим этишга, даъво талабларининг миқдорини оширишга ёхуд камайтиришга, улардан тўлиқ ёки қисман воз кечишга ҳақли."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3517962",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "S-B03",
+      "roomTitle": "Fuqarolik majlisining tartibi",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Fuqarolik majlisining asosiy ketma-ketligi",
+      "reading_note": "FPK 210-moddasi majlisni ochish, 213-moddasi kelgan-kelmaganlikni tekshirish, 215-moddasi guvohlarni chiqarish, 216–217-moddalari tarkib, rad qilish va huquqlarni tushuntirishga taalluqli. Keyin tushuntirishlar, dalillarni tekshirish, muzokara va qaror bosqichlari keladi. Sudlanuvchining jinoyat protsessidagi oxirgi so‘zi fuqarolik ishiga majburiy bosqich qilib ko‘chirilmaydi.",
+      "source_id": "FPK",
+      "verified_articles": [
+        {
+          "article": "210",
+          "found": true,
+          "title": "210-модда. Суд мажлисини очиш",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522675",
+          "excerpt": "Ишни муҳокама қилиш учун тайинланган вақтда судья мажлис залига киради, суд мажлисини очади ва қайси иш кўрилиши лозимлигини эълон қилади."
+        },
+        {
+          "article": "213",
+          "found": true,
+          "title": "213-модда. Суд процесси иштирокчиларининг келган-келмаганлигини текшириш",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522716",
+          "excerpt": "Суд мажлисининг котиби мазкур иш бўйича чақирилганлардан кимлар келганлигини, келмаганларга суднинг чақирув қоғозлари ёки бошқа хабарномалар топширилган-топширилмаганлигини (етказиб берилганлигини) ва уларнинг келмаганлиги сабаблари тўғрисида қандай маълумотлар борлигини судга маълум қилади.\nСуд келганларнинг шахсини аниқлайди, шунингдек мансабдор шахслар ва вакилларнинг ваколатини текширади."
+        },
+        {
+          "article": "215",
+          "found": true,
+          "title": "215-модда. Гувоҳларни суд мажлиси залидан чиқариб юбориш",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522732",
+          "excerpt": "Гувоҳларнинг келган-келмаганлиги текширилгач, улар суд мажлиси залидан чиқариб юборилади. Раислик қилувчи суд томонидан сўроқ қилинган гувоҳлар сўроқ қилинмаган гувоҳлар билан муомалада бўлмаслиги учун чоралар кўради."
+        },
+        {
+          "article": "216",
+          "found": true,
+          "title": "216-модда. Суд таркибини эълон қилиш ва рад қилиш ҳуқуқини тушунтириш",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522738",
+          "excerpt": "Раислик қилувчи суднинг таркибини эълон қилади, прокурор, эксперт, мутахассис, таржимон, суд мажлисининг котиби сифатида кимлар иштирок этаётганлигини маълум қилади ва ишда иштирок этувчи шахсларга уларнинг рад қилиш тўғрисида ариза бериш ҳуқуқини тушунтиради."
+        },
+        {
+          "article": "217",
+          "found": true,
+          "title": "217-модда. Ишда иштирок этувчи шахсларга уларнинг ҳуқуқлари ва мажбуриятларини тушунтириш",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522748",
+          "excerpt": "Раислик қилувчи ишда иштирок этувчи шахсларга уларнинг процессуал ҳуқуқлари ва мажбуриятларини тушунтиради. Бу ҳақда суд мажлисининг баённомасида кўрсатилади."
+        },
+        {
+          "article": "219",
+          "found": true,
+          "title": "219-модда. Суднинг ишда иштирок этувчи шахсларнинг илтимосномаларини ҳал қилиши",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522755",
+          "excerpt": "Ишда иштирок этувчи шахсларнинг янги далилларни талаб қилиб олиш тўғрисидаги ва ишни муҳокама қилиш билан боғлиқ бошқа барча масалалар бўйича илтимосномалари ишда иштирок этувчи бошқа шахсларнинг фикр-мулоҳазалари эшитилганидан кейин суднинг ажрими билан ҳал қилинади."
+        },
+        {
+          "article": "227",
+          "found": true,
+          "title": "227-модда. Ишда иштирок этувчи шахсларнинг тушунтиришлари",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522954",
+          "excerpt": "Иш тўғрисида маъруза қилинганидан сўнг суд даъвогар ва унинг тарафида иштирок этаётган учинчи шахснинг, жавобгар ва унинг тарафида иштирок этаётган учинчи шахснинг, шунингдек ишда иштирок этувчи бошқа шахсларнинг тушунтиришларини эшитади.\nБошқа шахсларнинг ҳуқуқлари ва қонун билан қўриқланадиган манфаатларини ҳимоя қилиш мақсадида ариза берган прокурор, шунингдек бошқа шахслар арз қилган талаблари бўйича тушунтиришлар бериш ёки уларни асослаш учун биринчи бўлиб сўзга чиқади."
+        },
+        {
+          "article": "228",
+          "found": true,
+          "title": "228-модда. Далилларни текшириш тартибини белгилаш",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522984",
+          "excerpt": "Суд тарафларнинг ва ишда иштирок этувчи бошқа шахсларнинг тушунтиришларини эшитиб, гувоҳларни, экспертларни, мутахассисларни сўроқ қилиш ҳамда бошқа далилларни текшириш тартибини белгилайди."
+        },
+        {
+          "article": "229",
+          "found": true,
+          "title": "229-модда. Гувоҳни сўроқ қилиш тартиби",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522986",
+          "excerpt": "Сўроқ қилинмаган гувоҳлар ишни муҳокама қилиш вақтида суд мажлиси залида бўлиши мумкин эмас.\nРаислик қилувчи гувоҳни сўроқ қилишдан олдин унинг шахсини, ёшини, машғулоти турини, ушбу ишга алоқасини ҳамда тарафлар ва ишда иштирок этувчи бошқа шахслар билан ўзаро муносабатларини аниқлайди, шунингдек уни била туриб ёлғон кўрсатув берганлик учун Ўзбекистон Республикаси Жиноят кодексининг 238-моддасига мувофиқ жавобгар бўлиши тўғрисида огоҳлантиради. Шундан кейин раислик қилувчи гувоҳга: «Иш юзасидан ўзимга маълум бўлган барча маълумотларни судга айтиб беришга қасамёд қиламан. Фақат ҳақиқатни, барча ҳақиқатни гапириб бераман, ҳақиқатдан ўзга нарсани гапирмайман» деб ошкора қасамёд қилишни таклиф этади."
+        },
+        {
+          "article": "244",
+          "found": true,
+          "title": "244-модда. Суд музокаралари",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3523287",
+          "excerpt": "Суд музокаралари ишда иштирок этувчи шахсларнинг нутқларидан иборат бўлади.\nСуд музокаралари иштирокчилари ўз чиқишларида суд томонидан аниқламаган ҳолатларга, шунингдек суд мажлисида текширилмаган далилларга асосланишга ҳақли эмас."
+        },
+        {
+          "article": "247",
+          "found": true,
+          "title": "247-модда. Ҳал қилув қарорини қабул қилиш учун суднинг алоҳида хонага (маслаҳатхонага) кириши",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3523342",
+          "excerpt": "Суд музокараларини эшитганидан кейин суд ҳал қилув қарорини қабул қилиш учун алоҳида хонага (маслаҳатхонага) чиқиб кетади, бу ҳақда раислик қилувчи суд мажлиси залида ҳозир бўлганларга эълон қилади."
+        },
+        {
+          "article": "248",
+          "found": true,
+          "title": "248-модда. Суднинг ҳал қилув қарорини ўқиб эшиттириш",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3523346",
+          "excerpt": "Суд ҳал қилув қарори имзоланганидан кейин суд мажлиси залига қайтиб киради, бу ерда суднинг ҳал қилув қарорини раислик қилувчи ўқиб эшиттиради. Раислик қилувчи суд мажлисининг баённомаси билан танишиш ва ҳал қилув қарори устидан шикоят қилиш тартиби ва муддатини тушунтиради ҳамда ушбу иш бўйича суд мажлисини ёпиқ деб эълон қилади."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522675",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "S-B04",
+      "roomTitle": "Dalillarni xolis baholash",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Dalillarni xolis baholash",
+      "reading_note": "FPK 80-moddasi alohida dalilning aloqadorligi, maqbulligi va ishonchliligini hamda majmuaning yetarliligini baholashni nazarda tutadi. 87-modda yozma dalilning aslini taqdim etish masalasiga taalluqli. Asl va nusxa o‘rtasidagi farqni ko‘rmasdan bir hujjatga oldindan mutlaq kuch berish mumkin emas.",
+      "source_id": "FPK",
+      "verified_articles": [
+        {
+          "article": "80",
+          "found": true,
+          "title": "80-модда. Далилларга баҳо бериш",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519330",
+          "excerpt": "Суд далилларга ишнинг ҳамма ҳолатларини жамлаб, уларни суд мажлисида қонунга амал қилган ҳолда, ҳар тарафлама, тўлиқ ва холис кўриб чиқишга асосланган ўз ички ишончи бўйича баҳо беради.\nҲар бир далил алоқадорлик, мақбуллик ва ишончлилик нуқтаи назаридан, далилларнинг мажмуи эса етарлилик нуқтаи назаридан баҳоланиши лозим."
+        },
+        {
+          "article": "87",
+          "found": true,
+          "title": "87-модда. Ёзма далилларнинг аслини тақдим этиш",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519453",
+          "excerpt": "Қоида тариқасида, ёзма далилларнинг асли ёки тегишли тарзда тасдиқланган кўчирма нусхаси тақдим этилади. Агар ҳужжатнинг кўчирма нусхаси тақдим этилган бўлса, суд зарур ҳолларда, унинг аслини тақдим этишни талаб қилишга ҳақли. Агар кўриб чиқилаётган ишга ҳужжатнинг фақат бир қисми тааллуқли бўлса, ундан тасдиқланган кўчирма нусха тақдим этилиши мумкин."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519330",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "S-B05",
+      "roomTitle": "Boshlang‘ich lab: qarzni qaytarish nizosi",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Qarzning mavjudligi va qoldig‘i",
+      "reading_note": "FK 732–735-moddalari qarz shartnomasi, uning shakli, foizlar va qarz summasini qaytarish majburiyatini tartibga soladi. Pul o‘tkazmasi mazmuni, qaytarish sharti va to‘lovlar aynan nizodagi majburiyatga tegishliligi tekshiriladi. Qarzdorlik hisobidan oldin qarz va to‘lovlarning huquqiy asosini aniqlash kerak.",
+      "source_id": "FK2",
+      "verified_articles": [
+        {
+          "article": "732",
+          "found": true,
+          "title": "732-modda. Qarz shartnomasi",
+          "url": "https://lex.uz/uz/docs/-180552#-190102",
+          "excerpt": "Qarz shartnomasi boʻyicha bir taraf (qarz beruvchi) ikkinchi tarafga (qarz oluvchiga) pul yoki turga xos alomatlari bilan belgilangan boshqa ashyolarni mulk qilib beradi, qarz oluvchi esa qarz beruvchiga bir yoʻla yoki boʻlib-boʻlib, oʻshancha summadagi pulni yoki qarzga olingan ashyolarning xili, sifati va miqdoriga baravar ashyolarni (qarz summasini) qaytarib berish majburiyatini oladi.\nQarz shartnomasi pul yoki ashyolar topshirilgan paytdan boshlab tuzilgan hisoblanadi."
+        },
+        {
+          "article": "733",
+          "found": true,
+          "title": "733-modda. Qarz shartnomasining shakli",
+          "url": "https://lex.uz/uz/docs/-180552#-190114",
+          "excerpt": "Fuqarolar oʻrtasida qarz shartnomasi, agar bu qarzning summasi bazaviy hisoblash miqdorining oʻn baravaridan ortiq boʻlsa, oddiy yozma shaklda tuzilishi shart, shartnomadagi taraflardan biri yuridik shaxs boʻlganida esa summasidan qatʼi nazar, yozma shaklda tuzilishi shart.\nQarz shartnomasining yozma shakliga rioya qilmaslik ushbu Kodeksning 109-moddasida nazarda tutilgan oqibatlarga olib keladi."
+        },
+        {
+          "article": "734",
+          "found": true,
+          "title": "734-modda. Qarz shartnomasi boʻyicha foizlar",
+          "url": "https://lex.uz/uz/docs/-180552#-190130",
+          "excerpt": "Agar qonunda yoki qarz shartnomasida boshqacha tartib nazarda tutilgan boʻlmasa, qarz beruvchi (yuridik shaxs yoki fuqaro) qarz oluvchidan qarz summasiga shartnomada belgilangan miqdorda va tartibda foizlar olish huquqiga ega boʻladi.\nAgar qarz shartnomasi boʻyicha qarz oluvchiga turga xos alomatlari bilan belgilangan ashyolar topshirilsa, ularning miqdori va shakli (pul yoki natura holidagi) shartnomada koʻzda tutilgan hollarda foizlar toʻlanishi kerak."
+        },
+        {
+          "article": "735",
+          "found": true,
+          "title": "735-modda. Qarz oluvchining qarz summasini qaytarish majburiyati",
+          "url": "https://lex.uz/uz/docs/-180552#-190167",
+          "excerpt": "Qarz oluvchi olingan qarz summasini qarz shartnomasida nazarda tutilgan muddatda va tartibda qarz beruvchiga qaytarishi shart.\nAgar qarz summasini qaytarish muddati shartnomada belgilangan boʻlmasa, qarz oluvchi uni qarz beruvchi qarzni qaytarish haqida talab qoʻygan kundan boshlab oʻttiz kun mobaynida qaytarishi kerak."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-180552#-190102",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "S-J01",
+      "roomTitle": "Ishni tayyorlash va aniqlanishi kerak bo‘lgan holatlar",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Ishni tayyorlash vazifalari",
+      "reading_note": "FPK 201–205-moddalari ishni sud muhokamasiga tayyorlash vazifalari, muddatlari, taraflarni aniqlashtirishi va sudyaning tayyorlash harakatlariga taalluqli. Nizoli holatlar va zarur materiallarni belgilash kelajakdagi natijani oldindan e’lon qilish emas. Har bir tarafdan nimani aniqlashtirish kerakligi xolis rejalashtiriladi.",
+      "source_id": "FPK",
+      "verified_articles": [
+        {
+          "article": "201",
+          "found": true,
+          "title": "201-модда. Ишларни суд муҳокамасига тайёрлаш вазифалари",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522420",
+          "excerpt": "Судья аризани қабул қилиш ва иш қўзғатиш тўғрисида ажрим чиқарганидан сўнг ишни ўз вақтида ва тўғри кўриб чиқиш ҳамда ҳал қилиш мақсадида уни суд муҳокамасига тайёрлайди.\nИшни суд муҳокамасига тайёрлаш вазифалари қуйидагилардан иборат:"
+        },
+        {
+          "article": "202",
+          "found": true,
+          "title": "202-модда. Ишни суд муҳокамасига тайёрлаш муддатлари",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522454",
+          "excerpt": "Фуқаролик ишларини суд муҳокамасига тайёрлаш ариза қабул қилинган ва фуқаролик иши қўзғатилган кундан эътиборан ўн кунлик муддатдан кечиктирмай амалга оширилиши керак. Алоҳида ҳолларда, бу муддат ўта мураккаб ишлар бўйича судьянинг асослантирилган ажримига биноан йигирма кунга узайтирилиши мумкин, бундан алимент ундириш ҳақидаги, майиб бўлганлик ёки соғлиққа бошқача тарзда шикаст етказилганлиги, шунингдек боқувчисининг вафот этганлиги муносабати билан етказилган зарарнинг ўрнини қоплаш ҳамда меҳнатга оид ҳуқуқий муносабатлардан келиб чиқадиган талаблар тўғрисидаги ишлар мустасно."
+        },
+        {
+          "article": "203",
+          "found": true,
+          "title": "203-модда. Ишни тайёрлаш тартибида тарафларни сўроқ қилиш",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522462",
+          "excerpt": "Зарур бўлган ҳолларда, ишни суд муҳокамасига тайёрлаш тартибида судья тарафларни сўроқ қилиши мумкин.\n1) даъвогарни ўзи арз қилинган талабларнинг моҳияти бўйича сўроқ қилади, ундан жавобгар билдириши мумкин бўлган эътирозларни аниқлайди ва, агар бу зарур бўлса, даъвогарга қўшимча далиллар тақдим этишни таклиф қилади, шунингдек арз қилинган талабларидан воз кечиш ҳуқуқини ҳамда воз кечишнинг ҳуқуқий оқибатларини тушунтиради;"
+        },
+        {
+          "article": "204",
+          "found": true,
+          "title": "204-модда. Судьянинг ишни суд муҳокамасига тайёрлаш бўйича ҳаракатлари",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522508",
+          "excerpt": "Судья ишни суд муҳокамасига тайёрлаш тартибида қуйидаги ҳаракатларни амалга оширади:\n1) ишга учинчи шахсларнинг жалб этилиши ёки киришиши тўғрисидаги масалани ҳал қилади ва ишда иштирок этишига йўл қўйилган, мустақил талаблар билан арз қилувчи учинчи шахсларни ушбу Кодекснинг 203-моддасига мувофиқ сўроқ қилади;"
+        },
+        {
+          "article": "205",
+          "found": true,
+          "title": "205-модда. Ишни суд муҳокамасига тайинлаш",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522558",
+          "excerpt": "Судья иш етарли даражада тайёрланган деб топгач, уни суд мажлисида муҳокама қилишга тайинлаш тўғрисида ажрим чиқаради ҳамда тарафлар ва суд процессининг бошқа иштирокчиларини ишни кўриш вақти ва жойи ҳақида хабардор қилиш юзасидан чоралар кўради."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522420",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "S-J02",
+      "roomTitle": "Iltimosnoma va e’tirozni asos bilan hal qilish",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Iltimosnomani eshitish va hal etish",
+      "reading_note": "FPK 219-moddasiga ko‘ra yangi dalil talab qilish va muhokama bilan bog‘liq boshqa iltimosnomalar boshqa ishtirokchilarning fikrlari eshitilganidan keyin sud ajrimi bilan hal qilinadi. Murojaatning sababi va so‘ralgan chorasi aniq bo‘lishi lozim. Bitta iltimosnomani qanoatlantirish ishning yakuniy natijasini avtomatik belgilamaydi.",
+      "source_id": "FPK",
+      "verified_articles": [
+        {
+          "article": "219",
+          "found": true,
+          "title": "219-модда. Суднинг ишда иштирок этувчи шахсларнинг илтимосномаларини ҳал қилиши",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522755",
+          "excerpt": "Ишда иштирок этувчи шахсларнинг янги далилларни талаб қилиб олиш тўғрисидаги ва ишни муҳокама қилиш билан боғлиқ бошқа барча масалалар бўйича илтимосномалари ишда иштирок этувчи бошқа шахсларнинг фикр-мулоҳазалари эшитилганидан кейин суднинг ажрими билан ҳал қилинади."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522755",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "S-J03",
+      "roomTitle": "Guvohlik, raqamli yozuv va ziddiyat",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Guvohlik va raqamli material",
+      "reading_note": "FPKning raqamli dalillarga oid 89¹–89⁴-moddalari materialni tegishli shakl va tartibda ko‘rish uchun huquqiy tayanchdir; baholashning umumiy qoidasi 80-moddada. Guvoh xotirasi bilan raqamli qayd farqi topilsa, manba, kontekst va yaxlitlik tekshiriladi. Farqning o‘zi guvohning yolg‘on gapirganini avtomatik isbotlamaydi.",
+      "source_id": "FPK",
+      "verified_articles": [
+        {
+          "article": "80",
+          "found": true,
+          "title": "80-модда. Далилларга баҳо бериш",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519330",
+          "excerpt": "Суд далилларга ишнинг ҳамма ҳолатларини жамлаб, уларни суд мажлисида қонунга амал қилган ҳолда, ҳар тарафлама, тўлиқ ва холис кўриб чиқишга асосланган ўз ички ишончи бўйича баҳо беради.\nҲар бир далил алоқадорлик, мақбуллик ва ишончлилик нуқтаи назаридан, далилларнинг мажмуи эса етарлилик нуқтаи назаридан баҳоланиши лозим."
+        },
+        {
+          "article": "89^1",
+          "found": true,
+          "title": "89^1-модда. Электрон маълумотлар",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#7239485",
+          "excerpt": "Электрон маълумотлар электрон қурилмалардан ва ахборот тизимларидан, шунингдек ахборот технологияларидан фойдаланган холда яратиладиган, ишлов бериладиган хамда сақланадиган маълумотлардир.\nИшда иштирок этувчи тарафлар, гувоҳлар ҳамда бошқа шахслар электрон маълумотларни ушбу маълумотларнинг кўчирма нусхасини электрон жисмдан электрон маълумотлар мавжуд бўлган бошқа электрон жисмга олиш орқали тақдим этишга ҳақли."
+        },
+        {
+          "article": "89^2",
+          "found": true,
+          "title": "89^2-модда. Рақамли далиллар",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#7239490",
+          "excerpt": "Иш учун аҳамиятга эга бўлган ҳолатлар тўғрисидаги маълумотлар мавжуд бўлган электрон маълумотлар, шу жумладан электрон тарздаги файллар, аудио-, видеоёзувлар, Интернет жаҳон ахборот тармоғида сақланаётган маълумотлар, шунингдек бошқа электрон маълумотлар рақамли далиллардир.\nРақамли далилдан кўчирма нусха олишга, башарти унинг яхлитлиги ва айнан ўхшашлиги сақланса, йўл қўйилади."
+        },
+        {
+          "article": "89^3",
+          "found": true,
+          "title": "89^3-модда. Рақамли далилларни тақдим этиш мажбурияти",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#7239496",
+          "excerpt": "Фуқаролар, шунингдек корхоналарнинг, муассасаларнинг, ташкилотларнинг раҳбарлари ва бошқа мансабдор шахслари ўз тасарруфида бўлган, суд ҳаракатларини амалга оширишда фойдаланиш учун зарур бўлган электрон маълумотларни суднинг қонуний талабига кўра электрон жисмлар билан бирга тақдим этиши шарт.\nАгар суд томонидан рақамли далиллар талаб қилинаётган шахс уни суд белгилаган муддатда тақдим этиш имконига эга бўлмаса, ушбу шахс сабабларни кўрсатган ҳолда бу ҳақда судни хабардор қилиши шарт."
+        },
+        {
+          "article": "89^4",
+          "found": true,
+          "title": "89^4-модда. Рақамли далилларни кўздан кечириш ва текшириш шартлари",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#7239506",
+          "excerpt": "Суд мутахассис иштирокида рақамли далилларни бевосита кўздан кечириши ва текшириши шарт.\nРақамли далилларни судга тақдим этиш мумкин бўлмаган ёки уларни етказиб беришда қийинчиликлар мавжуд бўлган тақдирда суд мазкур далиллар сақланадиган жойда уларнинг кўздан кечирилишини ва текширилишини талаб қилиши мумкин."
+        },
+        {
+          "article": "229",
+          "found": true,
+          "title": "229-модда. Гувоҳни сўроқ қилиш тартиби",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522986",
+          "excerpt": "Сўроқ қилинмаган гувоҳлар ишни муҳокама қилиш вақтида суд мажлиси залида бўлиши мумкин эмас.\nРаислик қилувчи гувоҳни сўроқ қилишдан олдин унинг шахсини, ёшини, машғулоти турини, ушбу ишга алоқасини ҳамда тарафлар ва ишда иштирок этувчи бошқа шахслар билан ўзаро муносабатларини аниқлайди, шунингдек уни била туриб ёлғон кўрсатув берганлик учун Ўзбекистон Республикаси Жиноят кодексининг 238-моддасига мувофиқ жавобгар бўлиши тўғрисида огоҳлантиради. Шундан кейин раислик қилувчи гувоҳга: «Иш юзасидан ўзимга маълум бўлган барча маълумотларни судга айтиб беришга қасамёд қиламан. Фақат ҳақиқатни, барча ҳақиқатни гапириб бераман, ҳақиқатдан ўзга нарсани гапирмайман» деб ошкора қасамёд қилишни таклиф этади."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519330",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "S-J04",
+      "roomTitle": "Hal qiluv qarorining sabablarini yozish",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Hal qiluv qarorining mazmuni",
+      "reading_note": "FPK 253-moddasiga ko‘ra hal qiluv qarori kirish, bayon, asoslantiruvchi va xulosa qismlaridan iborat. Asoslantirishda aniqlangan holatlar, dalillar va qo‘llangan moddiy hamda protsessual normalar ko‘rsatiladi. Xulosa qismida har bir talabning natijasi, xarajatlar hamda shikoyat qilish tartibi va muddati tegishli qonunga muvofiq bayon etiladi.",
+      "source_id": "FPK",
+      "verified_articles": [
+        {
+          "article": "249",
+          "found": true,
+          "title": "249-модда. Ҳал қилув қарорини қабул қилиш",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3523549",
+          "excerpt": "Суд ишни мазмунан кўриб чиқиш натижалари бўйича ҳал қилув қарорини қабул қилади.\nСуд ҳал қилув қарорини Ўзбекистон Республикаси номидан қабул қилади."
+        },
+        {
+          "article": "250",
+          "found": true,
+          "title": "250-модда. Ҳал қилув қарори қабул қилинишининг сир тутилиши",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3523559",
+          "excerpt": "Ҳал қилув қарори судья томонидан алоҳида хонада (маслаҳатхонада) қабул қилинади. Ҳал қилув қарорини қабул қилиш вақтида бошқа шахсларнинг ҳозир бўлишига йўл қўйилмайди."
+        },
+        {
+          "article": "251",
+          "found": true,
+          "title": "251-модда. Ҳал қилув қарорини қабул қилишда ечиладиган масалалар",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3523564",
+          "excerpt": "Суд ҳал қилув қарорини қабул қилаётганида далилларга баҳо беради, иш учун аҳамиятга эга бўлган қандай ҳолатлар аниқланганлигини ва қандайлари аниқланмаганлигини, бу иш бўйича қандай қонун ёки бошқа қонунчилик ҳужжати қўлланилиши кераклигини ҳамда арз қилинган талаб қаноатлантирилиши лозимлигини ёки лозим эмаслигини аниқлайди.\nСуд, шунингдек суд харажатларини ҳам тақсимлайди, ҳал қилув қарорини ижро этиш муддати ва тартибини белгилайди, бошқа қўшимча масалаларни ҳал қилади."
+        },
+        {
+          "article": "252",
+          "found": true,
+          "title": "252-модда. Ҳал қилув қарорини баён қилиш",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3523572",
+          "excerpt": "Суднинг ҳал қилув қарори ишни кўриб чиққан суднинг мажлисида раислик қилувчи томонидан ёзма шаклда баён этилади ва у томонидан имзоланади.\nСуднинг ҳал қилув қарори бир нусхада тузилади ва иш материалларига қўшиб қўйилади."
+        },
+        {
+          "article": "253",
+          "found": true,
+          "title": "253-модда. Ҳал қилув қарорининг мазмуни",
+          "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3523580",
+          "excerpt": "Суднинг ҳал қилув қарори кириш, баён, асослантирувчи ва хулоса қисмларидан иборат бўлади.\nҲал қилув қарорининг кириш қисмида иш рақами, ҳал қилув қарори қабул қилинган вақт ва жой, ҳал қилув қарорини қабул қилган суднинг номи, судьянинг фамилияси, исми ва отасининг исми, суд мажлисининг котиби, тарафлар, ишда иштирок этувчи бошқа шахслар кўрсатилади."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3523549",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "S-J05",
+      "roomTitle": "O‘rta bosqich lab: ish haqi va hisob-kitob",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Ish haqi va yakuniy hisob-kitob",
+      "reading_note": "MK 253-moddasi ish haqini to‘lash muddatlariga, 254-moddasi esa mehnat shartnomasi bekor qilingandagi hisob-kitob muddatlariga taalluqli. Bu ikki vaziyat bir xil emas. Hisoblangan summa, to‘langan summa va davrni ishonchli material bilan bog‘lamasdan qolgan qarzni aniqlab bo‘lmaydi.",
+      "source_id": "MK",
+      "verified_articles": [
+        {
+          "article": "253",
+          "found": true,
+          "title": "253-модда. Иш ҳақини тўлаш муддатлари",
+          "url": "https://lex.uz/uz/docs/6257288#6263813",
+          "excerpt": "Ходимларга иш ҳақи тўлаш муддатлари жамоа шартномасида ёки ички ҳужжатда, улар мавжуд бўлмаганда эса меҳнат шартномасида шарт қилиб кўрсатилган муддатларда белгиланади ва ҳар ярим ойда бир мартадан кам бўлиши мумкин эмас. Ходимларга ойлик иш ҳақи, қоида тариқасида, ўн олти кундан кўп бўлмаган танаффус билан икки қисмга бўлинган ҳолда (бўнакда ва қолган қисми миқдорида) тўланади.\nЎзбекистон Республикаси Вазирлар Маҳкамаси томонидан иш ҳақи ойига бир марта тўланадиган ходимларнинг айрим тоифалари белгиланиши мумкин."
+        },
+        {
+          "article": "254",
+          "found": true,
+          "title": "254-модда. Меҳнат шартномаси бекор қилинганда ҳисоб-китоб қилиш муддатлари",
+          "url": "https://lex.uz/uz/docs/6257288#6263820",
+          "excerpt": "Меҳнат шартномаси бекор қилинганда иш берувчидан ходимга берилиши керак бўлган барча суммаларни тўлаш ходим билан тузилган меҳнат шартномаси бекор қилинган куни амалга оширилади. Агар ходим меҳнат шартномаси бекор қилинган куни ишламаган бўлса, тегишли суммалар ушбу ходим томонидан ҳисоб-китоб қилиш тўғрисидаги талаб тақдим этилганидан кейин уч кундан кечиктирмай тўланиши керак.\nМеҳнат шартномаси бекор қилинганда ходимга тегишли бўлган суммалар миқдорлари тўғрисида низо чиққан тақдирда, иш берувчи ходимга шак-шубҳасиз тегадиган суммани ушбу модданинг биринчи қисмида кўрсатилган муддатда тўлаши шарт."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/6257288#6263813",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "S-S01",
+      "roomTitle": "Jinoyat protsessida asosiy kafolatlar",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Jinoyat protsessining konstitutsiyaviy kafolatlari",
+      "reading_note": "Konstitutsiyaning 26–29-moddalaridagi qadr-qimmat, erkinlik, aybsizlik prezumpsiyasi va malakali yuridik yordam kafolatlari birga qo‘llanadi. 28-modda o‘z aybsizligini isbotlash majburiyati yo‘qligini va sukut huquqini belgilaydi. Sukut aybdorlikka dalil qilib olinmaydi.",
+      "source_id": "KON",
+      "verified_articles": [
+        {
+          "article": "26",
+          "title": "26-modda",
+          "url": "https://gov.uz/oz/mfa/sections/view/14475"
+        },
+        {
+          "article": "27",
+          "title": "27-modda",
+          "url": "https://gov.uz/oz/mfa/sections/view/14475"
+        },
+        {
+          "article": "28",
+          "title": "28-modda",
+          "url": "https://gov.uz/oz/mfa/sections/view/14475"
+        },
+        {
+          "article": "29",
+          "title": "29-modda",
+          "url": "https://gov.uz/oz/mfa/sections/view/14475"
+        }
+      ],
+      "source_url": "https://gov.uz/oz/mfa/sections/view/14475",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "S-S02",
+      "roomTitle": "Maqbullik bo‘yicha asosli qaror",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Nomaqbul dalil haqidagi iltimosnoma",
+      "reading_note": "JPK 95¹-moddasi dalillarning maqbul emasligiga, 405¹¹-moddasi nomaqbul dalillarni chiqarib tashlash to‘g‘risidagi iltimosnomaga taalluqli. Qaysi material qanday sharoitda olingani va taraflar vajlari tekshiriladi. Bitta dalil chiqarilishi qolgan materiallar bo‘yicha alohida baholash zaruratini yo‘qotmaydi.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "95^1",
+          "found": true,
+          "title": "95^1-modda. Dalillarning maqbul emasligi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-3644484",
+          "excerpt": "Agar faktik maʼlumotlar qonunga xilof usullar orqali yoki jinoyat protsessi ishtirokchilarini qonun bilan kafolatlangan huquqlaridan mahrum qilish yoki bu huquqlarni cheklash yoʻli bilan yoxud ushbu Kodeks talablari buzilgan holda olingan boʻlsa, shu jumladan:\n1) jinoyat protsessi ishtirokchilariga yoki ularning yaqin qarindoshlariga nisbatan qiynoqqa solish va boshqa shafqatsiz, gʻayriinsoniy yoki qadr-qimmatni kamsituvchi muomala hamda jazo turlarini qoʻllagan holda;"
+        },
+        {
+          "article": "405^11",
+          "found": true,
+          "title": "405^11-modda. Nomaqbul dalillarni chiqarib tashlash toʻgʻrisidagi iltimosnoma",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-5305924",
+          "excerpt": "Ayblanuvchi, himoyachi va davlat ayblovchisi jinoyat ishi materiallaridagi har qanday dalilni, agar ularni nomaqbul dalillar deb hisoblasa, chiqarib tashlash toʻgʻrisida iltimosnoma berishga haqli.\nIltimosnoma jinoyat ishi sudga ayblov dalolatnomasi yoki ayblov xulosasi bilan birga yuborilganidan keyin, ayblov dalolatnomasining yoki ayblov xulosasining koʻchirma nusxasi olingan kundan eʼtiboran uch sutka ichida berilishi mumkin."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-3644484",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "S-S03",
+      "roomTitle": "Muqobil izohlar va bartaraf etilmagan shubha",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Shubha va hukm asoslari",
+      "reading_note": "JPK 23-moddasi aybsizlik prezumpsiyasini, 463-moddasi ayblov hukmi taxminlarga asoslanmasligini belgilaydi. 464-moddada oqlov hukmi asoslari alohida ko‘rsatilgan. Bartaraf etish imkoniyatlari tugagan aybdorlikka oid shubhalar shaxs foydasiga hal qilinadi; har mayda tafovutning ahamiyati esa ish mazmunida baholanadi.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "23",
+          "found": true,
+          "title": "23-modda. Aybsizlik prezumpsiyasi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252892",
+          "excerpt": "Gumon qilinuvchi, ayblanuvchi yoki sudlanuvchi uning jinoyat sodir etishda aybdorligi qonunda nazarda tutilgan tartibda isbotlangunga va qonuniy kuchga kirgan sud hukmi bilan aniqlangunga qadar aybsiz hisoblanadi.\nAybdorlikka oid barcha shubhalar, agar ularni bartaraf etish imkoniyatlari tugagan boʻlsa, gumon qilinuvchining, ayblanuvchining, sudlanuvchining yoki mahkumning foydasiga hal qilinishi kerak. Shuningdek qonun qoʻllanilayotganda kelib chiqadigan shubhalar ham gumon qilinuvchining, ayblanuvchining, sudlanuvchining yoki mahkumning foydasiga hal qilinishi kerak."
+        },
+        {
+          "article": "463",
+          "found": true,
+          "title": "463-modda. Ayblov hukmi chiqarish asoslari",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256551",
+          "excerpt": "Ayblov hukmi taxminlarga asoslangan boʻlishi mumkin emas va faqat sudlanuvchining jinoyat sodir etishda aybli ekanligi sud muhokamasi davomida isbot qilingan taqdirdagina chiqariladi. Ayblov hukmiga jinoyat sodir etilishining ish boʻyicha barcha mumkin boʻlgan holatlarini tekshirish, ish materiallarida maʼlum boʻlib qolgan barcha kam-koʻstni toʻldirish, yuzaga kelgan hamma shubha va qarama-qarshiliklarga barham berish natijasida yigʻilgan ishonchli dalillargina asos qilib olinishi lozim.\nSud quyidagi hollarda jazodan ozod qilib, ayblov hukmini chiqaradi, basharti:"
+        },
+        {
+          "article": "464",
+          "found": true,
+          "title": "464-modda. Oqlov hukmini chiqarish asoslari",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256562",
+          "excerpt": "Oqlov hukmi quyidagi hollarda chiqariladi, basharti:\n2) sudlanuvchi sodir etgan qilmishda jinoyat tarkibi boʻlmasa;"
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252892",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "S-S04",
+      "roomTitle": "Hukm loyihasini tekshirish",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Hukmning asoslarini tekshirish",
+      "reading_note": "JPK 455-moddasiga ko‘ra hukm qonuniy, asosli va adolatli bo‘lishi shart. 457-moddada hukm chiqarishda hal qilinadigan masalalar, 463–464-moddalarda ayblov va oqlov asoslari ko‘rsatilgan. Dalillarni shunchaki sanash ularning qabul yoki rad etilish sababini ko‘rsatish o‘rnini bosmaydi.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "455",
+          "found": true,
+          "title": "455-modda. Hukmning qonuniy, asosli va adolatli boʻlishi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256504",
+          "excerpt": "Hukm qonuniy, asosli va adolatli boʻlishi shart.\nHukm qonunning barcha talablariga amal qilingan holda va qonun asosida chiqarilgan boʻlsa, qonuniy deb eʼtirof etiladi."
+        },
+        {
+          "article": "457",
+          "found": true,
+          "title": "457-modda. Hukm chiqarish vaqtida sud hal qiladigan masalalar",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256514",
+          "excerpt": "Sud hukm chiqarish vaqtida alohida xonada (maslahatxonada) quyidagi masalalarni hal qiladi:\n1) sudlanuvchi aybli deb topilayotgan qilmish haqiqatan sodir etilganmi;"
+        },
+        {
+          "article": "463",
+          "found": true,
+          "title": "463-modda. Ayblov hukmi chiqarish asoslari",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256551",
+          "excerpt": "Ayblov hukmi taxminlarga asoslangan boʻlishi mumkin emas va faqat sudlanuvchining jinoyat sodir etishda aybli ekanligi sud muhokamasi davomida isbot qilingan taqdirdagina chiqariladi. Ayblov hukmiga jinoyat sodir etilishining ish boʻyicha barcha mumkin boʻlgan holatlarini tekshirish, ish materiallarida maʼlum boʻlib qolgan barcha kam-koʻstni toʻldirish, yuzaga kelgan hamma shubha va qarama-qarshiliklarga barham berish natijasida yigʻilgan ishonchli dalillargina asos qilib olinishi lozim.\nSud quyidagi hollarda jazodan ozod qilib, ayblov hukmini chiqaradi, basharti:"
+        },
+        {
+          "article": "464",
+          "found": true,
+          "title": "464-modda. Oqlov hukmini chiqarish asoslari",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256562",
+          "excerpt": "Oqlov hukmi quyidagi hollarda chiqariladi, basharti:\n2) sudlanuvchi sodir etgan qilmishda jinoyat tarkibi boʻlmasa;"
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256504",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "S-S05",
+      "roomTitle": "Final lab: himoyachisiz bayonot va qolgan dalillar",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Himoya kafolati va qolgan dalillar",
+      "reading_note": "Avval JPK 51-moddasi bo‘yicha himoyachi ishtiroki shart bo‘lganligi va 95¹-modda bo‘yicha dalilning maqbulligi tekshiriladi. Keyin qolgan materiallar mustaqil baholanadi; 112-modda iqrorlik boshqa dalillar majmui bilan tasdiqlanishi kerakligini belgilaydi. Bir bayonotning chiqarilishini butun ishning tayyor oqlov hukmi deb qabul qilib bo‘lmaydi.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "51",
+          "found": true,
+          "title": "51-modda. Himoyachi ishtirok etishi shart boʻlgan hollar",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253601",
+          "excerpt": "2) soqovlar, karlar, koʻrlar, jismoniy nuqsoni yoki ruhiy holati buzilganligi sababli oʻzini oʻzi himoya qilish huquqini amalga oshirishga qiynaladigan boshqa shaxslarning ishi boʻyicha;\n3) sudlov ishi olib borilayotgan tilni bilmaydigan shaxslarning ishi boʻyicha;"
+        },
+        {
+          "article": "95^1",
+          "found": true,
+          "title": "95^1-modda. Dalillarning maqbul emasligi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-3644484",
+          "excerpt": "Agar faktik maʼlumotlar qonunga xilof usullar orqali yoki jinoyat protsessi ishtirokchilarini qonun bilan kafolatlangan huquqlaridan mahrum qilish yoki bu huquqlarni cheklash yoʻli bilan yoxud ushbu Kodeks talablari buzilgan holda olingan boʻlsa, shu jumladan:\n1) jinoyat protsessi ishtirokchilariga yoki ularning yaqin qarindoshlariga nisbatan qiynoqqa solish va boshqa shafqatsiz, gʻayriinsoniy yoki qadr-qimmatni kamsituvchi muomala hamda jazo turlarini qoʻllagan holda;"
+        },
+        {
+          "article": "112",
+          "found": true,
+          "title": "112-modda. Gumon qilinuvchi va ayblanuvchining koʻrsatuvlarini baholash",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253940",
+          "excerpt": "Gumon qilinuvchining u sodir etgan jinoyat haqidagi koʻrsatuvlari va ayblanuvchining oʻz aybiga iqror boʻlishi, bu iqror boʻlish mavjud dalillar majmui bilan tasdiqlangan taqdirdagina, uni ayblash uchun asos qilib olinishi mumkin.\nGumon qilinuvchi va ayblanuvchining bergan koʻrsatuvlari bilan aniqlangan holatlar, ayblanuvchi oʻz aybiga iqror boʻlgan taqdirda ham, oʻzining aybdor ekanligini inkor qilgan taqdirda ham ishning hamma holatlari bilan bogʻlangan holda boshqa dalillar kabi tekshirib chiqilishi va baholanishi lozim."
+        },
+        {
+          "article": "455",
+          "found": true,
+          "title": "455-modda. Hukmning qonuniy, asosli va adolatli boʻlishi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256504",
+          "excerpt": "Hukm qonuniy, asosli va adolatli boʻlishi shart.\nHukm qonunning barcha talablariga amal qilingan holda va qonun asosida chiqarilgan boʻlsa, qonuniy deb eʼtirof etiladi."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253601",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "P-B01",
+      "roomTitle": "Prokuratura vazifasi va qonuniylik",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Umumiy nazorat va suddagi vazifa",
+      "reading_note": "Prokuratura haqidagi qonunning 2, 4 va 5-moddalari organlarning vazifalari, faoliyat yo‘nalishlari va prinsiplarini belgilaydi; 33-modda sudlarda ishlarni ko‘rishda ishtirok etishga taalluqli. Prokurorning suddagi aniq maqomi tegishli protsessual kodeks bilan aniqlanadi. Har qanday murojaatni davlat aybloviga aylantirish mumkin emas.",
+      "source_id": "PROK",
+      "verified_articles": [
+        {
+          "article": "2",
+          "found": true,
+          "title": "2-модда. Ўзбекистон Республикаси прокуратура органларининг асосий вазифалари",
+          "url": "https://lex.uz/uz/docs/106197#106228",
+          "excerpt": "Ўзбекистон Республикаси прокуратура органларининг (бундан буён матнда прокуратура органлари деб юритилади) асосий вазифалари қонун устуворлигини таъминлаш, қонунийликни мустаҳкамлаш, фуқароларнинг ҳуқуқ ҳамда эркинликларини, жамият ва давлатнинг қонун билан қўриқланадиган манфаатларини, Ўзбекистон Республикаси конституциявий тузумини ҳимоя қилиш, ҳуқуқбузарликларнинг олдини олиш ва профилактика қилишдан иборат."
+        },
+        {
+          "article": "4",
+          "found": true,
+          "title": "4-модда. Прокуратура органлари фаолиятининг асосий йўналишлари",
+          "url": "https://lex.uz/uz/docs/106197#106232",
+          "excerpt": "Прокуратура органлари ўз фаолиятини қуйидаги асосий йўналишлар бўйича амалга оширади:\nвазирликлар, идоралар, фуқароларнинг ўзини ўзи бошқариш органлари, жамоат бирлашмалари, корхоналар, муассасалар, ташкилотлар, ҳокимлар ва бошқа мансабдор шахслар томонидан қонунларнинг ижро этилиши устидан назорат қилиш;"
+        },
+        {
+          "article": "5",
+          "found": true,
+          "title": "5-модда. Прокуратура органларини ташкил этиш ва улар фаолиятининг асосий принциплари",
+          "url": "https://lex.uz/uz/docs/106197#106251",
+          "excerpt": "Прокуратура органлари фаолиятини ташкил этиш ва улар фаолиятининг асосий принциплари бирлик, марказлашганлик, қонунийлик, мустақиллик ва ошкораликдир.\nПрокуратура органлари Ўзбекистон Республикаси Бош прокурори раҳбарлик қиладиган ягона марказлашган тизимни ташкил этади ҳамда қуйи турувчи прокурорлар юқори турувчи прокурорларга ва Ўзбекистон Республикаси Бош прокурорига бўйсуниши ҳамда ҳисобдорлиги асосида фаолият кўрсатади."
+        },
+        {
+          "article": "33",
+          "found": true,
+          "title": "33-модда. Судларда ишларни кўришда прокурорнинг иштироки",
+          "url": "https://lex.uz/uz/docs/106197#106596",
+          "excerpt": "Фуқароларнинг, корхоналар, муассасалар ва ташкилотларнинг ҳуқуқлари ҳамда қонуний манфаатлари суд йўли билан самарали ҳимоя қилинишини таъминлаш мақсадида барча инстанция судларида ишлар кўрилаётганда прокурор қонунда белгиланган тартибда иштирок этади.\nПрокурор судларда жиноят ишлари кўрилаётганда давлат айбловини қувватлайди."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/106197#106228",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "P-B02",
+      "roomTitle": "Aybsizlik prezumpsiyasi va iqrorlik",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Iqrorlik va prezumpsiya",
+      "reading_note": "JPK 112-moddasiga ko‘ra aybga iqrorlik mavjud dalillar majmui bilan tasdiqlangandagina ayblash uchun asos qilib olinishi mumkin. Shaxs iqror bo‘lsa ham, inkor qilsa ham, uning ko‘rsatuvlari boshqa dalillar kabi tekshiriladi va baholanadi. JPK 23-moddasidagi prezumpsiya va Konstitutsiya 28-moddasidagi sukut kafolatlari saqlanadi.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "23",
+          "found": true,
+          "title": "23-modda. Aybsizlik prezumpsiyasi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252892",
+          "excerpt": "Gumon qilinuvchi, ayblanuvchi yoki sudlanuvchi uning jinoyat sodir etishda aybdorligi qonunda nazarda tutilgan tartibda isbotlangunga va qonuniy kuchga kirgan sud hukmi bilan aniqlangunga qadar aybsiz hisoblanadi.\nAybdorlikka oid barcha shubhalar, agar ularni bartaraf etish imkoniyatlari tugagan boʻlsa, gumon qilinuvchining, ayblanuvchining, sudlanuvchining yoki mahkumning foydasiga hal qilinishi kerak. Shuningdek qonun qoʻllanilayotganda kelib chiqadigan shubhalar ham gumon qilinuvchining, ayblanuvchining, sudlanuvchining yoki mahkumning foydasiga hal qilinishi kerak."
+        },
+        {
+          "article": "112",
+          "found": true,
+          "title": "112-modda. Gumon qilinuvchi va ayblanuvchining koʻrsatuvlarini baholash",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253940",
+          "excerpt": "Gumon qilinuvchining u sodir etgan jinoyat haqidagi koʻrsatuvlari va ayblanuvchining oʻz aybiga iqror boʻlishi, bu iqror boʻlish mavjud dalillar majmui bilan tasdiqlangan taqdirdagina, uni ayblash uchun asos qilib olinishi mumkin.\nGumon qilinuvchi va ayblanuvchining bergan koʻrsatuvlari bilan aniqlangan holatlar, ayblanuvchi oʻz aybiga iqror boʻlgan taqdirda ham, oʻzining aybdor ekanligini inkor qilgan taqdirda ham ishning hamma holatlari bilan bogʻlangan holda boshqa dalillar kabi tekshirib chiqilishi va baholanishi lozim."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252892",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "P-B03",
+      "roomTitle": "Hodisa va isbotlanishi kerak bo‘lgan holatlar",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Isbotlanishi kerak bo‘lgan holatlar",
+      "reading_note": "JPK 81-moddasi dalillarga, 82-moddasi ayblash va hukm qilish uchun isbotlanishi zarur holatlarga taalluqli. Hodisa, shaxsning harakati, aybi, oqibat va zarar kabi masalalar o‘z daliliy tayanchiga ega bo‘lishi kerak. Hodisa joyida bo‘lishning o‘zi barcha zarur elementlarni isbotlamaydi.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "81",
+          "found": true,
+          "title": "81-modda. Dalillarning turlari",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253745",
+          "excerpt": "Ijtimoiy xavfli qilmishning yuz bergan-bermaganligini, shu qilmishni sodir etgan shaxsning aybli-aybsizligini va ishni toʻgʻri hal qilish uchun ahamiyatga molik boshqa holatlarni surishtiruvchining, tergovchining va sudning qonunda belgilangan tartibda aniqlashiga asos boʻladigan har qanday faktik maʼlumotlar jinoyat ishi boʻyicha dalil hisoblanadi.\nBu maʼlumotlar guvohning, jabrlanuvchining, gumon qilinuvchining, ayblanuvchining, sudlanuvchining koʻrsatuvlari, ekspertning xulosasi, ashyoviy, yozma va raqamli dalillar, ovozli yozuvlar, videoyozuvlar, kinotasvir va fotosuratlardan iborat materiallar, tergov va sud harakatlarining bayonnomalari va boshqa hujjatlar bilan aniqlanadi."
+        },
+        {
+          "article": "82",
+          "found": true,
+          "title": "82-modda. Ayblash va hukm qilish uchun asoslar",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253751",
+          "excerpt": "Ishni ayblov xulosasi yoki ayblov dalolatnomasi bilan sudga yuborish va ayblov hukmi chiqarish uchun quyidagilar isbotlangan boʻlishi kerak:\n1) jinoyat obyekti; jinoyat tufayli yetkazilgan ziyonning xususiyati va miqdori, jabrlanuvchining shaxsini tavsiflovchi holatlar;"
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253745",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "P-B04",
+      "roomTitle": "Himoya, tarjimon va huquqlarni tushuntirish",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Til va himoya kafolatlari",
+      "reading_note": "JPK 20-moddasi ish yuritish tiliga, 24-moddasi himoyalanish huquqiga, 46 va 48-moddalari sudlanuvchi hamda gumon qilinuvchi huquqlariga taalluqli. 51-modda himoyachi ishtiroki shart bo‘lgan hollarni belgilaydi. Huquq tushuntirilgani haqidagi imzo amaldagi til va himoya ehtiyoji ta’minlanganligini avtomatik tasdiqlamaydi.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "20",
+          "found": true,
+          "title": "20-modda. Jinoyat ishlari yuritiladigan til",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252876",
+          "excerpt": "Jinoyat ishlarini yuritish oʻzbek tilida, qoraqalpoq tilida yoki muayyan joydagi koʻpchilik aholi soʻzlashadigan tilda olib boriladi.\nIsh yuritilayotgan tilni bilmaydigan yoki yetarli darajada tushunmaydigan protsess ishtirokchilariga oʻz ona tilida yoki oʻzi biladigan boshqa tilda ogʻzaki yoki yozma arz qilish, koʻrsatuv va tushuntirishlar berish, iltimosnoma va shikoyatlar bilan murojaat qilish, sudda soʻzlash huquqi taʼminlanadi. Bunday hollarda, shuningdek ish materiallari bilan tanishish vaqtida protsess ishtirokchilari qonunda belgilangan tartibda tarjimon xizmatidan foydalanishlari mumkin."
+        },
+        {
+          "article": "24",
+          "found": true,
+          "title": "24-modda. Gumon qilinuvchi, ayblanuvchi va sudlanuvchini himoyalanish huquqi bilan taʼminlash",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252899",
+          "excerpt": "Gumon qilinuvchi, ayblanuvchi va sudlanuvchi himoyalanish huquqiga ega boʻlib, ularga oʻzini himoya qilish uchun barcha imkoniyatlar taʼminlanadi.\nHimoyalanish huquqi surishtiruvchi, tergovchi, prokuror, sud zimmasidagi gumon qilinuvchiga, ayblanuvchiga va sudlanuvchiga unga berilgan huquqlarni tushuntirib berish hamda u oʻziga qoʻyilgan ayblovdan himoyalanish uchun qonunda nazarda tutilgan barcha vosita va usullardan foydalanishda haqiqiy imkoniyatga ega boʻlishiga qaratilgan chora-tadbirlar koʻrish majburiyati bilan taʼminlanadi."
+        },
+        {
+          "article": "46",
+          "found": true,
+          "title": "46-modda. Ayblanuvchining huquq va majburiyatlari",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253580",
+          "excerpt": "Ayblanuvchi: oʻzining nimada ayblanayotganligini bilish; qamoqqa olinganligi va turgan joyi toʻgʻrisida advokatga yoki yaqin qarindoshiga telefon orqali qoʻngʻiroq qilish yoxud xabar berish; himoyachiga ega boʻlish hamda uchrashuvlarning soni va davom etish vaqti cheklanmagan holda u bilan xoli uchrashish, ushbu Kodeks 230-moddasining ikkinchi qismida nazarda tutilgan hollar bundan mustasno; oʻziga qoʻyilgan ayblov yuzasidan hamda ishning boshqa har qanday holatlari boʻyicha koʻrsatuvlar berish yoxud koʻrsatuvlar berishdan bosh tortish va koʻrsatuvlaridan jinoyat ishiga doir dalillar sifatida uning oʻziga qarshi foydalanilishi mumkinligi haqida xabardor boʻlish; oʻz ona tilidan hamda tarjimon xizmatidan foydalanish; oʻzining himoyalanish huquqini shaxsan oʻzi amalga oshirish; iltimosnoma berish va rad qilish; dalillar taqdim etish; surishtiruvchi yoki tergovchining ruxsati bilan tergov harakatlarida ishtirok etish; surishtiruv yoki dastlabki tergov tamom boʻlganidan soʻng ishning barch"
+        },
+        {
+          "article": "48",
+          "found": true,
+          "title": "48-modda. Gumon qilinuvchining huquq va majburiyatlari",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253587",
+          "excerpt": "Gumon qilinuvchi: oʻzining nimada gumon qilinayotganligini bilish; ushlab turilganligi va turgan joyi toʻgʻrisida advokatga yoki yaqin qarindoshiga telefon orqali qoʻngʻiroq qilish yoxud xabar berish; u amalda ushlangan yoki jinoyat joyida ushlash bilan bogʻliq tezkor-qidiruv tadbiri amalda yakunlangan yoxud uning gumon qilinuvchi deb eʼtirof etilganligi toʻgʻrisidagi qaror unga maʼlum qilingan paytdan boshlab himoyachiga ega boʻlish hamda uchrashuvlarning soni va davom etish vaqti cheklanmagan holda u bilan xoli uchrashish, ushbu Kodeksning 230-moddasi ikkinchi qismida nazarda tutilgan hollar bundan mustasno; ushlanganidan keyin yigirma toʻrt soatdan kechiktirmay soʻroq qilinishini talab qilish; oʻziga nisbatan qoʻyilgan gumon xususida hamda ishning boshqa har qanday holatlari toʻgʻrisida koʻrsatuvlar berish yoxud koʻrsatuvlar berishdan bosh tortish va koʻrsatuvlaridan jinoyat ishiga doir dalillar sifatida uning oʻziga qarshi foydalanilishi mumkinligi haqida xabardor boʻlish; oʻz ona "
+        },
+        {
+          "article": "51",
+          "found": true,
+          "title": "51-modda. Himoyachi ishtirok etishi shart boʻlgan hollar",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253601",
+          "excerpt": "2) soqovlar, karlar, koʻrlar, jismoniy nuqsoni yoki ruhiy holati buzilganligi sababli oʻzini oʻzi himoya qilish huquqini amalga oshirishga qiynaladigan boshqa shaxslarning ishi boʻyicha;\n3) sudlov ishi olib borilayotgan tilni bilmaydigan shaxslarning ishi boʻyicha;"
+        },
+        {
+          "article": "88",
+          "found": true,
+          "title": "88-modda. Isbot qilish jarayonida fuqarolar, korxonalar, muassasalar va tashkilotlarning huquq va qonuniy manfaatlarini qoʻriqlash",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253800",
+          "excerpt": "Dalillarni toʻplash, tekshirish va baholash jarayonida fuqarolarning, shuningdek korxonalar, muassasalar va tashkilotlarning huquqlari va qonuniy manfaatlarini qoʻriqlash taʼminlanishi kerak.\n1) shaxslarning hayoti va sogʻligʻi uchun xavfli boʻlgan yoki ularning shaʼni va qadr-qimmatini kamsituvchi xatti-harakatlar sodir etish;"
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252876",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "P-B05",
+      "roomTitle": "Boshlang‘ich lab: telefon o‘g‘irligi gumoni",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "O‘g‘rilik haqidagi gumonni tekshirish",
+      "reading_note": "JK 169-moddasi o‘g‘rilikka, ya’ni o‘zganing mol-mulkini yashirin ravishda talon-toroj qilishga taalluqli. Telefonning bir shaxs yonidan topilishi harakatning barcha huquqiy belgilarini tekshirish o‘rnini bosmaydi. Prokuror JPK 409-moddasidagi vazifasini bajarar ekan, ayblov foydasiga ham, unga qarshi ham materialni baholaydi.",
+      "source_id": "JK",
+      "verified_articles": [
+        {
+          "article": "169",
+          "found": true,
+          "title": "169-modda. Oʻgʻrilik",
+          "url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-263768",
+          "excerpt": "Oʻgʻrilik, yaʼni oʻzganing mol-mulkini yashirin ravishda talon-toroj qilish —\nbazaviy hisoblash miqdorining ellik baravarigacha miqdorda jarima yoki uch yuz oltmish soatgacha majburiy jamoat ishlari yoki ikki yilgacha axloq tuzatish ishlari yoki bir yildan uch yilgacha ozodlikni cheklash yoxud uch yilgacha ozodlikdan mahrum qilish bilan jazolanadi."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-263768",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "P-J01",
+      "roomTitle": "Ayblov tezisi va dalil rejasi",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Ayblov tezisi va dalil rejasi",
+      "reading_note": "JPK 409-moddasi davlat ayblovini quvvatlovchi prokurorning dalillarni tekshirish va savol berishdagi vazifalarini belgilaydi. Tezislarning har biri 82-moddadagi zarur holat va 94–95-moddalardagi tekshirish hamda baholash bilan bog‘lanadi. Takroriy hujjatlar soni asosiy bo‘shliqni avtomatik to‘ldirmaydi.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "82",
+          "found": true,
+          "title": "82-modda. Ayblash va hukm qilish uchun asoslar",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253751",
+          "excerpt": "Ishni ayblov xulosasi yoki ayblov dalolatnomasi bilan sudga yuborish va ayblov hukmi chiqarish uchun quyidagilar isbotlangan boʻlishi kerak:\n1) jinoyat obyekti; jinoyat tufayli yetkazilgan ziyonning xususiyati va miqdori, jabrlanuvchining shaxsini tavsiflovchi holatlar;"
+        },
+        {
+          "article": "94",
+          "found": true,
+          "title": "94-modda. Dalillarni tekshirish",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253831",
+          "excerpt": "Ish boʻyicha qabul qilinadigan qaror sinchkovlik bilan, toʻla, har tomonlama va xolisona tekshirilgan dalillargagina asoslangan boʻlishi lozim. Tekshiruv qoʻshimcha dalillarni toʻplashdan iborat boʻlib, ular tekshirilayotgan dalillarni tasdiqlashi yoki rad etishi mumkin."
+        },
+        {
+          "article": "95",
+          "found": true,
+          "title": "95-modda. Dalillarga baho berish",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253833",
+          "excerpt": "Surishtiruvchi, tergovchi, prokuror va sud ishdagi barcha holatlarni sinchkovlik bilan, toʻla, har tomonlama va xolisona koʻrib chiqishga asoslangan holda qonunga va huquqiy ongga amal qilib oʻzlarining ichki ishonchlari boʻyicha dalillarga baho beradilar. Har bir dalil ishga aloqadorligi, maqbulligi va ishonchliligi nuqtai nazaridan baholanishi lozim.\nDalillar jinoyat ishi uchun ahamiyatli boʻlgan mavjud holatlar haqidagi xulosalarni tasdiqlovchi, rad etuvchi yoki shubha ostiga oluvchi faktlar yoki narsalar toʻgʻrisidagi maʼlumotlarni aks ettirgan taqdirdagina ishga aloqador deb eʼtirof etiladi."
+        },
+        {
+          "article": "409",
+          "found": true,
+          "title": "409-modda. Sud muhokamasida prokurorning ishtiroki",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256270",
+          "excerpt": "Prokuror birinchi instansiya sudlarida jinoyatlarga doir ishlarni koʻrishda ishtirok etib, davlat ayblovini quvvatlaydi, dalillarni tekshirishda ishtirok etadi, sudlanuvchilarga, jabrlanuvchilar, guvohlar, ekspertlar va sudga taklif etilgan boshqa shaxslarga savollar beradi, Jinoyat kodeksining normalarini qoʻllash, sudlanuvchining harakatlarini tavsiflash, unga jazo turini va meʼyorini tayinlash toʻgʻrisida hamda sud hal etishi lozim boʻlgan boshqa masalalar yuzasidan oʻz fikrini bayon qiladi, jinoyatning sabablari va uning sodir etilishiga imkon bergan shart-sharoitlar haqida hamda ularni bartaraf etishga qaratilgan choralar xususida oʻz fikrini bildiradi.\nProkuror davlat ayblovini quvvatlar ekan, ushbu Kodeksning, Oʻzbekiston Respublikasi boshqa qonunlarining talablariga va ishning barcha holatlarini qarab chiqishga asoslangan oʻz ishonchiga amal qiladi."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253751",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "P-J02",
+      "roomTitle": "Ashyoviy va raqamli materialning kelib chiqishi",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Materialni olish va qayd etish",
+      "reading_note": "JPK 90–91-moddalari dalillarni qayd etish va isbotlashda bayonnoma, 203-modda ashyoviy dalillar, 204¹–204²-moddalar raqamli dalillarga taalluqli. Manba, olish tartibi, nusxa va yaxlitlik tekshiriladi. Xesh yoki saqlash zanjiri jadvali o‘quv/texnik yordamchi bo‘lib, barcha protsessual talabning bajarilganini yolg‘iz o‘zi isbotlamaydi.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "90",
+          "found": true,
+          "title": "90-modda. Dalillarni bayonnomada qayd etish",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253813",
+          "excerpt": "Maʼlumotlar va narsalardan, ular tergov harakati bayonnomasi yoki sud majlisi bayonnomasida qayd etilganidan keyingina dalil sifatida foydalanish mumkin.\nBayonnomalar yuritish uchun masʼuliyat surishtiruv va dastlabki tergov bosqichida surishtiruvchi va tergovchi, sudda esa, raislik qiluvchi va sud majlisi kotibi zimmasiga yuklatiladi."
+        },
+        {
+          "article": "91",
+          "found": true,
+          "title": "91-modda. Dalillarni qayd etishda yordamchi usullar. Bayonnomaga ilovalar",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253817",
+          "excerpt": "Dalillarni qayd etish uchun bayonnoma tuzish bilan bir qatorda ovoz yozish, videoyozuv, kinotasvir, fotosuratga tushirish, qoliplar tayyorlash, nusxalar olish, rejalar, sxemalar tayyorlash va axborotni aks ettirishning boshqa usullari qoʻllanilishi mumkin. Surishtiruvchi, tergovchi, sud dalillarni mustahkamlashning bu usullarini qoʻllanishga koʻmaklashish uchun mutaxassislarni jalb etishi mumkin.\nSurishtiruvchi, tergovchi, sud tomonidan dalillarni qayd etishning qanday usullari qoʻllangani, foydalanilgan apparatlar, asboblar, uskunalar, materiallarning texnikaviy tavsifi keltirilib, tegishlicha tergov harakati bayonnomasi yoki sud majlisi bayonnomasida aks ettiriladi."
+        },
+        {
+          "article": "203",
+          "found": true,
+          "title": "203-modda. Ashyoviy dalillar",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-254540",
+          "excerpt": "Kelib chiqishini, kimga tegishliligini, maʼlum maqsadlarda foydalanilganligini yoki foydalanishga yaroqliligini, qoʻldan-qoʻlga oʻtganligi yoki turgan joyi oʻzgarganligini, u yoki bu moddalar, narsa, jarayon va hodisalar taʼsir etganligini aniqlash mumkin boʻlgan fizikaviy alomatlar yoki belgilarga, shuningdek ish holatlarini aniqlashga xizmat qiladigan har qanday boshqa alomatlar va belgilarga ega boʻlgan narsa ashyoviy dalil hisoblanadi."
+        },
+        {
+          "article": "204^1",
+          "found": true,
+          "title": "204^1-modda. Elektron maʼlumotlar",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-7235150",
+          "excerpt": "Elektron maʼlumotlar elektron qurilmalardan va axborot tizimlaridan, shuningdek axborot texnologiyalaridan foydalangan holda yaratiladigan, ishlov beriladigan hamda saqlanadigan maʼlumotlardir.\nGuvoh, jabrlanuvchi, gumon qilinuvchi, ayblanuvchi, sudlanuvchi va boshqa shaxslar elektron maʼlumotlarni ushbu maʼlumotlarning koʻchirma nusxasini elektron jismdan elektron maʼlumotlar mavjud boʻlgan boshqa elektron jismga olish orqali taqdim etishga haqli."
+        },
+        {
+          "article": "204^2",
+          "found": true,
+          "title": "204^2-modda. Raqamli dalillar",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-7235156",
+          "excerpt": "Ish uchun ahamiyatga ega boʻlgan holatlar toʻgʻrisidagi maʼlumotlar mavjud boʻlgan elektron maʼlumotlar, shu jumladan elektron tarzdagi fayllar, audio-, videoyozuvlar, Internet jahon axborot tarmogʻida saqlanayotgan maʼlumotlar, shuningdek boshqa elektron maʼlumotlar raqamli dalillardir.\nRaqamli dalildan koʻchirma nusxa olishga, basharti uning yaxlitligi va aynan oʻxshashligi saqlansa, yoʻl qoʻyiladi."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253813",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "P-J03",
+      "roomTitle": "Sudda qonuniy savol berish",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Sudda savol berish tartibi",
+      "reading_note": "JPK 102-moddasi kutilayotgan javobga bevosita yoki bilvosita yo‘naltiruvchi savollarni taqiqlaydi. Suddagi so‘roq tartibi uchun JPK 441–442-moddalarini ham, prokuror vakolati uchun 409-moddani ham o‘qish kerak. AQShdagi qarshi so‘roq amaliyotining istisnolari O‘zbekiston protsessiga avtomatik qo‘llanmaydi.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "102",
+          "found": true,
+          "title": "102-modda. Ishora qiluvchi savollar berishga yoʻl qoʻyilmasligi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253863",
+          "excerpt": "Kutilayotgan javobga bevosita yoki bilvosita yoʻnaltirish mazmunidagi savollar ishora qiluvchi savollar deb hisoblanadi. Ishora qiluvchi savollar berish taqiqlanadi."
+        },
+        {
+          "article": "409",
+          "found": true,
+          "title": "409-modda. Sud muhokamasida prokurorning ishtiroki",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256270",
+          "excerpt": "Prokuror birinchi instansiya sudlarida jinoyatlarga doir ishlarni koʻrishda ishtirok etib, davlat ayblovini quvvatlaydi, dalillarni tekshirishda ishtirok etadi, sudlanuvchilarga, jabrlanuvchilar, guvohlar, ekspertlar va sudga taklif etilgan boshqa shaxslarga savollar beradi, Jinoyat kodeksining normalarini qoʻllash, sudlanuvchining harakatlarini tavsiflash, unga jazo turini va meʼyorini tayinlash toʻgʻrisida hamda sud hal etishi lozim boʻlgan boshqa masalalar yuzasidan oʻz fikrini bayon qiladi, jinoyatning sabablari va uning sodir etilishiga imkon bergan shart-sharoitlar haqida hamda ularni bartaraf etishga qaratilgan choralar xususida oʻz fikrini bildiradi.\nProkuror davlat ayblovini quvvatlar ekan, ushbu Kodeksning, Oʻzbekiston Respublikasi boshqa qonunlarining talablariga va ishning barcha holatlarini qarab chiqishga asoslangan oʻz ishonchiga amal qiladi."
+        },
+        {
+          "article": "441",
+          "found": true,
+          "title": "441-modda. Guvohning qasamyodi va uni javobgarlik toʻgʻrisida ogohlantirish",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256430",
+          "excerpt": "Guvohni soʻroq qilishdan oldin raislik qiluvchi uning shaxsini aniqlaydi va koʻrsatuv berishdan bosh tortganlik yoki bila turib yolgʻon koʻrsatuv berganlik uchun javobgarlik toʻgʻrisida ogohlantiradi. Soʻngra raislik qiluvchi guvohga barchaning oldida oshkora ravishda quyidagi mazmunda qasamyod qilishni taklif etadi: “Ish yuzasidan oʻzimga maʼlum boʻlgan hamma narsani sudga aytib berishga qasamyod qilaman. Faqat haqiqatni, barcha haqiqatni gapirib beraman, haqiqatdan oʻzga narsani gapirmayman”. Qasamyod matni guvohga uning majburiyati va javobgarligi tushuntirilgani haqidagi guvohning tilxati bilan birgalikda sud majlisining bayonnomasiga ilova qilinadi.\nOʻn olti yoshga toʻlmagan guvohga ham ushbu moddaning birinchi qismida nazarda tutilgan oshkora qasamyod qilish taklif qilinadi, lekin koʻrsatuv berishdan bosh tortgani yoki bila turib yolgʻon koʻrsatuv bergani uchun javobgarlik toʻgʻrisida ogohlantirilmaydi va undan tilxat olinmaydi."
+        },
+        {
+          "article": "442",
+          "found": true,
+          "title": "442-modda. Sudda soʻroq qilish tartibi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256434",
+          "excerpt": "Sudda soʻroq qilish ushbu Kodeksning 96 — 108-moddalarida nazarda tutilgan talablarga, shuningdek quyida belgilangan qoidalarga amal qilgan holda olib boriladi.\nHar bir guvoh hali soʻroq qilinmagan guvohlar yoʻqligida soʻroq qilinadi. Soʻroq qilingan guvohlar sud majlisi zalida qoladilar va sud tergovi tamom boʻlmasdan ilgari zaldan faqat sudning ijozati bilan chiqib ketishlari mumkin."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253863",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "P-J04",
+      "roomTitle": "Oqlovchi material va pozitsiyani yangilash",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Oqlovchi materialga munosabat",
+      "reading_note": "JPK 22 va 95-moddalaridagi xolis tekshirish talabi ayblovga qarshi materialni ham baholashni anglatadi. 409-modda sud muhokamasida prokurorning vazifalarini belgilaydi va tekshiruv natijasiga mos pozitsiyani talab qiladi. Dastlabki fikrni har qanday narxda saqlash kasbiy maqsad bo‘la olmaydi.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "22",
+          "found": true,
+          "title": "22-modda. Haqiqatni aniqlash",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252886",
+          "excerpt": "Surishtiruvchi, tergovchi, prokuror va sud jinoyat yuz berganligini, uning sodir etilishida kim aybdorligini, shuningdek u bilan bogʻliq barcha holatlarni aniqlashi shart.\nIsh boʻyicha haqiqatni aniqlash uchun faqat ushbu Kodeksda nazarda tutilgan tartibda topilgan, tekshirilgan va baholangan maʼlumotlardan foydalanish mumkin. Gumon qilinuvchidan, ayblanuvchidan, sudlanuvchidan, jabrlanuvchidan, guvohdan va ishda ishtirok etuvchi boshqa shaxslardan zoʻrlash, qoʻrqitish, huquqlarini cheklash va qonunga xilof boʻlgan oʻzgacha choralar bilan koʻrsatuvlar olishga harakat qilish man etiladi."
+        },
+        {
+          "article": "23",
+          "found": true,
+          "title": "23-modda. Aybsizlik prezumpsiyasi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252892",
+          "excerpt": "Gumon qilinuvchi, ayblanuvchi yoki sudlanuvchi uning jinoyat sodir etishda aybdorligi qonunda nazarda tutilgan tartibda isbotlangunga va qonuniy kuchga kirgan sud hukmi bilan aniqlangunga qadar aybsiz hisoblanadi.\nAybdorlikka oid barcha shubhalar, agar ularni bartaraf etish imkoniyatlari tugagan boʻlsa, gumon qilinuvchining, ayblanuvchining, sudlanuvchining yoki mahkumning foydasiga hal qilinishi kerak. Shuningdek qonun qoʻllanilayotganda kelib chiqadigan shubhalar ham gumon qilinuvchining, ayblanuvchining, sudlanuvchining yoki mahkumning foydasiga hal qilinishi kerak."
+        },
+        {
+          "article": "95",
+          "found": true,
+          "title": "95-modda. Dalillarga baho berish",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253833",
+          "excerpt": "Surishtiruvchi, tergovchi, prokuror va sud ishdagi barcha holatlarni sinchkovlik bilan, toʻla, har tomonlama va xolisona koʻrib chiqishga asoslangan holda qonunga va huquqiy ongga amal qilib oʻzlarining ichki ishonchlari boʻyicha dalillarga baho beradilar. Har bir dalil ishga aloqadorligi, maqbulligi va ishonchliligi nuqtai nazaridan baholanishi lozim.\nDalillar jinoyat ishi uchun ahamiyatli boʻlgan mavjud holatlar haqidagi xulosalarni tasdiqlovchi, rad etuvchi yoki shubha ostiga oluvchi faktlar yoki narsalar toʻgʻrisidagi maʼlumotlarni aks ettirgan taqdirdagina ishga aloqador deb eʼtirof etiladi."
+        },
+        {
+          "article": "409",
+          "found": true,
+          "title": "409-modda. Sud muhokamasida prokurorning ishtiroki",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256270",
+          "excerpt": "Prokuror birinchi instansiya sudlarida jinoyatlarga doir ishlarni koʻrishda ishtirok etib, davlat ayblovini quvvatlaydi, dalillarni tekshirishda ishtirok etadi, sudlanuvchilarga, jabrlanuvchilar, guvohlar, ekspertlar va sudga taklif etilgan boshqa shaxslarga savollar beradi, Jinoyat kodeksining normalarini qoʻllash, sudlanuvchining harakatlarini tavsiflash, unga jazo turini va meʼyorini tayinlash toʻgʻrisida hamda sud hal etishi lozim boʻlgan boshqa masalalar yuzasidan oʻz fikrini bayon qiladi, jinoyatning sabablari va uning sodir etilishiga imkon bergan shart-sharoitlar haqida hamda ularni bartaraf etishga qaratilgan choralar xususida oʻz fikrini bildiradi.\nProkuror davlat ayblovini quvvatlar ekan, ushbu Kodeksning, Oʻzbekiston Respublikasi boshqa qonunlarining talablariga va ishning barcha holatlarini qarab chiqishga asoslangan oʻz ishonchiga amal qiladi."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252886",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "P-J05",
+      "roomTitle": "O‘rta bosqich lab: onlayn savdo yoki jinoyat",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Onlayn savdo va firibgarlik farqi",
+      "reading_note": "JK 168-moddasi bo‘yicha aldash yoki ishonchni suiiste’mol qilish orqali mulkni yoki unga bo‘lgan huquqni egallash belgilarini tekshirish zarur. Xaridorning noroziligi, to‘lov yoki tovarning kechikishi barcha elementlarning o‘rnini bosmaydi. Voqealar va niyatga oid materiallar vaqt bo‘yicha solishtiriladi.",
+      "source_id": "JK",
+      "verified_articles": [
+        {
+          "article": "168",
+          "found": true,
+          "title": "168-modda. Firibgarlik",
+          "url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-310589",
+          "excerpt": "Firibgarlik, yaʼni aldash yoki ishonchni suiisteʼmol qilish yoʻli bilan oʻzganing mulkini yoki oʻzganing mulkiga boʻlgan huquqni qoʻlga kiritish —\nbazaviy hisoblash miqdorining ellik baravaridan yuz baravarigacha miqdorda jarima yoki ikki yilgacha axloq tuzatish ishlari yoki bir yildan uch yilgacha ozodlikni cheklash yoxud uch yilgacha ozodlikdan mahrum qilish bilan jazolanadi."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-310589",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "P-S01",
+      "roomTitle": "Ko‘p epizod va ishtirokchilarni alohida baholash",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Shaxs va epizodlarni ajratish",
+      "reading_note": "JK 27–33-moddalari ishtirokchilik va jinoyatlar majmuiga doir tushunchalarni ajratish uchun o‘qiladi. Har bir shaxsning harakati, aybi va tegishli dalili alohida baholanadi. Bir shaxs yoki bir epizod haqidagi xulosani qolganlariga dalilsiz ko‘chirish mumkin emas.",
+      "source_id": "JK",
+      "verified_articles": [
+        {
+          "article": "27",
+          "found": true,
+          "title": "27-modda. Jinoyatda ishtirokchilik tushunchasi",
+          "url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-179939",
+          "excerpt": "Ikki yoki undan ortiq shaxsning qasddan jinoyat sodir etishda birgalashib qatnashishi ishtirokchilik deb topiladi."
+        },
+        {
+          "article": "28",
+          "found": true,
+          "title": "28-modda. Jinoyat ishtirokchilarining turlari",
+          "url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-179941",
+          "excerpt": "Jinoyatni bajaruvchi bilan bir qatorda tashkilotchi, dalolatchi va yordamchilar ham jinoyat ishtirokchilari deb topiladi.\nJinoyatni bevosita toʻla yoki qisman sodir etgan yoxud ushbu Kodeksga muvofiq javobgarlikka tortilishi mumkin boʻlmagan shaxslardan yoki boshqa vositalardan foydalanib, jinoyat sodir etgan shaxs bajaruvchi deb topiladi."
+        },
+        {
+          "article": "29",
+          "found": true,
+          "title": "29-modda. Ishtirokchilikning shakllari",
+          "url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-179947",
+          "excerpt": "Jinoyatda ishtirokchilik: oddiy ishtirokchilik, murakkab ishtirokchilik, uyushgan guruh, jinoiy uyushma shaklida boʻladi.\nIkki yoki undan ortiq shaxsning oldindan til biriktirmay jinoyat sodir etishda qatnashishi oddiy ishtirokchilik deb topiladi."
+        },
+        {
+          "article": "30",
+          "found": true,
+          "title": "30-modda. Jinoyatda ishtirok etganlik uchun javobgarlik doirasi",
+          "url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-179953",
+          "excerpt": "Tashkilotchi, dalolatchi va yordamchilar ham ushbu Kodeks Maxsus qismining bajaruvchini javobgarlikka tortish belgilangan moddasi boʻyicha javobgarlikka tortiladilar.\nOldindan til biriktirgan guruh, jinoiy guruh va jinoiy uyushmaning tashkilotchilari hamda aʼzolari tayyorgarlik koʻrilishi yoki sodir etilishida oʻzlari qatnashgan barcha jinoyatlar uchun javobgarlikka tortiladilar."
+        },
+        {
+          "article": "31",
+          "found": true,
+          "title": "31-modda. Jinoyatga daxldorlik",
+          "url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-179959",
+          "excerpt": "Jinoyatga tayyorgarlik koʻrilayotganligi, jinoyat sodir etilayotganligi yoki jinoyat sodir etilganligi haqida aniq bila turib, oldindan vaʼda bermagan holda, hokimiyat organlariga xabar qilmaslik, ushbu Kodeksning 155^1 va 241-moddalarida nazarda tutilgan hollardagina javobgarlikka sabab boʻladi.\nJinoyatchini, jinoyat sodir etish quroli va vositalarini, jinoyat izlarini yoki jinoiy yoʻl bilan qoʻlga kiritilgan narsalarni oldindan vaʼda bermagan holda yashirganlik ushbu Kodeksning 241-moddasida nazarda tutilgan hollardagina javobgarlikka sabab boʻladi."
+        },
+        {
+          "article": "32",
+          "found": true,
+          "title": "32-modda. Takroran jinoyat sodir etish",
+          "url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-179964",
+          "excerpt": "Ushbu Kodeks Maxsus qismining aynan bir moddasida, qismida, Kodeksda alohida koʻrsatilgan hollarda esa, turli moddalarida nazarda tutilgan ikki yoki bir necha jinoyatni shaxs turli vaqtlarda sodir etgan, ammo ularning birortasi uchun ham sudlangan boʻlmasa, takroran jinoyat sodir etish deb topiladi. Tamom boʻlgan jinoyat ham, jazoga sazovor boʻlgan jinoyatga tayyorgarlik koʻrish yoki jinoyat sodir etishga suiqasd qilish ham, shuningdek ishtirokchilikda jinoyat sodir etish ham takroran jinoyat sodir etish deb topiladi.\nQoʻshimcha maʼlumot uchun qarang: Oʻzbekiston Respublikasi Oliy sudi Plenumining 2008-yil 5-maydagi 13-sonli “Bir necha jinoyat sodir etilganda qilmishni kvalifikatsiya qilishga doir masalalar toʻgʻrisida”gi qarorining 2 va 14-bandlari."
+        },
+        {
+          "article": "33",
+          "found": true,
+          "title": "33-modda. Jinoyatlar majmui",
+          "url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-179969",
+          "excerpt": "Ushbu Kodeks Maxsus qismining turli moddalarida yoki bitta moddasining turli qismlarida nazarda tutilgan, javobgarlikka tortiladigan ikki yoki bir necha jinoiy qilmishni sodir etish, agarda ulardan birortasi uchun ham shaxs sudlangan boʻlmasa, jinoyatlar majmui deb topiladi.\nQoʻshimcha maʼlumot uchun qarang: Oʻzbekiston Respublikasi Oliy sudi Plenumining 2008-yil 5-maydagi 13-sonli “Bir necha jinoyat sodir etilganda qilmishni kvalifikatsiya qilishga doir masalalar toʻgʻrisida”gi qarori 2-bandining ikkinchi xatboshisi, 3, 5, 6-bandlari, 7-bandining birinchi xatboshisi, 8, 11, 12, 13, 15-bandlari."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-179939",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "P-S02",
+      "roomTitle": "Jiddiy protsessual nuqson va qonuniy javob",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Protsessual nuqson va tegishli chora",
+      "reading_note": "JPK 88-moddasi isbotlashda shaxs huquqlarini qo‘riqlashga, 90-moddasi qayd etishga, 95 va 95¹-moddalari baholash va maqbullikka taalluqli. Nuqsonning turi va material bilan bog‘liqligi aniqlanadi. Eski sanada hujjat yasash yoki nuqsonni yashirish qonuniy tuzatish yo‘li emas.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "88",
+          "found": true,
+          "title": "88-modda. Isbot qilish jarayonida fuqarolar, korxonalar, muassasalar va tashkilotlarning huquq va qonuniy manfaatlarini qoʻriqlash",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253800",
+          "excerpt": "Dalillarni toʻplash, tekshirish va baholash jarayonida fuqarolarning, shuningdek korxonalar, muassasalar va tashkilotlarning huquqlari va qonuniy manfaatlarini qoʻriqlash taʼminlanishi kerak.\n1) shaxslarning hayoti va sogʻligʻi uchun xavfli boʻlgan yoki ularning shaʼni va qadr-qimmatini kamsituvchi xatti-harakatlar sodir etish;"
+        },
+        {
+          "article": "90",
+          "found": true,
+          "title": "90-modda. Dalillarni bayonnomada qayd etish",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253813",
+          "excerpt": "Maʼlumotlar va narsalardan, ular tergov harakati bayonnomasi yoki sud majlisi bayonnomasida qayd etilganidan keyingina dalil sifatida foydalanish mumkin.\nBayonnomalar yuritish uchun masʼuliyat surishtiruv va dastlabki tergov bosqichida surishtiruvchi va tergovchi, sudda esa, raislik qiluvchi va sud majlisi kotibi zimmasiga yuklatiladi."
+        },
+        {
+          "article": "95",
+          "found": true,
+          "title": "95-modda. Dalillarga baho berish",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253833",
+          "excerpt": "Surishtiruvchi, tergovchi, prokuror va sud ishdagi barcha holatlarni sinchkovlik bilan, toʻla, har tomonlama va xolisona koʻrib chiqishga asoslangan holda qonunga va huquqiy ongga amal qilib oʻzlarining ichki ishonchlari boʻyicha dalillarga baho beradilar. Har bir dalil ishga aloqadorligi, maqbulligi va ishonchliligi nuqtai nazaridan baholanishi lozim.\nDalillar jinoyat ishi uchun ahamiyatli boʻlgan mavjud holatlar haqidagi xulosalarni tasdiqlovchi, rad etuvchi yoki shubha ostiga oluvchi faktlar yoki narsalar toʻgʻrisidagi maʼlumotlarni aks ettirgan taqdirdagina ishga aloqador deb eʼtirof etiladi."
+        },
+        {
+          "article": "95^1",
+          "found": true,
+          "title": "95^1-modda. Dalillarning maqbul emasligi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-3644484",
+          "excerpt": "Agar faktik maʼlumotlar qonunga xilof usullar orqali yoki jinoyat protsessi ishtirokchilarini qonun bilan kafolatlangan huquqlaridan mahrum qilish yoki bu huquqlarni cheklash yoʻli bilan yoxud ushbu Kodeks talablari buzilgan holda olingan boʻlsa, shu jumladan:\n1) jinoyat protsessi ishtirokchilariga yoki ularning yaqin qarindoshlariga nisbatan qiynoqqa solish va boshqa shafqatsiz, gʻayriinsoniy yoki qadr-qimmatni kamsituvchi muomala hamda jazo turlarini qoʻllagan holda;"
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253800",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "P-S03",
+      "roomTitle": "Ayblov doirasi va qayta baholash",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Ayblov doirasi va o‘zgarishi",
+      "reading_note": "JPK 414-moddasi sud muhokamasi doirasini, 415-moddasi ayblovning sud tomonidan o‘zgartirilishini tartibga soladi. Prokurorning pozitsiyasi, himoya huquqi va sudning vakolati bir xil tushuncha emas. Yangi ma’lumot protsessual tartibni chetlab o‘tib yangi ayblov qo‘shish huquqini bermaydi.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "409",
+          "found": true,
+          "title": "409-modda. Sud muhokamasida prokurorning ishtiroki",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256270",
+          "excerpt": "Prokuror birinchi instansiya sudlarida jinoyatlarga doir ishlarni koʻrishda ishtirok etib, davlat ayblovini quvvatlaydi, dalillarni tekshirishda ishtirok etadi, sudlanuvchilarga, jabrlanuvchilar, guvohlar, ekspertlar va sudga taklif etilgan boshqa shaxslarga savollar beradi, Jinoyat kodeksining normalarini qoʻllash, sudlanuvchining harakatlarini tavsiflash, unga jazo turini va meʼyorini tayinlash toʻgʻrisida hamda sud hal etishi lozim boʻlgan boshqa masalalar yuzasidan oʻz fikrini bayon qiladi, jinoyatning sabablari va uning sodir etilishiga imkon bergan shart-sharoitlar haqida hamda ularni bartaraf etishga qaratilgan choralar xususida oʻz fikrini bildiradi.\nProkuror davlat ayblovini quvvatlar ekan, ushbu Kodeksning, Oʻzbekiston Respublikasi boshqa qonunlarining talablariga va ishning barcha holatlarini qarab chiqishga asoslangan oʻz ishonchiga amal qiladi."
+        },
+        {
+          "article": "414",
+          "found": true,
+          "title": "414-modda. Sud muhokamasining doirasi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-5232088",
+          "excerpt": "Sudda jinoyat ishini muhokama qilish faqat ayblanuvchilarga nisbatan va eʼlon qilingan ayblov boʻyicha olib boriladi."
+        },
+        {
+          "article": "415",
+          "found": true,
+          "title": "415-modda. Ayblovning sud tomonidan oʻzgartirilishi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256313",
+          "excerpt": "Sud ayblovni oʻzgartirishga haqli. Bunda ayblovning bir qismi yoki jinoyatning tavsifiy alomatlari chiqarib tashlanadi.\nSud surishtiruvda, dastlabki tergovda eʼlon qilingan ayblovni ushbu Kodeksning 416 va 417-moddalarida nazarda tutilgan tartibda oʻzgartirishga yoki toʻldirishga haqli."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256270",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "P-S04",
+      "roomTitle": "Yakuniy davlat ayblovi nutqi",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Dalilga tayangan davlat ayblovi nutqi",
+      "reading_note": "JPK 449-moddasi taraflar muzokarasining mazmuni va tartibini, 450-moddasi ayblov mohiyati yuzasidan takliflarni belgilaydi. Muzokara tekshirilgan materiallarga tayanadi; 409-modda prokuror vazifasini belgilaydi. Qattiqroq jazo talabi yoki ta’sirchan ovoz huquqiy asos o‘rnini bosmaydi.",
+      "source_id": "JPK",
+      "verified_articles": [
+        {
+          "article": "409",
+          "found": true,
+          "title": "409-modda. Sud muhokamasida prokurorning ishtiroki",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256270",
+          "excerpt": "Prokuror birinchi instansiya sudlarida jinoyatlarga doir ishlarni koʻrishda ishtirok etib, davlat ayblovini quvvatlaydi, dalillarni tekshirishda ishtirok etadi, sudlanuvchilarga, jabrlanuvchilar, guvohlar, ekspertlar va sudga taklif etilgan boshqa shaxslarga savollar beradi, Jinoyat kodeksining normalarini qoʻllash, sudlanuvchining harakatlarini tavsiflash, unga jazo turini va meʼyorini tayinlash toʻgʻrisida hamda sud hal etishi lozim boʻlgan boshqa masalalar yuzasidan oʻz fikrini bayon qiladi, jinoyatning sabablari va uning sodir etilishiga imkon bergan shart-sharoitlar haqida hamda ularni bartaraf etishga qaratilgan choralar xususida oʻz fikrini bildiradi.\nProkuror davlat ayblovini quvvatlar ekan, ushbu Kodeksning, Oʻzbekiston Respublikasi boshqa qonunlarining talablariga va ishning barcha holatlarini qarab chiqishga asoslangan oʻz ishonchiga amal qiladi."
+        },
+        {
+          "article": "449",
+          "found": true,
+          "title": "449-modda. Taraflar muzokarasining mazmuni va tartibi",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256480",
+          "excerpt": "Sud tergovi tamomlanganidan soʻng sud taraflarning muzokarasini eshitishga oʻtadi. Muzokara davlat ayblovchisi va jamoat ayblovchisining nutqlari bilan boshlanadi. Soʻngra jabrlanuvchi, fuqaroviy daʼvogar yoki ularning vakillari, himoyachi va jamoat himoyachisi, sudlanuvchi, fuqaroviy javobgar yoki uning vakili soʻzga chiqadi.\nDavlat ayblovchisi va jamoat ayblovchisining, shuningdek himoyachi va jamoat himoyachisining soʻzga chiqish navbatini sud ularning takliflarini inobatga olgan holda belgilaydi."
+        },
+        {
+          "article": "450",
+          "found": true,
+          "title": "450-modda. Taraflarning ayblovning mohiyati yuzasidan takliflari",
+          "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256492",
+          "excerpt": "Muzokara tamom boʻlganidan keyin taraflar ushbu Kodeks 457-moddasining birinchi qismidagi 1 — 6-bandlarda nazarda tutilgan masalalar yuzasidan chiqariladigan qarorning oʻzlari taklif etadigan mazmunini sudga yozma ravishda taqdim etishlari mumkin. Davlat ayblovchisi va himoyachi uchun qarorning bunday mazmunini sudga taqdim etish majburiydir."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256270",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    },
+    {
+      "roomId": "P-S05",
+      "roomTitle": "Final lab: qisman tasdiqlangan ayblov",
+      "status": "core_rule_checked_against_primary_source; assessment_and_full_legal_signoff_pending",
+      "reading_title": "Aralash natijani to‘g‘ri nomlash",
+      "reading_note": "JK 70-moddasidagi jazodan ozod qilish oqlov hukmi bilan bir xil emas. O‘g‘rilik yoki hujjatga oid alohida ayblovlar bo‘yicha har bir natija o‘z daliliy va huquqiy asosiga ega bo‘lishi kerak. Bir epizod tasdiqlanmagani barcha ayblovlar bo‘yicha avtomatik to‘liq oqlovni anglatmaydi.",
+      "source_id": "JK",
+      "verified_articles": [
+        {
+          "article": "70",
+          "found": true,
+          "title": "70-modda. Shaxsning ijtimoiy xavflilik xususiyatini yoʻqotishi munosabati bilan uni jazodan ozod qilish",
+          "url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-195165",
+          "excerpt": "Jinoyat sodir etgan shaxs agar ish sudda koʻrilayotgan vaqtgacha sharoit oʻzgardi yoki shaxs namunali xulqi, mehnatga yoki oʻqishga halol munosabati bilan oʻzini koʻrsatib, ijtimoiy xavfliligini yoʻqotdi deb eʼtirof etilsa, sud uni jazodan ozod qilishi mumkin.\nQoʻshimcha maʼlumot uchun qarang: Oʻzbekiston Respublikasi Oliy sudi Plenumining 2006-yil 3-fevraldagi 1-sonli “Sudlar tomonidan jinoyat uchun jazo tayinlash amaliyoti toʻgʻrisida”gi qarori 2-bandining ikkinchi xatboshisi, Oʻzbekiston Respublikasi Oliy sudi Plenumining 2013-yil 11-dekabrdagi 20-sonli “Tadbirkorlik faoliyati bilan bogʻliq ishlar boʻyicha sud amaliyotining ayrim masalalari toʻgʻrisida”gi qarorining 13^1-bandi."
+        },
+        {
+          "article": "169",
+          "found": true,
+          "title": "169-modda. Oʻgʻrilik",
+          "url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-263768",
+          "excerpt": "Oʻgʻrilik, yaʼni oʻzganing mol-mulkini yashirin ravishda talon-toroj qilish —\nbazaviy hisoblash miqdorining ellik baravarigacha miqdorda jarima yoki uch yuz oltmish soatgacha majburiy jamoat ishlari yoki ikki yilgacha axloq tuzatish ishlari yoki bir yildan uch yilgacha ozodlikni cheklash yoxud uch yilgacha ozodlikdan mahrum qilish bilan jazolanadi."
+        },
+        {
+          "article": "228",
+          "found": true,
+          "title": "228-modda. Hujjatlar, shtamplar, muhrlar, blankalar tayyorlash, ularni qalbakilashtirish, sotish yoki ulardan foydalanish",
+          "url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-266926",
+          "excerpt": "Soxtalashtiruvchining oʻzi yoki boshqa shaxs foydalanishi maqsadida muayyan huquq beradigan yoki muayyan majburiyatdan ozod etadigan rasmiy hujjatlar tayyorlashi yoki rasmiy hujjatlarni qalbakilashtirishi yoxud bunday hujjatlarni sotishi, shunday maqsadlarda korxona, muassasa yoki tashkilotning qalbaki shtamplari, muhrlari, blankalarini tayyorlash yoxud sotish —\nbazaviy hisoblash miqdorining ellik baravaridan yuz baravarigacha miqdorda jarima yoki uch yuz oltmish soatgacha majburiy jamoat ishlari yoxud uch yilgacha axloq tuzatish ishlari bilan jazolanadi."
+        }
+      ],
+      "source_url": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-195165",
+      "teaching_boundary": "O‘quv jadvali, bosqich tugmasi, ball va kalit qonunda belgilangan sud tartibi yoki haqiqiy huquqiy natija emas."
+    }
+  ],
+  "sourceCorrections": [
+    {
+      "source_id": "SUD",
+      "old_url": "https://lex.uz/docs/5534928",
+      "url": "https://lex.uz/uz/docs/-5534923?ONDATE=15.10.2026+00",
+      "reason": "Existing page is Russian unofficial translation;5534923 is official Uzbek text."
+    }
+  ],
+  "locatorCorrections": [
+    {
+      "roomId": "S-B03",
+      "add": "FPK210–219,225–229,243–248",
+      "reason": "229 only concerns witness questioning; full hearing flow needs specific preparation and final-stage provisions."
+    },
+    {
+      "roomId": "S-J02",
+      "add": "FPK219",
+      "reason": "Specific provision for deciding participants’ motions after hearing others."
+    },
+    {
+      "roomId": "P-J03",
+      "add": "JPK441–442",
+      "reason": "96–107 are general questioning provisions; court questioning is specifically regulated in442."
+    }
+  ],
+  "prosecutorScope": {
+    "civil": {
+      "source": {
+        "article": "50",
+        "found": true,
+        "title": "50-модда. Ишда прокурорнинг иштироки",
+        "url": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#6715857",
+        "excerpt": "Прокурор фақат қонунда назарда тутилган ҳолларда, шунингдек давлатнинг қонун билан қўриқланадиган манфаатларини ҳимоя қилиш мақсадида ерга оид ҳуқуқий муносабатлар, давлат мулки, давлатга етказилган зарарнинг ўрнини қоплаш ва давлат бюджетидан ундирувлар, эълон қилинган иш ташлашнинг бошланиш вақтини кечиктириш, иш ташлашни тўхтатиб туриш, иш ташлашни ноқонуний деб топиш билан боғлиқ ишларда ёки прокурорнинг даъво аризаси (аризаси) асосида қўзғатилган ишларда иштирок этиши мумкин. Прокурор бошқа шахсларнинг аризаси билан қўзғатилган ишнинг муҳокамасида ўз ташаббуси билан иштирок этиши мумкин эмас.\nПрокурор давлат манфаатларини ҳимоя қилиш учун судга ариза билан мурожаат қилиши мумкин."
+      },
+      "rule": "Statutory/prosecutor-initiated/public-interest categories only. Prosecutor may not join an ordinary private case on own initiative outside listed grounds; protective filing for unable persons is separately regulated.",
+      "ordinaryPrivateDebt": "Do not automatically seat or enable acting prosecutor without a stated lawful basis."
+    },
+    "economic": {
+      "source": {
+        "article": "49",
+        "found": true,
+        "title": "49-modda. Ishda prokurorning ishtiroki",
+        "url": "https://lex.uz/uz/docs/-3523891?ONDATE=18.11.2026+00#-5231843",
+        "excerpt": "Tumanlararo iqtisodiy sudlarga daʼvo arizasini (arizani) — Qoraqalpogʻiston Respublikasi, viloyatlar, Toshkent shahar, tumanlar (shaharlar) prokurorlari va ularga tenglashtirilgan prokurorlar yoki ularning oʻrinbosarlari, Qoraqalpogʻiston Respublikasi sudiga, viloyatlar va Toshkent shahar sudlariga esa — Qoraqalpogʻiston Respublikasi, viloyatlar, Toshkent shahar prokurorlari yoki ularning oʻrinbosarlari taqdim etadi.\nOʻzbekiston Respublikasi Bosh prokurori yoki uning oʻrinbosari Oʻzbekiston Respublikasining barcha iqtisodiy sudlariga daʼvo arizasi (ariza) taqdim etishga haqli."
+      },
+      "rule": "Prosecutor-initiated/statutory public-interest categories. Ordinary private supply disputes do not automatically provide participation grounds.",
+      "privateSupplyContract": "Do not automatically portray prosecutor as the state’s lawyer or a party."
+    },
+    "administrative": {
+      "source": {
+        "article": "46",
+        "found": true,
+        "title": "46-modda. Ishda prokurorning ishtiroki",
+        "url": "https://lex.uz/uz/docs/-3527353?ONDATE=14.08.2026+00#-3529095",
+        "excerpt": "Prokuror barcha ishlar boʻyicha sud majlisida ishtirok etishga haqli.\nProkuror fuqarolar va yuridik shaxslarning, shuningdek jamiyat va davlatning huquqlari va qonun bilan qoʻriqlanadigan manfaatlarini himoya qilib, sudga ariza bilan murojaat qilish huquqiga ega."
+      },
+      "rule": "May attend all administrative hearings; participation mandatory in land-related cases, cases required by law or court, and prosecutor-initiated proceedings.",
+      "landDecision": "Mandatory prosecutor participation, not merely a role with no procedural basis.",
+      "capacity": "Prosecutor gives an opinion unless acting on own protective application; not automatically counsel for respondent organ."
+    },
+    "criminal": {
+      "source": {
+        "article": "409",
+        "found": true,
+        "title": "409-modda. Sud muhokamasida prokurorning ishtiroki",
+        "url": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256270",
+        "excerpt": "Prokuror birinchi instansiya sudlarida jinoyatlarga doir ishlarni koʻrishda ishtirok etib, davlat ayblovini quvvatlaydi, dalillarni tekshirishda ishtirok etadi, sudlanuvchilarga, jabrlanuvchilar, guvohlar, ekspertlar va sudga taklif etilgan boshqa shaxslarga savollar beradi, Jinoyat kodeksining normalarini qoʻllash, sudlanuvchining harakatlarini tavsiflash, unga jazo turini va meʼyorini tayinlash toʻgʻrisida hamda sud hal etishi lozim boʻlgan boshqa masalalar yuzasidan oʻz fikrini bayon qiladi, jinoyatning sabablari va uning sodir etilishiga imkon bergan shart-sharoitlar haqida hamda ularni bartaraf etishga qaratilgan choralar xususida oʻz fikrini bildiradi.\nProkuror davlat ayblovini quvvatlar ekan, ushbu Kodeksning, Oʻzbekiston Respublikasi boshqa qonunlarining talablariga va ishning barcha holatlarini qarab chiqishga asoslangan oʻz ishonchiga amal qiladi."
+      },
+      "rule": "State accusation, evidence examination, questions and reasoned position; not conviction at any cost."
+    }
+  },
+  "procedureRules": [
+    {
+      "key": "civil_opening",
+      "articles": [
+        "FPK210",
+        "FPK213",
+        "FPK215",
+        "FPK216",
+        "FPK217",
+        "FPK219"
+      ],
+      "rule": "Opening; attendance; remove witnesses awaiting questioning; announce composition and recusal rights; explain rights; hear and decide motions."
+    },
+    {
+      "key": "criminal_opening",
+      "articles": [
+        "JPK428",
+        "JPK429",
+        "JPK430",
+        "JPK431",
+        "JPK432",
+        "JPK434",
+        "JPK435",
+        "JPK436",
+        "JPK438"
+      ],
+      "rule": "Opening; attendance; interpreter where needed; announce composition/parties and recusal; remove witnesses; identity and documents; rights; motions."
+    },
+    {
+      "key": "witness_waiting",
+      "articles": [
+        "FPK215",
+        "FPK229",
+        "JPK432"
+      ],
+      "rule": "Unexamined witnesses should not sit among24 visitors and listen to earlier testimony. Use off-room waiting until called."
+    },
+    {
+      "key": "criminal_debates",
+      "articles": [
+        "JPK448",
+        "JPK449",
+        "JPK450"
+      ],
+      "rule": "Examination closes before debates; debates must rely on examined materials. Defendant last word follows debates."
+    },
+    {
+      "key": "last_word",
+      "articles": [
+        "JPK451"
+      ],
+      "rule": "Only the defendant has this criminal-procedure final word. No questions are permitted during it. It may not be arbitrarily limited by a fixed duration; irrelevant remarks may be stopped."
+    },
+    {
+      "key": "new_information",
+      "articles": [
+        "JPK452"
+      ],
+      "rule": "Important new circumstances or evidence emerging during debates/final word can require reopening examination, rather than proceeding mechanically to verdict."
+    },
+    {
+      "key": "civil_final",
+      "articles": [
+        "FPK244",
+        "FPK245",
+        "FPK247",
+        "FPK248",
+        "FPK253"
+      ],
+      "rule": "Debates, prosecutor opinion where applicable, deliberation, pronouncement and reasoned judgment; do not add criminal last-word stage."
+    },
+    {
+      "key": "reasoned_decision",
+      "articles": [
+        "FPK80",
+        "FPK253",
+        "JPK455",
+        "JPK457",
+        "JPK463",
+        "JPK464"
+      ],
+      "rule": "State findings, accepted/rejected evidence and reasons, applicable rules and result. Numeric score or confident speech cannot establish legal correctness."
+    },
+    {
+      "key": "public_gallery",
+      "articles": [
+        "Constitution137"
+      ],
+      "rule": "Open-hearing baseline, statutory closed-hearing exceptions.24 viewers are an authored scene population, not a statutory requirement."
+    }
+  ],
+  "caseReports": [
+    {
+      "url": "https://ombudsman.uz/oz/news/2025/06/03/ishdan-noqonuniy-boshatilgan-xodimlar-oz-lavozimiga-tiklandi-va-ish-beruvchidan-salkam-50-mln-som-undirildi",
+      "title": "Ishdan noqonuniy bo‘shatilgan xodimlar ...",
+      "type": "official_ombudsman_report",
+      "verified": "opened2026-11-20",
+      "facts": "Three workers repeatedly dismissed; Sept2024 reinstatement, Jan2025 repeat dismissal alleging gross breach; Ombudsman filed for G.I. and supported two others.",
+      "reportedOutcome": "Positions reinstated; total37m soum for forced absence/moral harm to citizens; separate5.8m state fee to state.",
+      "limits": "No original judgment, per-worker breakdown or original evidentiary documents. Do not treat headline almost50m as exact body award."
+    }
+  ],
+  "limitations": [
+    "All existing briefs were reviewed, but source alignment is not professional approval of every authored case, quiz answer, translation or legal consequence.",
+    "Education-book catalogues are not the book full text and cannot support invented page-specific lessons.",
+    "Real case report is not an original judgment or authentic exhibit. All reconstructed evidence must be labelled.",
+    "Motions, closed hearings, recusal, hearing scope, evidentiary discretion, appeals and actual defendant rights cannot be fully reduced to fixed game gates.",
+    "General common-law courtroom objections must not replace Uzbek statutory motion procedure.",
+    "No authenticity verification of archived adolat.zip court records; placeholders are not court case files."
+  ],
+  "unresolvedArticleBindings": [],
+  "scenarioCorrections": [
+    {
+      "caseId": "SC-maydabezori",
+      "severity": "high",
+      "rule": "Criminal-court jurisdiction is not equivalent to criminal-procedure classification. A petty-hooliganism case must not use criminal conviction/acquittal or JPK451 last-word logic.",
+      "recommendation": "Keep as a qualification exercise in archive and exclude from full criminal trial pending a separate administrative-offence procedure. A source-backed employment civil case can replace it in the full-hearing catalogue.",
+      "sources": [
+        {
+          "url": "https://lex.uz/uz/docs/-97664?ONDATE=03.11.2026+00",
+          "articles": "183,245,275,294,297,303,306–310"
+        }
+      ],
+      "notes": "MJtK275 governs prosecutor participation/supervision;294 person rights;306 hearing procedure;309 decision contents;310 administrative penalty or termination."
+    },
+    {
+      "caseId": "SC-hokim",
+      "severity": "high",
+      "rule": "Land-related administrative case requires prosecutor participation under MSIYK46.",
+      "recommendation": "Replace generic no-procedural-basis language with actual administrative prosecutor participation and role description."
+    },
+    {
+      "caseId": "SC-qarz,SC-yetkazish",
+      "severity": "high",
+      "rule": "Ordinary private debt/supply litigation does not automatically allow an acting prosecutor under FPK50/IPK49.",
+      "recommendation": "Do not seat prosecutor by default or offer acting prosecutor without a specified lawful basis. A separate educational legality review may be distinct from acting as a party."
+    }
+  ],
+  "terminology": {
+    "criminal_defendant": "Sudlanuvchi before judgment; do not label Aybdor before guilt is established.",
+    "civil_economic": "Da’vogar and javobgar, with representative where applicable.",
+    "administrative": "Arizachi and respondent administrative body; do not call them accused/victim.",
+    "criminal_opposing_lawyer": "Victim/civil claimant representative where procedural status permits; distinct from state prosecutor."
+  },
+  "followupRuntimeReview": {
+    "date": "2026-11-21",
+    "debtEvidence": "FK 733 and109 read on official LexUZ. Separate contract absence alone is not automatic invalidity; other written proof and witness-proof limitation must be distinguished.",
+    "urls": [
+      "https://lex.uz/docs/180552",
+      "https://lex.uz/docs/111189"
+    ],
+    "partialAward": "Single undivided claim cannot receive an arbitrary partial teaching award merely from uncertainty; partial output disabled unless case defines severable claims."
+  }
+}

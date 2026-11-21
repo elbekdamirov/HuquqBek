@@ -1,0 +1,2540 @@
+﻿QonunVerse dependency check
+  Python   : 3.14.0
+  Blender  : C:\Users\miron\AppData\Local\Temp\claude\37f2e35321cc5e2b\b2f97d39-f6e1-44c9-a3ee-0f7d952e461c\scratchpad\b\blender.exe 4.2.23
+  MPFB     : ok   assets: ok   mixamo rig: ok
+
+Can build: environment, qonunai, humans
+
+=== Build courtroom (blender/courtroom.blend)
+powershell : TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+At line:1 char:499
++ ... 20-ee1137"; powershell -ExecutionPolicy Bypass -File .\run_pipeline.p ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (TBBmalloc: skip...function _msize:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20261010
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+[QV] generating environment textures ...
+Blender 4.2.23 LTS (hash d0cbe84903e8 built 2026-07-21 01:34:46)
+Info: Total files 26 | Changed 26 | Failed 0
+Info: Saved "courtroom.blend"
+[QV] saved C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\courtroom.blend
+Fra:1 Mem:159.09M (Peak 159.10M) | Time:00:04.88 | Rendering 1 / 48 samples
+Fra:1 Mem:159.09M (Peak 159.10M) | Time:00:08.26 | Rendering 25 / 48 samples
+Fra:1 Mem:159.09M (Peak 159.10M) | Time:00:11.40 | Rendering 48 / 48 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\courtroom_CAM_reference.png'
+Time: 00:11.71 (Saving: 00:00.29)
+
+[QV] render C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\courtroom_CAM_reference.png
+Fra:1 Mem:159.08M (Peak 159.73M) | Time:00:00.43 | Rendering 1 / 48 samples
+Fra:1 Mem:159.08M (Peak 159.73M) | Time:00:04.10 | Rendering 25 / 48 samples
+Fra:1 Mem:159.08M (Peak 159.73M) | Time:00:07.61 | Rendering 48 / 48 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\courtroom_CAM_overview.png'
+Time: 00:07.74 (Saving: 00:00.11)
+
+[QV] render C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\courtroom_CAM_overview.png
+
+Blender quit
+
+=== Export environment GLBs
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20261010
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+ERROR Draco mesh compression is not available because library could not be found at C:\Users\miron\AppData\Local\Temp\claude\37f2e35321cc5e2b\b2f97d39-f6e1-44c9-a3ee-0f7d952e461c\scratchpad\b\4.2\python\lib\site-packages\extern_draco.dll
+07:47:38 | INFO: Starting glTF 2.0 export
+07:47:38 | INFO: Extracting primitive: ENV_Book_Covers
+07:47:38 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Brass_Gold
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Ceiling_Paint
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_CeilingPanel_Emissive
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Emblem_PLACEHOLDER
+07:47:38 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Exterior_Daylight
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Fabric_Bench
+07:47:38 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Floor_Stone
+07:47:38 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Lamp_Emissive
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Leather_Black
+07:47:38 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Metal_Chrome
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Monitor_Screen
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Nameplate_Gold
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Nameplate_Text
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Paper
+07:47:38 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Plastic_Black
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Screen_Gold
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Screen_Text
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Wall_Plaster
+07:47:38 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Window_Frame
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Window_Glass
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: ENV_Wood_Walnut
+07:47:38 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: INTERACT_CourtDisplay_Screen
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: INTERACT_EvidenceFolder_A
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: INTERACT_EvidenceFolder_P
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: INTERACT_Flag_Uzbekistan
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: INTERACT_MainDoor_Leaf0
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: INTERACT_MainDoor_Leaf1
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Extracting primitive: INTERACT_SecurityDoor_Leaf0
+07:47:38 | INFO: Primitives created: 1
+07:47:38 | INFO: Finished glTF 2.0 export in 0.33377504348754883 s
+
+[QV] exported courtroom.glb 2.57 MB
+07:48:15 | INFO: Starting glTF 2.0 export
+07:48:15 | INFO: Extracting primitive: ENV_Book_Covers.001
+07:48:15 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Brass_Gold.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Ceiling_Paint.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_CeilingPanel_Emissive.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Emblem_PLACEHOLDER.001
+07:48:15 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Exterior_Daylight.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Fabric_Bench.001
+07:48:15 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Floor_Stone.001
+07:48:15 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Leather_Black.001
+07:48:15 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Metal_Chrome.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Monitor_Screen.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Nameplate_Gold.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Nameplate_Text.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Paper.001
+07:48:15 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Plastic_Black.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Screen_Gold.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Screen_Text.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Wall_Plaster.001
+07:48:15 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Window_Frame.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Window_Glass.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: ENV_Wood_Walnut.001
+07:48:15 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: INTERACT_CourtDisplay_Screen.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: INTERACT_EvidenceFolder_A.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: INTERACT_EvidenceFolder_P.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: INTERACT_Flag_Uzbekistan.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: INTERACT_MainDoor_Leaf0.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: INTERACT_MainDoor_Leaf1.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Extracting primitive: INTERACT_SecurityDoor_Leaf0.001
+07:48:15 | INFO: Primitives created: 1
+07:48:15 | INFO: Finished glTF 2.0 export in 0.128584623336792 s
+
+[QV] exported courtroom_lod1.glb 2.36 MB
+07:48:16 | INFO: Starting glTF 2.0 export
+07:48:16 | INFO: Extracting primitive: COL_AdvocateTable
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_Bar_L
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_Bar_R
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_BenchL0
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_BenchL1
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_BenchL2
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_BenchR0
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_BenchR1
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_BenchR2
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_ClerkDais
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_ClerkDesk
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_DefendantDesk
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_JudgeBench
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_JudgeDais
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_ProsecutorDesk
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_Wall_Back
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_Wall_Front
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_Wall_Left
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_Wall_Right
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Extracting primitive: COL_WitnessStand
+07:48:16 | INFO: Primitives created: 1
+07:48:16 | INFO: Finished glTF 2.0 export in 0.03829622268676758 s
+
+[QV] exported courtroom_colliders.glb 0.03 MB
+[QV] environment draw calls (lod0): 29 tris: 30744
+Blender 4.2.23 LTS (hash d0cbe84903e8 built 2026-07-21 01:34:46)
+Read blend: "C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\courtroom.blend"
+
+Blender quit
+
+=== Build + export human cast
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20261010
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+[QV] === sudya (judge)
+Blender 4.2.23 LTS (hash d0cbe84903e8 built 2026-07-21 01:34:46)
+OBJ import of 'base.obj' took 9.99 ms
+OBJ import of 'low-poly.obj' took 0.42 ms
+OBJ import of 'eyebrow010.obj' took 0.40 ms
+OBJ import of 'eyelashes02.obj' took 0.43 ms
+OBJ import of 'teeth_base.obj' took 2.21 ms
+OBJ import of 'tongue01.obj' took 0.47 ms
+OBJ import of 'short02.obj' took 1.21 ms
+OBJ import of 'male_elegantsuit01.obj' took 4.18 ms
+OBJ import of 'shoes02.obj' took 1.21 ms
+Info: Total files 20 | Changed 20 | Failed 0
+Fra:1 Mem:139.75M (Peak 142.45M) | Time:00:03.93 | Rendering 1 / 64 samples
+Fra:1 Mem:139.75M (Peak 142.45M) | Time:00:04.33 | Rendering 25 / 64 samples
+Fra:1 Mem:139.75M (Peak 142.45M) | Time:00:04.54 | Rendering 50 / 64 samples
+Fra:1 Mem:139.75M (Peak 142.45M) | Time:00:04.64 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\sudya_Idle_Stand.png'
+Time: 00:04.80 (Saving: 00:00.15)
+
+Fra:1 Mem:139.75M (Peak 142.63M) | Time:00:00.09 | Rendering 1 / 64 samples
+Fra:1 Mem:139.75M (Peak 142.63M) | Time:00:00.27 | Rendering 25 / 64 samples
+Fra:1 Mem:139.75M (Peak 142.63M) | Time:00:00.43 | Rendering 50 / 64 samples
+Fra:1 Mem:139.75M (Peak 142.63M) | Time:00:00.52 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\sudya_Idle_Seated.png'
+Time: 00:00.57 (Saving: 00:00.05)
+
+Fra:8 Mem:139.75M (Peak 142.63M) | Time:00:00.15 | Rendering 1 / 64 samples
+Fra:8 Mem:139.75M (Peak 142.63M) | Time:00:00.36 | Rendering 25 / 64 samples
+Fra:8 Mem:139.75M (Peak 142.63M) | Time:00:00.52 | Rendering 50 / 64 samples
+Fra:8 Mem:139.75M (Peak 142.63M) | Time:00:00.61 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\sudya_Walk.png'
+Time: 00:00.66 (Saving: 00:00.05)
+
+Fra:30 Mem:139.75M (Peak 142.63M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:30 Mem:139.75M (Peak 142.63M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:30 Mem:139.75M (Peak 142.63M) | Time:00:00.40 | Rendering 50 / 64 samples
+Fra:30 Mem:139.75M (Peak 142.63M) | Time:00:00.50 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\sudya_Gesture_Point.png'
+Time: 00:00.56 (Saving: 00:00.05)
+
+Fra:1 Mem:139.75M (Peak 142.63M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:1 Mem:139.75M (Peak 142.63M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:1 Mem:139.75M (Peak 142.63M) | Time:00:00.41 | Rendering 50 / 64 samples
+Fra:1 Mem:139.75M (Peak 142.63M) | Time:00:00.51 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\sudya_back.png'
+Time: 00:00.57 (Saving: 00:00.05)
+
+Fra:1 Mem:139.75M (Peak 142.63M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:1 Mem:139.75M (Peak 142.63M) | Time:00:00.31 | Rendering 25 / 64 samples
+Fra:1 Mem:139.75M (Peak 142.63M) | Time:00:00.56 | Rendering 50 / 64 samples
+Fra:1 Mem:139.75M (Peak 142.63M) | Time:00:00.69 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\sudya_face.png'
+Time: 00:00.75 (Saving: 00:00.05)
+
+[WARN ] services.humanservice ..................: Creating game engine skin material
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+Info: Saved "sudya.blend"
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+ERROR Draco mesh compression is not available because library could not be found at C:\Users\miron\AppData\Local\Temp\claude\37f2e35321cc5e2b\b2f97d39-f6e1-44c9-a3ee-0f7d952e461c\scratchpad\b\4.2\python\lib\site-packages\extern_draco.dll
+07:48:31 | INFO: Starting glTF 2.0 export
+07:48:31 | INFO: Extracting primitive: sudya_accessories
+07:48:31 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:31 | INFO: Primitives created: 1
+07:48:31 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:48:31 | INFO: Extracting primitive: sudya_body.001
+07:48:31 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:31 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:31 | INFO: Primitives created: 6
+07:48:31 | INFO: Extracting primitive: sudya_clothes
+07:48:31 | INFO: Primitives created: 1
+07:48:31 | INFO: Extracting primitive: sudya_hair
+07:48:31 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:31 | INFO: Primitives created: 1
+07:48:31 | INFO: Extracting primitive: sudya_shoes
+07:48:31 | INFO: Primitives created: 1
+07:48:49 | INFO: Finished glTF 2.0 export in 17.66499137878418 s
+
+[QV]   exported sudya.glb 4.65 MB
+07:48:49 | INFO: Starting glTF 2.0 export
+07:48:49 | INFO: Extracting primitive: sudya_accessories.001
+07:48:49 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:49 | INFO: Primitives created: 1
+07:48:49 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:48:49 | INFO: Extracting primitive: sudya_body.002
+07:48:49 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:49 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:49 | INFO: Primitives created: 6
+07:48:49 | INFO: Extracting primitive: sudya_clothes.001
+07:48:49 | INFO: Primitives created: 1
+07:48:49 | INFO: Extracting primitive: sudya_hair.001
+07:48:49 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:49 | INFO: Primitives created: 1
+07:48:49 | INFO: Extracting primitive: sudya_shoes.001
+07:48:49 | INFO: Primitives created: 1
+07:48:49 | INFO: Finished glTF 2.0 export in 0.13629865646362305 s
+
+[QV]   exported sudya_lod1.glb 2.30 MB
+07:48:50 | INFO: Starting glTF 2.0 export
+07:48:50 | INFO: Extracting primitive: sudya_accessories.002
+07:48:50 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:50 | INFO: Primitives created: 1
+07:48:50 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:48:50 | INFO: Extracting primitive: sudya_body.003
+07:48:50 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:50 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:50 | INFO: Primitives created: 6
+07:48:50 | INFO: Extracting primitive: sudya_clothes.002
+07:48:50 | INFO: Primitives created: 1
+07:48:50 | INFO: Extracting primitive: sudya_hair.002
+07:48:50 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:48:50 | INFO: Primitives created: 1
+07:48:50 | INFO: Extracting primitive: sudya_shoes.002
+07:48:50 | INFO: Primitives created: 1
+07:48:50 | INFO: Finished glTF 2.0 export in 0.07982134819030762 s
+
+[QV]   exported sudya_lod2.glb 1.81 MB
+[QV] === advokat (lawyer)
+OBJ import of 'base.obj' took 13.05 ms
+OBJ import of 'low-poly.obj' took 0.52 ms
+OBJ import of 'eyebrow006.obj' took 0.50 ms
+OBJ import of 'eyelashes04.obj' took 0.64 ms
+OBJ import of 'teeth_base.obj' took 3.39 ms
+OBJ import of 'tongue01.obj' took 0.78 ms
+OBJ import of 'ponytail01.obj' took 3.28 ms
+OBJ import of 'female_elegantsuit01.obj' took 1.85 ms
+OBJ import of 'shoes02.obj' took 1.57 ms
+Info: Total files 16 | Changed 16 | Failed 0
+Fra:1 Mem:151.08M (Peak 155.65M) | Time:00:00.50 | Rendering 1 / 64 samples
+Fra:1 Mem:151.08M (Peak 155.65M) | Time:00:00.68 | Rendering 25 / 64 samples
+Fra:1 Mem:151.08M (Peak 155.65M) | Time:00:00.85 | Rendering 50 / 64 samples
+Fra:1 Mem:151.08M (Peak 155.65M) | Time:00:00.93 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\advokat_Idle_Stand.png'
+Time: 00:00.99 (Saving: 00:00.05)
+
+Fra:1 Mem:151.07M (Peak 153.14M) | Time:00:00.16 | Rendering 1 / 64 samples
+Fra:1 Mem:151.07M (Peak 153.14M) | Time:00:00.32 | Rendering 25 / 64 samples
+Fra:1 Mem:151.07M (Peak 153.14M) | Time:00:00.46 | Rendering 50 / 64 samples
+Fra:1 Mem:151.07M (Peak 153.14M) | Time:00:00.54 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\advokat_Idle_Seated.png'
+Time: 00:00.60 (Saving: 00:00.05)
+
+Fra:8 Mem:151.07M (Peak 153.14M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:8 Mem:151.07M (Peak 153.14M) | Time:00:00.24 | Rendering 25 / 64 samples
+Fra:8 Mem:151.07M (Peak 153.14M) | Time:00:00.38 | Rendering 50 / 64 samples
+Fra:8 Mem:151.07M (Peak 153.14M) | Time:00:00.46 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\advokat_Walk.png'
+Time: 00:00.52 (Saving: 00:00.05)
+
+Fra:40 Mem:151.07M (Peak 153.14M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:40 Mem:151.07M (Peak 153.14M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:40 Mem:151.07M (Peak 153.14M) | Time:00:00.39 | Rendering 50 / 64 samples
+Fra:40 Mem:151.07M (Peak 153.14M) | Time:00:00.47 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\advokat_Address_Judge.png'
+Time: 00:00.54 (Saving: 00:00.06)
+
+Fra:66 Mem:151.07M (Peak 153.14M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:66 Mem:151.07M (Peak 153.14M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:66 Mem:151.07M (Peak 153.14M) | Time:00:00.40 | Rendering 50 / 64 samples
+Fra:66 Mem:151.07M (Peak 153.14M) | Time:00:00.48 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\advokat_Present_Evidence.png'
+Time: 00:00.54 (Saving: 00:00.05)
+
+Fra:30 Mem:151.07M (Peak 153.14M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:30 Mem:151.07M (Peak 153.14M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:30 Mem:151.07M (Peak 153.14M) | Time:00:00.43 | Rendering 50 / 64 samples
+Fra:30 Mem:151.07M (Peak 153.14M) | Time:00:00.51 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\advokat_Gesture_Point.png'
+Time: 00:00.57 (Saving: 00:00.05)
+
+Fra:1 Mem:151.07M (Peak 153.14M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:1 Mem:151.07M (Peak 153.14M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:1 Mem:151.07M (Peak 153.14M) | Time:00:00.40 | Rendering 50 / 64 samples
+Fra:1 Mem:151.07M (Peak 153.14M) | Time:00:00.49 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\advokat_back.png'
+Time: 00:00.55 (Saving: 00:00.05)
+
+Fra:1 Mem:151.07M (Peak 153.14M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:1 Mem:151.07M (Peak 153.14M) | Time:00:00.29 | Rendering 25 / 64 samples
+Fra:1 Mem:151.07M (Peak 153.14M) | Time:00:00.49 | Rendering 50 / 64 samples
+Fra:1 Mem:151.07M (Peak 153.14M) | Time:00:00.62 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\advokat_face.png'
+Time: 00:00.68 (Saving: 00:00.05)
+
+[WARN ] services.humanservice ..................: Creating game engine skin material
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+Info: Saved "advokat.blend"
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+07:49:04 | INFO: Starting glTF 2.0 export
+07:49:04 | INFO: Extracting primitive: advokat_accessories
+07:49:04 | INFO: Primitives created: 1
+07:49:04 | INFO: Extracting primitive: advokat_body.001
+07:49:04 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:04 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:04 | INFO: Primitives created: 6
+07:49:04 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:49:04 | INFO: Extracting primitive: advokat_clothes
+07:49:04 | INFO: Primitives created: 2
+07:49:04 | INFO: Extracting primitive: advokat_hair
+07:49:04 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:04 | INFO: Primitives created: 1
+07:49:04 | INFO: Extracting primitive: advokat_shoes
+07:49:04 | INFO: Primitives created: 1
+07:49:26 | INFO: Finished glTF 2.0 export in 22.882474899291992 s
+
+[QV]   exported advokat.glb 4.68 MB
+07:49:27 | INFO: Starting glTF 2.0 export
+07:49:27 | INFO: Extracting primitive: advokat_accessories.001
+07:49:27 | INFO: Primitives created: 1
+07:49:27 | INFO: Extracting primitive: advokat_body.002
+07:49:27 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:27 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:27 | INFO: Primitives created: 6
+07:49:27 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:49:27 | INFO: Extracting primitive: advokat_clothes.001
+07:49:27 | INFO: Primitives created: 2
+07:49:27 | INFO: Extracting primitive: advokat_hair.001
+07:49:27 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:27 | INFO: Primitives created: 1
+07:49:27 | INFO: Extracting primitive: advokat_shoes.001
+07:49:27 | INFO: Primitives created: 1
+07:49:27 | INFO: Finished glTF 2.0 export in 0.10123610496520996 s
+
+[QV]   exported advokat_lod1.glb 2.13 MB
+07:49:27 | INFO: Starting glTF 2.0 export
+07:49:27 | INFO: Extracting primitive: advokat_accessories.002
+07:49:27 | INFO: Primitives created: 1
+07:49:27 | INFO: Extracting primitive: advokat_body.003
+07:49:27 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:27 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:27 | INFO: Primitives created: 6
+07:49:27 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:49:27 | INFO: Extracting primitive: advokat_clothes.002
+07:49:27 | INFO: Primitives created: 2
+07:49:27 | INFO: Extracting primitive: advokat_hair.002
+07:49:27 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:27 | INFO: Primitives created: 1
+07:49:27 | INFO: Extracting primitive: advokat_shoes.002
+07:49:27 | INFO: Primitives created: 1
+07:49:27 | INFO: Finished glTF 2.0 export in 0.07492184638977051 s
+
+[QV]   exported advokat_lod2.glb 1.77 MB
+[QV] === prokuror (prosecutor)
+OBJ import of 'base.obj' took 13.09 ms
+OBJ import of 'low-poly.obj' took 0.53 ms
+OBJ import of 'eyebrow001.obj' took 0.50 ms
+OBJ import of 'eyelashes01.obj' took 0.64 ms
+OBJ import of 'teeth_base.obj' took 2.90 ms
+OBJ import of 'tongue01.obj' took 0.72 ms
+OBJ import of 'short04.obj' took 1.00 ms
+OBJ import of 'male_elegantsuit01.obj' took 5.40 ms
+OBJ import of 'shoes02.obj' took 1.71 ms
+Info: Total files 14 | Changed 14 | Failed 0
+Fra:1 Mem:138.80M (Peak 143.51M) | Time:00:00.40 | Rendering 1 / 64 samples
+Fra:1 Mem:138.80M (Peak 143.51M) | Time:00:00.55 | Rendering 25 / 64 samples
+Fra:1 Mem:138.80M (Peak 143.51M) | Time:00:00.71 | Rendering 50 / 64 samples
+Fra:1 Mem:138.80M (Peak 143.51M) | Time:00:00.79 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\prokuror_Idle_Stand.png'
+Time: 00:00.85 (Saving: 00:00.05)
+
+Fra:1 Mem:138.80M (Peak 141.21M) | Time:00:00.14 | Rendering 1 / 64 samples
+Fra:1 Mem:138.80M (Peak 141.21M) | Time:00:00.31 | Rendering 25 / 64 samples
+Fra:1 Mem:138.80M (Peak 141.21M) | Time:00:00.47 | Rendering 50 / 64 samples
+Fra:1 Mem:138.80M (Peak 141.21M) | Time:00:00.56 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\prokuror_Idle_Seated.png'
+Time: 00:00.62 (Saving: 00:00.05)
+
+Fra:8 Mem:138.80M (Peak 141.21M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:8 Mem:138.80M (Peak 141.21M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:8 Mem:138.80M (Peak 141.21M) | Time:00:00.39 | Rendering 50 / 64 samples
+Fra:8 Mem:138.80M (Peak 141.21M) | Time:00:00.47 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\prokuror_Walk.png'
+Time: 00:00.53 (Saving: 00:00.05)
+
+Fra:66 Mem:138.80M (Peak 141.21M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:66 Mem:138.80M (Peak 141.21M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:66 Mem:138.80M (Peak 141.21M) | Time:00:00.40 | Rendering 50 / 64 samples
+Fra:66 Mem:138.80M (Peak 141.21M) | Time:00:00.48 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\prokuror_Present_Evidence.png'
+Time: 00:00.56 (Saving: 00:00.06)
+
+Fra:30 Mem:138.80M (Peak 141.21M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:30 Mem:138.80M (Peak 141.21M) | Time:00:00.24 | Rendering 25 / 64 samples
+Fra:30 Mem:138.80M (Peak 141.21M) | Time:00:00.39 | Rendering 50 / 64 samples
+Fra:30 Mem:138.80M (Peak 141.21M) | Time:00:00.48 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\prokuror_Gesture_Point.png'
+Time: 00:00.54 (Saving: 00:00.05)
+
+Fra:1 Mem:138.80M (Peak 141.21M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:1 Mem:138.80M (Peak 141.21M) | Time:00:00.24 | Rendering 25 / 64 samples
+Fra:1 Mem:138.80M (Peak 141.21M) | Time:00:00.38 | Rendering 50 / 64 samples
+Fra:1 Mem:138.80M (Peak 141.21M) | Time:00:00.48 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\prokuror_back.png'
+Time: 00:00.54 (Saving: 00:00.05)
+
+Fra:1 Mem:138.80M (Peak 141.21M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:1 Mem:138.80M (Peak 141.21M) | Time:00:00.30 | Rendering 25 / 64 samples
+Fra:1 Mem:138.80M (Peak 141.21M) | Time:00:00.51 | Rendering 50 / 64 samples
+Fra:1 Mem:138.80M (Peak 141.21M) | Time:00:00.65 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\prokuror_face.png'
+Time: 00:00.71 (Saving: 00:00.05)
+
+[WARN ] services.humanservice ..................: Creating game engine skin material
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+Info: Saved "prokuror.blend"
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+07:49:39 | INFO: Starting glTF 2.0 export
+07:49:39 | INFO: Extracting primitive: prokuror_accessories
+07:49:39 | INFO: Primitives created: 2
+07:49:39 | INFO: Extracting primitive: prokuror_body.001
+07:49:39 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:39 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:39 | INFO: Primitives created: 6
+07:49:39 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:49:39 | INFO: Extracting primitive: prokuror_clothes
+07:49:39 | INFO: Primitives created: 1
+07:49:39 | INFO: Extracting primitive: prokuror_hair
+07:49:39 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:39 | INFO: Primitives created: 1
+07:49:39 | INFO: Extracting primitive: prokuror_shoes
+07:49:39 | INFO: Primitives created: 1
+07:49:58 | INFO: Finished glTF 2.0 export in 18.91703200340271 s
+
+[QV]   exported prokuror.glb 4.47 MB
+07:49:58 | INFO: Starting glTF 2.0 export
+07:49:58 | INFO: Extracting primitive: prokuror_accessories.001
+07:49:58 | INFO: Primitives created: 2
+07:49:58 | INFO: Extracting primitive: prokuror_body.002
+07:49:58 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:58 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:58 | INFO: Primitives created: 6
+07:49:58 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:49:58 | INFO: Extracting primitive: prokuror_clothes.001
+07:49:58 | INFO: Primitives created: 1
+07:49:58 | INFO: Extracting primitive: prokuror_hair.001
+07:49:58 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:58 | INFO: Primitives created: 1
+07:49:58 | INFO: Extracting primitive: prokuror_shoes.001
+07:49:58 | INFO: Primitives created: 1
+07:49:58 | INFO: Finished glTF 2.0 export in 0.10789918899536133 s
+
+[QV]   exported prokuror_lod1.glb 2.05 MB
+07:49:58 | INFO: Starting glTF 2.0 export
+07:49:58 | WARNING: Mesh prokuror_accessories.002 is not valid, and may be exported wrongly
+07:49:58 | INFO: Extracting primitive: prokuror_accessories.002
+07:49:58 | INFO: Primitives created: 2
+07:49:58 | INFO: Extracting primitive: prokuror_body.003
+07:49:58 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:58 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:58 | INFO: Primitives created: 6
+07:49:58 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:49:58 | INFO: Extracting primitive: prokuror_clothes.002
+07:49:58 | INFO: Primitives created: 1
+07:49:58 | INFO: Extracting primitive: prokuror_hair.002
+07:49:58 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:49:58 | INFO: Primitives created: 1
+07:49:58 | INFO: Extracting primitive: prokuror_shoes.002
+07:49:59 | INFO: Primitives created: 1
+07:49:59 | INFO: Finished glTF 2.0 export in 0.18972373008728027 s
+
+[QV]   exported prokuror_lod2.glb 1.64 MB
+[QV] === davogar (plaintiff)
+OBJ import of 'base.obj' took 13.29 ms
+OBJ import of 'low-poly.obj' took 0.49 ms
+OBJ import of 'eyebrow004.obj' took 0.49 ms
+OBJ import of 'eyelashes01.obj' took 0.61 ms
+OBJ import of 'teeth_base.obj' took 2.91 ms
+OBJ import of 'tongue01.obj' took 0.65 ms
+OBJ import of 'short02.obj' took 1.67 ms
+OBJ import of 'male_casualsuit01.obj' took 6.27 ms
+OBJ import of 'shoes01.obj' took 1.66 ms
+Info: Total files 17 | Changed 17 | Failed 0
+Fra:1 Mem:143.70M (Peak 148.66M) | Time:00:00.32 | Rendering 1 / 64 samples
+Fra:1 Mem:143.70M (Peak 148.66M) | Time:00:00.47 | Rendering 25 / 64 samples
+Fra:1 Mem:143.70M (Peak 148.66M) | Time:00:00.62 | Rendering 50 / 64 samples
+Fra:1 Mem:143.70M (Peak 148.66M) | Time:00:00.70 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\davogar_Idle_Stand.png'
+Time: 00:00.76 (Saving: 00:00.05)
+
+Fra:1 Mem:143.69M (Peak 146.50M) | Time:00:00.15 | Rendering 1 / 64 samples
+Fra:1 Mem:143.69M (Peak 146.50M) | Time:00:00.31 | Rendering 25 / 64 samples
+Fra:1 Mem:143.69M (Peak 146.50M) | Time:00:00.45 | Rendering 50 / 64 samples
+Fra:1 Mem:143.69M (Peak 146.50M) | Time:00:00.54 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\davogar_Idle_Seated.png'
+Time: 00:00.59 (Saving: 00:00.05)
+
+Fra:8 Mem:143.69M (Peak 146.50M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:8 Mem:143.69M (Peak 146.50M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:8 Mem:143.69M (Peak 146.50M) | Time:00:00.40 | Rendering 50 / 64 samples
+Fra:8 Mem:143.69M (Peak 146.50M) | Time:00:00.48 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\davogar_Walk.png'
+Time: 00:00.54 (Saving: 00:00.05)
+
+Fra:1 Mem:143.69M (Peak 146.50M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:1 Mem:143.69M (Peak 146.50M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:1 Mem:143.69M (Peak 146.50M) | Time:00:00.40 | Rendering 50 / 64 samples
+Fra:1 Mem:143.69M (Peak 146.50M) | Time:00:00.48 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\davogar_back.png'
+Time: 00:00.54 (Saving: 00:00.05)
+
+Fra:1 Mem:143.69M (Peak 146.50M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:1 Mem:143.69M (Peak 146.50M) | Time:00:00.31 | Rendering 25 / 64 samples
+Fra:1 Mem:143.69M (Peak 146.50M) | Time:00:00.52 | Rendering 50 / 64 samples
+Fra:1 Mem:143.69M (Peak 146.50M) | Time:00:00.64 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\davogar_face.png'
+Time: 00:00.71 (Saving: 00:00.06)
+
+[WARN ] services.humanservice ..................: Creating game engine skin material
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+Info: Saved "davogar.blend"
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+07:50:09 | INFO: Starting glTF 2.0 export
+07:50:09 | INFO: Extracting primitive: davogar_body.001
+07:50:09 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:09 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:09 | INFO: Primitives created: 6
+07:50:09 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:50:09 | INFO: Extracting primitive: davogar_clothes
+07:50:09 | INFO: Primitives created: 2
+07:50:09 | INFO: Extracting primitive: davogar_hair
+07:50:09 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:09 | INFO: Primitives created: 1
+07:50:09 | INFO: Extracting primitive: davogar_shoes
+07:50:09 | INFO: Primitives created: 1
+07:50:23 | INFO: Finished glTF 2.0 export in 13.819086790084839 s
+
+[QV]   exported davogar.glb 4.40 MB
+07:50:23 | INFO: Starting glTF 2.0 export
+07:50:23 | INFO: Extracting primitive: davogar_body.002
+07:50:23 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:23 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:23 | INFO: Primitives created: 6
+07:50:23 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:50:23 | INFO: Extracting primitive: davogar_clothes.001
+07:50:23 | INFO: Primitives created: 2
+07:50:23 | INFO: Extracting primitive: davogar_hair.001
+07:50:23 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:23 | INFO: Primitives created: 1
+07:50:23 | INFO: Extracting primitive: davogar_shoes.001
+07:50:23 | INFO: Primitives created: 1
+07:50:23 | INFO: Finished glTF 2.0 export in 0.11025714874267578 s
+
+[QV]   exported davogar_lod1.glb 2.33 MB
+07:50:24 | INFO: Starting glTF 2.0 export
+07:50:24 | INFO: Extracting primitive: davogar_body.003
+07:50:24 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:24 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:24 | INFO: Primitives created: 6
+07:50:24 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:50:24 | INFO: Extracting primitive: davogar_clothes.002
+07:50:24 | INFO: Primitives created: 2
+07:50:24 | INFO: Extracting primitive: davogar_hair.002
+07:50:24 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:24 | INFO: Primitives created: 1
+07:50:24 | INFO: Extracting primitive: davogar_shoes.002
+07:50:24 | INFO: Primitives created: 1
+07:50:24 | INFO: Finished glTF 2.0 export in 0.07434415817260742 s
+
+[QV]   exported davogar_lod2.glb 1.88 MB
+[QV] === javobgar (defendant)
+OBJ import of 'base.obj' took 12.84 ms
+OBJ import of 'low-poly.obj' took 0.48 ms
+OBJ import of 'eyebrow007.obj' took 0.50 ms
+OBJ import of 'eyelashes01.obj' took 0.59 ms
+OBJ import of 'teeth_base.obj' took 2.93 ms
+OBJ import of 'tongue01.obj' took 0.62 ms
+OBJ import of 'short03.obj' took 1.11 ms
+OBJ import of 'male_casualsuit01.obj' took 6.17 ms
+OBJ import of 'shoes01.obj' took 1.58 ms
+Info: Total files 17 | Changed 17 | Failed 0
+Fra:1 Mem:141.45M (Peak 146.37M) | Time:00:00.35 | Rendering 1 / 64 samples
+Fra:1 Mem:141.45M (Peak 146.37M) | Time:00:00.51 | Rendering 25 / 64 samples
+Fra:1 Mem:141.45M (Peak 146.37M) | Time:00:00.65 | Rendering 50 / 64 samples
+Fra:1 Mem:141.45M (Peak 146.37M) | Time:00:00.73 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\javobgar_Idle_Stand.png'
+Time: 00:00.79 (Saving: 00:00.05)
+
+Fra:1 Mem:141.44M (Peak 144.17M) | Time:00:00.15 | Rendering 1 / 64 samples
+Fra:1 Mem:141.44M (Peak 144.17M) | Time:00:00.30 | Rendering 25 / 64 samples
+Fra:1 Mem:141.44M (Peak 144.17M) | Time:00:00.44 | Rendering 50 / 64 samples
+Fra:1 Mem:141.44M (Peak 144.17M) | Time:00:00.52 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\javobgar_Idle_Seated.png'
+Time: 00:00.60 (Saving: 00:00.06)
+
+Fra:8 Mem:141.44M (Peak 144.17M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:8 Mem:141.44M (Peak 144.17M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:8 Mem:141.44M (Peak 144.17M) | Time:00:00.40 | Rendering 50 / 64 samples
+Fra:8 Mem:141.44M (Peak 144.17M) | Time:00:00.48 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\javobgar_Walk.png'
+Time: 00:00.54 (Saving: 00:00.05)
+
+Fra:1 Mem:141.44M (Peak 144.17M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:1 Mem:141.44M (Peak 144.17M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:1 Mem:141.44M (Peak 144.17M) | Time:00:00.39 | Rendering 50 / 64 samples
+Fra:1 Mem:141.44M (Peak 144.17M) | Time:00:00.48 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\javobgar_back.png'
+Time: 00:00.53 (Saving: 00:00.05)
+
+Fra:1 Mem:141.44M (Peak 144.17M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:1 Mem:141.44M (Peak 144.17M) | Time:00:00.31 | Rendering 25 / 64 samples
+Fra:1 Mem:141.44M (Peak 144.17M) | Time:00:00.50 | Rendering 50 / 64 samples
+Fra:1 Mem:141.44M (Peak 144.17M) | Time:00:00.62 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\javobgar_face.png'
+Time: 00:00.69 (Saving: 00:00.06)
+
+[WARN ] services.humanservice ..................: Creating game engine skin material
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+Info: Saved "javobgar.blend"
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+07:50:34 | INFO: Starting glTF 2.0 export
+07:50:34 | INFO: Extracting primitive: javobgar_body.001
+07:50:34 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:34 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:34 | INFO: Primitives created: 6
+07:50:34 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:50:34 | INFO: Extracting primitive: javobgar_clothes
+07:50:34 | INFO: Primitives created: 2
+07:50:34 | INFO: Extracting primitive: javobgar_hair
+07:50:34 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:34 | INFO: Primitives created: 1
+07:50:34 | INFO: Extracting primitive: javobgar_shoes
+07:50:34 | INFO: Primitives created: 1
+07:50:48 | INFO: Finished glTF 2.0 export in 14.086078405380249 s
+
+[QV]   exported javobgar.glb 4.13 MB
+07:50:48 | INFO: Starting glTF 2.0 export
+07:50:48 | INFO: Extracting primitive: javobgar_body.002
+07:50:48 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:48 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:48 | INFO: Primitives created: 6
+07:50:48 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:50:48 | INFO: Extracting primitive: javobgar_clothes.001
+07:50:48 | INFO: Primitives created: 2
+07:50:48 | INFO: Extracting primitive: javobgar_hair.001
+07:50:48 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:48 | INFO: Primitives created: 1
+07:50:48 | INFO: Extracting primitive: javobgar_shoes.001
+07:50:48 | INFO: Primitives created: 1
+07:50:48 | INFO: Finished glTF 2.0 export in 0.11091208457946777 s
+
+[QV]   exported javobgar_lod1.glb 2.08 MB
+07:50:49 | INFO: Starting glTF 2.0 export
+07:50:49 | INFO: Extracting primitive: javobgar_body.003
+07:50:49 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:49 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:49 | INFO: Primitives created: 6
+07:50:49 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:50:49 | INFO: Extracting primitive: javobgar_clothes.002
+07:50:49 | INFO: Primitives created: 2
+07:50:49 | INFO: Extracting primitive: javobgar_hair.002
+07:50:49 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:49 | INFO: Primitives created: 1
+07:50:49 | INFO: Extracting primitive: javobgar_shoes.002
+07:50:49 | INFO: Primitives created: 1
+07:50:49 | INFO: Finished glTF 2.0 export in 0.08107876777648926 s
+
+[QV]   exported javobgar_lod2.glb 1.65 MB
+[QV] === guvoh (witness)
+OBJ import of 'base.obj' took 13.20 ms
+OBJ import of 'low-poly.obj' took 0.52 ms
+OBJ import of 'eyebrow009.obj' took 0.55 ms
+OBJ import of 'eyelashes03.obj' took 0.72 ms
+OBJ import of 'teeth_base.obj' took 3.11 ms
+OBJ import of 'tongue01.obj' took 0.70 ms
+OBJ import of 'ponytail01.obj' took 2.40 ms
+OBJ import of 'female_elegantsuit01.obj' took 1.90 ms
+OBJ import of 'shoes02.obj' took 1.58 ms
+Info: Total files 16 | Changed 16 | Failed 0
+Fra:1 Mem:146.38M (Peak 151.04M) | Time:00:00.34 | Rendering 1 / 64 samples
+Fra:1 Mem:146.38M (Peak 151.04M) | Time:00:00.50 | Rendering 25 / 64 samples
+Fra:1 Mem:146.38M (Peak 151.04M) | Time:00:00.64 | Rendering 50 / 64 samples
+Fra:1 Mem:146.38M (Peak 151.04M) | Time:00:00.71 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\guvoh_Idle_Stand.png'
+Time: 00:00.78 (Saving: 00:00.05)
+
+Fra:1 Mem:146.38M (Peak 148.55M) | Time:00:00.15 | Rendering 1 / 64 samples
+Fra:1 Mem:146.38M (Peak 148.55M) | Time:00:00.31 | Rendering 25 / 64 samples
+Fra:1 Mem:146.38M (Peak 148.55M) | Time:00:00.45 | Rendering 50 / 64 samples
+Fra:1 Mem:146.38M (Peak 148.55M) | Time:00:00.53 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\guvoh_Idle_Seated.png'
+Time: 00:00.59 (Saving: 00:00.05)
+
+Fra:8 Mem:146.38M (Peak 148.55M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:8 Mem:146.38M (Peak 148.55M) | Time:00:00.24 | Rendering 25 / 64 samples
+Fra:8 Mem:146.38M (Peak 148.55M) | Time:00:00.38 | Rendering 50 / 64 samples
+Fra:8 Mem:146.38M (Peak 148.55M) | Time:00:00.46 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\guvoh_Walk.png'
+Time: 00:00.52 (Saving: 00:00.05)
+
+Fra:1 Mem:146.38M (Peak 148.55M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:1 Mem:146.38M (Peak 148.55M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:1 Mem:146.38M (Peak 148.55M) | Time:00:00.39 | Rendering 50 / 64 samples
+Fra:1 Mem:146.38M (Peak 148.55M) | Time:00:00.48 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\guvoh_back.png'
+Time: 00:00.54 (Saving: 00:00.05)
+
+Fra:1 Mem:146.38M (Peak 148.55M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:1 Mem:146.38M (Peak 148.55M) | Time:00:00.29 | Rendering 25 / 64 samples
+Fra:1 Mem:146.38M (Peak 148.55M) | Time:00:00.50 | Rendering 50 / 64 samples
+Fra:1 Mem:146.38M (Peak 148.55M) | Time:00:00.63 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\guvoh_face.png'
+Time: 00:00.69 (Saving: 00:00.05)
+
+[WARN ] services.humanservice ..................: Creating game engine skin material
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+Info: Saved "guvoh.blend"
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+07:50:59 | INFO: Starting glTF 2.0 export
+07:50:59 | INFO: Extracting primitive: guvoh_body.001
+07:50:59 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:59 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:59 | INFO: Primitives created: 6
+07:50:59 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:50:59 | INFO: Extracting primitive: guvoh_clothes
+07:50:59 | INFO: Primitives created: 2
+07:50:59 | INFO: Extracting primitive: guvoh_hair
+07:50:59 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:50:59 | INFO: Primitives created: 1
+07:50:59 | INFO: Extracting primitive: guvoh_shoes
+07:50:59 | INFO: Primitives created: 1
+07:51:18 | INFO: Finished glTF 2.0 export in 18.597445249557495 s
+
+[QV]   exported guvoh.glb 4.46 MB
+07:51:18 | INFO: Starting glTF 2.0 export
+07:51:18 | INFO: Extracting primitive: guvoh_body.002
+07:51:18 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:18 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:18 | INFO: Primitives created: 6
+07:51:18 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:51:18 | INFO: Extracting primitive: guvoh_clothes.001
+07:51:18 | INFO: Primitives created: 2
+07:51:18 | INFO: Extracting primitive: guvoh_hair.001
+07:51:18 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:18 | INFO: Primitives created: 1
+07:51:18 | INFO: Extracting primitive: guvoh_shoes.001
+07:51:18 | INFO: Primitives created: 1
+07:51:18 | INFO: Finished glTF 2.0 export in 0.12683558464050293 s
+
+[QV]   exported guvoh_lod1.glb 2.30 MB
+07:51:18 | INFO: Starting glTF 2.0 export
+07:51:18 | INFO: Extracting primitive: guvoh_body.003
+07:51:19 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:19 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:19 | INFO: Primitives created: 6
+07:51:19 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:51:19 | INFO: Extracting primitive: guvoh_clothes.002
+07:51:19 | INFO: Primitives created: 2
+07:51:19 | INFO: Extracting primitive: guvoh_hair.002
+07:51:19 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:19 | INFO: Primitives created: 1
+07:51:19 | INFO: Extracting primitive: guvoh_shoes.002
+07:51:19 | INFO: Primitives created: 1
+07:51:19 | INFO: Finished glTF 2.0 export in 0.1125330924987793 s
+
+[QV]   exported guvoh_lod2.glb 1.93 MB
+[QV] === kotib (clerk)
+OBJ import of 'base.obj' took 14.06 ms
+OBJ import of 'low-poly.obj' took 0.47 ms
+OBJ import of 'eyebrow005.obj' took 0.50 ms
+OBJ import of 'eyelashes04.obj' took 0.65 ms
+OBJ import of 'teeth_base.obj' took 2.96 ms
+OBJ import of 'tongue01.obj' took 0.66 ms
+OBJ import of 'bob01.obj' took 3.48 ms
+OBJ import of 'female_elegantsuit01.obj' took 1.92 ms
+OBJ import of 'shoes02.obj' took 1.60 ms
+Info: Total files 16 | Changed 16 | Failed 0
+Fra:1 Mem:136.82M (Peak 141.56M) | Time:00:00.33 | Rendering 1 / 64 samples
+Fra:1 Mem:136.82M (Peak 141.56M) | Time:00:00.50 | Rendering 25 / 64 samples
+Fra:1 Mem:136.82M (Peak 141.56M) | Time:00:00.65 | Rendering 50 / 64 samples
+Fra:1 Mem:136.82M (Peak 141.56M) | Time:00:00.72 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\kotib_Idle_Stand.png'
+Time: 00:00.79 (Saving: 00:00.05)
+
+Fra:1 Mem:136.81M (Peak 139.16M) | Time:00:00.15 | Rendering 1 / 64 samples
+Fra:1 Mem:136.81M (Peak 139.16M) | Time:00:00.30 | Rendering 25 / 64 samples
+Fra:1 Mem:136.81M (Peak 139.16M) | Time:00:00.44 | Rendering 50 / 64 samples
+Fra:1 Mem:136.81M (Peak 139.16M) | Time:00:00.52 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\kotib_Idle_Seated.png'
+Time: 00:00.58 (Saving: 00:00.05)
+
+Fra:8 Mem:136.81M (Peak 139.16M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:8 Mem:136.81M (Peak 139.16M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:8 Mem:136.81M (Peak 139.16M) | Time:00:00.40 | Rendering 50 / 64 samples
+Fra:8 Mem:136.81M (Peak 139.16M) | Time:00:00.48 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\kotib_Walk.png'
+Time: 00:00.53 (Saving: 00:00.05)
+
+Fra:1 Mem:136.81M (Peak 139.16M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:1 Mem:136.81M (Peak 139.16M) | Time:00:00.24 | Rendering 25 / 64 samples
+Fra:1 Mem:136.81M (Peak 139.16M) | Time:00:00.39 | Rendering 50 / 64 samples
+Fra:1 Mem:136.81M (Peak 139.16M) | Time:00:00.48 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\kotib_back.png'
+Time: 00:00.55 (Saving: 00:00.05)
+
+Fra:1 Mem:136.81M (Peak 139.16M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:1 Mem:136.81M (Peak 139.16M) | Time:00:00.30 | Rendering 25 / 64 samples
+Fra:1 Mem:136.81M (Peak 139.16M) | Time:00:00.51 | Rendering 50 / 64 samples
+Fra:1 Mem:136.81M (Peak 139.16M) | Time:00:00.64 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\kotib_face.png'
+Time: 00:00.71 (Saving: 00:00.06)
+
+[WARN ] services.humanservice ..................: Creating game engine skin material
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+Info: Saved "kotib.blend"
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+07:51:28 | INFO: Starting glTF 2.0 export
+07:51:28 | INFO: Extracting primitive: kotib_body.001
+07:51:28 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:28 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:28 | INFO: Primitives created: 6
+07:51:28 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:51:28 | INFO: Extracting primitive: kotib_clothes
+07:51:28 | INFO: Primitives created: 2
+07:51:28 | INFO: Extracting primitive: kotib_hair
+07:51:28 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:28 | INFO: Primitives created: 1
+07:51:28 | INFO: Extracting primitive: kotib_shoes
+07:51:28 | INFO: Primitives created: 1
+07:51:41 | INFO: Finished glTF 2.0 export in 13.03568172454834 s
+
+[QV]   exported kotib.glb 3.82 MB
+07:51:42 | INFO: Starting glTF 2.0 export
+07:51:42 | INFO: Extracting primitive: kotib_body.002
+07:51:42 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:42 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:42 | INFO: Primitives created: 6
+07:51:42 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:51:42 | INFO: Extracting primitive: kotib_clothes.001
+07:51:42 | INFO: Primitives created: 2
+07:51:42 | INFO: Extracting primitive: kotib_hair.001
+07:51:42 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:42 | INFO: Primitives created: 1
+07:51:42 | INFO: Extracting primitive: kotib_shoes.001
+07:51:42 | INFO: Primitives created: 1
+07:51:42 | INFO: Finished glTF 2.0 export in 0.0987246036529541 s
+
+[QV]   exported kotib_lod1.glb 2.07 MB
+07:51:42 | INFO: Starting glTF 2.0 export
+07:51:42 | INFO: Extracting primitive: kotib_body.003
+07:51:42 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:42 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:42 | INFO: Primitives created: 6
+07:51:42 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:51:42 | INFO: Extracting primitive: kotib_clothes.002
+07:51:42 | INFO: Primitives created: 2
+07:51:42 | INFO: Extracting primitive: kotib_hair.002
+07:51:42 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:42 | INFO: Primitives created: 1
+07:51:42 | INFO: Extracting primitive: kotib_shoes.002
+07:51:42 | INFO: Primitives created: 1
+07:51:42 | INFO: Finished glTF 2.0 export in 0.08834505081176758 s
+
+[QV]   exported kotib_lod2.glb 1.66 MB
+[QV] === qoriqchi (security)
+OBJ import of 'base.obj' took 13.20 ms
+OBJ import of 'low-poly.obj' took 0.77 ms
+OBJ import of 'eyebrow011.obj' took 0.67 ms
+OBJ import of 'eyelashes01.obj' took 0.71 ms
+OBJ import of 'teeth_base.obj' took 4.05 ms
+OBJ import of 'tongue01.obj' took 0.70 ms
+OBJ import of 'short04.obj' took 1.08 ms
+OBJ import of 'male_elegantsuit01.obj' took 6.01 ms
+OBJ import of 'shoes05.obj' took 1.57 ms
+Info: Total files 14 | Changed 14 | Failed 0
+Fra:1 Mem:134.78M (Peak 139.39M) | Time:00:00.32 | Rendering 1 / 64 samples
+Fra:1 Mem:134.78M (Peak 139.39M) | Time:00:00.48 | Rendering 25 / 64 samples
+Fra:1 Mem:134.78M (Peak 139.39M) | Time:00:00.63 | Rendering 50 / 64 samples
+Fra:1 Mem:134.78M (Peak 139.39M) | Time:00:00.72 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\qoriqchi_Idle_Stand.png'
+Time: 00:00.78 (Saving: 00:00.05)
+
+Fra:1 Mem:134.78M (Peak 137.19M) | Time:00:00.15 | Rendering 1 / 64 samples
+Fra:1 Mem:134.78M (Peak 137.19M) | Time:00:00.31 | Rendering 25 / 64 samples
+Fra:1 Mem:134.78M (Peak 137.19M) | Time:00:00.46 | Rendering 50 / 64 samples
+Fra:1 Mem:134.78M (Peak 137.19M) | Time:00:00.55 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\qoriqchi_Idle_Seated.png'
+Time: 00:00.61 (Saving: 00:00.05)
+
+Fra:8 Mem:134.78M (Peak 137.19M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:8 Mem:134.78M (Peak 137.19M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:8 Mem:134.78M (Peak 137.19M) | Time:00:00.41 | Rendering 50 / 64 samples
+Fra:8 Mem:134.78M (Peak 137.19M) | Time:00:00.51 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\qoriqchi_Walk.png'
+Time: 00:00.57 (Saving: 00:00.05)
+
+Fra:30 Mem:134.78M (Peak 137.19M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:30 Mem:134.78M (Peak 137.19M) | Time:00:00.26 | Rendering 25 / 64 samples
+Fra:30 Mem:134.78M (Peak 137.19M) | Time:00:00.41 | Rendering 50 / 64 samples
+Fra:30 Mem:134.78M (Peak 137.19M) | Time:00:00.51 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\qoriqchi_Gesture_Point.png'
+Time: 00:00.57 (Saving: 00:00.05)
+
+Fra:1 Mem:134.78M (Peak 137.19M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:1 Mem:134.78M (Peak 137.19M) | Time:00:00.26 | Rendering 25 / 64 samples
+Fra:1 Mem:134.78M (Peak 137.19M) | Time:00:00.41 | Rendering 50 / 64 samples
+Fra:1 Mem:134.78M (Peak 137.19M) | Time:00:00.51 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\qoriqchi_back.png'
+Time: 00:00.57 (Saving: 00:00.05)
+
+Fra:1 Mem:134.78M (Peak 137.19M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:1 Mem:134.78M (Peak 137.19M) | Time:00:00.30 | Rendering 25 / 64 samples
+Fra:1 Mem:134.78M (Peak 137.19M) | Time:00:00.52 | Rendering 50 / 64 samples
+Fra:1 Mem:134.78M (Peak 137.19M) | Time:00:00.66 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\qoriqchi_face.png'
+Time: 00:00.72 (Saving: 00:00.05)
+
+[WARN ] services.humanservice ..................: Creating game engine skin material
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+Info: Saved "qoriqchi.blend"
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+07:51:53 | INFO: Starting glTF 2.0 export
+07:51:53 | INFO: Extracting primitive: qoriqchi_accessories
+07:51:53 | INFO: Primitives created: 4
+07:51:53 | INFO: Extracting primitive: qoriqchi_body.001
+07:51:53 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:53 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:53 | INFO: Primitives created: 6
+07:51:53 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:51:53 | INFO: Extracting primitive: qoriqchi_clothes
+07:51:53 | INFO: Primitives created: 1
+07:51:53 | INFO: Extracting primitive: qoriqchi_hair
+07:51:53 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:51:53 | INFO: Primitives created: 1
+07:51:53 | INFO: Extracting primitive: qoriqchi_shoes
+07:51:53 | INFO: Primitives created: 1
+07:52:07 | INFO: Finished glTF 2.0 export in 13.85131025314331 s
+
+[QV]   exported qoriqchi.glb 3.83 MB
+07:52:07 | INFO: Starting glTF 2.0 export
+07:52:07 | INFO: Extracting primitive: qoriqchi_accessories.001
+07:52:07 | INFO: Primitives created: 4
+07:52:07 | INFO: Extracting primitive: qoriqchi_body.002
+07:52:07 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:07 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:07 | INFO: Primitives created: 6
+07:52:07 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:52:07 | INFO: Extracting primitive: qoriqchi_clothes.001
+07:52:07 | INFO: Primitives created: 1
+07:52:07 | INFO: Extracting primitive: qoriqchi_hair.001
+07:52:07 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:07 | INFO: Primitives created: 1
+07:52:07 | INFO: Extracting primitive: qoriqchi_shoes.001
+07:52:07 | INFO: Primitives created: 1
+07:52:07 | INFO: Finished glTF 2.0 export in 0.11447572708129883 s
+
+[QV]   exported qoriqchi_lod1.glb 2.03 MB
+07:52:07 | INFO: Starting glTF 2.0 export
+07:52:07 | WARNING: Mesh qoriqchi_accessories.002 is not valid, and may be exported wrongly
+07:52:07 | INFO: Extracting primitive: qoriqchi_accessories.002
+07:52:07 | INFO: Primitives created: 4
+07:52:07 | INFO: Extracting primitive: qoriqchi_body.003
+07:52:07 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:07 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:07 | INFO: Primitives created: 6
+07:52:07 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:52:07 | INFO: Extracting primitive: qoriqchi_clothes.002
+07:52:07 | INFO: Primitives created: 1
+07:52:07 | INFO: Extracting primitive: qoriqchi_hair.002
+07:52:07 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:07 | INFO: Primitives created: 1
+07:52:07 | INFO: Extracting primitive: qoriqchi_shoes.002
+07:52:07 | INFO: Primitives created: 1
+07:52:07 | INFO: Finished glTF 2.0 export in 0.07917141914367676 s
+
+[QV]   exported qoriqchi_lod2.glb 1.61 MB
+[QV] === tomoshabin_ayol (spectator)
+OBJ import of 'base.obj' took 13.04 ms
+OBJ import of 'low-poly.obj' took 0.57 ms
+OBJ import of 'eyebrow002.obj' took 0.60 ms
+OBJ import of 'eyelashes02.obj' took 0.65 ms
+OBJ import of 'teeth_base.obj' took 3.27 ms
+OBJ import of 'female_elegantsuit01.obj' took 2.25 ms
+OBJ import of 'shoes01.obj' took 2.13 ms
+Info: Total files 17 | Changed 17 | Failed 0
+Fra:1 Mem:111.11M (Peak 113.06M) | Time:00:00.29 | Rendering 1 / 64 samples
+Fra:1 Mem:111.11M (Peak 113.06M) | Time:00:00.46 | Rendering 25 / 64 samples
+Fra:1 Mem:111.11M (Peak 113.06M) | Time:00:00.62 | Rendering 50 / 64 samples
+Fra:1 Mem:111.11M (Peak 113.06M) | Time:00:00.70 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\tomoshabin_ayol_Idle_Stand.png'
+Time: 00:00.77 (Saving: 00:00.05)
+
+Fra:1 Mem:111.10M (Peak 113.05M) | Time:00:00.14 | Rendering 1 / 64 samples
+Fra:1 Mem:111.10M (Peak 113.05M) | Time:00:00.30 | Rendering 25 / 64 samples
+Fra:1 Mem:111.10M (Peak 113.05M) | Time:00:00.45 | Rendering 50 / 64 samples
+Fra:1 Mem:111.10M (Peak 113.05M) | Time:00:00.53 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\tomoshabin_ayol_Idle_Seated.png'
+Time: 00:00.59 (Saving: 00:00.05)
+
+Fra:8 Mem:111.10M (Peak 113.05M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:8 Mem:111.10M (Peak 113.05M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:8 Mem:111.10M (Peak 113.05M) | Time:00:00.40 | Rendering 50 / 64 samples
+Fra:8 Mem:111.10M (Peak 113.05M) | Time:00:00.48 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\tomoshabin_ayol_Walk.png'
+Time: 00:00.54 (Saving: 00:00.05)
+
+Fra:1 Mem:111.10M (Peak 113.05M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:1 Mem:111.10M (Peak 113.05M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:1 Mem:111.10M (Peak 113.05M) | Time:00:00.40 | Rendering 50 / 64 samples
+Fra:1 Mem:111.10M (Peak 113.05M) | Time:00:00.48 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\tomoshabin_ayol_back.png'
+Time: 00:00.54 (Saving: 00:00.05)
+
+Fra:1 Mem:111.10M (Peak 113.05M) | Time:00:00.08 | Rendering 1 / 64 samples
+Fra:1 Mem:111.10M (Peak 113.05M) | Time:00:00.30 | Rendering 25 / 64 samples
+Fra:1 Mem:111.10M (Peak 113.05M) | Time:00:00.49 | Rendering 50 / 64 samples
+Fra:1 Mem:111.10M (Peak 113.05M) | Time:00:00.62 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\tomoshabin_ayol_face.png'
+Time: 00:00.69 (Saving: 00:00.06)
+
+[WARN ] services.humanservice ..................: Creating game engine skin material
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+Info: Saved "tomoshabin_ayol.blend"
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+07:52:17 | INFO: Starting glTF 2.0 export
+07:52:17 | INFO: Extracting primitive: tomoshabin_ayol_accessories
+07:52:17 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:17 | INFO: Primitives created: 1
+07:52:17 | INFO: Extracting primitive: tomoshabin_ayol_body.001
+07:52:17 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:17 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:17 | INFO: Primitives created: 5
+07:52:17 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:52:17 | INFO: Extracting primitive: tomoshabin_ayol_clothes
+07:52:17 | INFO: Primitives created: 2
+07:52:17 | INFO: Extracting primitive: tomoshabin_ayol_shoes
+07:52:17 | INFO: Primitives created: 1
+07:52:29 | INFO: Finished glTF 2.0 export in 12.373974084854126 s
+
+[QV]   exported tomoshabin_ayol.glb 2.57 MB
+07:52:30 | INFO: Starting glTF 2.0 export
+07:52:30 | INFO: Extracting primitive: tomoshabin_ayol_accessories.001
+07:52:30 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:30 | INFO: Primitives created: 1
+07:52:30 | INFO: Extracting primitive: tomoshabin_ayol_body.002
+07:52:30 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:30 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:30 | INFO: Primitives created: 5
+07:52:30 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:52:30 | INFO: Extracting primitive: tomoshabin_ayol_clothes.001
+07:52:30 | INFO: Primitives created: 2
+07:52:30 | INFO: Extracting primitive: tomoshabin_ayol_shoes.001
+07:52:30 | INFO: Primitives created: 1
+07:52:30 | INFO: Finished glTF 2.0 export in 0.13290739059448242 s
+
+[QV]   exported tomoshabin_ayol_lod1.glb 1.01 MB
+07:52:30 | INFO: Starting glTF 2.0 export
+07:52:30 | INFO: Extracting primitive: tomoshabin_ayol_accessories.002
+07:52:30 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:30 | INFO: Primitives created: 1
+07:52:30 | INFO: Extracting primitive: tomoshabin_ayol_body.003
+07:52:30 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:30 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:30 | INFO: Primitives created: 5
+07:52:30 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:52:30 | INFO: Extracting primitive: tomoshabin_ayol_clothes.002
+07:52:30 | INFO: Primitives created: 2
+07:52:30 | INFO: Extracting primitive: tomoshabin_ayol_shoes.002
+07:52:30 | INFO: Primitives created: 1
+07:52:30 | INFO: Finished glTF 2.0 export in 0.11275005340576172 s
+
+[QV]   exported tomoshabin_ayol_lod2.glb 0.69 MB
+[QV] === tomoshabin_erkak (spectator)
+OBJ import of 'base.obj' took 14.86 ms
+OBJ import of 'low-poly.obj' took 0.90 ms
+OBJ import of 'eyebrow003.obj' took 0.66 ms
+OBJ import of 'eyelashes01.obj' took 1.08 ms
+OBJ import of 'teeth_base.obj' took 3.19 ms
+OBJ import of 'short01.obj' took 2.59 ms
+OBJ import of 'male_casualsuit05.obj' took 5.35 ms
+OBJ import of 'shoes01.obj' took 1.78 ms
+Info: Total files 16 | Changed 16 | Failed 0
+Fra:1 Mem:108.49M (Peak 110.08M) | Time:00:00.24 | Rendering 1 / 64 samples
+Fra:1 Mem:108.49M (Peak 110.08M) | Time:00:00.41 | Rendering 25 / 64 samples
+Fra:1 Mem:108.49M (Peak 110.08M) | Time:00:00.57 | Rendering 50 / 64 samples
+Fra:1 Mem:108.49M (Peak 110.08M) | Time:00:00.66 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\tomoshabin_erkak_Idle_Stand.png'
+Time: 00:00.72 (Saving: 00:00.05)
+
+Fra:1 Mem:108.49M (Peak 110.61M) | Time:00:00.15 | Rendering 1 / 64 samples
+Fra:1 Mem:108.49M (Peak 110.61M) | Time:00:00.32 | Rendering 25 / 64 samples
+Fra:1 Mem:108.49M (Peak 110.61M) | Time:00:00.47 | Rendering 50 / 64 samples
+Fra:1 Mem:108.49M (Peak 110.61M) | Time:00:00.56 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\tomoshabin_erkak_Idle_Seated.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Fra:8 Mem:108.49M (Peak 110.61M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:8 Mem:108.49M (Peak 110.61M) | Time:00:00.29 | Rendering 25 / 64 samples
+Fra:8 Mem:108.49M (Peak 110.61M) | Time:00:00.48 | Rendering 50 / 64 samples
+Fra:8 Mem:108.49M (Peak 110.61M) | Time:00:00.59 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\tomoshabin_erkak_Walk.png'
+Time: 00:00.64 (Saving: 00:00.04)
+
+Fra:1 Mem:108.49M (Peak 110.61M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:1 Mem:108.49M (Peak 110.61M) | Time:00:00.25 | Rendering 25 / 64 samples
+Fra:1 Mem:108.49M (Peak 110.61M) | Time:00:00.42 | Rendering 50 / 64 samples
+Fra:1 Mem:108.49M (Peak 110.61M) | Time:00:00.52 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\tomoshabin_erkak_back.png'
+Time: 00:00.58 (Saving: 00:00.05)
+
+Fra:1 Mem:108.49M (Peak 110.61M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:1 Mem:108.49M (Peak 110.61M) | Time:00:00.31 | Rendering 25 / 64 samples
+Fra:1 Mem:108.49M (Peak 110.61M) | Time:00:00.55 | Rendering 50 / 64 samples
+Fra:1 Mem:108.49M (Peak 110.61M) | Time:00:00.68 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\tomoshabin_erkak_face.png'
+Time: 00:00.74 (Saving: 00:00.05)
+
+[WARN ] services.humanservice ..................: Creating game engine skin material
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+Info: Saved "tomoshabin_erkak.blend"
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+07:52:41 | INFO: Starting glTF 2.0 export
+07:52:41 | INFO: Extracting primitive: tomoshabin_erkak_body.001
+07:52:41 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:41 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:41 | INFO: Primitives created: 5
+07:52:41 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:52:41 | INFO: Extracting primitive: tomoshabin_erkak_clothes
+07:52:41 | INFO: Primitives created: 2
+07:52:41 | INFO: Extracting primitive: tomoshabin_erkak_hair
+07:52:41 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:41 | INFO: Primitives created: 1
+07:52:41 | INFO: Extracting primitive: tomoshabin_erkak_shoes
+07:52:41 | INFO: Primitives created: 1
+07:52:50 | INFO: Finished glTF 2.0 export in 9.762294054031372 s
+
+[QV]   exported tomoshabin_erkak.glb 2.99 MB
+07:52:51 | INFO: Starting glTF 2.0 export
+07:52:51 | INFO: Extracting primitive: tomoshabin_erkak_body.002
+07:52:51 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:51 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:51 | INFO: Primitives created: 5
+07:52:51 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:52:51 | INFO: Extracting primitive: tomoshabin_erkak_clothes.001
+07:52:51 | INFO: Primitives created: 2
+07:52:51 | INFO: Extracting primitive: tomoshabin_erkak_hair.001
+07:52:51 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:51 | INFO: Primitives created: 1
+07:52:51 | INFO: Extracting primitive: tomoshabin_erkak_shoes.001
+07:52:51 | INFO: Primitives created: 1
+07:52:51 | INFO: Finished glTF 2.0 export in 0.12772226333618164 s
+
+[QV]   exported tomoshabin_erkak_lod1.glb 1.38 MB
+07:52:51 | INFO: Starting glTF 2.0 export
+07:52:51 | INFO: Extracting primitive: tomoshabin_erkak_body.003
+07:52:51 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:51 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:51 | INFO: Primitives created: 5
+07:52:51 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:52:51 | INFO: Extracting primitive: tomoshabin_erkak_clothes.002
+07:52:51 | INFO: Primitives created: 2
+07:52:51 | INFO: Extracting primitive: tomoshabin_erkak_hair.002
+07:52:51 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:52:51 | INFO: Primitives created: 1
+07:52:51 | INFO: Extracting primitive: tomoshabin_erkak_shoes.002
+07:52:51 | INFO: Primitives created: 1
+07:52:51 | INFO: Finished glTF 2.0 export in 0.0958256721496582 s
+
+[QV]   exported tomoshabin_erkak_lod2.glb 1.01 MB
+[QV] === tomoshabin_yosh (spectator)
+OBJ import of 'base.obj' took 10.57 ms
+OBJ import of 'low-poly.obj' took 0.39 ms
+OBJ import of 'eyebrow012.obj' took 0.41 ms
+OBJ import of 'eyelashes03.obj' took 0.48 ms
+OBJ import of 'teeth_base.obj' took 2.34 ms
+OBJ import of 'braid01.obj' took 2.13 ms
+OBJ import of 'female_elegantsuit01.obj' took 1.57 ms
+OBJ import of 'shoes02.obj' took 1.23 ms
+Info: Total files 15 | Changed 15 | Failed 0
+Fra:1 Mem:111.17M (Peak 112.82M) | Time:00:00.22 | Rendering 1 / 64 samples
+Fra:1 Mem:111.17M (Peak 112.82M) | Time:00:00.37 | Rendering 25 / 64 samples
+Fra:1 Mem:111.17M (Peak 112.82M) | Time:00:00.51 | Rendering 50 / 64 samples
+Fra:1 Mem:111.17M (Peak 112.82M) | Time:00:00.60 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\tomoshabin_yosh_Idle_Stand.png'
+Time: 00:00.66 (Saving: 00:00.04)
+
+Fra:1 Mem:111.16M (Peak 113.31M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:1 Mem:111.16M (Peak 113.31M) | Time:00:00.28 | Rendering 25 / 64 samples
+Fra:1 Mem:111.16M (Peak 113.31M) | Time:00:00.46 | Rendering 50 / 64 samples
+Fra:1 Mem:111.16M (Peak 113.31M) | Time:00:00.56 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\tomoshabin_yosh_Idle_Seated.png'
+Time: 00:00.63 (Saving: 00:00.05)
+
+Fra:8 Mem:111.16M (Peak 113.31M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:8 Mem:111.16M (Peak 113.31M) | Time:00:00.24 | Rendering 25 / 64 samples
+Fra:8 Mem:111.16M (Peak 113.31M) | Time:00:00.40 | Rendering 50 / 64 samples
+Fra:8 Mem:111.16M (Peak 113.31M) | Time:00:00.50 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\tomoshabin_yosh_Walk.png'
+Time: 00:00.56 (Saving: 00:00.05)
+
+Fra:1 Mem:111.16M (Peak 113.31M) | Time:00:00.06 | Rendering 1 / 64 samples
+Fra:1 Mem:111.16M (Peak 113.31M) | Time:00:00.24 | Rendering 25 / 64 samples
+Fra:1 Mem:111.16M (Peak 113.31M) | Time:00:00.40 | Rendering 50 / 64 samples
+Fra:1 Mem:111.16M (Peak 113.31M) | Time:00:00.50 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\tomoshabin_yosh_back.png'
+Time: 00:00.56 (Saving: 00:00.05)
+
+Fra:1 Mem:111.16M (Peak 113.31M) | Time:00:00.07 | Rendering 1 / 64 samples
+Fra:1 Mem:111.16M (Peak 113.31M) | Time:00:00.30 | Rendering 25 / 64 samples
+Fra:1 Mem:111.16M (Peak 113.31M) | Time:00:00.51 | Rendering 50 / 64 samples
+Fra:1 Mem:111.16M (Peak 113.31M) | Time:00:00.63 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\characters\tomoshabin_yosh_face.png'
+Time: 00:00.70 (Saving: 00:00.05)
+
+[WARN ] services.humanservice ..................: Creating game engine skin material
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+Info: Saved "tomoshabin_yosh.blend"
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+07:53:00 | INFO: Starting glTF 2.0 export
+07:53:00 | INFO: Extracting primitive: tomoshabin_yosh_body.001
+07:53:00 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:53:00 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:53:00 | INFO: Primitives created: 5
+07:53:00 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:53:00 | INFO: Extracting primitive: tomoshabin_yosh_clothes
+07:53:00 | INFO: Primitives created: 2
+07:53:00 | INFO: Extracting primitive: tomoshabin_yosh_hair
+07:53:00 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:53:00 | INFO: Primitives created: 1
+07:53:00 | INFO: Extracting primitive: tomoshabin_yosh_shoes
+07:53:00 | INFO: Primitives created: 1
+07:53:10 | INFO: Finished glTF 2.0 export in 10.12752914428711 s
+
+[QV]   exported tomoshabin_yosh.glb 2.87 MB
+07:53:10 | INFO: Starting glTF 2.0 export
+07:53:10 | INFO: Extracting primitive: tomoshabin_yosh_body.002
+07:53:10 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:53:10 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:53:10 | INFO: Primitives created: 5
+07:53:10 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:53:10 | INFO: Extracting primitive: tomoshabin_yosh_clothes.001
+07:53:10 | INFO: Primitives created: 2
+07:53:10 | INFO: Extracting primitive: tomoshabin_yosh_hair.001
+07:53:10 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:53:10 | INFO: Primitives created: 1
+07:53:10 | INFO: Extracting primitive: tomoshabin_yosh_shoes.001
+07:53:10 | INFO: Primitives created: 1
+07:53:10 | INFO: Finished glTF 2.0 export in 0.11418318748474121 s
+
+[QV]   exported tomoshabin_yosh_lod1.glb 1.21 MB
+07:53:10 | INFO: Starting glTF 2.0 export
+07:53:10 | INFO: Extracting primitive: tomoshabin_yosh_body.003
+07:53:10 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:53:10 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:53:10 | INFO: Primitives created: 5
+07:53:10 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+07:53:10 | INFO: Extracting primitive: tomoshabin_yosh_clothes.002
+07:53:10 | INFO: Primitives created: 2
+07:53:10 | INFO: Extracting primitive: tomoshabin_yosh_hair.002
+07:53:10 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:53:10 | INFO: Primitives created: 1
+07:53:10 | INFO: Extracting primitive: tomoshabin_yosh_shoes.002
+07:53:10 | INFO: Primitives created: 1
+07:53:10 | INFO: Finished glTF 2.0 export in 0.15513825416564941 s
+
+[QV]   exported tomoshabin_yosh_lod2.glb 0.82 MB
+[QV] characters built: 11/11
+
+Blender quit
+
+=== Build + export QonunAI
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Blender 4.2.23 LTS (hash d0cbe84903e8 built 2026-07-21 01:34:46)
+Info: Total files 0 | Changed 0 | Failed 0
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20261010
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+Info: Saved "qonunai.blend"
+ERROR Draco mesh compression is not available because library could not be found at C:\Users\miron\AppData\Local\Temp\claude\37f2e35321cc5e2b\b2f97d39-f6e1-44c9-a3ee-0f7d952e461c\scratchpad\b\4.2\python\lib\site-packages\extern_draco.dll
+07:53:12 | INFO: Starting glTF 2.0 export
+07:53:12 | INFO: Extracting primitive: qonunai_body
+07:53:12 | INFO: Primitives created: 5
+07:53:12 | INFO: Finished glTF 2.0 export in 0.4633595943450928 s
+
+[QV]   exported qonunai.glb 0.96 MB
+07:53:13 | INFO: Starting glTF 2.0 export
+07:53:13 | INFO: Extracting primitive: qonunai_body.001
+07:53:13 | INFO: Primitives created: 5
+07:53:13 | INFO: Finished glTF 2.0 export in 0.02865910530090332 s
+
+[QV]   exported qonunai_lod1.glb 0.37 MB
+Fra:30 Mem:60.67M (Peak 60.67M) | Time:00:02.34 | Rendering 1 / 64 samples
+Fra:30 Mem:60.67M (Peak 60.67M) | Time:00:02.58 | Rendering 25 / 64 samples
+Fra:30 Mem:60.67M (Peak 60.67M) | Time:00:02.73 | Rendering 50 / 64 samples
+Fra:30 Mem:60.67M (Peak 60.67M) | Time:00:02.79 | Rendering 64 / 64 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\public\assets\characters\qonunai_portrait.png'
+Time: 00:02.91 (Saving: 00:00.11)
+
+
+Blender quit
+
+=== Female clip library
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Blender 4.2.23 LTS (hash d0cbe84903e8 built 2026-07-21 01:34:46)
+Read blend: "C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\characters\advokat.blend"
+Traceback (most recent call last):
+  File "C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6
+d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\scripts\export_animation_library.py", 
+line 48, in <module>
+    main()
+  File "C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6
+d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\scripts\export_animation_library.py", 
+line 33, in main
+    for pb in new.pose.bones:
+              ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'bones'
+
+Error: script failed, file: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-
+355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\scripts\export_anima
+tion_library.py', exiting.
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20261010
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+
+Blender quit
+Blender step failed: Female clip library (exit 1)
+At C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1d
+e\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\run_pipeline.ps1:30 char:30
++ ... DE -ne 0) { throw "Blender step failed: $Label (exit $LASTEXITCODE)"  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Blender step fa...ibrary (exit 1):String) [], RuntimeException
+    + FullyQualifiedErrorId : Blender step failed: Female clip library (exit 1)
+ 

@@ -1,0 +1,257 @@
+
+=== Build courtroom (blender/courtroom.blend)
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20261010
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+[QV] generating environment textures ...
+Blender 4.2.23 LTS (hash d0cbe84903e8 built 2026-07-21 01:34:46)
+Info: Total files 26 | Changed 26 | Failed 0
+Info: Saved "courtroom.blend"
+[QV] saved C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\courtroom.blend
+
+Blender quit
+
+=== Export environment GLBs
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20261010
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+ERROR Draco mesh compression is not available because library could not be found at C:\Users\miron\AppData\Local\Temp\claude\37f2e35321cc5e2b\b2f97d39-f6e1-44c9-a3ee-0f7d952e461c\scratchpad\b\4.2\python\lib\site-packages\extern_draco.dll
+08:21:36 | INFO: Starting glTF 2.0 export
+08:21:36 | INFO: Extracting primitive: ENV_Book_Covers
+08:21:36 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Brass_Gold
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Ceiling_Paint
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_CeilingPanel_Emissive
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Emblem_PLACEHOLDER
+08:21:36 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Exterior_Daylight
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Fabric_Bench
+08:21:36 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Floor_Stone
+08:21:36 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Lamp_Emissive
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Leather_Black
+08:21:36 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Metal_Chrome
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Monitor_Screen
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Nameplate_Gold
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Nameplate_Text
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Paper
+08:21:36 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Plastic_Black
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Screen_Gold
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Screen_Text
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Wall_Plaster
+08:21:36 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Window_Frame
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Window_Glass
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: ENV_Wood_Walnut
+08:21:36 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: INTERACT_CourtDisplay_Screen
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: INTERACT_EvidenceFolder_A
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: INTERACT_EvidenceFolder_P
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: INTERACT_Flag_Uzbekistan
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: INTERACT_MainDoor_Leaf0
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: INTERACT_MainDoor_Leaf1
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Extracting primitive: INTERACT_SecurityDoor_Leaf0
+08:21:36 | INFO: Primitives created: 1
+08:21:36 | INFO: Finished glTF 2.0 export in 0.25351691246032715 s
+
+[QV] exported courtroom.glb 2.57 MB
+08:22:01 | INFO: Starting glTF 2.0 export
+08:22:01 | INFO: Extracting primitive: ENV_Book_Covers.001
+08:22:01 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Brass_Gold.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Ceiling_Paint.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_CeilingPanel_Emissive.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Emblem_PLACEHOLDER.001
+08:22:01 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Exterior_Daylight.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Fabric_Bench.001
+08:22:01 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Floor_Stone.001
+08:22:01 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Leather_Black.001
+08:22:01 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Metal_Chrome.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Monitor_Screen.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Nameplate_Gold.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Nameplate_Text.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Paper.001
+08:22:01 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Plastic_Black.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Screen_Gold.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Screen_Text.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Wall_Plaster.001
+08:22:01 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Window_Frame.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Window_Glass.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: ENV_Wood_Walnut.001
+08:22:01 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: INTERACT_CourtDisplay_Screen.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: INTERACT_EvidenceFolder_A.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: INTERACT_EvidenceFolder_P.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: INTERACT_Flag_Uzbekistan.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: INTERACT_MainDoor_Leaf0.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: INTERACT_MainDoor_Leaf1.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Extracting primitive: INTERACT_SecurityDoor_Leaf0.001
+08:22:01 | INFO: Primitives created: 1
+08:22:01 | INFO: Finished glTF 2.0 export in 0.12062835693359375 s
+
+[QV] exported courtroom_lod1.glb 2.36 MB
+08:22:02 | INFO: Starting glTF 2.0 export
+08:22:02 | INFO: Extracting primitive: COL_AdvocateTable
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_Bar_L
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_Bar_R
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_BenchL0
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_BenchL1
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_BenchL2
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_BenchR0
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_BenchR1
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_BenchR2
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_ClerkDais
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_ClerkDesk
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_DefendantDesk
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_JudgeBench
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_JudgeDais
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_ProsecutorDesk
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_Wall_Back
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_Wall_Front
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_Wall_Left
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_Wall_Right
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Extracting primitive: COL_WitnessStand
+08:22:02 | INFO: Primitives created: 1
+08:22:02 | INFO: Finished glTF 2.0 export in 0.015755891799926758 s
+
+[QV] exported courtroom_colliders.glb 0.03 MB
+[QV] environment draw calls (lod0): 29 tris: 30744
+Blender 4.2.23 LTS (hash d0cbe84903e8 built 2026-07-21 01:34:46)
+Read blend: "C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\courtroom.blend"
+
+Blender quit
+
+=== Manifest + licences
+manifest -> public\assets\manifest.json
+
+=== Validate GLBs
+[OK  ] public/assets/animations/qv_female_clips.glb             2.108 MB  tris      0  draws   0  clips  38  h -
+[OK  ] public/assets/animations/qv_male_clips.glb               2.108 MB  tris      0  draws   0  clips  38  h -
+[OK  ] public/assets/characters/advokat.glb                     4.682 MB  tris  36462  draws  11  clips  39  h 1.567
+[OK  ] public/assets/characters/advokat_lod1.glb                2.127 MB  tris  16403  draws  11  clips   0  h 1.567
+[OK  ] public/assets/characters/advokat_lod2.glb                 1.77 MB  tris   6557  draws  11  clips   0  h 1.567
+[OK  ] public/assets/characters/davogar.glb                     4.396 MB  tris  47136  draws  10  clips  27  h 1.742
+[OK  ] public/assets/characters/davogar_lod1.glb                2.328 MB  tris  21208  draws  10  clips   0  h 1.742
+[OK  ] public/assets/characters/davogar_lod2.glb                1.884 MB  tris   8479  draws  10  clips   0  h 1.742
+[OK  ] public/assets/characters/guvoh.glb                       4.461 MB  tris  38126  draws  10  clips  31  h 1.562
+[OK  ] public/assets/characters/guvoh_lod1.glb                  2.305 MB  tris  17154  draws  10  clips   0  h 1.562
+[OK  ] public/assets/characters/guvoh_lod2.glb                  1.925 MB  tris   6861  draws  10  clips   0  h 1.561
+[OK  ] public/assets/characters/javobgar.glb                    4.272 MB  tris  47136  draws  10  clips  27  h 1.693
+[OK  ] public/assets/characters/javobgar_lod1.glb               2.205 MB  tris  21208  draws  10  clips   0  h 1.693
+[OK  ] public/assets/characters/javobgar_lod2.glb               1.762 MB  tris   8479  draws  10  clips   0  h 1.693
+[OK  ] public/assets/characters/kotib.glb                       3.816 MB  tris  41248  draws  10  clips  23  h 1.568
+[OK  ] public/assets/characters/kotib_lod1.glb                  2.069 MB  tris  18558  draws  10  clips   0  h 1.569
+[OK  ] public/assets/characters/kotib_lod2.glb                  1.663 MB  tris   7421  draws  10  clips   0  h 1.569
+[OK  ] public/assets/characters/prokuror.glb                    4.472 MB  tris  42898  draws  11  clips  35  h 1.749
+[OK  ] public/assets/characters/prokuror_lod1.glb               2.051 MB  tris  19299  draws  11  clips   0  h 1.753
+[OK  ] public/assets/characters/prokuror_lod2.glb               1.638 MB  tris   7716  draws  11  clips   0  h 1.753
+[OK  ] public/assets/characters/qonunai.glb                     0.963 MB  tris  20576  draws   5  clips   9  h 0.824
+[OK  ] public/assets/characters/qonunai_lod1.glb                0.371 MB  tris   8230  draws   5  clips   0  h 0.824
+[OK  ] public/assets/characters/qoriqchi.glb                    3.829 MB  tris  43258  draws  13  clips  23  h 1.824
+[OK  ] public/assets/characters/qoriqchi_lod1.glb                2.03 MB  tris  19462  draws  13  clips   0  h 1.827
+[OK  ] public/assets/characters/qoriqchi_lod2.glb               1.611 MB  tris   7778  draws  13  clips   0  h 1.828
+[OK  ] public/assets/characters/sudya.glb                       4.653 MB  tris  50424  draws  10  clips  31  h 1.716
+[OK  ] public/assets/characters/sudya_lod1.glb                    2.3 MB  tris  22687  draws  10  clips   0  h 1.716
+[OK  ] public/assets/characters/sudya_lod2.glb                  1.814 MB  tris   9072  draws  10  clips   0  h 1.716
+[OK  ] public/assets/characters/tomoshabin_ayol.glb             2.567 MB  tris  33714  draws   9  clips  22  h 1.518
+[OK  ] public/assets/characters/tomoshabin_ayol_lod1.glb         1.01 MB  tris  15167  draws   9  clips   0  h 1.518
+[OK  ] public/assets/characters/tomoshabin_ayol_lod2.glb        0.686 MB  tris   6066  draws   9  clips   0  h 1.519
+[OK  ] public/assets/characters/tomoshabin_erkak.glb            2.993 MB  tris  36662  draws   9  clips  22  h 1.76
+[OK  ] public/assets/characters/tomoshabin_erkak_lod1.glb       1.377 MB  tris  16496  draws   9  clips   0  h 1.76
+[OK  ] public/assets/characters/tomoshabin_erkak_lod2.glb       1.008 MB  tris   6595  draws   9  clips   0  h 1.76
+[OK  ] public/assets/characters/tomoshabin_yosh.glb             2.865 MB  tris  37844  draws   9  clips  22  h 1.541
+[OK  ] public/assets/characters/tomoshabin_yosh_lod1.glb        1.207 MB  tris  17028  draws   9  clips   0  h 1.542
+[OK  ] public/assets/characters/tomoshabin_yosh_lod2.glb        0.825 MB  tris   6809  draws   9  clips   0  h 1.543
+[OK  ] public/assets/environment/courtroom.glb                  2.568 MB  tris  30744  draws  29  clips   0  h 7.05
+[OK  ] public/assets/environment/courtroom_colliders.glb        0.029 MB  tris    240  draws  20  clips   0  h 5.6
+[OK  ] public/assets/environment/courtroom_lod1.glb             2.365 MB  tris  27392  draws  28  clips   0  h 7.05
+report -> public\assets\validation_report.json
+
+Done. Outputs: public/assets/{environment,characters,animations}, manifest.json, LICENSES.json

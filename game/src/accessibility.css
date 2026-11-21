@@ -1,0 +1,7 @@
+/* Mission actions and reading controls remain legible at all viewport sizes. */
+.choices>div>button,.game-tools>button,.source-link,.evidence-row>button,.document-toolbar,.document-toolbar button,.document-toolbar select,.panel-footer>.primary,.document-action .primary,.review-check,.source-card a,.settings>label{font-size:14px}
+.panel-scroll,.source-card p,.dialog .panel-intro,.finding p,.welcome>p{font-size:16px}
+.choices>div>button{padding-top:10px;padding-bottom:10px}
+.fine,.document-action .fine,.history-entry p,.case-card>p{font-size:13px}
+.dialogue .choices small,.dialogue .choices small button{font-size:12px}
+@media(max-width:650px){.choices>div>button,.evidence-row>button{font-size:14px}.dialog .panel-intro,.source-card p,.panel-scroll{font-size:16px}.dialogue{max-height:61vh}.source-link{font-size:12px}.role-card p{font-size:14px}.role-card{min-height:215px}.role-screen>p{font-size:16px}.case-card>p{font-size:11px}.role-bottom button{font-size:14px}}

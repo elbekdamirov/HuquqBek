@@ -1,0 +1,12 @@
+export type Career = 'advokat' | 'sudya' | 'prokuror';
+export type Level = 'Beginner' | 'Junior' | 'Senior';
+export interface RoomSummary {id:string;title:string;path:Career;level:Level;level_label:string;order:number;capstone:boolean;duration_minutes:number;prerequisites:string[];scenario:string;freeLesson?:boolean;freeLab?:boolean}
+export interface ReadingCheck{id:string;prompt:string;source:string;passed:boolean;options:{id:string;text:string}[]}
+export interface LessonSection{title:string;body:string;source_url:string;articles:{title:string;url:string;excerpt:string}[]}
+export interface LearningRoom extends RoomSummary {lesson?:{objective:string;auditedAt:string;status:string;sections:LessonSection[]};knowledge?:ReadingCheck[];locked:boolean;completed:boolean;access?:{lesson:boolean;lab:boolean;freeLesson:boolean;premiumRequired:boolean};theory:string[];worked_example:string;legal_sources:{source_id:string;locator:string;url:string;article_links:{title:string;url:string}[]}[];education_sources:{source_id:string;url:string;scope:string}[];lab:{scenario:string;tasks:string[];pass_checks:string[];materials:string[]};scenario_source:{type:string;url?:string;note:string}}
+export interface InterestResult {scores:Record<Career,number>;recommended:Career[];type:string}
+export interface Account {provider:'google'|'dev';email:string|null;name:string|null;picture:string|null}
+export interface Learner {name:string;activePath?:Career|null;onboarding?:string|null;account?:Account|null;interests:InterestResult|null;completed:{room:string;attempt:string;created:string}[];attempts:{id:string;roomId:string;status:string;progress:number}[];certificates:{id:string;path:Career;level:Level|"Path";name:string;created:string;legacy?:boolean}[];storage:string}
+export interface Question {id:number;prompt:string;options:{id:Career;text:string}[]}
+export interface Catalog {version:string;questions:Question[];rooms:RoomSummary[];premium?:{active:boolean;state:string}}
+export interface LearningAttempt {id:string;roomId:string;status:'lab'|'passed'|'completed';phase:string;read:string[];submitted:string[];examined:string[];correct:string[];errors:number;key:string|null;documents:{id:string;title:string;body:string;synthetic:boolean}[];checkpoints:{id:string;prompt:string;actor:string;options:{id:string;text:string}[]}[];log:{type:string;text:string;question?:string;correct?:boolean;at:string}[]}

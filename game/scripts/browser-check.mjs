@@ -1,0 +1,18 @@
+import { chromium } from '@playwright/test';
+import { mkdir, writeFile } from 'node:fs/promises';
+import path from 'node:path';
+const output = process.env.QONUNVERSE_QA_DIR || path.resolve('qa');
+await mkdir(output, { recursive: true });
+const browser = await chromium.launch({ channel: process.env.QONUNVERSE_BROWSER || 'chrome', headless: true });
+const page = await browser.newPage({ viewport: { width: 1280, height: 720 }, deviceScaleFactor: 1 });
+const errors = [], failed = [];
+page.on('pageerror', e => errors.push(e.message));
+page.on('requestfailed', request => { if (request.url().includes('127.0.0.1')) failed.push({ url: request.url(), error: request.failure() }); });
+await page.goto(process.env.QONUNVERSE_URL || 'http://127.0.0.1:5173/', { waitUntil: 'networkidle' });
+await page.locator('canvas').waitFor({ timeout: 30000 });
+await page.waitForFunction(() => document.querySelector('canvas')?.dataset.renderStats, { timeout: 30000 });
+await page.screenshot({ path: path.join(output, 'menu.png') });
+console.log(JSON.stringify({ title: await page.title(), errors, failed, stats: await page.locator('canvas').getAttribute('data-render-stats') }));
+await writeFile(path.join(output, 'smoke.json'), JSON.stringify({ title: await page.title(), errors, failed, stats: await page.locator('canvas').getAttribute('data-render-stats'), browser: await browser.version() }, null, 2));
+await browser.close();
+if (errors.length || failed.length) process.exitCode = 1;

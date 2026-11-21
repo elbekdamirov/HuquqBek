@@ -1,0 +1,182 @@
+{
+  "id": "qoriqchi",
+  "status": "built",
+  "warnings": [],
+  "assets": {
+    "skin": "young_asian_male.mhmat",
+    "eyes": [
+      "low-poly.mhclo"
+    ],
+    "eyebrows": [
+      "eyebrow011.mhclo"
+    ],
+    "eyelashes": [
+      "eyelashes01.mhclo"
+    ],
+    "teeth": [
+      "teeth_base.mhclo"
+    ],
+    "tongue": [
+      "tongue01.mhclo"
+    ],
+    "hair": [
+      "short04.mhclo"
+    ],
+    "clothes": [
+      "male_elegantsuit01.mhclo",
+      "shoes05.mhclo"
+    ]
+  },
+  "morphs": [
+    "Blink_L",
+    "Blink_R",
+    "Eye_Wide_L",
+    "Eye_Wide_R",
+    "Eye_Squint_L",
+    "Eye_Squint_R",
+    "Brow_Up_L",
+    "Brow_Up_R",
+    "Brow_Down_L",
+    "Brow_Down_R",
+    "Brow_Inner_Up_L",
+    "Brow_Inner_Up_R",
+    "Mouth_Open",
+    "Smile",
+    "Frown",
+    "Mouth_Pursing",
+    "Mouth_Wide",
+    "Mouth_Compress"
+  ],
+  "garments": [
+    "qoriqchi_CapBand",
+    "qoriqchi_CapCrown",
+    "qoriqchi_CapTop",
+    "qoriqchi_CapVisor",
+    "qoriqchi_CapBadge",
+    "qoriqchi_Badge",
+    "qoriqchi_Epaulette_Left",
+    "qoriqchi_EpauletteStripe_Left",
+    "qoriqchi_Epaulette_Right",
+    "qoriqchi_EpauletteStripe_Right"
+  ],
+  "clips": {
+    "Idle_Stand": {
+      "duration_s": 8.0,
+      "loop": true
+    },
+    "Idle_Seated": {
+      "duration_s": 8.0,
+      "loop": true
+    },
+    "Idle_Seated_Lap": {
+      "duration_s": 8.0,
+      "loop": true
+    },
+    "Walk": {
+      "duration_s": 1.067,
+      "loop": true,
+      "root_motion": "in_place",
+      "speed_mps": 1.158
+    },
+    "Guard_Idle": {
+      "duration_s": 12.0,
+      "loop": true
+    },
+    "Turn_Left_90": {
+      "duration_s": 1.0,
+      "loop": false,
+      "root_yaw_delta_deg": 90,
+      "note": "Hips rotate 90 deg in-clip; on finish add the yaw to the root and play an idle"
+    },
+    "Turn_Right_90": {
+      "duration_s": 1.0,
+      "loop": false,
+      "root_yaw_delta_deg": -90,
+      "note": "Hips rotate 90 deg in-clip; on finish add the yaw to the root and play an idle"
+    },
+    "Look_Left": {
+      "duration_s": 2.4,
+      "loop": false
+    },
+    "Look_Right": {
+      "duration_s": 2.4,
+      "loop": false
+    },
+    "Head_Nod": {
+      "duration_s": 1.2,
+      "loop": false
+    },
+    "Gesture_Point": {
+      "duration_s": 2.2,
+      "loop": false
+    },
+    "Talk_Standing": {
+      "duration_s": 4.0,
+      "loop": true,
+      "face_clip": "Face_Talk"
+    },
+    "Look_Left_Seated": {
+      "duration_s": 2.4,
+      "loop": false
+    },
+    "Look_Right_Seated": {
+      "duration_s": 2.4,
+      "loop": false
+    },
+    "Head_Nod_Seated": {
+      "duration_s": 1.2,
+      "loop": false
+    },
+    "Gesture_Point_Seated": {
+      "duration_s": 2.2,
+      "loop": false
+    },
+    "Face_Idle": {
+      "duration_s": 4.0,
+      "loop": true,
+      "layer": "face"
+    },
+    "Face_Talk": {
+      "duration_s": 3.0,
+      "loop": true,
+      "layer": "face"
+    },
+    "Face_Smile": {
+      "duration_s": 4.0,
+      "loop": true,
+      "layer": "face"
+    },
+    "Face_Concerned": {
+      "duration_s": 4.0,
+      "loop": true,
+      "layer": "face"
+    },
+    "Face_Surprised": {
+      "duration_s": 3.0,
+      "loop": false,
+      "layer": "face"
+    },
+    "Face_Stern": {
+      "duration_s": 4.0,
+      "loop": true,
+      "layer": "face"
+    },
+    "Face_Blink": {
+      "duration_s": 0.4,
+      "loop": false,
+      "layer": "face"
+    }
+  },
+  "dims": {
+    "height_m": 1.864,
+    "hips_z": 1.015,
+    "leg_m": 0.896
+  },
+  "blend": "blender/characters/qoriqchi.blend",
+  "exports": {
+    "lod0": "public/assets/characters/qoriqchi.glb",
+    "lod1": "public/assets/characters/qoriqchi_lod1.glb",
+    "lod2": "public/assets/characters/qoriqchi_lod2.glb"
+  },
+  "build_seconds": 23.7
+}

@@ -1,0 +1,7 @@
+{
+  "before": "-0.45,0.00,0.30",
+  "after": "-0.45,0.00,-0.85",
+  "errors": [],
+  "liveAction": "begin_hearing",
+  "passed": true
+}

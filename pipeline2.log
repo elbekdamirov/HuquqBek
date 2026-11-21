@@ -1,0 +1,105 @@
+
+=== Female clip library
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20261010
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+ERROR Draco mesh compression is not available because library could not be found at C:\Users\miron\AppData\Local\Temp\claude\37f2e35321cc5e2b\b2f97d39-f6e1-44c9-a3ee-0f7d952e461c\scratchpad\b\4.2\python\lib\site-packages\extern_draco.dll
+07:54:01 | INFO: Starting glTF 2.0 export
+07:54:26 | INFO: Finished glTF 2.0 export in 24.64391803741455 s
+
+[QV]   exported qv_female_clips.glb 2.11 MB
+Blender 4.2.23 LTS (hash d0cbe84903e8 built 2026-07-21 01:34:46)
+Read blend: "C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\characters\advokat.blend"
+
+Blender quit
+
+=== Male clip library
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20261010
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+ERROR Draco mesh compression is not available because library could not be found at C:\Users\miron\AppData\Local\Temp\claude\37f2e35321cc5e2b\b2f97d39-f6e1-44c9-a3ee-0f7d952e461c\scratchpad\b\4.2\python\lib\site-packages\extern_draco.dll
+07:54:28 | INFO: Starting glTF 2.0 export
+07:54:47 | INFO: Finished glTF 2.0 export in 19.57112455368042 s
+
+[QV]   exported qv_male_clips.glb 2.11 MB
+Blender 4.2.23 LTS (hash d0cbe84903e8 built 2026-07-21 01:34:46)
+Read blend: "C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\characters\davogar.blend"
+
+Blender quit
+
+=== Assemble characters into courtroom_assembled.blend
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20261010
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+Info: Saved "courtroom_assembled.blend"
+[QV] placed 12 characters
+Blender 4.2.23 LTS (hash d0cbe84903e8 built 2026-07-21 01:34:46)
+Read blend: "C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\courtroom.blend"
+Fra:40 Mem:1087.16M (Peak 1115.45M) | Time:00:05.53 | Rendering 1 / 48 samples
+Fra:40 Mem:1087.16M (Peak 1115.45M) | Time:00:14.97 | Rendering 25 / 48 samples
+Fra:40 Mem:1087.16M (Peak 1115.45M) | Time:00:23.61 | Rendering 48 / 48 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\assembled_CAM_reference.png'
+Time: 00:23.91 (Saving: 00:00.27)
+
+Fra:40 Mem:1087.09M (Peak 1115.52M) | Time:00:01.02 | Rendering 1 / 48 samples
+Fra:40 Mem:1087.09M (Peak 1115.52M) | Time:00:10.45 | Rendering 25 / 48 samples
+Fra:40 Mem:1087.09M (Peak 1115.52M) | Time:00:19.64 | Rendering 48 / 48 samples
+Saved: 'C:\Users\miron\AppData\Local\Claude-Data\claude_pzs8sxrjxfjjc\scratch-workspaces\b59e8eff-355e-45fe-b5b1-58f7d6d8a1de\f41af19b-92d7-4887-bb40-61d60322cdcb\scratch-2026-11-20-ee1137\blender\renders\assembled_CAM_overview.png'
+Time: 00:19.82 (Saving: 00:00.15)
+
+
+Blender quit
+
+=== Manifest + licences
+manifest -> public\assets\manifest.json
+
+=== Validate GLBs
+[OK  ] public/assets/animations/qv_female_clips.glb             2.109 MB  tris      0  draws   0  clips  38  h -
+[OK  ] public/assets/animations/qv_male_clips.glb               2.108 MB  tris      0  draws   0  clips  38  h -
+[OK  ] public/assets/characters/advokat.glb                     4.683 MB  tris  36462  draws  11  clips  39  h 1.567
+[OK  ] public/assets/characters/advokat_lod1.glb                2.127 MB  tris  16403  draws  11  clips   0  h 1.567
+[OK  ] public/assets/characters/advokat_lod2.glb                 1.77 MB  tris   6557  draws  11  clips   0  h 1.567
+[OK  ] public/assets/characters/davogar.glb                     4.396 MB  tris  47136  draws  10  clips  27  h 1.742
+[OK  ] public/assets/characters/davogar_lod1.glb                2.328 MB  tris  21208  draws  10  clips   0  h 1.742
+[OK  ] public/assets/characters/davogar_lod2.glb                1.884 MB  tris   8479  draws  10  clips   0  h 1.742
+[OK  ] public/assets/characters/guvoh.glb                       4.462 MB  tris  38126  draws  10  clips  31  h 1.562
+[OK  ] public/assets/characters/guvoh_lod1.glb                  2.305 MB  tris  17154  draws  10  clips   0  h 1.562
+[OK  ] public/assets/characters/guvoh_lod2.glb                  1.925 MB  tris   6861  draws  10  clips   0  h 1.561
+[OK  ] public/assets/characters/javobgar.glb                    4.127 MB  tris  45714  draws  10  clips  27  h 1.684
+[OK  ] public/assets/characters/javobgar_lod1.glb               2.085 MB  tris  20567  draws  10  clips   0  h 1.684
+[OK  ] public/assets/characters/javobgar_lod2.glb               1.654 MB  tris   8223  draws  10  clips   0  h 1.684
+[OK  ] public/assets/characters/kotib.glb                       3.817 MB  tris  41248  draws  10  clips  23  h 1.568
+[OK  ] public/assets/characters/kotib_lod1.glb                  2.069 MB  tris  18558  draws  10  clips   0  h 1.569
+[OK  ] public/assets/characters/kotib_lod2.glb                  1.663 MB  tris   7421  draws  10  clips   0  h 1.569
+[OK  ] public/assets/characters/prokuror.glb                    4.473 MB  tris  42898  draws  11  clips  35  h 1.749
+[OK  ] public/assets/characters/prokuror_lod1.glb               2.051 MB  tris  19299  draws  11  clips   0  h 1.753
+[OK  ] public/assets/characters/prokuror_lod2.glb               1.638 MB  tris   7716  draws  11  clips   0  h 1.753
+[OK  ] public/assets/characters/qonunai.glb                     0.963 MB  tris  20576  draws   5  clips   9  h 0.824
+[OK  ] public/assets/characters/qonunai_lod1.glb                0.371 MB  tris   8230  draws   5  clips   0  h 0.824
+[OK  ] public/assets/characters/qoriqchi.glb                     3.83 MB  tris  43258  draws  13  clips  23  h 1.824
+[OK  ] public/assets/characters/qoriqchi_lod1.glb                2.03 MB  tris  19462  draws  13  clips   0  h 1.827
+[OK  ] public/assets/characters/qoriqchi_lod2.glb               1.611 MB  tris   7778  draws  13  clips   0  h 1.828
+[OK  ] public/assets/characters/sudya.glb                       4.654 MB  tris  50424  draws  10  clips  31  h 1.716
+[OK  ] public/assets/characters/sudya_lod1.glb                    2.3 MB  tris  22687  draws  10  clips   0  h 1.716
+[OK  ] public/assets/characters/sudya_lod2.glb                  1.814 MB  tris   9072  draws  10  clips   0  h 1.716
+[OK  ] public/assets/characters/tomoshabin_ayol.glb             2.568 MB  tris  33714  draws   9  clips  22  h 1.518
+[OK  ] public/assets/characters/tomoshabin_ayol_lod1.glb         1.01 MB  tris  15167  draws   9  clips   0  h 1.518
+[OK  ] public/assets/characters/tomoshabin_ayol_lod2.glb        0.686 MB  tris   6066  draws   9  clips   0  h 1.519
+[OK  ] public/assets/characters/tomoshabin_erkak.glb            2.994 MB  tris  36662  draws   9  clips  22  h 1.76
+[OK  ] public/assets/characters/tomoshabin_erkak_lod1.glb       1.377 MB  tris  16496  draws   9  clips   0  h 1.76
+[OK  ] public/assets/characters/tomoshabin_erkak_lod2.glb       1.008 MB  tris   6595  draws   9  clips   0  h 1.76
+[OK  ] public/assets/characters/tomoshabin_yosh.glb             2.865 MB  tris  37844  draws   9  clips  22  h 1.541
+[OK  ] public/assets/characters/tomoshabin_yosh_lod1.glb        1.207 MB  tris  17028  draws   9  clips   0  h 1.542
+[OK  ] public/assets/characters/tomoshabin_yosh_lod2.glb        0.825 MB  tris   6809  draws   9  clips   0  h 1.543
+[OK  ] public/assets/environment/courtroom.glb                  2.568 MB  tris  30744  draws  29  clips   0  h 7.05
+[OK  ] public/assets/environment/courtroom_colliders.glb        0.029 MB  tris    240  draws  20  clips   0  h 5.6
+[OK  ] public/assets/environment/courtroom_lod1.glb             2.365 MB  tris  27392  draws  28  clips   0  h 7.05
+report -> public\assets\validation_report.json
+
+Done. Outputs: public/assets/{environment,characters,animations}, manifest.json, LICENSES.json

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QonunVerse Asset Viewer</title>
+<style>
+  :root { --bg:#14161a; --panel:#1d2026; --text:#e8e6e1; --muted:#9aa0a8; --accent:#1fb5a8; --line:#2c3038; }
+  html,body { margin:0; height:100%; background:var(--bg); color:var(--text); font:13px/1.4 system-ui,sans-serif; }
+  #app { display:grid; grid-template-columns:280px 1fr; height:100%; }
+  aside { background:var(--panel); border-right:1px solid var(--line); padding:12px; overflow:auto; }
+  h1 { font-size:15px; margin:0 0 8px; } h2 { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin:14px 0 6px; }
+  select,button { width:100%; background:#262a31; color:var(--text); border:1px solid var(--line); border-radius:6px; padding:6px 8px; font:inherit; }
+  .clips { display:flex; flex-wrap:wrap; gap:4px; } .clips button { width:auto; padding:3px 7px; font-size:12px; }
+  .clips button.on { background:var(--accent); color:#04201d; border-color:var(--accent); }
+  #stats { white-space:pre-wrap; color:var(--muted); font:11px/1.45 ui-monospace,monospace; }
+  canvas { display:block; width:100%; height:100%; }
+  label { display:flex; gap:6px; align-items:center; margin:6px 0; } label input { width:auto; }
+  @media (max-width:700px){ #app{ grid-template-columns:1fr; grid-template-rows:45% 55%; } aside{ order:2; } }
+</style>
+<script type="importmap">
+{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+               "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/" } }
+</script>
+</head>
+<body>
+<div id="app">
+  <aside>
+    <h1>QonunVerse assets</h1>
+    <label><input type="checkbox" id="room" checked> Courtroom</label>
+    <label><input type="checkbox" id="cast"> Whole cast at stations</label>
+    <h2>Character</h2><select id="char"></select>
+    <h2>Body clip</h2><div class="clips" id="body"></div>
+    <h2>Face clip</h2><div class="clips" id="face"></div>
+    <h2>Camera</h2><select id="cam"></select>
+    <h2>Stats</h2><div id="stats">loading…</div>
+  </aside>
+  <main id="view"></main>
+</div>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { clone as skClone } from 'three/addons/utils/SkeletonUtils.js';
+
+const BASE = '../public';
+const view = document.getElementById('view');
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.shadowMap.enabled = true;
+view.appendChild(renderer.domElement);
+const scene = new THREE.Scene(); scene.background = new THREE.Color('#2a2622');
+const camera = new THREE.PerspectiveCamera(40, 1, 0.05, 100);
+camera.position.set(0, 1.6, 3.5);
+const controls = new OrbitControls(camera, renderer.domElement); controls.target.set(0, 1.0, 0);
+scene.add(new THREE.HemisphereLight('#fff4e6', '#3a2a20', 0.9));
+const sun = new THREE.DirectionalLight('#fff1dd', 2.2); sun.position.set(8, 6, -2); sun.castShadow = true; scene.add(sun);
+const fill = new THREE.DirectionalLight('#ffd9b0', 0.8); fill.position.set(-3, 4, 5); scene.add(fill);
+
+const loader = new GLTFLoader();
+const load = url => new Promise((res, rej) => loader.load(url, res, undefined, rej));
+const manifest = await (await fetch(`${BASE}/assets/manifest.json`)).json();
+const stats = document.getElementById('stats');
+const mixers = [];
+let current = null, bodyAction = null, faceAction = null, roomObj = null, castGroup = null;
+
+function resize() { const r = view.getBoundingClientRect(); renderer.setSize(r.width, r.height, false); camera.aspect = r.width / r.height; camera.updateProjectionMatrix(); }
+addEventListener('resize', resize); resize();
+
+const roomGltf = await load(`${BASE}${manifest.environment.files.lod0}`);
+roomObj = roomGltf.scene;
+roomObj.traverse(o => { if (o.isMesh) o.receiveShadow = true; });
+scene.add(roomObj);
+
+const sel = document.getElementById('char');
+manifest.characters.filter(c => c.files.lod0).forEach(c => sel.add(new Option(`${c.label_uz} (${c.id})`, c.id)));
+const camSel = document.getElementById('cam');
+camSel.add(new Option('Orbit character', ''));
+Object.entries(manifest.environment.markers).filter(([k, m]) => m.type === 'camera').forEach(([k]) => camSel.add(new Option(k, k)));
+
+function place(obj, c) { obj.position.fromArray(c.spawn.position); obj.rotation.y = c.spawn.yaw_rad; }
+
+async function showChar(id) {
+  if (current) { scene.remove(current.root); mixers.splice(mixers.indexOf(current.mixer), 1); }
+  const c = manifest.characters.find(x => x.id === id);
+  const t0 = performance.now();
+  const g = await load(`${BASE}${c.files.lod0}`);
+  const root = g.scene; place(root, c);
+  root.traverse(o => { if (o.isMesh) { o.castShadow = true; o.frustumCulled = false; } });
+  scene.add(root);
+  const mixer = new THREE.AnimationMixer(root); mixers.push(mixer);
+  current = { c, g, root, mixer };
+  const clips = g.animations;
+  const isFace = a => (c.clips[a.name] || {}).layer === 'face';
+  fill_(document.getElementById('body'), clips.filter(a => !isFace(a)), playBody);
+  fill_(document.getElementById('face'), clips.filter(isFace), playFace);
+  const idle = clips.find(a => a.name === (c.spawn.pose === 'seated' ? 'Idle_Seated' : c.id === 'qonunai' ? 'Idle_Float' : 'Idle_Stand')) || clips[0];
+  bodyAction = faceAction = null;
+  if (idle) playBody(idle);
+  const fi = clips.find(a => a.name === 'Face_Idle'); if (fi) playFace(fi);
+  let tris = 0, prims = 0, bones = 0, morphs = 0;
+  root.traverse(o => { if (o.isMesh) { prims++; tris += (o.geometry.index ? o.geometry.index.count : o.geometry.attributes.position.count) / 3;
+    if (o.isSkinnedMesh) bones = o.skeleton.bones.length; morphs = Math.max(morphs, (o.morphTargetInfluences || []).length); } });
+  root.updateMatrixWorld(true);
+  const box = new THREE.Box3().setFromObject(root, true);
+  stats.textContent = `${c.id}  (${c.asset_quality})\nload ${(performance.now() - t0).toFixed(0)} ms\nmeshes ${prims}  tris ${tris|0}\nbones ${bones}  morphs ${morphs}\nclips ${clips.length}\nheight ${(box.max.y - box.min.y).toFixed(2)} m\nbone[0] ${(root.getObjectByProperty('isBone', true) || {}).name}`;
+  window.__qv = { ok: true, id, clips: clips.map(a => a.name), tris: tris|0, bones, morphs, height: +(box.max.y - box.min.y).toFixed(3) };
+  if (!camSel.value) { const p = new THREE.Vector3(...c.spawn.position); controls.target.copy(p).add(new THREE.Vector3(0, 1, 0));
+    camera.position.copy(p).add(new THREE.Vector3(Math.sin(c.spawn.yaw_rad) * 3, 1.5, Math.cos(c.spawn.yaw_rad) * 3)); }
+}
+function fill_(el, clips, fn) { el.innerHTML = ''; clips.forEach(a => { const b = document.createElement('button'); b.textContent = a.name; b.onclick = () => fn(a, b); el.appendChild(b); }); }
+function mark(el, name) { [...el.children].forEach(b => b.classList.toggle('on', b.textContent === name)); }
+function playBody(clip) { const a = current.mixer.clipAction(clip); a.reset().fadeIn(0.25).play(); if (bodyAction && bodyAction !== a) bodyAction.fadeOut(0.25); bodyAction = a; mark(document.getElementById('body'), clip.name); }
+function playFace(clip) { const a = current.mixer.clipAction(clip); a.reset().play(); if (faceAction && faceAction !== a) faceAction.stop(); faceAction = a; mark(document.getElementById('face'), clip.name); }
+
+async function toggleCast(on) {
+  if (castGroup) { scene.remove(castGroup); castGroup = null; }
+  if (!on) return;
+  castGroup = new THREE.Group(); scene.add(castGroup);
+  for (const c of manifest.characters.filter(x => x.files.lod1 || x.files.lod0)) {
+    const g = await load(`${BASE}${c.files.lod0}`);
+    const root = skClone(g.scene); place(root, c); castGroup.add(root);
+    const m = new THREE.AnimationMixer(root); mixers.push(m);
+    const want = c.id === 'qonunai' ? 'Idle_Float' : c.id === 'advokat' ? 'Address_Judge' : c.id === 'kotib' ? 'Typing' : c.id === 'qoriqchi' ? 'Guard_Idle' : c.spawn.pose === 'seated' ? (c.clips.Idle_Seated_Lap && ['guvoh','tomoshabin_ayol','tomoshabin_erkak','tomoshabin_yosh'].includes(c.id) ? 'Idle_Seated_Lap' : 'Idle_Seated') : 'Idle_Stand';
+    const clip = g.animations.find(a => a.name === want); if (clip) m.clipAction(clip).play();
+    const f = g.animations.find(a => a.name === 'Face_Idle'); if (f) m.clipAction(f).play();
+  }
+  window.__qvCast = castGroup.children.length;
+}
+sel.onchange = () => showChar(sel.value);
+document.getElementById('room').onchange = e => roomObj.visible = e.target.checked;
+document.getElementById('cast').onchange = e => { if (current) current.root.visible = !e.target.checked; toggleCast(e.target.checked); };
+camSel.onchange = () => { const m = manifest.environment.markers[camSel.value]; if (!m) return;
+  camera.position.fromArray(m.position); controls.target.fromArray(m.target); camera.fov = m.fov_deg; camera.updateProjectionMatrix(); };
+
+const clock = new THREE.Clock();
+renderer.setAnimationLoop(() => { const dt = clock.getDelta(); mixers.forEach(m => m.update(dt)); controls.update(); renderer.render(scene, camera); });
+sel.value = 'advokat'; await showChar('advokat');
+</script>
+</body>
+</html>

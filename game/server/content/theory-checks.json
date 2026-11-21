@@ -1,0 +1,1172 @@
+{
+  "A-B01": [
+    {
+      "id": "READ-1",
+      "prompt": "Mijoz: «Advokatga murojaat qilsam, u sud qarorini chiqarib beradimi?»",
+      "options": [
+        "Yo‘q. Advokat yuridik yordam beradi, odil sudlovni sud amalga oshiradi.",
+        "Ha, har bir advokat sud o‘rniga qaror chiqaradi.",
+        "Faqat mijoz talab qilsa advokat hukm chiqaradi."
+      ],
+      "correct": 0,
+      "explanation": "Konstitutsiyaning 29-moddasi har kimning malakali yuridik yordam olishini kafolatlaydi; davlat hisobidan yordam qonunda nazarda tutilgan hollarda ko‘rsatiladi. 55-modda sud orqali himoya va qonunga xilof qaror, harakat yoki harakatsizlik ustidan shikoyat qilish kafolatini belgilaydi. Advokat yordam ko‘rsatadi, sudning o‘rniga qaror chiqarmaydi.",
+      "source": "https://gov.uz/oz/mfa/sections/view/14475"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Do‘kon bilan nizo borligi advokat pulni darhol undirishi mumkinligini anglatmaydi; dastlab talab va dalillar aniqlanadi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Advokat yordam ko‘rsatadi, sudning o‘rniga qaror chiqarmaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "Konstitutsiyaning 29-moddasi har kimning malakali yuridik yordam olishini kafolatlaydi; davlat hisobidan yordam qonunda nazarda tutilgan hollarda ko‘rsatiladi. 55-modda sud orqali himoya va qonunga xilof qaror, harakat yoki harakatsizlik ustidan shikoyat qilish kafolatini belgilaydi. Advokat yordam ko‘rsatadi, sudning o‘rniga qaror chiqarmaydi.",
+      "source": "https://gov.uz/oz/mfa/sections/view/14475"
+    }
+  ],
+  "A-B02": [
+    {
+      "id": "READ-1",
+      "prompt": "Yangi mijozga avvalgi mijoz siri bilan bog‘liq misolni aytishdan oldin nima tekshiriladi?",
+      "options": [
+        "Advokatlik siri va manfaatlar to‘qnashuvi cheklovlari.",
+        "Faqat misol qiziqarli ekanligi.",
+        "Faqat yangi mijoz to‘lov qilganligi."
+      ],
+      "correct": 0,
+      "explanation": "Advokatura haqidagi qonunning 9-moddasi advokatlik siri doirasini, 7-moddasi advokat vazifalari va topshiriqni qabul qilishdagi cheklovlarni belgilaydi. Mijoz murojaati va unga berilgan maslahatni boshqa mijoz uchun misol sifatida oshkor qilishdan oldin sirni saqlash talabini tekshirish zarur.",
+      "source": "https://lex.uz/uz/docs/54503#1426214"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Oldingi mijoz nima deganini yangi murojaatchiga aytmasdan ham topshiriqni qabul qila olmaslikni tushuntirish mumkin.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Mijoz murojaati va unga berilgan maslahatni boshqa mijoz uchun misol sifatida oshkor qilishdan oldin sirni saqlash talabini tekshirish zarur.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "Advokatura haqidagi qonunning 9-moddasi advokatlik siri doirasini, 7-moddasi advokat vazifalari va topshiriqni qabul qilishdagi cheklovlarni belgilaydi. Mijoz murojaati va unga berilgan maslahatni boshqa mijoz uchun misol sifatida oshkor qilishdan oldin sirni saqlash talabini tekshirish zarur.",
+      "source": "https://lex.uz/uz/docs/54503#1426214"
+    }
+  ],
+  "A-B03": [
+    {
+      "id": "READ-1",
+      "prompt": "Voqealar sanasini jadvalga tushirishning maqomi qanday?",
+      "options": [
+        "Bu huquqiy yordam uchun faktlarni tartiblashning o‘quv usuli.",
+        "Qonunda hamma suhbat uchun majburiy aynan bitta jadval mavjud.",
+        "Jadvalning o‘zi mijoz haqligini isbotlaydi."
+      ],
+      "correct": 0,
+      "explanation": "Qonunning 5-moddasi huquqiy yordam turlarini, 6-moddasi advokat huquqlarini belgilaydi. Sana, ishtirokchi, hujjat va mijoz maqsadini tartib bilan qayd etish ushbu yordamni sifatli bajarishning o‘quv usulidir; qonun aynan bitta suhbat jadvalini majburiy shakl qilib belgilamaydi.",
+      "source": "https://lex.uz/uz/docs/54503#55641"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "««Qachon to‘ladingiz?» savoli kvitansiya sanasini tekshirishga olib keladi; «Demak, martda to‘lagansiz?» esa ma’lumotni majburan to‘ldiradi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Sana, ishtirokchi, hujjat va mijoz maqsadini tartib bilan qayd etish ushbu yordamni sifatli bajarishning o‘quv usulidir; qonun aynan bitta suhbat jadvalini majburiy shakl qilib belgilamaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "Qonunning 5-moddasi huquqiy yordam turlarini, 6-moddasi advokat huquqlarini belgilaydi. Sana, ishtirokchi, hujjat va mijoz maqsadini tartib bilan qayd etish ushbu yordamni sifatli bajarishning o‘quv usulidir; qonun aynan bitta suhbat jadvalini majburiy shakl qilib belgilamaydi.",
+      "source": "https://lex.uz/uz/docs/54503#55641"
+    }
+  ],
+  "A-B04": [
+    {
+      "id": "READ-1",
+      "prompt": "Ishga aloqador hujjat protsessual jihatdan nomaqbul bo‘lishi mumkinmi?",
+      "options": [
+        "Ha. Aloqadorlik, maqbullik va ishonchlilik alohida baholanadi.",
+        "Yo‘q. Aloqador bo‘lsa, har doim maqbul.",
+        "Hujjat ko‘p bo‘lsa, maqbullik tekshirilmaydi."
+      ],
+      "correct": 0,
+      "explanation": "FPK 72-moddasida talab va e’tirozlarga asos bo‘lgan holatlarni isbotlash mas’uliyati, 73–74-moddalarda aloqadorlik va maqbullik ajratiladi. 80-modda har bir dalilni va ularning majmuini baholashni talab qiladi; hech bir dalil oldindan mutlaq kuchga ega emas. Dalillar xaritasi shu farqlarni ko‘rish uchun o‘quv vositasidir.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519250"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«To‘lov cheki pul to‘langanini ko‘rsatishi mumkin; u nuqson aynan qachon paydo bo‘lganini o‘z-o‘zidan tasdiqlamaydi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Dalillar xaritasi shu farqlarni ko‘rish uchun o‘quv vositasidir.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "FPK 72-moddasida talab va e’tirozlarga asos bo‘lgan holatlarni isbotlash mas’uliyati, 73–74-moddalarda aloqadorlik va maqbullik ajratiladi. 80-modda har bir dalilni va ularning majmuini baholashni talab qiladi; hech bir dalil oldindan mutlaq kuchga ega emas. Dalillar xaritasi shu farqlarni ko‘rish uchun o‘quv vositasidir.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519250"
+    }
+  ],
+  "A-B05": [
+    {
+      "id": "READ-1",
+      "prompt": "Telefon regulyator aralashuvi bilan almashtirilgan xabar nimani isbotlaydi?",
+      "options": [
+        "Xabarda ko‘rsatilgan regulyator natijasini; bu sud qarori degani emas.",
+        "Sud kredit shartnomasini albatta bekor qilganini.",
+        "Har bir nuqson uchun bir xil sud hukmi mavjudligini."
+      ],
+      "correct": 0,
+      "explanation": "Iste’molchilar huquqlari haqidagi qonunning 13-moddasi nuqsonli tovar sotilganda iste’molchining huquqlariga bag‘ishlangan. Talab tanlashda nuqson, xarid sharti, kafolat va tegishli qo‘shimcha qoidalar tekshiriladi. Regulyator aralashuvida almashtirilgan tovar haqidagi xabarni sud qarori deb ko‘rsatish mumkin emas.",
+      "source": "https://lex.uz/uz/docs/4704#5901"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Almashtirish talabi tanlansa, aynan shu talabning faktik va huquqiy asoslari ko‘rsatiladi; barcha talablarni bir vaqtda tanlash yetarli emas.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Regulyator aralashuvida almashtirilgan tovar haqidagi xabarni sud qarori deb ko‘rsatish mumkin emas.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "Iste’molchilar huquqlari haqidagi qonunning 13-moddasi nuqsonli tovar sotilganda iste’molchining huquqlariga bag‘ishlangan. Talab tanlashda nuqson, xarid sharti, kafolat va tegishli qo‘shimcha qoidalar tekshiriladi. Regulyator aralashuvida almashtirilgan tovar haqidagi xabarni sud qarori deb ko‘rsatish mumkin emas.",
+      "source": "https://lex.uz/uz/docs/4704#5901"
+    }
+  ],
+  "A-J01": [
+    {
+      "id": "READ-1",
+      "prompt": "Bugun e’lon qilingan o‘zgarish oldingi voqeaga darhol qo‘llanadimi?",
+      "options": [
+        "Kuchga kirish, vaqt bo‘yicha amal qilish va o‘tish qoidalari tekshiriladi.",
+        "Ha, e’lon sanasi doim barcha eski ishga tatbiq etiladi.",
+        "Eng yangi matn ko‘rinsa boshqa sanalar ahamiyatsiz."
+      ],
+      "correct": 0,
+      "explanation": "FK 4-moddasi fuqarolik qonunchiligining vaqt bo‘yicha amal qilishini belgilaydi. Hujjatning qabul qilingan sanasi bilan muayyan norma kuchga kirgan sanasi bir xil bo‘lishi shart emas; o‘tish qoidalarini ham o‘qish kerak. Kelajak tahririni bugungi yoki oldingi voqeaga avtomatik qo‘llash noto‘g‘ri.",
+      "source": "https://lex.uz/uz/docs/-111189?ONDATE=12.09.2026+01#-5445592"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«2027-yilda kuchga kiradigan qoida 2026-yilgi hodisa uchun alohida vaqt tahlilisiz ishlatilmaydi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Kelajak tahririni bugungi yoki oldingi voqeaga avtomatik qo‘llash noto‘g‘ri.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "FK 4-moddasi fuqarolik qonunchiligining vaqt bo‘yicha amal qilishini belgilaydi. Hujjatning qabul qilingan sanasi bilan muayyan norma kuchga kirgan sanasi bir xil bo‘lishi shart emas; o‘tish qoidalarini ham o‘qish kerak. Kelajak tahririni bugungi yoki oldingi voqeaga avtomatik qo‘llash noto‘g‘ri.",
+      "source": "https://lex.uz/uz/docs/-111189?ONDATE=12.09.2026+01#-5445592"
+    }
+  ],
+  "A-J02": [
+    {
+      "id": "READ-1",
+      "prompt": "Da’vo namunasi to‘ldirilgani nimani tekshirish o‘rnini bosmaydi?",
+      "options": [
+        "Ish faktlari, imzo, ilovalar va vakil vakolatini.",
+        "Qog‘oz rangini.",
+        "Faqat namuna nomini."
+      ],
+      "correct": 0,
+      "explanation": "FPK 68–69-moddalari vakilning vakolatlarini rasmiylashtirish va ayrim protsessual harakatlar uchun vakolatni tekshirishga asos bo‘ladi. 189 va 191-moddalarda ariza mazmuni va unga ilova qilinadigan hujjatlar tartibga solingan. Bo‘sh namuna ishdagi fakt, imzo va vakolatni tekshirish o‘rnini bosmaydi.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519213"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Da’voda qaytim so‘ralgan bo‘lsa, faktlar va ilovalar shu talabning asosini tushuntirishi kerak.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Bo‘sh namuna ishdagi fakt, imzo va vakolatni tekshirish o‘rnini bosmaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "FPK 68–69-moddalari vakilning vakolatlarini rasmiylashtirish va ayrim protsessual harakatlar uchun vakolatni tekshirishga asos bo‘ladi. 189 va 191-moddalarda ariza mazmuni va unga ilova qilinadigan hujjatlar tartibga solingan. Bo‘sh namuna ishdagi fakt, imzo va vakolatni tekshirish o‘rnini bosmaydi.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519213"
+    }
+  ],
+  "A-J03": [
+    {
+      "id": "READ-1",
+      "prompt": "Fuqarolik mediatsiyasi jinoyat ayblovini istalgan shart bilan yopadimi?",
+      "options": [
+        "Yo‘q. Qo‘llanish sohasi va alohida protsessual asos tekshiriladi.",
+        "Ha, taraflar gaplashsa barcha ayblov yo‘qoladi.",
+        "Ha, mediator sudya o‘rniga hukm chiqaradi."
+      ],
+      "correct": 0,
+      "explanation": "Mediatsiya haqidagi qonunning 3-moddasi qo‘llanish sohasini, 5–9-moddalari maxfiylik, ixtiyoriylik, hamkorlik, tenglik va xolislik prinsiplarini belgilaydi. 29-modda mediativ kelishuvga taalluqli. Ushbu fuqarolik-huquqiy mexanizm jinoyat ayblovini istalgan shart bilan yopish huquqini bermaydi.",
+      "source": "https://lex.uz/uz/docs/3805227#3806744"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "««Tez orada to‘laydi» o‘rniga kim, qancha va qachon to‘lashi aniq ko‘rsatiladigan loyiha kerak.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Ushbu fuqarolik-huquqiy mexanizm jinoyat ayblovini istalgan shart bilan yopish huquqini bermaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "Mediatsiya haqidagi qonunning 3-moddasi qo‘llanish sohasini, 5–9-moddalari maxfiylik, ixtiyoriylik, hamkorlik, tenglik va xolislik prinsiplarini belgilaydi. 29-modda mediativ kelishuvga taalluqli. Ushbu fuqarolik-huquqiy mexanizm jinoyat ayblovini istalgan shart bilan yopish huquqini bermaydi.",
+      "source": "https://lex.uz/uz/docs/3805227#3806744"
+    }
+  ],
+  "A-J04": [
+    {
+      "id": "READ-1",
+      "prompt": "Hali so‘roq qilinmagan guvoh boshqalarning ko‘rsatmasini zalda tinglaydimi?",
+      "options": [
+        "Yo‘q. Guvohlar alohida so‘roq qilinishi qoidasi hisobga olinadi.",
+        "Ha, hammaning javobini avval eshitishi shart.",
+        "Ha, tashrif buyuruvchi bo‘lsa cheklov yo‘q."
+      ],
+      "correct": 0,
+      "explanation": "FPK 82-moddasi guvohni chaqirish iltimosnomasiga, 229-moddasi guvohni sudda so‘roq qilish tartibiga taalluqli. Har bir guvoh alohida so‘roq qilinadi; so‘roq qilinmagan guvohlar majlis zalida bo‘lishi mumkin emas. Jinoyat protsessidagi ishora qiluvchi savol taqiqi JPK 102-moddasida alohida ko‘rsatilgan.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519359"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "««Yetkazishni qaysi hujjatga qarab eslayapsiz?» hujjat bilan xotira o‘rtasidagi bog‘lanishni tekshiradi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Jinoyat protsessidagi ishora qiluvchi savol taqiqi JPK 102-moddasida alohida ko‘rsatilgan.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "FPK 82-moddasi guvohni chaqirish iltimosnomasiga, 229-moddasi guvohni sudda so‘roq qilish tartibiga taalluqli. Har bir guvoh alohida so‘roq qilinadi; so‘roq qilinmagan guvohlar majlis zalida bo‘lishi mumkin emas. Jinoyat protsessidagi ishora qiluvchi savol taqiqi JPK 102-moddasida alohida ko‘rsatilgan.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519359"
+    }
+  ],
+  "A-J05": [
+    {
+      "id": "READ-1",
+      "prompt": "Ishdan bo‘shatish buyrug‘i borligi qonuniylikni o‘zi tasdiqlaydimi?",
+      "options": [
+        "Yo‘q. Asos, rasmiylashtirish va oqibatlar alohida tekshiriladi.",
+        "Ha, buyruq mavjud bo‘lsa boshqa tekshiruv kerak emas.",
+        "Faqat imzo kattaligiga qaraladi."
+      ],
+      "correct": 0,
+      "explanation": "MK 161-moddasi ish beruvchi tashabbusi bilan bekor qilish asoslariga, 170-moddasi rasmiylashtirishga, 174-moddasi noqonuniy bekor qilish oqibatlariga taalluqli. 560-moddadagi sudga murojaat muddatini talab turiga qarab o‘qish kerak. Birgina buyruq borligi bekor qilishning qonuniyligini o‘z-o‘zidan tasdiqlamaydi.",
+      "source": "https://lex.uz/uz/docs/6257288#6261562"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Ta’til arizasi yozilganligi uning tasdiqlanganligini o‘z-o‘zidan isbotlamaydi; tasdiqlash holati tekshiriladi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Birgina buyruq borligi bekor qilishning qonuniyligini o‘z-o‘zidan tasdiqlamaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "MK 161-moddasi ish beruvchi tashabbusi bilan bekor qilish asoslariga, 170-moddasi rasmiylashtirishga, 174-moddasi noqonuniy bekor qilish oqibatlariga taalluqli. 560-moddadagi sudga murojaat muddatini talab turiga qarab o‘qish kerak. Birgina buyruq borligi bekor qilishning qonuniyligini o‘z-o‘zidan tasdiqlamaydi.",
+      "source": "https://lex.uz/uz/docs/6257288#6261562"
+    }
+  ],
+  "A-S01": [
+    {
+      "id": "READ-1",
+      "prompt": "Sudlanuvchi o‘z aybsizligini isbotlashi shartmi?",
+      "options": [
+        "Yo‘q. Himoya kafolatlari va aybsizlik prezumpsiyasi saqlanadi.",
+        "Ha, isbotlamasa avtomatik aybdor.",
+        "Faqat sukut saqlasa majbur."
+      ],
+      "correct": 0,
+      "explanation": "JPK 49-moddasi himoyachi maqomini, 51-moddasi uning ishtiroki shart bo‘lgan hollarni, 53-moddasi huquq va majburiyatlarini belgilaydi. Himoya rejasi ayblovning har muhim elementi va unga aloqador materialni ajratadi. Aybsizligini isbotlash majburiyati himoya ostidagi shaxsga yuklanmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-1393287"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Shaxs ikkinchi epizod vaqtida qayd etilmagani birinchi epizod bo‘yicha barcha savollarni avtomatik hal qilmaydi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Aybsizligini isbotlash majburiyati himoya ostidagi shaxsga yuklanmaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 49-moddasi himoyachi maqomini, 51-moddasi uning ishtiroki shart bo‘lgan hollarni, 53-moddasi huquq va majburiyatlarini belgilaydi. Himoya rejasi ayblovning har muhim elementi va unga aloqador materialni ajratadi. Aybsizligini isbotlash majburiyati himoya ostidagi shaxsga yuklanmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-1393287"
+    }
+  ],
+  "A-S02": [
+    {
+      "id": "READ-1",
+      "prompt": "Protsessual nuqson dalil mazmuni albatta yolg‘on deganimi?",
+      "options": [
+        "Yo‘q. Maqbullik va ishonchlilik farqlanadi.",
+        "Ha, ular mutlaqo bir tushuncha.",
+        "Nuqson faqat hujjat rangiga bog‘liq."
+      ],
+      "correct": 0,
+      "explanation": "JPK 95-moddasi aloqadorlik, maqbullik va ishonchlilikni farqlab baholashni talab qiladi; 95¹-modda maqbul bo‘lmagan dalillarga taalluqli. Protsessual nuqson materialning mazmuni yolg‘on ekanligini avtomatik anglatmaydi. Chiqarib tashlash so‘rovi aniq material, olish sharoiti va huquqiy asos bilan bog‘lanishi lozim.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253833"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Mazmun ishonarli tuyulishi uni olishdagi huquq buzilishi masalasini yo‘q qilmaydi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Chiqarib tashlash so‘rovi aniq material, olish sharoiti va huquqiy asos bilan bog‘lanishi lozim.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 95-moddasi aloqadorlik, maqbullik va ishonchlilikni farqlab baholashni talab qiladi; 95¹-modda maqbul bo‘lmagan dalillarga taalluqli. Protsessual nuqson materialning mazmuni yolg‘on ekanligini avtomatik anglatmaydi. Chiqarib tashlash so‘rovi aniq material, olish sharoiti va huquqiy asos bilan bog‘lanishi lozim.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253833"
+    }
+  ],
+  "A-S03": [
+    {
+      "id": "READ-1",
+      "prompt": "Muqobil izoh qanday tekshiriladi?",
+      "options": [
+        "Tasdiqlovchi va rad etuvchi materiallar bilan xolis solishtiriladi.",
+        "Qaysi izoh yoqsa shuni tanlash bilan.",
+        "Birinchi izohdan keyingi materiallarni o‘qimaslik bilan."
+      ],
+      "correct": 0,
+      "explanation": "JPK 94-moddasida qaror sinchkovlik bilan, to‘la, har tomonlama va xolis tekshirilgan dalillargagina asoslanishi belgilangan. Muqobil izoh tasdiqlovchi va rad etuvchi materiallar orqali tekshiriladi. Jadval yoki raqamli ball qonundagi dalillar majmuini baholash o‘rnini bosmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252886"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«O‘tkazma mavjudligi pulning huquqiy maqsadini yolg‘iz o‘zi to‘liq tushuntirmasligi mumkin.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Jadval yoki raqamli ball qonundagi dalillar majmuini baholash o‘rnini bosmaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 94-moddasida qaror sinchkovlik bilan, to‘la, har tomonlama va xolis tekshirilgan dalillargagina asoslanishi belgilangan. Muqobil izoh tasdiqlovchi va rad etuvchi materiallar orqali tekshiriladi. Jadval yoki raqamli ball qonundagi dalillar majmuini baholash o‘rnini bosmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252886"
+    }
+  ],
+  "A-S04": [
+    {
+      "id": "READ-1",
+      "prompt": "Himoyachining nutqi sudlanuvchining oxirgi so‘zi o‘rnini bosadimi?",
+      "options": [
+        "Yo‘q. Ular alohida protsessual bosqich va huquqlardir.",
+        "Ha, advokat uzun gapirsa oxirgi so‘z bekor bo‘ladi.",
+        "Prokuror istasa o‘rnini bosadi."
+      ],
+      "correct": 0,
+      "explanation": "JPK 449-moddasi taraflar muzokarasi, 450-moddasi ayblov mohiyati yuzasidan takliflar, 451-moddasi sudlanuvchining oxirgi so‘ziga bag‘ishlangan. Himoyachining nutqi sudlanuvchining oxirgi so‘zi o‘rnini bosmaydi. Sud hujjatini tekshirish tartibi va muddatini ish turi va tegishli bosqich bo‘yicha alohida aniqlash kerak.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256480"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "««Qaror adolatsiz» jumlasiga qaysi xulosa qaysi dalil yoki qoida bilan mos kelmasligi qo‘shilishi kerak.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Sud hujjatini tekshirish tartibi va muddatini ish turi va tegishli bosqich bo‘yicha alohida aniqlash kerak.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 449-moddasi taraflar muzokarasi, 450-moddasi ayblov mohiyati yuzasidan takliflar, 451-moddasi sudlanuvchining oxirgi so‘ziga bag‘ishlangan. Himoyachining nutqi sudlanuvchining oxirgi so‘zi o‘rnini bosmaydi. Sud hujjatini tekshirish tartibi va muddatini ish turi va tegishli bosqich bo‘yicha alohida aniqlash kerak.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256480"
+    }
+  ],
+  "A-S05": [
+    {
+      "id": "READ-1",
+      "prompt": "Shartnoma bajarilmagani firibgarlikning barcha belgilarini isbotlaydimi?",
+      "options": [
+        "Yo‘q. Aldash, niyat va egallash usuliga oid holatlar tekshiriladi.",
+        "Ha, har qanday kechikish firibgarlik.",
+        "Faqat xaridor noroziligi yetarli."
+      ],
+      "correct": 0,
+      "explanation": "JK 168-moddasi aldash yoki ishonchni suiiste’mol qilish yo‘li bilan o‘zganing mulkini yoki unga bo‘lgan huquqni qo‘lga kiritishga taalluqli. Shartnoma bajarilmagani yoki pul kechikkani o‘z-o‘zidan barcha jinoyat belgilarini isbotlamaydi. Niyat, harakat va mulkni egallash usuliga doir materiallar alohida tekshiriladi.",
+      "source": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-310589"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«To‘lov nizosi mavjudligi jinoyat belgilarini alohida tekshirish zaruratini bekor qilmaydi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Niyat, harakat va mulkni egallash usuliga doir materiallar alohida tekshiriladi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JK 168-moddasi aldash yoki ishonchni suiiste’mol qilish yo‘li bilan o‘zganing mulkini yoki unga bo‘lgan huquqni qo‘lga kiritishga taalluqli. Shartnoma bajarilmagani yoki pul kechikkani o‘z-o‘zidan barcha jinoyat belgilarini isbotlamaydi. Niyat, harakat va mulkni egallash usuliga doir materiallar alohida tekshiriladi.",
+      "source": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-310589"
+    }
+  ],
+  "S-B01": [
+    {
+      "id": "READ-1",
+      "prompt": "Sudyaning mustaqilligi taraflardan biriga yutishni ta’minlashmi?",
+      "options": [
+        "Yo‘q. Sud qonunga asoslanib xolis odil sudlovni amalga oshiradi.",
+        "Ha, da’vogarga yutishni ta’minlash.",
+        "Ha, davlat tashkiloti bo‘lsa uni qo‘llash."
+      ],
+      "correct": 0,
+      "explanation": "Sudlar haqidagi qonunning 1-moddasi sud hokimiyati va odil sudlovning faqat sud tomonidan amalga oshirilishini, 9-moddasi sudyalarning mustaqilligini belgilaydi. Xuddi shu mustaqillik Konstitutsiya 136-moddasida kafolatlangan. Sudyaning vazifasi taraflardan biriga yutishni tashkil qilib berish emas.",
+      "source": "https://lex.uz/uz/docs/-5534923?ONDATE=15.10.2026+00#-5536741"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "««Rahbar shunday xohlayapti» xabari ish dalili yoki qaror uchun huquqiy asos emas.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Sudyaning vazifasi taraflardan biriga yutishni tashkil qilib berish emas.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "Sudlar haqidagi qonunning 1-moddasi sud hokimiyati va odil sudlovning faqat sud tomonidan amalga oshirilishini, 9-moddasi sudyalarning mustaqilligini belgilaydi. Xuddi shu mustaqillik Konstitutsiya 136-moddasida kafolatlangan. Sudyaning vazifasi taraflardan biriga yutishni tashkil qilib berish emas.",
+      "source": "https://lex.uz/uz/docs/-5534923?ONDATE=15.10.2026+00#-5536741"
+    }
+  ],
+  "S-B02": [
+    {
+      "id": "READ-1",
+      "prompt": "Taraflar tengligi barcha dalillar teng ishonchli deganimi?",
+      "options": [
+        "Yo‘q. Teng protsessual imkoniyat va dalil bahosi farqlanadi.",
+        "Ha, har bir dalilga bir xil vazn beriladi.",
+        "Faqat kim balandroq gapirsa, o‘sha teng huquqli."
+      ],
+      "correct": 0,
+      "explanation": "FPK 8 va 10-moddalari qonun va sud oldidagi tenglik hamda taraflar tortishuvi va teng huquqliligiga taalluqli. 11-modda ish yuritish tili, 40 va 44-moddalar ishtirokchi va taraflarning protsessual huquqlarini belgilaydi. Teng imkoniyat dalillarning teng ishonchliligini yoki har bir taraf uchun qat’iy bir xil soniya ajratilishini anglatmaydi.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3517962"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Hujjatni eshitish vaqtida ko‘rsatish uning nusxasini ko‘rish va munosabat bildirish imkoniyatini avtomatik yaratmaydi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Teng imkoniyat dalillarning teng ishonchliligini yoki har bir taraf uchun qat’iy bir xil soniya ajratilishini anglatmaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "FPK 8 va 10-moddalari qonun va sud oldidagi tenglik hamda taraflar tortishuvi va teng huquqliligiga taalluqli. 11-modda ish yuritish tili, 40 va 44-moddalar ishtirokchi va taraflarning protsessual huquqlarini belgilaydi. Teng imkoniyat dalillarning teng ishonchliligini yoki har bir taraf uchun qat’iy bir xil soniya ajratilishini anglatmaydi.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3517962"
+    }
+  ],
+  "S-B03": [
+    {
+      "id": "READ-1",
+      "prompt": "Fuqarolik majlisiga jinoyatdagi oxirgi so‘z bosqichi ko‘chiriladimi?",
+      "options": [
+        "Yo‘q. Ish turiga mos protsessual ketma-ketlik qo‘llanadi.",
+        "Ha, har bir sud turi bir xil bosqichlardan iborat.",
+        "Har ishda ayblov hukmi chiqishi kerak."
+      ],
+      "correct": 0,
+      "explanation": "FPK 210-moddasi majlisni ochish, 213-moddasi kelgan-kelmaganlikni tekshirish, 215-moddasi guvohlarni chiqarish, 216–217-moddalari tarkib, rad qilish va huquqlarni tushuntirishga taalluqli. Keyin tushuntirishlar, dalillarni tekshirish, muzokara va qaror bosqichlari keladi. Sudlanuvchining jinoyat protsessidagi oxirgi so‘zi fuqarolik ishiga majburiy bosqich qilib ko‘chirilmaydi.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522675"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Taqdim etilgan hujjat hali tekshirilgan hujjat bilan bir xil holatda emas.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Sudlanuvchining jinoyat protsessidagi oxirgi so‘zi fuqarolik ishiga majburiy bosqich qilib ko‘chirilmaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "FPK 210-moddasi majlisni ochish, 213-moddasi kelgan-kelmaganlikni tekshirish, 215-moddasi guvohlarni chiqarish, 216–217-moddalari tarkib, rad qilish va huquqlarni tushuntirishga taalluqli. Keyin tushuntirishlar, dalillarni tekshirish, muzokara va qaror bosqichlari keladi. Sudlanuvchining jinoyat protsessidagi oxirgi so‘zi fuqarolik ishiga majburiy bosqich qilib ko‘chirilmaydi.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522675"
+    }
+  ],
+  "S-B04": [
+    {
+      "id": "READ-1",
+      "prompt": "Nusxa va asl o‘rtasidagi farqni bilmasdan hujjatga mutlaq kuch beriladimi?",
+      "options": [
+        "Yo‘q. Aloqadorlik, maqbullik, ishonchlilik va majmua tekshiriladi.",
+        "Ha, nusxa chiroyli bo‘lsa yetarli.",
+        "Hujjat soni aslni tekshirish o‘rnini bosadi."
+      ],
+      "correct": 0,
+      "explanation": "FPK 80-moddasi alohida dalilning aloqadorligi, maqbulligi va ishonchliligini hamda majmuaning yetarliligini baholashni nazarda tutadi. 87-modda yozma dalilning aslini taqdim etish masalasiga taalluqli. Asl va nusxa o‘rtasidagi farqni ko‘rmasdan bir hujjatga oldindan mutlaq kuch berish mumkin emas.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519330"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Bir xil nomli ikki kvitansiyaning sanasi farqlansa, nusxalar ziddiyati qaror sabablarida e’tiborsiz qolmaydi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Asl va nusxa o‘rtasidagi farqni ko‘rmasdan bir hujjatga oldindan mutlaq kuch berish mumkin emas.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "FPK 80-moddasi alohida dalilning aloqadorligi, maqbulligi va ishonchliligini hamda majmuaning yetarliligini baholashni nazarda tutadi. 87-modda yozma dalilning aslini taqdim etish masalasiga taalluqli. Asl va nusxa o‘rtasidagi farqni ko‘rmasdan bir hujjatga oldindan mutlaq kuch berish mumkin emas.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519330"
+    }
+  ],
+  "S-B05": [
+    {
+      "id": "READ-1",
+      "prompt": "Qarz hisob-kitobidan avval nimani aniqlash lozim?",
+      "options": [
+        "Majburiyat asosi, qaytarish sharti va to‘lovlarning tegishliligini.",
+        "Faqat da’vogar xohlagan summani.",
+        "Har qanday o‘tkazmani qarz deb qabul qilishni."
+      ],
+      "correct": 0,
+      "explanation": "FK 732–735-moddalari qarz shartnomasi, uning shakli, foizlar va qarz summasini qaytarish majburiyatini tartibga soladi. Pul o‘tkazmasi mazmuni, qaytarish sharti va to‘lovlar aynan nizodagi majburiyatga tegishliligi tekshiriladi. Qarzdorlik hisobidan oldin qarz va to‘lovlarning huquqiy asosini aniqlash kerak.",
+      "source": "https://lex.uz/uz/docs/-180552#-190102"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Qisman to‘lov borligi butun talabni avtomatik rad qilish ham, uni umuman e’tiborsiz qoldirish ham emas.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Qarzdorlik hisobidan oldin qarz va to‘lovlarning huquqiy asosini aniqlash kerak.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "FK 732–735-moddalari qarz shartnomasi, uning shakli, foizlar va qarz summasini qaytarish majburiyatini tartibga soladi. Pul o‘tkazmasi mazmuni, qaytarish sharti va to‘lovlar aynan nizodagi majburiyatga tegishliligi tekshiriladi. Qarzdorlik hisobidan oldin qarz va to‘lovlarning huquqiy asosini aniqlash kerak.",
+      "source": "https://lex.uz/uz/docs/-180552#-190102"
+    }
+  ],
+  "S-J01": [
+    {
+      "id": "READ-1",
+      "prompt": "Tayyorlashda zarur dalillarni belgilash natijani oldindan hal qilishmi?",
+      "options": [
+        "Yo‘q. Bu taraflar va nizoli holatlarni aniqlashtirish bosqichi.",
+        "Ha, tayyorlashda kim yutishi majburiy e’lon qilinadi.",
+        "Sudya faqat bir taraf hujjatini yig‘adi."
+      ],
+      "correct": 0,
+      "explanation": "FPK 201–205-moddalari ishni sud muhokamasiga tayyorlash vazifalari, muddatlari, taraflarni aniqlashtirishi va sudyaning tayyorlash harakatlariga taalluqli. Nizoli holatlar va zarur materiallarni belgilash kelajakdagi natijani oldindan e’lon qilish emas. Har bir tarafdan nimani aniqlashtirish kerakligi xolis rejalashtiriladi.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522420"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Ishlangan kunlar bahsli bo‘lsa, tayyorgarlik rejasi davomat va to‘lov qaydlarini solishtirishni nazarda tutadi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Har bir tarafdan nimani aniqlashtirish kerakligi xolis rejalashtiriladi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "FPK 201–205-moddalari ishni sud muhokamasiga tayyorlash vazifalari, muddatlari, taraflarni aniqlashtirishi va sudyaning tayyorlash harakatlariga taalluqli. Nizoli holatlar va zarur materiallarni belgilash kelajakdagi natijani oldindan e’lon qilish emas. Har bir tarafdan nimani aniqlashtirish kerakligi xolis rejalashtiriladi.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522420"
+    }
+  ],
+  "S-J02": [
+    {
+      "id": "READ-1",
+      "prompt": "Muhokamaga oid iltimosnoma qanday hal qilinadi?",
+      "options": [
+        "Boshqa ishtirokchilar fikri eshitilib, asosli sud ajrimi bilan.",
+        "Faqat bir taraf talab qilgani uchun avtomatik.",
+        "Faqat kotibning shaxsiy fikri bilan."
+      ],
+      "correct": 0,
+      "explanation": "FPK 219-moddasiga ko‘ra yangi dalil talab qilish va muhokama bilan bog‘liq boshqa iltimosnomalar boshqa ishtirokchilarning fikrlari eshitilganidan keyin sud ajrimi bilan hal qilinadi. Murojaatning sababi va so‘ralgan chorasi aniq bo‘lishi lozim. Bitta iltimosnomani qanoatlantirish ishning yakuniy natijasini avtomatik belgilamaydi.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522755"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Guvoh chaqirishning zarurligi uning qaysi muhim holat haqida ma’lumot bera olishi bilan tushuntiriladi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Bitta iltimosnomani qanoatlantirish ishning yakuniy natijasini avtomatik belgilamaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "FPK 219-moddasiga ko‘ra yangi dalil talab qilish va muhokama bilan bog‘liq boshqa iltimosnomalar boshqa ishtirokchilarning fikrlari eshitilganidan keyin sud ajrimi bilan hal qilinadi. Murojaatning sababi va so‘ralgan chorasi aniq bo‘lishi lozim. Bitta iltimosnomani qanoatlantirish ishning yakuniy natijasini avtomatik belgilamaydi.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3522755"
+    }
+  ],
+  "S-J03": [
+    {
+      "id": "READ-1",
+      "prompt": "Raqamli qayd va guvoh xotirasi farqi nimani talab qiladi?",
+      "options": [
+        "Manba, kontekst va yaxlitlikni tekshirishni.",
+        "Darhol guvoh yolg‘onchi deb xulosa qilishni.",
+        "Raqamli yozuvga har doim mutlaq kuch berishni."
+      ],
+      "correct": 0,
+      "explanation": "FPKning raqamli dalillarga oid 89¹–89⁴-moddalari materialni tegishli shakl va tartibda ko‘rish uchun huquqiy tayanchdir; baholashning umumiy qoidasi 80-moddada. Guvoh xotirasi bilan raqamli qayd farqi topilsa, manba, kontekst va yaxlitlik tekshiriladi. Farqning o‘zi guvohning yolg‘on gapirganini avtomatik isbotlamaydi.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519330"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Qurilma vaqti noto‘g‘ri bo‘lishi ehtimoli tekshiriladigan savoldir; tayyor xulosa emas.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Farqning o‘zi guvohning yolg‘on gapirganini avtomatik isbotlamaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "FPKning raqamli dalillarga oid 89¹–89⁴-moddalari materialni tegishli shakl va tartibda ko‘rish uchun huquqiy tayanchdir; baholashning umumiy qoidasi 80-moddada. Guvoh xotirasi bilan raqamli qayd farqi topilsa, manba, kontekst va yaxlitlik tekshiriladi. Farqning o‘zi guvohning yolg‘on gapirganini avtomatik isbotlamaydi.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3519330"
+    }
+  ],
+  "S-J04": [
+    {
+      "id": "READ-1",
+      "prompt": "Hal qiluv qarorida dalillarni sanashning o‘zi yetarlimi?",
+      "options": [
+        "Yo‘q. Aniqlangan holat, baholash sababi va qo‘llangan normalar ko‘rsatiladi.",
+        "Ha, ro‘yxat qancha uzun bo‘lsa qaror asosli.",
+        "Faqat xulosa sarlavhasi yetarli."
+      ],
+      "correct": 0,
+      "explanation": "FPK 253-moddasiga ko‘ra hal qiluv qarori kirish, bayon, asoslantiruvchi va xulosa qismlaridan iborat. Asoslantirishda aniqlangan holatlar, dalillar va qo‘llangan moddiy hamda protsessual normalar ko‘rsatiladi. Xulosa qismida har bir talabning natijasi, xarajatlar hamda shikoyat qilish tartibi va muddati tegishli qonunga muvofiq bayon etiladi.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3523549"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Asoslantirishda qisman qanoatlantirish yozilib, xulosada to‘liq qanoatlantirish qolsa, loyiha tuzatilishi kerak.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Xulosa qismida har bir talabning natijasi, xarajatlar hamda shikoyat qilish tartibi va muddati tegishli qonunga muvofiq bayon etiladi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "FPK 253-moddasiga ko‘ra hal qiluv qarori kirish, bayon, asoslantiruvchi va xulosa qismlaridan iborat. Asoslantirishda aniqlangan holatlar, dalillar va qo‘llangan moddiy hamda protsessual normalar ko‘rsatiladi. Xulosa qismida har bir talabning natijasi, xarajatlar hamda shikoyat qilish tartibi va muddati tegishli qonunga muvofiq bayon etiladi.",
+      "source": "https://lex.uz/uz/docs/-3517337?ONDATE=12.09.2026+02#3523549"
+    }
+  ],
+  "S-J05": [
+    {
+      "id": "READ-1",
+      "prompt": "Ish haqi muddati bilan bo‘shatilgandagi hisob-kitob bir xil vaziyatmi?",
+      "options": [
+        "Yo‘q. MK 253 va 254-moddalaridagi tegishli holatlar farqlanadi.",
+        "Ha, sana va talab turi ahamiyatsiz.",
+        "Faqat ish beruvchi xohlagan vaqtda to‘lanadi."
+      ],
+      "correct": 0,
+      "explanation": "MK 253-moddasi ish haqini to‘lash muddatlariga, 254-moddasi esa mehnat shartnomasi bekor qilingandagi hisob-kitob muddatlariga taalluqli. Bu ikki vaziyat bir xil emas. Hisoblangan summa, to‘langan summa va davrni ishonchli material bilan bog‘lamasdan qolgan qarzni aniqlab bo‘lmaydi.",
+      "source": "https://lex.uz/uz/docs/6257288#6263813"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Bank ko‘chirmasidagi pul aynan ish haqi uchunmi yoki boshqa to‘lovmi — material bilan aniqlanadi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Hisoblangan summa, to‘langan summa va davrni ishonchli material bilan bog‘lamasdan qolgan qarzni aniqlab bo‘lmaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "MK 253-moddasi ish haqini to‘lash muddatlariga, 254-moddasi esa mehnat shartnomasi bekor qilingandagi hisob-kitob muddatlariga taalluqli. Bu ikki vaziyat bir xil emas. Hisoblangan summa, to‘langan summa va davrni ishonchli material bilan bog‘lamasdan qolgan qarzni aniqlab bo‘lmaydi.",
+      "source": "https://lex.uz/uz/docs/6257288#6263813"
+    }
+  ],
+  "S-S01": [
+    {
+      "id": "READ-1",
+      "prompt": "Sudlanuvchining sukuti aybdorlik dalili bo‘ladimi?",
+      "options": [
+        "Yo‘q. Sukut va aybsizlik prezumpsiyasi kafolatlari saqlanadi.",
+        "Ha, sukutning o‘zi yetarli.",
+        "Faqat prokuror shunday desa yetarli."
+      ],
+      "correct": 0,
+      "explanation": "Konstitutsiyaning 26–29-moddalaridagi qadr-qimmat, erkinlik, aybsizlik prezumpsiyasi va malakali yuridik yordam kafolatlari birga qo‘llanadi. 28-modda o‘z aybsizligini isbotlash majburiyati yo‘qligini va sukut huquqini belgilaydi. Sukut aybdorlikka dalil qilib olinmaydi.",
+      "source": "https://gov.uz/oz/mfa/sections/view/14475"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Himoyachi so‘ralgani bilan uning amalda qatnashgani bir xil fakt emas.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Sukut aybdorlikka dalil qilib olinmaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "Konstitutsiyaning 26–29-moddalaridagi qadr-qimmat, erkinlik, aybsizlik prezumpsiyasi va malakali yuridik yordam kafolatlari birga qo‘llanadi. 28-modda o‘z aybsizligini isbotlash majburiyati yo‘qligini va sukut huquqini belgilaydi. Sukut aybdorlikka dalil qilib olinmaydi.",
+      "source": "https://gov.uz/oz/mfa/sections/view/14475"
+    }
+  ],
+  "S-S02": [
+    {
+      "id": "READ-1",
+      "prompt": "Bitta dalil chiqarilgach qolgan materiallar baholanadimi?",
+      "options": [
+        "Ha. Har birining va majmuaning mustaqil bahosi zarur.",
+        "Yo‘q. Qolgan materiallar avtomatik bekor.",
+        "Bitta chiqarish har doim tayyor oqlov hukmi."
+      ],
+      "correct": 0,
+      "explanation": "JPK 95¹-moddasi dalillarning maqbul emasligiga, 405¹¹-moddasi nomaqbul dalillarni chiqarib tashlash to‘g‘risidagi iltimosnomaga taalluqli. Qaysi material qanday sharoitda olingani va taraflar vajlari tekshiriladi. Bitta dalil chiqarilishi qolgan materiallar bo‘yicha alohida baholash zaruratini yo‘qotmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-3644484"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Bitta nusxa bilan bog‘liq muammo boshqa mustaqil manbaning taqdirini sababsiz hal qilmaydi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Bitta dalil chiqarilishi qolgan materiallar bo‘yicha alohida baholash zaruratini yo‘qotmaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 95¹-moddasi dalillarning maqbul emasligiga, 405¹¹-moddasi nomaqbul dalillarni chiqarib tashlash to‘g‘risidagi iltimosnomaga taalluqli. Qaysi material qanday sharoitda olingani va taraflar vajlari tekshiriladi. Bitta dalil chiqarilishi qolgan materiallar bo‘yicha alohida baholash zaruratini yo‘qotmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-3644484"
+    }
+  ],
+  "S-S03": [
+    {
+      "id": "READ-1",
+      "prompt": "Ayblov hukmi taxminga asoslanishi mumkinmi?",
+      "options": [
+        "Yo‘q. Isbotlash talablari va bartaraf etilmagan shubha qoidalari qo‘llanadi.",
+        "Ha, sudya ishonch bilan aytsa.",
+        "Ha, dalillar soni kam bo‘lsa taxmin yetarli."
+      ],
+      "correct": 0,
+      "explanation": "JPK 23-moddasi aybsizlik prezumpsiyasini, 463-moddasi ayblov hukmi taxminlarga asoslanmasligini belgilaydi. 464-moddada oqlov hukmi asoslari alohida ko‘rsatilgan. Bartaraf etish imkoniyatlari tugagan aybdorlikka oid shubhalar shaxs foydasiga hal qilinadi; har mayda tafovutning ahamiyati esa ish mazmunida baholanadi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252892"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Qayddagi farq shaxsning hodisada qatnashganiga taalluqli bo‘lsa, uning mohiyati qaror sabablarida yoritiladi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Bartaraf etish imkoniyatlari tugagan aybdorlikka oid shubhalar shaxs foydasiga hal qilinadi; har mayda tafovutning ahamiyati esa ish mazmunida baholanadi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 23-moddasi aybsizlik prezumpsiyasini, 463-moddasi ayblov hukmi taxminlarga asoslanmasligini belgilaydi. 464-moddada oqlov hukmi asoslari alohida ko‘rsatilgan. Bartaraf etish imkoniyatlari tugagan aybdorlikka oid shubhalar shaxs foydasiga hal qilinadi; har mayda tafovutning ahamiyati esa ish mazmunida baholanadi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252892"
+    }
+  ],
+  "S-S04": [
+    {
+      "id": "READ-1",
+      "prompt": "Hukm qanday bo‘lishi kerak?",
+      "options": [
+        "Qonuniy, asosli va adolatli.",
+        "Faqat tez chiqarilgan.",
+        "Faqat taraflardan biriga yoqqan."
+      ],
+      "correct": 0,
+      "explanation": "JPK 455-moddasiga ko‘ra hukm qonuniy, asosli va adolatli bo‘lishi shart. 457-moddada hukm chiqarishda hal qilinadigan masalalar, 463–464-moddalarda ayblov va oqlov asoslari ko‘rsatilgan. Dalillarni shunchaki sanash ularning qabul yoki rad etilish sababini ko‘rsatish o‘rnini bosmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256504"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "««Dalillar yig‘indisi tasdiqlaydi» jumlasi dalillar qanday bog‘langani tushuntirilmasa yetarli emas.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Dalillarni shunchaki sanash ularning qabul yoki rad etilish sababini ko‘rsatish o‘rnini bosmaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 455-moddasiga ko‘ra hukm qonuniy, asosli va adolatli bo‘lishi shart. 457-moddada hukm chiqarishda hal qilinadigan masalalar, 463–464-moddalarda ayblov va oqlov asoslari ko‘rsatilgan. Dalillarni shunchaki sanash ularning qabul yoki rad etilish sababini ko‘rsatish o‘rnini bosmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256504"
+    }
+  ],
+  "S-S05": [
+    {
+      "id": "READ-1",
+      "prompt": "Yolg‘iz iqrorlikning o‘zi yetarlimi?",
+      "options": [
+        "Yo‘q. Maqbullik va boshqa dalillar majmui bilan tasdiqlanishi tekshiriladi.",
+        "Ha, boshqa holatlar ahamiyatsiz.",
+        "Imzo bo‘lsa himoyachi kafolati tekshirilmaydi."
+      ],
+      "correct": 0,
+      "explanation": "Avval JPK 51-moddasi bo‘yicha himoyachi ishtiroki shart bo‘lganligi va 95¹-modda bo‘yicha dalilning maqbulligi tekshiriladi. Keyin qolgan materiallar mustaqil baholanadi; 112-modda iqrorlik boshqa dalillar majmui bilan tasdiqlanishi kerakligini belgilaydi. Bir bayonotning chiqarilishini butun ishning tayyor oqlov hukmi deb qabul qilib bo‘lmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253601"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Bahsli bayonotni chiqarish haqidagi javobdan keyin ham qolgan materialning nimani tasdiqlashi tekshiriladi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Bir bayonotning chiqarilishini butun ishning tayyor oqlov hukmi deb qabul qilib bo‘lmaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "Avval JPK 51-moddasi bo‘yicha himoyachi ishtiroki shart bo‘lganligi va 95¹-modda bo‘yicha dalilning maqbulligi tekshiriladi. Keyin qolgan materiallar mustaqil baholanadi; 112-modda iqrorlik boshqa dalillar majmui bilan tasdiqlanishi kerakligini belgilaydi. Bir bayonotning chiqarilishini butun ishning tayyor oqlov hukmi deb qabul qilib bo‘lmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253601"
+    }
+  ],
+  "P-B01": [
+    {
+      "id": "READ-1",
+      "prompt": "Har qanday murojaat prokurorni davlat ayblovchisiga aylantiradimi?",
+      "options": [
+        "Yo‘q. Aniq maqom tegishli protsessual qonun bilan belgilanadi.",
+        "Ha, barcha nizolar jinoyat ishi.",
+        "Faqat ariza sarlavhasi yetarli."
+      ],
+      "correct": 0,
+      "explanation": "Prokuratura haqidagi qonunning 2, 4 va 5-moddalari organlarning vazifalari, faoliyat yo‘nalishlari va prinsiplarini belgilaydi; 33-modda sudlarda ishlarni ko‘rishda ishtirok etishga taalluqli. Prokurorning suddagi aniq maqomi tegishli protsessual kodeks bilan aniqlanadi. Har qanday murojaatni davlat aybloviga aylantirish mumkin emas.",
+      "source": "https://lex.uz/uz/docs/106197#106228"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«To‘lov kechikkanligi haqidagi murojaat avval o‘z holatlari bo‘yicha o‘rganiladi; uning nomi o‘zi yetarli emas.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Har qanday murojaatni davlat aybloviga aylantirish mumkin emas.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "Prokuratura haqidagi qonunning 2, 4 va 5-moddalari organlarning vazifalari, faoliyat yo‘nalishlari va prinsiplarini belgilaydi; 33-modda sudlarda ishlarni ko‘rishda ishtirok etishga taalluqli. Prokurorning suddagi aniq maqomi tegishli protsessual kodeks bilan aniqlanadi. Har qanday murojaatni davlat aybloviga aylantirish mumkin emas.",
+      "source": "https://lex.uz/uz/docs/106197#106228"
+    }
+  ],
+  "P-B02": [
+    {
+      "id": "READ-1",
+      "prompt": "Shaxs aybini tan olsa dalillarni tekshirish to‘xtaydimi?",
+      "options": [
+        "Yo‘q. Iqrorlik ham boshqa dalillar bilan tekshiriladi.",
+        "Ha, barcha boshqa material ortiqcha.",
+        "Faqat iqror ovozi yozilgani yetarli."
+      ],
+      "correct": 0,
+      "explanation": "JPK 112-moddasiga ko‘ra aybga iqrorlik mavjud dalillar majmui bilan tasdiqlangandagina ayblash uchun asos qilib olinishi mumkin. Shaxs iqror bo‘lsa ham, inkor qilsa ham, uning ko‘rsatuvlari boshqa dalillar kabi tekshiriladi va baholanadi. JPK 23-moddasidagi prezumpsiya va Konstitutsiya 28-moddasidagi sukut kafolatlari saqlanadi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252892"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "««E’tiroz bildirmadi» degan qayd aybni isbotlash vazifasini almashtirmaydi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "JPK 23-moddasidagi prezumpsiya va Konstitutsiya 28-moddasidagi sukut kafolatlari saqlanadi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 112-moddasiga ko‘ra aybga iqrorlik mavjud dalillar majmui bilan tasdiqlangandagina ayblash uchun asos qilib olinishi mumkin. Shaxs iqror bo‘lsa ham, inkor qilsa ham, uning ko‘rsatuvlari boshqa dalillar kabi tekshiriladi va baholanadi. JPK 23-moddasidagi prezumpsiya va Konstitutsiya 28-moddasidagi sukut kafolatlari saqlanadi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252892"
+    }
+  ],
+  "P-B03": [
+    {
+      "id": "READ-1",
+      "prompt": "Hodisa joyida bo‘lishning o‘zi barcha jinoyat belgilarini isbotlaydimi?",
+      "options": [
+        "Yo‘q. Har bir zarur holatning o‘z daliliy asosi tekshiriladi.",
+        "Ha, qolgan elementlar avtomatik.",
+        "Shaxsning tanishi aytsa hammasi isbot."
+      ],
+      "correct": 0,
+      "explanation": "JPK 81-moddasi dalillarga, 82-moddasi ayblash va hukm qilish uchun isbotlanishi zarur holatlarga taalluqli. Hodisa, shaxsning harakati, aybi, oqibat va zarar kabi masalalar o‘z daliliy tayanchiga ega bo‘lishi kerak. Hodisa joyida bo‘lishning o‘zi barcha zarur elementlarni isbotlamaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253745"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Kirish qaydi shaxsning binoda bo‘lganiga oid ma’lumot; aynan nimani olganiga alohida dalil kerak.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Hodisa joyida bo‘lishning o‘zi barcha zarur elementlarni isbotlamaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 81-moddasi dalillarga, 82-moddasi ayblash va hukm qilish uchun isbotlanishi zarur holatlarga taalluqli. Hodisa, shaxsning harakati, aybi, oqibat va zarar kabi masalalar o‘z daliliy tayanchiga ega bo‘lishi kerak. Hodisa joyida bo‘lishning o‘zi barcha zarur elementlarni isbotlamaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253745"
+    }
+  ],
+  "P-B04": [
+    {
+      "id": "READ-1",
+      "prompt": "Huquqlar tushuntirilgani haqidagi imzo barcha ehtiyoj ta’minlanganini isbotlaydimi?",
+      "options": [
+        "Yo‘q. Amaldagi til, tarjimon va himoya ehtiyoji ham tekshiriladi.",
+        "Ha, imzo bo‘lsa boshqa kafolat kerak emas.",
+        "Imzo sukut huquqini bekor qiladi."
+      ],
+      "correct": 0,
+      "explanation": "JPK 20-moddasi ish yuritish tiliga, 24-moddasi himoyalanish huquqiga, 46 va 48-moddalari sudlanuvchi hamda gumon qilinuvchi huquqlariga taalluqli. 51-modda himoyachi ishtiroki shart bo‘lgan hollarni belgilaydi. Huquq tushuntirilgani haqidagi imzo amaldagi til va himoya ehtiyoji ta’minlanganligini avtomatik tasdiqlamaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252876"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Himoyachi keyin kelgani oldingi suhbatning barcha shartlarini avtomatik qonuniy qilmaydi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Huquq tushuntirilgani haqidagi imzo amaldagi til va himoya ehtiyoji ta’minlanganligini avtomatik tasdiqlamaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 20-moddasi ish yuritish tiliga, 24-moddasi himoyalanish huquqiga, 46 va 48-moddalari sudlanuvchi hamda gumon qilinuvchi huquqlariga taalluqli. 51-modda himoyachi ishtiroki shart bo‘lgan hollarni belgilaydi. Huquq tushuntirilgani haqidagi imzo amaldagi til va himoya ehtiyoji ta’minlanganligini avtomatik tasdiqlamaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252876"
+    }
+  ],
+  "P-B05": [
+    {
+      "id": "READ-1",
+      "prompt": "Telefon shaxs yonidan topilsa barcha belgilar tekshirilmaydimi?",
+      "options": [
+        "Baribir harakat, ayb va boshqa zarur holatlar tekshiriladi.",
+        "Boshqa dalillar taqiqlanadi.",
+        "Telefon topilishi avtomatik hukmdir."
+      ],
+      "correct": 0,
+      "explanation": "JK 169-moddasi o‘g‘rilikka, ya’ni o‘zganing mol-mulkini yashirin ravishda talon-toroj qilishga taalluqli. Telefonning bir shaxs yonidan topilishi harakatning barcha huquqiy belgilarini tekshirish o‘rnini bosmaydi. Prokuror JPK 409-moddasidagi vazifasini bajarar ekan, ayblov foydasiga ham, unga qarshi ham materialni baholaydi.",
+      "source": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-263768"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«O‘xshash telefon topilgani uning aynan yo‘qolgan telefon ekanini alohida tekshirishni talab qiladi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Prokuror JPK 409-moddasidagi vazifasini bajarar ekan, ayblov foydasiga ham, unga qarshi ham materialni baholaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JK 169-moddasi o‘g‘rilikka, ya’ni o‘zganing mol-mulkini yashirin ravishda talon-toroj qilishga taalluqli. Telefonning bir shaxs yonidan topilishi harakatning barcha huquqiy belgilarini tekshirish o‘rnini bosmaydi. Prokuror JPK 409-moddasidagi vazifasini bajarar ekan, ayblov foydasiga ham, unga qarshi ham materialni baholaydi.",
+      "source": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-263768"
+    }
+  ],
+  "P-J01": [
+    {
+      "id": "READ-1",
+      "prompt": "Bir xil hujjatning ko‘p nusxasi asosiy isbot bo‘shlig‘ini to‘ldiradimi?",
+      "options": [
+        "Yo‘q. Har tezis zarur holat va tegishli dalilga bog‘lanadi.",
+        "Ha, nusxalar soni yagona mezon.",
+        "Ko‘p nusxa oqlovchi materialni bekor qiladi."
+      ],
+      "correct": 0,
+      "explanation": "JPK 409-moddasi davlat ayblovini quvvatlovchi prokurorning dalillarni tekshirish va savol berishdagi vazifalarini belgilaydi. Tezislarning har biri 82-moddadagi zarur holat va 94–95-moddalardagi tekshirish hamda baholash bilan bog‘lanadi. Takroriy hujjatlar soni asosiy bo‘shliqni avtomatik to‘ldirmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253751"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Hisobga pul tushgani bilan hisobni aynan kim va qanday maqsadda boshqargani alohida masaladir.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Takroriy hujjatlar soni asosiy bo‘shliqni avtomatik to‘ldirmaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 409-moddasi davlat ayblovini quvvatlovchi prokurorning dalillarni tekshirish va savol berishdagi vazifalarini belgilaydi. Tezislarning har biri 82-moddadagi zarur holat va 94–95-moddalardagi tekshirish hamda baholash bilan bog‘lanadi. Takroriy hujjatlar soni asosiy bo‘shliqni avtomatik to‘ldirmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253751"
+    }
+  ],
+  "P-J02": [
+    {
+      "id": "READ-1",
+      "prompt": "Xesh qiymati barcha protsessual talablarga rioya etilganini o‘zi isbotlaydimi?",
+      "options": [
+        "Yo‘q. Manba, olish tartibi, qayd va yaxlitlik birga tekshiriladi.",
+        "Ha, xesh bo‘lsa har qanday olish qonuniy.",
+        "Xesh bo‘lsa asl manba kerak emas."
+      ],
+      "correct": 0,
+      "explanation": "JPK 90–91-moddalari dalillarni qayd etish va isbotlashda bayonnoma, 203-modda ashyoviy dalillar, 204¹–204²-moddalar raqamli dalillarga taalluqli. Manba, olish tartibi, nusxa va yaxlitlik tekshiriladi. Xesh yoki saqlash zanjiri jadvali o‘quv/texnik yordamchi bo‘lib, barcha protsessual talabning bajarilganini yolg‘iz o‘zi isbotlamaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253813"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Fayl o‘zgarmagani uning qayerdan va qanday tartibda olingani haqidagi barcha savollarga javob bermaydi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Xesh yoki saqlash zanjiri jadvali o‘quv/texnik yordamchi bo‘lib, barcha protsessual talabning bajarilganini yolg‘iz o‘zi isbotlamaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 90–91-moddalari dalillarni qayd etish va isbotlashda bayonnoma, 203-modda ashyoviy dalillar, 204¹–204²-moddalar raqamli dalillarga taalluqli. Manba, olish tartibi, nusxa va yaxlitlik tekshiriladi. Xesh yoki saqlash zanjiri jadvali o‘quv/texnik yordamchi bo‘lib, barcha protsessual talabning bajarilganini yolg‘iz o‘zi isbotlamaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253813"
+    }
+  ],
+  "P-J03": [
+    {
+      "id": "READ-1",
+      "prompt": "Kutilayotgan javobga yo‘naltiruvchi savolga qanday yondashiladi?",
+      "options": [
+        "JPK 102-moddadagi taqiq va tegishli sud so‘roqi tartibi tekshiriladi.",
+        "AQShdagi istisnolar avtomatik qo‘llanadi.",
+        "Prokuror barcha turdagi savolni cheksiz beradi."
+      ],
+      "correct": 0,
+      "explanation": "JPK 102-moddasi kutilayotgan javobga bevosita yoki bilvosita yo‘naltiruvchi savollarni taqiqlaydi. Suddagi so‘roq tartibi uchun JPK 441–442-moddalarini ham, prokuror vakolati uchun 409-moddani ham o‘qish kerak. AQShdagi qarshi so‘roq amaliyotining istisnolari O‘zbekiston protsessiga avtomatik qo‘llanmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253863"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "««Siz uni soat o‘nda ko‘rgansiz, to‘g‘rimi?» o‘rniga kuzatuv va vaqt manbasini aniqlashtirish kerak.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "AQShdagi qarshi so‘roq amaliyotining istisnolari O‘zbekiston protsessiga avtomatik qo‘llanmaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 102-moddasi kutilayotgan javobga bevosita yoki bilvosita yo‘naltiruvchi savollarni taqiqlaydi. Suddagi so‘roq tartibi uchun JPK 441–442-moddalarini ham, prokuror vakolati uchun 409-moddani ham o‘qish kerak. AQShdagi qarshi so‘roq amaliyotining istisnolari O‘zbekiston protsessiga avtomatik qo‘llanmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253863"
+    }
+  ],
+  "P-J04": [
+    {
+      "id": "READ-1",
+      "prompt": "Oqlovchi material topilsa prokurorning vazifasi nima?",
+      "options": [
+        "Uni ham xolis baholab, natijaga mos pozitsiyani yangilash.",
+        "Dastlabki fikr uchun yashirish.",
+        "Faqat ayblovchi materialni ro‘yxatga olish."
+      ],
+      "correct": 0,
+      "explanation": "JPK 22 va 95-moddalaridagi xolis tekshirish talabi ayblovga qarshi materialni ham baholashni anglatadi. 409-modda sud muhokamasida prokurorning vazifalarini belgilaydi va tekshiruv natijasiga mos pozitsiyani talab qiladi. Dastlabki fikrni har qanday narxda saqlash kasbiy maqsad bo‘la olmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252886"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Tekshirilgan yangi qayd avvalgi tezisni inkor etsa, baho yangi materialga mos ravishda yangilanadi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Dastlabki fikrni har qanday narxda saqlash kasbiy maqsad bo‘la olmaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 22 va 95-moddalaridagi xolis tekshirish talabi ayblovga qarshi materialni ham baholashni anglatadi. 409-modda sud muhokamasida prokurorning vazifalarini belgilaydi va tekshiruv natijasiga mos pozitsiyani talab qiladi. Dastlabki fikrni har qanday narxda saqlash kasbiy maqsad bo‘la olmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-252886"
+    }
+  ],
+  "P-J05": [
+    {
+      "id": "READ-1",
+      "prompt": "Onlayn savdoda tovarning kechikishi o‘zi firibgarlikmi?",
+      "options": [
+        "Yo‘q. Aldash, niyat va mulkni egallash belgilariga oid materiallar tekshiriladi.",
+        "Har bir kechikish tayyor jinoyat.",
+        "Xaridorning noroziligi yagona mezon."
+      ],
+      "correct": 0,
+      "explanation": "JK 168-moddasi bo‘yicha aldash yoki ishonchni suiiste’mol qilish orqali mulkni yoki unga bo‘lgan huquqni egallash belgilarini tekshirish zarur. Xaridorning noroziligi, to‘lov yoki tovarning kechikishi barcha elementlarning o‘rnini bosmaydi. Voqealar va niyatga oid materiallar vaqt bo‘yicha solishtiriladi.",
+      "source": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-310589"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Mahsulot yetkazilmagani niyat va boshqa muhim holatlar haqidagi tekshiruvni almashtirmaydi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Voqealar va niyatga oid materiallar vaqt bo‘yicha solishtiriladi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JK 168-moddasi bo‘yicha aldash yoki ishonchni suiiste’mol qilish orqali mulkni yoki unga bo‘lgan huquqni egallash belgilarini tekshirish zarur. Xaridorning noroziligi, to‘lov yoki tovarning kechikishi barcha elementlarning o‘rnini bosmaydi. Voqealar va niyatga oid materiallar vaqt bo‘yicha solishtiriladi.",
+      "source": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-310589"
+    }
+  ],
+  "P-S01": [
+    {
+      "id": "READ-1",
+      "prompt": "Bir epizod xulosasi barcha shaxsga avtomatik ko‘chiriladimi?",
+      "options": [
+        "Yo‘q. Har shaxs va epizodning daliliy asosi alohida baholanadi.",
+        "Ha, bittasi aybdor bo‘lsa hamma aybdor.",
+        "Faqat tanishligi yetarli."
+      ],
+      "correct": 0,
+      "explanation": "JK 27–33-moddalari ishtirokchilik va jinoyatlar majmuiga doir tushunchalarni ajratish uchun o‘qiladi. Har bir shaxsning harakati, aybi va tegishli dalili alohida baholanadi. Bir shaxs yoki bir epizod haqidagi xulosani qolganlariga dalilsiz ko‘chirish mumkin emas.",
+      "source": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-179939"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Ikki shaxsning bir-birini bilishi uchinchi shaxsning muayyan epizoddagi harakatini isbotlamaydi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Bir shaxs yoki bir epizod haqidagi xulosani qolganlariga dalilsiz ko‘chirish mumkin emas.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JK 27–33-moddalari ishtirokchilik va jinoyatlar majmuiga doir tushunchalarni ajratish uchun o‘qiladi. Har bir shaxsning harakati, aybi va tegishli dalili alohida baholanadi. Bir shaxs yoki bir epizod haqidagi xulosani qolganlariga dalilsiz ko‘chirish mumkin emas.",
+      "source": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-179939"
+    }
+  ],
+  "P-S02": [
+    {
+      "id": "READ-1",
+      "prompt": "Protsessual nuqsonni yashirish qonuniy tuzatishmi?",
+      "options": [
+        "Yo‘q. Nuqson turi, ta’siri va qonuniy javob ochiq baholanadi.",
+        "Ha, ish osonlashsa mumkin.",
+        "Eski sana qo‘yish barcha nuqsonni tuzatadi."
+      ],
+      "correct": 0,
+      "explanation": "JPK 88-moddasi isbotlashda shaxs huquqlarini qo‘riqlashga, 90-moddasi qayd etishga, 95 va 95¹-moddalari baholash va maqbullikka taalluqli. Nuqsonning turi va material bilan bog‘liqligi aniqlanadi. Eski sanada hujjat yasash yoki nuqsonni yashirish qonuniy tuzatish yo‘li emas.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253800"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Imzo yo‘qligi va huquq buzilishi masalasi alohida normativ tahlilga muhtoj.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Eski sanada hujjat yasash yoki nuqsonni yashirish qonuniy tuzatish yo‘li emas.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 88-moddasi isbotlashda shaxs huquqlarini qo‘riqlashga, 90-moddasi qayd etishga, 95 va 95¹-moddalari baholash va maqbullikka taalluqli. Nuqsonning turi va material bilan bog‘liqligi aniqlanadi. Eski sanada hujjat yasash yoki nuqsonni yashirish qonuniy tuzatish yo‘li emas.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-253800"
+    }
+  ],
+  "P-S03": [
+    {
+      "id": "READ-1",
+      "prompt": "Yangi ma’lumot protsessual tartibsiz yangi ayblov qo‘shishga ruxsatmi?",
+      "options": [
+        "Yo‘q. Ayblov doirasi, himoya huquqi va sud vakolati farqlanadi.",
+        "Ha, har qanday yangi gap yetarli.",
+        "Himoya xabardor qilinmasa ham farqi yo‘q."
+      ],
+      "correct": 0,
+      "explanation": "JPK 414-moddasi sud muhokamasi doirasini, 415-moddasi ayblovning sud tomonidan o‘zgartirilishini tartibga soladi. Prokurorning pozitsiyasi, himoya huquqi va sudning vakolati bir xil tushuncha emas. Yangi ma’lumot protsessual tartibni chetlab o‘tib yangi ayblov qo‘shish huquqini bermaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256270"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Bir epizoddagi bo‘shliqni ikkinchi epizodning kuchli dalili bilan almashtirish mumkin emas.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Yangi ma’lumot protsessual tartibni chetlab o‘tib yangi ayblov qo‘shish huquqini bermaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 414-moddasi sud muhokamasi doirasini, 415-moddasi ayblovning sud tomonidan o‘zgartirilishini tartibga soladi. Prokurorning pozitsiyasi, himoya huquqi va sudning vakolati bir xil tushuncha emas. Yangi ma’lumot protsessual tartibni chetlab o‘tib yangi ayblov qo‘shish huquqini bermaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256270"
+    }
+  ],
+  "P-S04": [
+    {
+      "id": "READ-1",
+      "prompt": "Davlat ayblovi nutqi nimaga tayanadi?",
+      "options": [
+        "Tekshirilgan material va huquqiy asosga.",
+        "Faqat qattiqroq jazo talabiga.",
+        "Faqat ta’sirchan ovoz va uzunlikka."
+      ],
+      "correct": 0,
+      "explanation": "JPK 449-moddasi taraflar muzokarasining mazmuni va tartibini, 450-moddasi ayblov mohiyati yuzasidan takliflarni belgilaydi. Muzokara tekshirilgan materiallarga tayanadi; 409-modda prokuror vazifasini belgilaydi. Qattiqroq jazo talabi yoki ta’sirchan ovoz huquqiy asos o‘rnini bosmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256270"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Nutqdagi talabning og‘irligi emas, tekshirilgan holat va manba bilan bog‘lanishi baholanadi.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Qattiqroq jazo talabi yoki ta’sirchan ovoz huquqiy asos o‘rnini bosmaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JPK 449-moddasi taraflar muzokarasining mazmuni va tartibini, 450-moddasi ayblov mohiyati yuzasidan takliflarni belgilaydi. Muzokara tekshirilgan materiallarga tayanadi; 409-modda prokuror vazifasini belgilaydi. Qattiqroq jazo talabi yoki ta’sirchan ovoz huquqiy asos o‘rnini bosmaydi.",
+      "source": "https://lex.uz/uz/docs/-111460?ONDATE=15.10.2026+01#-256270"
+    }
+  ],
+  "P-S05": [
+    {
+      "id": "READ-1",
+      "prompt": "Jazodan ozod qilish va oqlov bir tushunchami?",
+      "options": [
+        "Yo‘q. Har natijaning alohida daliliy va huquqiy asosi bor.",
+        "Ha, ularning asoslari bir xil.",
+        "Bir epizod tasdiqlanmasa hamma ayblov bekor."
+      ],
+      "correct": 0,
+      "explanation": "JK 70-moddasidagi jazodan ozod qilish oqlov hukmi bilan bir xil emas. O‘g‘rilik yoki hujjatga oid alohida ayblovlar bo‘yicha har bir natija o‘z daliliy va huquqiy asosiga ega bo‘lishi kerak. Bir epizod tasdiqlanmagani barcha ayblovlar bo‘yicha avtomatik to‘liq oqlovni anglatmaydi.",
+      "source": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-195165"
+    },
+    {
+      "id": "READ-2",
+      "prompt": "«Bir qismning tasdiqlanmagani boshqa qism haqida avtomatik qaror bermaydi; har biriga alohida sabab kerak.» Bu vaziyatni qanday huquqiy asoslash kerak?",
+      "options": [
+        "Bir epizod tasdiqlanmagani barcha ayblovlar bo‘yicha avtomatik to‘liq oqlovni anglatmaydi.",
+        "Natijani faqat nutqning ishonchli ohangiga qarab hal qilish kerak.",
+        "Materialni tekshirmasdan bir taraf pozitsiyasini tayyor qaror deb olish kerak."
+      ],
+      "correct": 0,
+      "explanation": "JK 70-moddasidagi jazodan ozod qilish oqlov hukmi bilan bir xil emas. O‘g‘rilik yoki hujjatga oid alohida ayblovlar bo‘yicha har bir natija o‘z daliliy va huquqiy asosiga ega bo‘lishi kerak. Bir epizod tasdiqlanmagani barcha ayblovlar bo‘yicha avtomatik to‘liq oqlovni anglatmaydi.",
+      "source": "https://lex.uz/uz/docs/-111453?ONDATE=03.11.2026+00#-195165"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "missionId": "M01",
+  "version": "1.0.0",
+  "evidence": [
+    {
+      "id": "E01",
+      "titleUz": "Xarid çeki",
+      "titleEn": "Receipt",
+      "location": "Dilnoza’s folder",
+      "date": "2026-09-05",
+      "body": "Navröz Mobil MÇJ; QV One 128; 2,400,000 söm; serial QV26-0418. Fictional offline retail purçase, paid in full.",
+      "tags": [
+        "purchase",
+        "price",
+        "seller",
+        "device_identity"
+      ],
+      "fictional": true,
+      "bodyUz": "Navröz Mobil MÇJ. 2026-yil 5-sentabr. QV One 128. Seriya raqami: QV26-0418. Narxi: 2 400 000 söm. Töliq tölangan. Öquv holati uçun tuzilgan çek."
+    },
+    {
+      "id": "E02",
+      "titleUz": "Kafolat hujjati",
+      "titleEn": "Warranty record",
+      "location": "Dilnoza’s folder",
+      "date": "2026-09-05",
+      "body": "Twelve months from purçase; device QV26-0418; stamped retailer entry. No loan or instalment agreement.",
+      "tags": [
+        "warranty",
+        "device_identity"
+      ],
+      "fictional": true,
+      "bodyUz": "QV26-0418 telefoniga xarid qilingan kundan boşlab 12 oy kafolat berilgan. Sotuvçi qaydi: 2026-yil 5-sentabr. Uşbu kafolat muddati öquv holatining şarti."
+    },
+    {
+      "id": "E03",
+      "titleUz": "Almaştiriş talabi",
+      "titleEn": "Replacement demand with acknowledgment",
+      "location": "Dilnoza’s folder",
+      "date": "2026-09-09",
+      "body": "Buyer requested same-model replacement; retailer acknowledged receipt and additional quality çecking. Same model in stock, as stipulated in acknowledgment.",
+      "tags": [
+        "replacement_request",
+        "received",
+        "stock"
+      ],
+      "fictional": true,
+      "bodyUz": "2026-yil 9-sentabr. QV26-0418 telefoni öz-özidan öçib qolayotgani sababli şu modeldagi sifatli telefonga almaştiriş söralgan. Sotuvçi talabni olganini, şu model omborda borligini va qöşimça sifat tekşiruvi zarurligini yozma tasdiqlagan."
+    },
+    {
+      "id": "E04",
+      "titleUz": "Qabul qiliş dalolatnomasi",
+      "titleEn": "Device intake record",
+      "location": "Rustam, also available through court request",
+      "date": "2026-09-09",
+      "body": "QV26-0418 received without visible impact or liquid traces; reported spontaneous şutdown; signature and retailer seal. Absence of visible damage alone cannot prove an internal manufacturing cause.",
+      "tags": [
+        "identity_chain",
+        "condition",
+        "reported_defect"
+      ],
+      "fictional": true,
+      "bodyUz": "2026-yil 9-sentabr. QV26-0418 qabul qilindi. Taşqi zarba yoki namlik izi qayd etilmadi. Murojaat sababi: öz-özidan öçiş. Qabul qilgan xodim imzosi va sotuvçi muhri bor. Taşqi izning yöqligi içki nuqson sababini özi aniqlamaydi."
+    },
+    {
+      "id": "E05",
+      "titleUz": "Xizmat tekşiruvi bayonnomasi",
+      "titleEn": "Independent service inspection report",
+      "location": "Dilnoza’s folder, inside second tab",
+      "date": "2026-10-06",
+      "body": "Qualified service teçnician tested QV26-0418; reproduced intermittent power loss; describes a defective power-management component and no detected liquid ingress in tested areas. Signed methods and photographs included. Private written teçnical report, not a court-appointed expert conclusion.",
+      "tags": [
+        "technical_defect",
+        "identity_chain",
+        "method",
+        "limitations"
+      ],
+      "fictional": true,
+      "bodyUz": "2026-yil 6-oktabr. Mustaqil servis tekşiruvi: QV26-0418 telefonida davriy quvvat uzilişi sinovda takrorlandi. Quvvatni boşqariş qismidagi nuqson tasvirlangan; tekşirilgan joylarda suyuqlik kirişi aniqlanmagan. Sinov usullari, suratlar va texnik imzosi ilova qilingan. Bu xususiy yozma texnik hisobot; sud tayinlagan ekspert xulosasi emas."
+    },
+    {
+      "id": "E06",
+      "titleUz": "Sotuvçining javobi",
+      "titleEn": "Retailer’s written refusal",
+      "location": "Dilnoza’s folder",
+      "date": "2026-10-02",
+      "body": "Refuses replacement citing opened packaging and blanket no-returns policy. Also attaçes a moisture test slip. Does not claim a stock şortage. Parties stipulate that no replacement or repair was supplied.",
+      "tags": [
+        "unfulfilled_request",
+        "policy",
+        "refusal"
+      ],
+      "fictional": true,
+      "bodyUz": "2026-yil 2-oktabr. Sotuvçi almaştirişni rad etgan. Sabab sifatida qadoq oçilgani va içki qaytarib olmaslik qoidasi körsatilgan. Namlik haqidagi sinov varaqasi ilova qilingan. Omborda şu model yöqligi vaj qilinmagan. Almaştiriş va ta’mirlaş bajarilmagani uşbu öquv holatida belgilangan."
+    },
+    {
+      "id": "E07",
+      "titleUz": "Sinov varaqasi",
+      "titleEn": "Retailer test slip",
+      "location": "Attached to E06",
+      "date": "2026-09-12",
+      "body": "Moisture finding is for device QV26-0481, not QV26-0418. The last two digits are transposed; author and source are identified. It cannot establiş moisture damage to Dilnoza’s device.",
+      "tags": [
+        "wrong_device",
+        "counterevidence"
+      ],
+      "fictional": true,
+      "bodyUz": "2026-yil 12-sentabrdagi sinov varaqasi. Telefon raqami: QV26-0481. Namlik qayd etilgan. Varaqni bergan şaxs va taşkilot körsatilgan. Bu raqam Dilnozaning QV26-0418 telefoniga mos kelmaydi."
+    },
+    {
+      "id": "E08",
+      "titleUz": "Telefon",
+      "titleEn": "Sealed physical device",
+      "location": "Evidence tray, permission required",
+      "date": "2026-10-07",
+      "body": "QV26-0418. Inspect exterior and serial label only; no powered teardown or destructive investigation in court. Custody receipt tracks release from service inspection to sealed evidence storage.",
+      "tags": [
+        "physical_identity",
+        "custody"
+      ],
+      "fictional": true,
+      "bodyUz": "Muhrlangan telefon: QV26-0418. 2026-yil 7-oktabrdagi saqlaş qaydi servis tekşiruvidan keyingi topşirişni körsatadi. Faqat taşqi holat, yorliq va saqlaş qaydi köriladi. Sud zalida telefon oçilmaydi va qismlarga ajratilmaydi."
+    },
+    {
+      "id": "E09",
+      "titleUz": "Azizning körsatmasi",
+      "titleEn": "Witness testimony",
+      "location": "Witness, after judge calls him",
+      "date": "2026-11-20",
+      "body": "Aziz is Dilnoza’s classmate. Saw the phone şut down during ordinary study use on 8 September. Did not inspect internal components and cannot exclude events he did not observe.",
+      "tags": [
+        "observed_symptom",
+        "relationship",
+        "limits"
+      ],
+      "fictional": true,
+      "bodyUz": "Aziz Dilnoza bilan bir guruhda öqişini aytadi. 8-sentabr kuni odatiy öqiş vaqtida telefon öçganini körgan. Içki qismlarni tekşirmagan. Özi körmagan vaqtdagi holatlarni istisno qila olmaydi."
+    },
+    {
+      "id": "E10",
+      "titleUz": "Da’vo arizasi va vakolat",
+      "titleEn": "Pleading and representation packet",
+      "location": "Clerk’s accessible case copy",
+      "date": "2026-10-12",
+      "body": "Cancellation and return of 2,400,000 söm claimed after unfulfilled replacement; authority and service on respondent stipulated; relevant price unçanged at purçase, demand and hearing. No additional damages claimed.",
+      "tags": [
+        "pleaded_remedy",
+        "authority",
+        "price_stipulation"
+      ],
+      "fictional": true,
+      "bodyUz": "2026-yil 12-oktabrda berilgan da’vo: bajarilmagan almaştiriş talabidan keyin şartnomani bekor qiliş va 2 400 000 sömni qaytariş söralgan. Vakolat va hujjatlarning javobgarga yuborilgani öquv holatida belgilangan. Tegişli sanalarda narx özgarmagan. Boşqa zarar yoki penya talab qilinmagan."
+    }
+  ],
+  "designRule": "found, inspected, submitted and examined are separate states; the court evaluates the whole examined record"
+}

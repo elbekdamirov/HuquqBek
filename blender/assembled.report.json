@@ -1,0 +1,50 @@
+{
+  "sudya": {
+    "clip": "Idle_Seated",
+    "clip_found": true
+  },
+  "advokat": {
+    "clip": "Address_Judge",
+    "clip_found": true
+  },
+  "prokuror": {
+    "clip": "Idle_Seated",
+    "clip_found": true
+  },
+  "davogar": {
+    "clip": "Idle_Seated",
+    "clip_found": true
+  },
+  "javobgar": {
+    "clip": "Idle_Seated",
+    "clip_found": true
+  },
+  "guvoh": {
+    "clip": "Idle_Seated_Lap",
+    "clip_found": true
+  },
+  "kotib": {
+    "clip": "Typing",
+    "clip_found": true
+  },
+  "qoriqchi": {
+    "clip": "Guard_Idle",
+    "clip_found": true
+  },
+  "tomoshabin_ayol": {
+    "clip": "Idle_Seated_Lap",
+    "clip_found": true
+  },
+  "tomoshabin_erkak": {
+    "clip": "Idle_Seated_Lap",
+    "clip_found": true
+  },
+  "tomoshabin_yosh": {
+    "clip": "Idle_Seated_Lap",
+    "clip_found": true
+  },
+  "qonunai": {
+    "clip": "Idle_Float",
+    "clip_found": true
+  }
+}

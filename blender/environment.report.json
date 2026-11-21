@@ -1,0 +1,846 @@
+{
+  "lod0": {
+    "file": "public/assets/environment/courtroom.glb",
+    "draw_calls_est": 29,
+    "triangles": 30744,
+    "mesh_nodes": 29,
+    "interactive": [
+      "INTERACT_SecurityDoor_Leaf0",
+      "INTERACT_MainDoor_Leaf0",
+      "INTERACT_MainDoor_Leaf1",
+      "INTERACT_Flag_Uzbekistan",
+      "INTERACT_CourtDisplay_Screen",
+      "INTERACT_EvidenceFolder_A",
+      "INTERACT_EvidenceFolder_P"
+    ]
+  },
+  "lod1": {
+    "file": "public/assets/environment/courtroom_lod1.glb",
+    "draw_calls_est": 28,
+    "triangles": 27392,
+    "mesh_nodes": 28,
+    "interactive": [
+      "INTERACT_SecurityDoor_Leaf0",
+      "INTERACT_MainDoor_Leaf0",
+      "INTERACT_MainDoor_Leaf1",
+      "INTERACT_Flag_Uzbekistan",
+      "INTERACT_CourtDisplay_Screen",
+      "INTERACT_EvidenceFolder_A",
+      "INTERACT_EvidenceFolder_P"
+    ]
+  },
+  "colliders": {
+    "file": "public/assets/environment/courtroom_colliders.glb",
+    "boxes": [
+      "COL_JudgeDais",
+      "COL_JudgeBench",
+      "COL_ClerkDais",
+      "COL_ClerkDesk",
+      "COL_AdvocateTable",
+      "COL_ProsecutorDesk",
+      "COL_DefendantDesk",
+      "COL_WitnessStand",
+      "COL_Bar_L",
+      "COL_Bar_R",
+      "COL_BenchL0",
+      "COL_BenchR0",
+      "COL_BenchL1",
+      "COL_BenchR1",
+      "COL_BenchL2",
+      "COL_BenchR2",
+      "COL_Wall_Back",
+      "COL_Wall_Front",
+      "COL_Wall_Left",
+      "COL_Wall_Right"
+    ]
+  },
+  "markers": {
+    "SEAT_Chair_sudya": {
+      "position": [
+        0.0,
+        0.93,
+        -7.72
+      ],
+      "yaw_rad": 0.0,
+      "type": "seat",
+      "seat_height": 0.48
+    },
+    "SEAT_Chair_kotib": {
+      "position": [
+        4.9,
+        0.73,
+        -7.6
+      ],
+      "yaw_rad": 0.0,
+      "type": "seat",
+      "seat_height": 0.48
+    },
+    "SEAT_Chair_advokat": {
+      "position": [
+        -2.3,
+        0.48,
+        -3.32
+      ],
+      "yaw_rad": 0.0,
+      "type": "seat",
+      "seat_height": 0.48
+    },
+    "SEAT_Chair_davogar": {
+      "position": [
+        -4.75,
+        0.48,
+        -2.75
+      ],
+      "yaw_rad": 1.0821,
+      "type": "seat",
+      "seat_height": 0.48
+    },
+    "PROP_EvidenceFolder_A": {
+      "position": [
+        -2.3,
+        0.85,
+        -2.75
+      ],
+      "yaw_rad": 0.0,
+      "type": "prop",
+      "prop": "evidence_folder"
+    },
+    "SEAT_Chair_prokuror": {
+      "position": [
+        1.9,
+        0.48,
+        -5.72
+      ],
+      "yaw_rad": 0.0,
+      "type": "seat",
+      "seat_height": 0.48
+    },
+    "PROP_EvidenceFolder_P": {
+      "position": [
+        2.65,
+        0.82,
+        -5.2
+      ],
+      "yaw_rad": 0.0,
+      "type": "prop",
+      "prop": "evidence_folder"
+    },
+    "SEAT_Chair_javobgar": {
+      "position": [
+        5.0,
+        0.48,
+        -3.78
+      ],
+      "yaw_rad": -0.4887,
+      "type": "seat",
+      "seat_height": 0.48
+    },
+    "SEAT_Chair_guvoh": {
+      "position": [
+        4.75,
+        0.48,
+        -0.2
+      ],
+      "yaw_rad": -3.1416,
+      "type": "seat",
+      "seat_height": 0.48
+    },
+    "SPAWN_sudya": {
+      "position": [
+        0.0,
+        0.45,
+        -7.62
+      ],
+      "yaw_rad": 0.0,
+      "type": "spawn",
+      "role": "judge",
+      "pose": "seated",
+      "character": "sudya"
+    },
+    "SPAWN_advokat": {
+      "position": [
+        -2.05,
+        0.0,
+        -3.45
+      ],
+      "yaw_rad": 2.6529,
+      "type": "spawn",
+      "role": "lawyer",
+      "pose": "standing",
+      "character": "advokat"
+    },
+    "SPAWN_prokuror": {
+      "position": [
+        1.9,
+        0.0,
+        -5.62
+      ],
+      "yaw_rad": 0.0,
+      "type": "spawn",
+      "role": "prosecutor",
+      "pose": "seated",
+      "character": "prokuror"
+    },
+    "SPAWN_davogar": {
+      "position": [
+        -4.75,
+        0.0,
+        -2.75
+      ],
+      "yaw_rad": 1.0821,
+      "type": "spawn",
+      "role": "plaintiff",
+      "pose": "seated",
+      "character": "davogar"
+    },
+    "SPAWN_javobgar": {
+      "position": [
+        5.0,
+        0.0,
+        -3.72
+      ],
+      "yaw_rad": -0.4887,
+      "type": "spawn",
+      "role": "defendant",
+      "pose": "seated",
+      "character": "javobgar"
+    },
+    "SPAWN_guvoh": {
+      "position": [
+        4.75,
+        0.0,
+        -0.2
+      ],
+      "yaw_rad": -3.1416,
+      "type": "spawn",
+      "role": "witness",
+      "pose": "seated",
+      "character": "guvoh"
+    },
+    "SPAWN_kotib": {
+      "position": [
+        4.9,
+        0.25,
+        -7.52
+      ],
+      "yaw_rad": 0.0,
+      "type": "spawn",
+      "role": "clerk",
+      "pose": "seated",
+      "character": "kotib"
+    },
+    "SPAWN_qoriqchi": {
+      "position": [
+        6.55,
+        0.0,
+        -8.05
+      ],
+      "yaw_rad": -0.384,
+      "type": "spawn",
+      "role": "security",
+      "pose": "standing",
+      "character": "qoriqchi"
+    },
+    "SPAWN_tomoshabin_ayol": {
+      "position": [
+        -4.3,
+        0.0,
+        2.07
+      ],
+      "yaw_rad": 3.002,
+      "type": "spawn",
+      "role": "spectator",
+      "pose": "seated",
+      "character": "tomoshabin_ayol"
+    },
+    "SPAWN_tomoshabin_erkak": {
+      "position": [
+        -0.95,
+        0.0,
+        2.07
+      ],
+      "yaw_rad": -3.1416,
+      "type": "spawn",
+      "role": "spectator",
+      "pose": "seated",
+      "character": "tomoshabin_erkak"
+    },
+    "SPAWN_tomoshabin_yosh": {
+      "position": [
+        3.3,
+        0.0,
+        3.37
+      ],
+      "yaw_rad": -3.0369,
+      "type": "spawn",
+      "role": "spectator",
+      "pose": "seated",
+      "character": "tomoshabin_yosh"
+    },
+    "SPAWN_qonunai": {
+      "position": [
+        -5.7,
+        0.55,
+        -5.4
+      ],
+      "yaw_rad": -0.6109,
+      "type": "spawn",
+      "role": "guide",
+      "pose": "floating",
+      "character": "qonunai"
+    },
+    "WAYPOINT_advokat_0": {
+      "position": [
+        -2.05,
+        0.0,
+        -3.45
+      ],
+      "yaw_rad": 2.6529,
+      "type": "waypoint",
+      "path": "advokat_to_bench",
+      "index": 0
+    },
+    "WAYPOINT_advokat_1": {
+      "position": [
+        -0.9,
+        0.0,
+        -4.4
+      ],
+      "yaw_rad": 2.9671,
+      "type": "waypoint",
+      "path": "advokat_to_bench",
+      "index": 1
+    },
+    "WAYPOINT_advokat_2": {
+      "position": [
+        -0.3,
+        0.0,
+        -5.9
+      ],
+      "yaw_rad": -3.1416,
+      "type": "waypoint",
+      "path": "advokat_to_bench",
+      "index": 2
+    },
+    "WAYPOINT_advokat_3": {
+      "position": [
+        -0.3,
+        0.0,
+        -6.05
+      ],
+      "yaw_rad": -3.1416,
+      "type": "waypoint",
+      "path": "advokat_to_bench",
+      "index": 3
+    },
+    "POINT_evidence_handover": {
+      "position": [
+        -0.3,
+        1.24,
+        -6.25
+      ],
+      "yaw_rad": -3.1416,
+      "type": "interaction",
+      "action": "present_evidence"
+    },
+    "POINT_witness_stand_entry": {
+      "position": [
+        3.4,
+        0.0,
+        -0.2
+      ],
+      "yaw_rad": 1.5708,
+      "type": "waypoint",
+      "path": "witness_entry",
+      "index": 0
+    },
+    "POINT_security_door": {
+      "position": [
+        6.9,
+        0.0,
+        -7.55
+      ],
+      "yaw_rad": -1.5708,
+      "type": "interaction",
+      "action": "door"
+    },
+    "POINT_gallery_gate": {
+      "position": [
+        0.0,
+        0.0,
+        0.95
+      ],
+      "yaw_rad": -3.1416,
+      "type": "waypoint",
+      "path": "gallery_gate",
+      "index": 0
+    },
+    "CAM_reference": {
+      "position": [
+        -0.3,
+        1.32,
+        3.1
+      ],
+      "yaw_rad": -0.0883,
+      "type": "camera",
+      "fov_deg": 64.55,
+      "target": [
+        0.55,
+        1.7,
+        -6.5
+      ]
+    },
+    "CAM_overview": {
+      "position": [
+        0.0,
+        4.3,
+        5.6
+      ],
+      "yaw_rad": 0.0,
+      "type": "camera",
+      "fov_deg": 67.38,
+      "target": [
+        0.0,
+        0.6,
+        -4.5
+      ]
+    },
+    "CAM_judge_pov": {
+      "position": [
+        0.0,
+        1.65,
+        -7.4
+      ],
+      "yaw_rad": -3.1416,
+      "type": "camera",
+      "fov_deg": 49.55,
+      "target": [
+        0.0,
+        1.0,
+        -0.0
+      ]
+    },
+    "CAM_advocate_closeup": {
+      "position": [
+        -0.6,
+        1.55,
+        -1.2
+      ],
+      "yaw_rad": 0.5725,
+      "type": "camera",
+      "fov_deg": 26.99,
+      "target": [
+        -2.05,
+        1.5,
+        -3.45
+      ]
+    },
+    "CAM_witness": {
+      "position": [
+        2.6,
+        1.5,
+        -2.6
+      ],
+      "yaw_rad": -2.4111,
+      "type": "camera",
+      "fov_deg": 33.4,
+      "target": [
+        4.75,
+        1.1,
+        -0.2
+      ]
+    }
+  },
+  "lights_reference": [
+    {
+      "name": "Sconce_R0_Light",
+      "type": "POINT",
+      "color": [
+        1.0,
+        0.8199999928474426,
+        0.6000000238418579
+      ],
+      "blender_energy": 60.0,
+      "position": [
+        7.19,
+        3.0,
+        -3.7
+      ]
+    },
+    {
+      "name": "Sconce_R1_Light",
+      "type": "POINT",
+      "color": [
+        1.0,
+        0.8199999928474426,
+        0.6000000238418579
+      ],
+      "blender_energy": 60.0,
+      "position": [
+        7.19,
+        3.0,
+        -6.4
+      ]
+    },
+    {
+      "name": "Sconce_B0_Light",
+      "type": "POINT",
+      "color": [
+        1.0,
+        0.8199999928474426,
+        0.6000000238418579
+      ],
+      "blender_energy": 60.0,
+      "position": [
+        -3.95,
+        3.2,
+        -8.63
+      ]
+    },
+    {
+      "name": "Sconce_B1_Light",
+      "type": "POINT",
+      "color": [
+        1.0,
+        0.8199999928474426,
+        0.6000000238418579
+      ],
+      "blender_energy": 60.0,
+      "position": [
+        3.95,
+        3.2,
+        -8.63
+      ]
+    },
+    {
+      "name": "Sun_Windows",
+      "type": "SUN",
+      "color": [
+        1.0,
+        0.949999988079071,
+        0.8799999952316284
+      ],
+      "blender_energy": 4.5,
+      "position": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "name": "Area_-2_0",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        -5.6,
+        5.55,
+        4.0
+      ]
+    },
+    {
+      "name": "Area_-2_1",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        -5.6,
+        5.55,
+        0.4
+      ]
+    },
+    {
+      "name": "Area_-2_2",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        -5.6,
+        5.55,
+        -3.2
+      ]
+    },
+    {
+      "name": "Area_-2_3",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        -5.6,
+        5.55,
+        -6.8
+      ]
+    },
+    {
+      "name": "Area_-1_0",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        -2.8,
+        5.55,
+        4.0
+      ]
+    },
+    {
+      "name": "Area_-1_1",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        -2.8,
+        5.55,
+        0.4
+      ]
+    },
+    {
+      "name": "Area_-1_2",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        -2.8,
+        5.55,
+        -3.2
+      ]
+    },
+    {
+      "name": "Area_-1_3",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        -2.8,
+        5.55,
+        -6.8
+      ]
+    },
+    {
+      "name": "Area_0_0",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        0.0,
+        5.55,
+        4.0
+      ]
+    },
+    {
+      "name": "Area_0_1",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        0.0,
+        5.55,
+        0.4
+      ]
+    },
+    {
+      "name": "Area_0_2",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        0.0,
+        5.55,
+        -3.2
+      ]
+    },
+    {
+      "name": "Area_0_3",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        0.0,
+        5.55,
+        -6.8
+      ]
+    },
+    {
+      "name": "Area_1_0",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        2.8,
+        5.55,
+        4.0
+      ]
+    },
+    {
+      "name": "Area_1_1",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        2.8,
+        5.55,
+        0.4
+      ]
+    },
+    {
+      "name": "Area_1_2",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        2.8,
+        5.55,
+        -3.2
+      ]
+    },
+    {
+      "name": "Area_1_3",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        2.8,
+        5.55,
+        -6.8
+      ]
+    },
+    {
+      "name": "Area_2_0",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        5.6,
+        5.55,
+        4.0
+      ]
+    },
+    {
+      "name": "Area_2_1",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        5.6,
+        5.55,
+        0.4
+      ]
+    },
+    {
+      "name": "Area_2_2",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        5.6,
+        5.55,
+        -3.2
+      ]
+    },
+    {
+      "name": "Area_2_3",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8600000143051147
+      ],
+      "blender_energy": 140.0,
+      "position": [
+        5.6,
+        5.55,
+        -6.8
+      ]
+    },
+    {
+      "name": "Fill_Bench",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.8799999952316284,
+        0.7200000286102295
+      ],
+      "blender_energy": 300.0,
+      "position": [
+        0.0,
+        3.6,
+        -4.5
+      ]
+    }
+  ]
+}

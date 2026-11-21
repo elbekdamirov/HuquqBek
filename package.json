@@ -1,0 +1,11 @@
+{
+  "name": "qonunverse",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix game run dev",
+    "build": "npm --prefix game run build",
+    "test": "npm --prefix game test",
+    "verify:assets": "npm --prefix game run verify:assets",
+    "postinstall": "npm --prefix game ci"
+  }
+}

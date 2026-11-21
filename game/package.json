@@ -1,0 +1,37 @@
+{
+  "name": "huquqbek",
+  "version": "0.8.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "node server/index.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "verify:assets": "node scripts/verify-assets.mjs",
+    "start": "node server/index.mjs",
+    "dev:demo": "node scripts/dev-demo.mjs"
+  },
+  "dependencies": {
+    "@fontsource/fraunces": "^5.2.8",
+    "@fontsource/ibm-plex-mono": "^5.2.7",
+    "@fontsource/inter": "^5.2.8",
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.2",
+    "gsap": "^3.15.1",
+    "jspdf": "^3.0.3",
+    "lenis": "^1.3.27",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.187.0",
+    "@vitejs/plugin-react": "^6.0.0",
+    "typescript": "^6.0.0",
+    "vite": "8.3.8"
+  }
+}

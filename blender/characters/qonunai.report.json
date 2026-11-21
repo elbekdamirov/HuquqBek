@@ -1,0 +1,58 @@
+{
+  "id": "qonunai",
+  "status": "built",
+  "clips": {
+    "Idle_Float": {
+      "duration_s": 4.0,
+      "loop": true
+    },
+    "Greet": {
+      "duration_s": 2.4,
+      "loop": false
+    },
+    "Point": {
+      "duration_s": 2.0,
+      "loop": false
+    },
+    "Explain": {
+      "duration_s": 4.0,
+      "loop": true
+    },
+    "Positive": {
+      "duration_s": 2.0,
+      "loop": false
+    },
+    "Concerned": {
+      "duration_s": 3.0,
+      "loop": false
+    },
+    "Speak": {
+      "duration_s": 3.0,
+      "loop": true
+    },
+    "Appear": {
+      "duration_s": 1.0,
+      "loop": false
+    },
+    "Disappear": {
+      "duration_s": 0.8,
+      "loop": false
+    }
+  },
+  "morphs": [
+    "Blink",
+    "Happy",
+    "Concerned",
+    "Mouth_Open",
+    "Smile"
+  ],
+  "dims": {
+    "height_m": 1.0
+  },
+  "exports": {
+    "lod0": "public/assets/characters/qonunai.glb",
+    "lod1": "public/assets/characters/qonunai_lod1.glb",
+    "portrait": "public/assets/characters/qonunai_portrait.png"
+  },
+  "blend": "blender/qonunai.blend"
+}

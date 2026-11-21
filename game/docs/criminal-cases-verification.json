@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-11-20",
+  "count": 16,
+  "distinctIncidents": 16,
+  "uniquePrimarySourceUrls": 15,
+  "decisions": 96,
+  "options": 288,
+  "trainingEvidenceDocuments": 64,
+  "referenceIntegrity": "Passed: every evidenceIds and sourceIds value resolves within its case; sourceIds refer to legalRefs IDs.",
+  "schemaChecks": "Passed: IDs CRP-01–CRP-16, four evidence documents, six decisions with two per stage, three options scored 0/1/2, three client questions, four role prompts, 20–40 minutes, allowed difficulty values.",
+  "paraphraseChecks": "Passed: source summary and outcome together are <=120 words per distinct source URL, including combined CRP-12/13 source paraphrases.",
+  "directRetrieval": "Fourteen unique SUD.UZ article URLs retrieved successfully by read-only HTTP on 2026-11-20. Work source snapshots contain original public reporting and are research intermediates, not product assets.",
+  "judgmentRetrieval": {
+    "caseId": "CRP-15",
+    "url": "https://publication.sud.uz/api/file/criminal/2545982",
+    "status": "Official indexed PDF text opened through web tool; facts at page 3 and operative outcome at page 12 verified. Direct local HTTP GET returned 403.",
+    "documentDate": "2024-07-26",
+    "electronicSignatureDate": "2024-08-20"
+  },
+  "sharedSourceLocator": "CRP-12 is the second concrete incident (electricity reconciliation); CRP-13 is the first concrete incident (found phone) in https://sud.uz/news-2026-07-01-1/.",
+  "mixedOutcomes": {
+    "CRP-02": "Partial acquittal under 276(2)(a); other charge reclassified from 273(5) to 241(1), correctional labour with wage withholding treated as served after credit. Not complete acquittal.",
+    "CRP-16": "Theft acquittal; forgery established and release from punishment under the reported legal basis. Not complete acquittal."
+  },
+  "privacy": "Training identities are fictional. No real addresses, birth dates, phone numbers, card details, judgment case numbers, intimate-image incidents, or child participants included in authored JSON. No Adolat Zali content used.",
+  "sourceLimitations": "Most sources are official court news summaries rather than full judgments. Their date fields are publication dates, not asserted judgment dates. CRP-15 uses the verified judgment date. Later appeals and finality have not been verified. CRP-14 article date is preserved as displayed, while parts of its narrative mention a later year; a full judgment should resolve that editorial chronology before release.",
+  "releaseStatus": "pending_educator_legal_review"
+}

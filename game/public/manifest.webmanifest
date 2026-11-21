@@ -1,0 +1,15 @@
+{
+  "name": "HuquqBek — interaktiv sud simulyatori",
+  "short_name": "HuquqBek",
+  "description": "Özbek tilidagi interaktiv 3D sud simulyatori.",
+  "lang": "uz",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#142b28",
+  "icons": [
+    { "src": "/brand/huquqbek-courthouse.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/brand/courthouse-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/brand/courthouse-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,43 @@
+HUQUQBEK 0.5.0 — REACT LEARNING PATHS AND 45 SCENARIO LABS
+20 November 2026
+
+Open: http://127.0.0.1:4197/
+Project: C:\Users\miron\QonunVerse\game
+Reopen: Start-HuquqBek.cmd in the game folder, or Start-HuquqBek-Learning.cmd supplied alongside this report. Node.js 24+ is required. The updated server uses port 4197, avoiding older servers on 4189 and 4196. Automatic approval review rejected a background launch command without a specific reason; the updated site was instead started in a managed local server session. Reopen with the launcher if that session ends.
+
+Implemented
+- New React learning dashboard and path roadmaps with a dark navy/emerald interface, responsive lesson pages, source panels, room search, progress and certificates.
+- Six-question interest questionnaire recommends Advokat, Sudya or Prokuror. It handles ties, can be retaken, allows choosing another path, and explicitly does not diagnose personality, determine professional suitability or assess knowledge level.
+- Three paths, each with Beginner/Junior/Senior and five rooms per level: all 45 researched room drafts are available in the application.
+- Every room opens theory first: three short sections, a worked example and linked legal/educational references, then its own scenario-based 3D lab.
+- 45 separately authored guided lab scenarios, with 135 original synthetic documents and 135 private decision checkpoints. They reuse the existing courtroom environment. They are not 45 different architectural environments or 45 complete real court files.
+- Each lab requires reading three materials, beginning an educational discussion, presenting and examining each material, then solving three room-specific decisions. Wrong answers remain retryable. Correct decisions advance the scenario; the server preserves its evidence/action trace.
+- Three animated roles in the learning labs: advocate, judge and prosecutor. Judge stays at the bench; other player roles can walk with WASD/arrows or touch controls, look around and interact. Other roles and the 3D guide are omitted from this new cast. QonunAI remains a 2D interface helper.
+- QonunAI is available on the dashboard, paths, theory and labs. It uses Groq, current room theory and synthetic materials. It offers explanations and hints, optional VoiceLab speech, and conversations with the three role characters. It receives neither the answer bank nor actual completion keys, cannot award progress, and filters key-like generated text.
+- Microphone input uses the existing VoiceLab integration and editable transcription before sending. Speech and provider keys remain server-side; existing encrypted credentials load automatically.
+- Server-verified completion: passed lab -> owner-bound key -> learner enters key -> server validates -> room completion -> next prerequisite unlocks. Keys persist across restarts and cannot be reused for a different learner, room or attempt. Answers and key signing material are excluded from the frontend bundle.
+- Progress and learner display names persist in local SQLite, tied to an HttpOnly browser-profile cookie. This is a local demo profile, not a public account/login or multi-device synchronization service. Clearing the profile cookie does not provide account recovery.
+- After 15 completed rooms in a path and a supplied name, the server generates a training-completion certificate with ID, curriculum version and a verification endpoint. It is printable and can be saved as PDF through the browser print dialog. Verification is local to this server; no public verification hosting or QR image was added.
+- Prior case library and free practice remain accessible through Avvalgi erkin mashqlar. Old browser-stored attempt history stays at its original browser origin; it is not automatically moved between ports.
+
+Assessment scope
+These are functioning guided educational labs. Completion currently checks the authored evidence workflow and three structured decisions per room. It does not certify a free-form legal argument, independently grade a full trial, replace educator review, or establish professional qualification. The larger open-ended drafting, interview, negotiation and capstone rubrics in the curriculum remain content-development work beyond these guided demo checkpoints. The website labels the course as a trial awaiting legal/pedagogical review. All scenario exhibits are synthetic, including those inspired by official reports.
+
+Verification
+- 33 automated tests pass, including completion of all 45 rooms and all three path certificate flows; wrong answers, evidence-order violations, locked prerequisites, fabricated/shared keys, cross-profile access, idempotent completion, restart persistence, questionnaire ties and tutor key filtering.
+- TypeScript and production build pass.
+- Original asset verification passes: 40 GLB containers; 41 asset/manifest SHA-256 hashes unchanged.
+- Chrome browser: questionnaire -> recommendation -> path -> theory -> 3D lab -> read/present/examine all materials -> solve decisions -> wrong-key rejection -> successful key -> reload restoration -> next room unlock.
+- Browser checks confirm only the allowed cast, a fixed player-judge, moving player-prosecutor, responsive desktop/mobile layouts, no horizontal overflow and accessible key submission at a 390 x 500 resized viewport. Physical-phone keyboard behavior was not tested.
+- Certificate page, local verification endpoint and PDF print output were tested using an isolated test learner and test database.
+- Live Groq room-tutor requests succeeded, including on the new 4197 server. Groq and VoiceLab are configured by default. No new human microphone or paid speech round-trip was performed in this pass.
+- Temporary QA used a separate database and port 4201; the user-facing server uses its own .local/learning.sqlite. Test completions/certificates were not inserted into that production database.
+
+Files and persistence
+src/LearningApp.tsx, LearningLab.tsx, learningTypes.ts and learning.css: new React experience.
+server/learning.mjs: progress, questionnaire, guided assessment, key issuance/verification and certificates.
+server/content/curriculum.json: imported researched curriculum.
+server/content/labs.json: server-only synthetic materials and answer specifications.
+.local/learning.sqlite: local learner state and key signing material; ignored and excluded from deliverables.
+.local/providers.dpapi: existing encrypted provider credentials; preserved and excluded from deliverables.
+Backup before this update: work/before-learning-update.zip in the Codex task workspace.

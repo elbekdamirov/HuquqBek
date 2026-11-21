@@ -1,0 +1,955 @@
+{
+  "_comment": "Single source of truth for the QonunVerse cast. Station coordinates are BLENDER space (X right, Y towards the judge, Z up, metres). yaw_deg 0 = facing the public gallery (-Y); 180 = facing the judge. The exporter converts everything to Three.js space in public/assets/manifest.json.",
+  "characters": [
+    {
+      "id": "sudya",
+      "role": "judge",
+      "label_uz": "Sudya",
+      "label_en": "Judge",
+      "sex": "male",
+      "age": 56,
+      "priority": "hero",
+      "station": {
+        "pos": [
+          0.0,
+          7.62,
+          0.45
+        ],
+        "yaw_deg": 0,
+        "pose": "seated",
+        "plaque": "SUDYA"
+      },
+      "mpfb": {
+        "age": 0.73,
+        "weight": 0.58,
+        "muscle": 0.45,
+        "height": 0.52,
+        "proportions": 0.55,
+        "asian": 0.45,
+        "caucasian": 0.5,
+        "african": 0.05,
+        "skin": [
+          "middleage_asian_male.mhmat",
+          "middleage_caucasian_male.mhmat"
+        ],
+        "eyebrows": "eyebrow010.mhclo",
+        "eyelashes": "eyelashes02.mhclo",
+        "hair": "short02.mhclo",
+        "hair_color": [
+          62,
+          58,
+          55
+        ],
+        "clothes": [
+          "male_elegantsuit01.mhclo"
+        ],
+        "shoes": "shoes02.mhclo",
+        "clothes_color": [
+          14,
+          14,
+          16
+        ],
+        "shoes_color": [
+          12,
+          12,
+          12
+        ],
+        "skin_tint": [
+          0.88,
+          0.76,
+          0.64
+        ],
+        "clothes_detail": 0.8
+      },
+      "garments": [
+        "judge_robe"
+      ],
+      "outfit_brief": "Black judicial robe with light ornamental trim, white shirt, dark tie",
+      "animations": [
+        "Idle_Seated",
+        "Idle_Stand",
+        "Sit_Down",
+        "Stand_Up",
+        "Talk_Seated",
+        "Talk_Standing",
+        "Read_Document_Seated",
+        "Head_Nod",
+        "Head_Shake",
+        "Look_Left",
+        "Look_Right",
+        "Gesture_Point",
+        "Deliver_Verdict",
+        "React_Concerned",
+        "Walk",
+        "Turn_Left_90",
+        "Turn_Right_90"
+      ]
+    },
+    {
+      "id": "advokat",
+      "role": "lawyer",
+      "label_uz": "Advokat",
+      "label_en": "Defence lawyer",
+      "sex": "female",
+      "age": 30,
+      "priority": "hero",
+      "station": {
+        "pos": [
+          -2.05,
+          3.45,
+          0.0
+        ],
+        "yaw_deg": 152,
+        "pose": "standing",
+        "plaque": "ADVOKAT",
+        "seat": {
+          "pos": [
+            -2.3,
+            3.32,
+            0.0
+          ],
+          "yaw_deg": 0
+        }
+      },
+      "mpfb": {
+        "age": 0.54,
+        "weight": 0.42,
+        "muscle": 0.42,
+        "height": 0.48,
+        "proportions": 0.65,
+        "asian": 0.5,
+        "caucasian": 0.47,
+        "african": 0.03,
+        "skin": [
+          "young_asian_female.mhmat",
+          "young_caucasian_female.mhmat"
+        ],
+        "eyebrows": "eyebrow006.mhclo",
+        "eyelashes": "eyelashes04.mhclo",
+        "hair": "ponytail01.mhclo",
+        "hair_color": [
+          22,
+          16,
+          14
+        ],
+        "clothes": [
+          "female_elegantsuit01.mhclo"
+        ],
+        "shoes": "shoes02.mhclo",
+        "clothes_color": [
+          18,
+          18,
+          21
+        ],
+        "shoes_color": [
+          10,
+          10,
+          10
+        ],
+        "skin_tint": [
+          0.95,
+          0.85,
+          0.75
+        ],
+        "clothes_detail": 0.3,
+        "bottom_color": [
+          16,
+          16,
+          19
+        ]
+      },
+      "garments": [
+        "hair_bun"
+      ],
+      "outfit_brief": "Tailored black suit, white blouse, dark hair in a low bun",
+      "animations": [
+        "Idle_Stand",
+        "Idle_Seated",
+        "Walk",
+        "Turn_Left_90",
+        "Turn_Right_90",
+        "Sit_Down",
+        "Stand_Up",
+        "Talk_Standing",
+        "Talk_Seated",
+        "Address_Judge",
+        "Present_Evidence",
+        "Read_Document_Seated",
+        "Read_Document_Standing",
+        "Gesture_OpenHand",
+        "Gesture_Point",
+        "Objection",
+        "Head_Nod",
+        "Head_Shake",
+        "Look_Left",
+        "Look_Right",
+        "React_Surprised",
+        "React_Concerned"
+      ]
+    },
+    {
+      "id": "prokuror",
+      "role": "prosecutor",
+      "label_uz": "Prokuror",
+      "label_en": "Prosecutor",
+      "sex": "male",
+      "age": 36,
+      "priority": "hero",
+      "station": {
+        "pos": [
+          1.9,
+          5.62,
+          0.0
+        ],
+        "yaw_deg": 0,
+        "pose": "seated",
+        "plaque": "PROKUROR"
+      },
+      "mpfb": {
+        "age": 0.6,
+        "weight": 0.5,
+        "muscle": 0.55,
+        "height": 0.55,
+        "proportions": 0.6,
+        "asian": 0.55,
+        "caucasian": 0.42,
+        "african": 0.03,
+        "skin": [
+          "young_asian_male.mhmat",
+          "young_caucasian_male.mhmat"
+        ],
+        "eyebrows": "eyebrow001.mhclo",
+        "eyelashes": "eyelashes01.mhclo",
+        "hair": "short04.mhclo",
+        "hair_color": [
+          16,
+          13,
+          12
+        ],
+        "clothes": [
+          "male_elegantsuit01.mhclo"
+        ],
+        "shoes": "shoes02.mhclo",
+        "clothes_color": [
+          24,
+          36,
+          78
+        ],
+        "shoes_color": [
+          10,
+          10,
+          10
+        ],
+        "skin_tint": [
+          0.92,
+          0.8,
+          0.68
+        ],
+        "clothes_detail": 0.8
+      },
+      "garments": [
+        "shoulder_boards"
+      ],
+      "outfit_brief": "Dark navy prosecutor's uniform with gold shoulder boards (verify insignia against official sources)",
+      "animations": [
+        "Idle_Seated",
+        "Idle_Stand",
+        "Sit_Down",
+        "Stand_Up",
+        "Talk_Seated",
+        "Talk_Standing",
+        "Read_Document_Seated",
+        "Gesture_Point",
+        "Gesture_OpenHand",
+        "Present_Evidence",
+        "Objection",
+        "Head_Nod",
+        "Head_Shake",
+        "Look_Left",
+        "Look_Right",
+        "Walk",
+        "Turn_Left_90",
+        "Turn_Right_90",
+        "React_Concerned"
+      ]
+    },
+    {
+      "id": "davogar",
+      "role": "plaintiff",
+      "label_uz": "Da’vogar",
+      "label_en": "Plaintiff",
+      "sex": "male",
+      "age": 31,
+      "priority": "supporting",
+      "station": {
+        "pos": [
+          -4.75,
+          2.75,
+          0.0
+        ],
+        "yaw_deg": 62,
+        "pose": "seated",
+        "plaque": "DA’VOGAR"
+      },
+      "mpfb": {
+        "age": 0.55,
+        "weight": 0.47,
+        "muscle": 0.5,
+        "height": 0.53,
+        "proportions": 0.55,
+        "asian": 0.4,
+        "caucasian": 0.55,
+        "african": 0.05,
+        "skin": [
+          "young_caucasian_male2.mhmat",
+          "young_caucasian_male.mhmat"
+        ],
+        "eyebrows": "eyebrow004.mhclo",
+        "eyelashes": "eyelashes01.mhclo",
+        "hair": "short02.mhclo",
+        "hair_color": [
+          18,
+          14,
+          12
+        ],
+        "clothes": [
+          "male_casualsuit01.mhclo"
+        ],
+        "shoes": "shoes01.mhclo",
+        "clothes_color": [
+          236,
+          236,
+          232
+        ],
+        "shoes_color": [
+          30,
+          22,
+          18
+        ],
+        "skin_tint": [
+          0.9,
+          0.78,
+          0.66
+        ],
+        "clothes_detail": 0.55,
+        "bottom_color": [
+          44,
+          45,
+          50
+        ]
+      },
+      "garments": [],
+      "outfit_brief": "White button-down shirt, dark trousers",
+      "animations": [
+        "Idle_Seated",
+        "Idle_Stand",
+        "Sit_Down",
+        "Stand_Up",
+        "Talk_Seated",
+        "Talk_Standing",
+        "Head_Nod",
+        "Head_Shake",
+        "Look_Left",
+        "Look_Right",
+        "React_Concerned",
+        "React_Surprised",
+        "Walk"
+      ]
+    },
+    {
+      "id": "javobgar",
+      "role": "defendant",
+      "label_uz": "Ayblanuvchi",
+      "label_en": "Defendant",
+      "sex": "male",
+      "age": 30,
+      "priority": "hero",
+      "station": {
+        "pos": [
+          5.0,
+          3.72,
+          0.0
+        ],
+        "yaw_deg": -28,
+        "pose": "seated",
+        "plaque": "AYBLANUVCHI"
+      },
+      "mpfb": {
+        "age": 0.54,
+        "weight": 0.5,
+        "muscle": 0.5,
+        "height": 0.5,
+        "proportions": 0.5,
+        "asian": 0.6,
+        "caucasian": 0.37,
+        "african": 0.03,
+        "skin": [
+          "young_asian_male.mhmat"
+        ],
+        "eyebrows": "eyebrow007.mhclo",
+        "eyelashes": "eyelashes01.mhclo",
+        "hair": "short02.mhclo",
+        "hair_color": [
+          14,
+          12,
+          11
+        ],
+        "clothes": [
+          "male_casualsuit01.mhclo"
+        ],
+        "shoes": "shoes01.mhclo",
+        "clothes_color": [
+          56,
+          58,
+          62
+        ],
+        "shoes_color": [
+          20,
+          18,
+          16
+        ],
+        "skin_tint": [
+          0.88,
+          0.75,
+          0.62
+        ],
+        "clothes_detail": 0.6,
+        "bottom_color": [
+          32,
+          32,
+          36
+        ]
+      },
+      "garments": [],
+      "outfit_brief": "Dark charcoal shirt, dark trousers",
+      "animations": [
+        "Idle_Seated",
+        "Idle_Stand",
+        "Sit_Down",
+        "Stand_Up",
+        "Talk_Seated",
+        "Talk_Standing",
+        "Head_Nod",
+        "Head_Shake",
+        "Look_Left",
+        "Look_Right",
+        "React_Concerned",
+        "React_Surprised",
+        "Walk"
+      ]
+    },
+    {
+      "id": "guvoh",
+      "role": "witness",
+      "label_uz": "Guvoh",
+      "label_en": "Witness",
+      "sex": "female",
+      "age": 32,
+      "priority": "hero",
+      "station": {
+        "pos": [
+          4.75,
+          0.2,
+          0.0
+        ],
+        "yaw_deg": 180,
+        "pose": "seated",
+        "plaque": "GUVOH"
+      },
+      "mpfb": {
+        "age": 0.56,
+        "weight": 0.46,
+        "muscle": 0.4,
+        "height": 0.46,
+        "proportions": 0.6,
+        "asian": 0.45,
+        "caucasian": 0.52,
+        "african": 0.03,
+        "skin": [
+          "young_caucasian_female2.mhmat",
+          "young_caucasian_female.mhmat"
+        ],
+        "eyebrows": "eyebrow009.mhclo",
+        "eyelashes": "eyelashes03.mhclo",
+        "hair": "ponytail01.mhclo",
+        "hair_color": [
+          24,
+          17,
+          14
+        ],
+        "clothes": [
+          "female_elegantsuit01.mhclo"
+        ],
+        "shoes": "shoes02.mhclo",
+        "clothes_color": [
+          232,
+          222,
+          200
+        ],
+        "shoes_color": [
+          40,
+          30,
+          26
+        ],
+        "skin_tint": [
+          0.95,
+          0.85,
+          0.75
+        ],
+        "clothes_detail": 0.3,
+        "bottom_color": [
+          40,
+          38,
+          42
+        ]
+      },
+      "garments": [],
+      "outfit_brief": "Cream blouse, modest dark trousers, dark hair pulled back",
+      "animations": [
+        "Idle_Seated",
+        "Idle_Stand",
+        "Walk",
+        "Turn_Left_90",
+        "Turn_Right_90",
+        "Sit_Down",
+        "Stand_Up",
+        "Talk_Seated",
+        "Talk_Standing",
+        "Testify",
+        "Head_Nod",
+        "Head_Shake",
+        "Look_Left",
+        "Look_Right",
+        "React_Concerned",
+        "React_Surprised",
+        "Nervous_Idle"
+      ]
+    },
+    {
+      "id": "kotib",
+      "role": "clerk",
+      "label_uz": "Sud majlisi kotibi",
+      "label_en": "Court clerk",
+      "sex": "female",
+      "age": 25,
+      "priority": "supporting",
+      "station": {
+        "pos": [
+          4.9,
+          7.52,
+          0.25
+        ],
+        "yaw_deg": 0,
+        "pose": "seated",
+        "plaque": "SUD MAJLISI KOTIBI"
+      },
+      "mpfb": {
+        "age": 0.5,
+        "weight": 0.4,
+        "muscle": 0.4,
+        "height": 0.47,
+        "proportions": 0.6,
+        "asian": 0.55,
+        "caucasian": 0.42,
+        "african": 0.03,
+        "skin": [
+          "young_asian_female.mhmat"
+        ],
+        "eyebrows": "eyebrow005.mhclo",
+        "eyelashes": "eyelashes04.mhclo",
+        "hair": "bob01.mhclo",
+        "hair_color": [
+          20,
+          15,
+          13
+        ],
+        "clothes": [
+          "female_elegantsuit01.mhclo"
+        ],
+        "shoes": "shoes02.mhclo",
+        "clothes_color": [
+          24,
+          26,
+          34
+        ],
+        "shoes_color": [
+          10,
+          10,
+          10
+        ],
+        "skin_tint": [
+          0.95,
+          0.84,
+          0.74
+        ],
+        "clothes_detail": 0.3,
+        "bottom_color": [
+          22,
+          22,
+          26
+        ]
+      },
+      "garments": [],
+      "outfit_brief": "Dark formal jacket, white shirt, shoulder-length dark hair",
+      "animations": [
+        "Idle_Seated",
+        "Idle_Stand",
+        "Sit_Down",
+        "Stand_Up",
+        "Typing",
+        "Talk_Seated",
+        "Announce",
+        "Read_Document_Seated",
+        "Head_Nod",
+        "Look_Left",
+        "Look_Right",
+        "Walk"
+      ]
+    },
+    {
+      "id": "qoriqchi",
+      "role": "security",
+      "label_uz": "Sud qo‘riqchisi",
+      "label_en": "Court security officer",
+      "sex": "male",
+      "age": 35,
+      "priority": "supporting",
+      "station": {
+        "pos": [
+          6.55,
+          8.05,
+          0.0
+        ],
+        "yaw_deg": -22,
+        "pose": "standing"
+      },
+      "mpfb": {
+        "age": 0.58,
+        "weight": 0.55,
+        "muscle": 0.65,
+        "height": 0.6,
+        "proportions": 0.55,
+        "asian": 0.5,
+        "caucasian": 0.47,
+        "african": 0.03,
+        "skin": [
+          "young_asian_male.mhmat",
+          "young_caucasian_male.mhmat"
+        ],
+        "eyebrows": "eyebrow011.mhclo",
+        "eyelashes": "eyelashes01.mhclo",
+        "hair": "short04.mhclo",
+        "hair_color": [
+          15,
+          13,
+          12
+        ],
+        "clothes": [
+          "male_elegantsuit01.mhclo"
+        ],
+        "shoes": "shoes05.mhclo",
+        "clothes_color": [
+          22,
+          30,
+          56
+        ],
+        "shoes_color": [
+          8,
+          8,
+          8
+        ],
+        "skin_tint": [
+          0.88,
+          0.76,
+          0.63
+        ],
+        "clothes_detail": 0.8
+      },
+      "garments": [
+        "peaked_cap",
+        "badge",
+        "shoulder_boards"
+      ],
+      "outfit_brief": "Dark navy security uniform, peaked cap, badge (verify details)",
+      "animations": [
+        "Guard_Idle",
+        "Idle_Stand",
+        "Walk",
+        "Turn_Left_90",
+        "Turn_Right_90",
+        "Look_Left",
+        "Look_Right",
+        "Head_Nod",
+        "Gesture_Point",
+        "Talk_Standing"
+      ]
+    },
+    {
+      "id": "tomoshabin_ayol",
+      "role": "spectator",
+      "label_uz": "Tomoshabin 01",
+      "label_en": "Spectator (woman, headscarf)",
+      "sex": "female",
+      "age": 47,
+      "priority": "background",
+      "station": {
+        "pos": [
+          -4.3,
+          -2.07,
+          0.0
+        ],
+        "yaw_deg": 172,
+        "pose": "seated"
+      },
+      "mpfb": {
+        "age": 0.67,
+        "weight": 0.58,
+        "muscle": 0.4,
+        "height": 0.42,
+        "proportions": 0.5,
+        "asian": 0.5,
+        "caucasian": 0.47,
+        "african": 0.03,
+        "skin": [
+          "middleage_asian_female.mhmat",
+          "middleage_caucasian_female.mhmat"
+        ],
+        "eyebrows": "eyebrow002.mhclo",
+        "eyelashes": "eyelashes02.mhclo",
+        "hair": "bob01.mhclo",
+        "hair_color": [
+          30,
+          24,
+          20
+        ],
+        "clothes": [
+          "female_elegantsuit01.mhclo"
+        ],
+        "shoes": "shoes01.mhclo",
+        "clothes_color": [
+          72,
+          64,
+          58
+        ],
+        "shoes_color": [
+          30,
+          24,
+          20
+        ],
+        "background": true,
+        "skin_tint": [
+          0.92,
+          0.8,
+          0.69
+        ],
+        "clothes_detail": 0.3,
+        "bottom_color": [
+          40,
+          36,
+          34
+        ]
+      },
+      "garments": [
+        "headscarf"
+      ],
+      "outfit_brief": "Patterned headscarf, dark neutral coat",
+      "animations": [
+        "Idle_Seated",
+        "Head_Nod",
+        "Look_Left",
+        "Look_Right",
+        "React_Concerned",
+        "Talk_Seated",
+        "Sit_Down",
+        "Stand_Up",
+        "Walk",
+        "Idle_Stand"
+      ]
+    },
+    {
+      "id": "tomoshabin_erkak",
+      "role": "spectator",
+      "label_uz": "Tomoshabin 02",
+      "label_en": "Spectator (man, grey jacket)",
+      "sex": "male",
+      "age": 44,
+      "priority": "background",
+      "station": {
+        "pos": [
+          -0.95,
+          -2.07,
+          0.0
+        ],
+        "yaw_deg": 180,
+        "pose": "seated"
+      },
+      "mpfb": {
+        "age": 0.65,
+        "weight": 0.6,
+        "muscle": 0.5,
+        "height": 0.55,
+        "proportions": 0.5,
+        "asian": 0.45,
+        "caucasian": 0.52,
+        "african": 0.03,
+        "skin": [
+          "middleage_caucasian_male.mhmat",
+          "middleage_asian_male.mhmat"
+        ],
+        "eyebrows": "eyebrow003.mhclo",
+        "eyelashes": "eyelashes01.mhclo",
+        "hair": "short01.mhclo",
+        "hair_color": [
+          24,
+          20,
+          18
+        ],
+        "clothes": [
+          "male_casualsuit05.mhclo"
+        ],
+        "shoes": "shoes01.mhclo",
+        "clothes_color": [
+          74,
+          78,
+          84
+        ],
+        "shoes_color": [
+          24,
+          20,
+          18
+        ],
+        "background": true,
+        "skin_tint": [
+          0.9,
+          0.78,
+          0.66
+        ],
+        "clothes_detail": 0.6,
+        "bottom_color": [
+          34,
+          34,
+          38
+        ]
+      },
+      "garments": [],
+      "outfit_brief": "Dark grey jacket",
+      "animations": [
+        "Idle_Seated",
+        "Head_Nod",
+        "Look_Left",
+        "Look_Right",
+        "React_Concerned",
+        "Talk_Seated",
+        "Sit_Down",
+        "Stand_Up",
+        "Walk",
+        "Idle_Stand"
+      ]
+    },
+    {
+      "id": "tomoshabin_yosh",
+      "role": "spectator",
+      "label_uz": "Tomoshabin 03",
+      "label_en": "Spectator (young woman)",
+      "sex": "female",
+      "age": 22,
+      "priority": "background",
+      "station": {
+        "pos": [
+          3.3,
+          -3.37,
+          0.0
+        ],
+        "yaw_deg": 186,
+        "pose": "seated"
+      },
+      "mpfb": {
+        "age": 0.47,
+        "weight": 0.4,
+        "muscle": 0.4,
+        "height": 0.5,
+        "proportions": 0.65,
+        "asian": 0.55,
+        "caucasian": 0.43,
+        "african": 0.02,
+        "skin": [
+          "young_asian_female.mhmat"
+        ],
+        "eyebrows": "eyebrow012.mhclo",
+        "eyelashes": "eyelashes03.mhclo",
+        "hair": "braid01.mhclo",
+        "hair_color": [
+          18,
+          14,
+          12
+        ],
+        "clothes": [
+          "female_elegantsuit01.mhclo"
+        ],
+        "shoes": "shoes02.mhclo",
+        "clothes_color": [
+          225,
+          214,
+          190
+        ],
+        "shoes_color": [
+          22,
+          20,
+          18
+        ],
+        "background": true,
+        "skin_tint": [
+          0.96,
+          0.86,
+          0.76
+        ],
+        "clothes_detail": 0.3,
+        "bottom_color": [
+          35,
+          33,
+          36
+        ]
+      },
+      "garments": [],
+      "outfit_brief": "Long-sleeved cream blouse, dark trousers, tied dark hair",
+      "animations": [
+        "Idle_Seated",
+        "Head_Nod",
+        "Look_Left",
+        "Look_Right",
+        "React_Surprised",
+        "Talk_Seated",
+        "Sit_Down",
+        "Stand_Up",
+        "Walk",
+        "Idle_Stand"
+      ]
+    }
+  ],
+  "qonunai": {
+    "id": "qonunai",
+    "role": "guide",
+    "label_uz": "QonunAI",
+    "label_en": "Legal assistant mascot",
+    "station": {
+      "pos": [
+        -5.7,
+        5.4,
+        0.55
+      ],
+      "yaw_deg": -35,
+      "pose": "floating"
+    },
+    "animations": [
+      "Idle_Float",
+      "Greet",
+      "Point",
+      "Explain",
+      "Positive",
+      "Concerned",
+      "Speak",
+      "Appear",
+      "Disappear"
+    ]
+  }
+}

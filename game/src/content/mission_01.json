@@ -1,0 +1,1805 @@
+{
+  "id": "M01",
+  "titleUz": "Nuqsonli telefon",
+  "titleEn": "The defective smartphone",
+  "version": "1.0.0",
+  "proceeding": "civil",
+  "playerCharacter": "CH_ADVOCATE",
+  "plaintiff": "CH_PLAINTIFF",
+  "respondentEntity": "Navro‘z Mobil MChJ",
+  "respondentRepresentative": "CH_RESPONDENT",
+  "startNode": "N001",
+  "routeTargets": [
+    "ROUTE_OUTCOME",
+    "REPLAY_CHECKPOINT",
+    "END"
+  ],
+  "initialOwnedEvidence": [
+    "E01",
+    "E02",
+    "E03",
+    "E05",
+    "E06",
+    "E07",
+    "E10"
+  ],
+  "initialCourtRecord": [
+    "E10"
+  ],
+  "initialFlags": [],
+  "initialPhase": "preparation",
+  "nodes": [
+    {
+      "id": "N001",
+      "speaker": "CH_QONUNAI",
+      "textUz": "Assalomu alaykum, Madina. Bugun Dilnozaning nuqsonli telefoni böyiça fuqarolik işida qatnaşasiz. Avval uning talabini aniqlaymiz, keyin hujjatlarni tekşiramiz. Xohlasangiz, yordam beraman.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "guided",
+          "textUz": "Yöl-yöriq bilan boşlaş",
+          "next": "N010",
+          "effects": [
+            "hints:on"
+          ],
+          "requires": []
+        },
+        {
+          "id": "quiet",
+          "textUz": "Mustaqil boşlaş",
+          "next": "N010",
+          "effects": [
+            "hints:manual"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P50"
+      ],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N001.opus",
+      "subtitleKey": "N001"
+    },
+    {
+      "id": "N010",
+      "speaker": "CH_PLAINTIFF",
+      "textUz": "Telefonni öqişim uçun olgandim. Uç kundan keyin öz-özidan öça boşladi. Dökonga murojaat qildim, lekin almaştirişmadi. Hujjatlarni olib keldim.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "timeline",
+          "textUz": "Voqealarni sanalar bilan aytib bering.",
+          "next": "N011",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "goal",
+          "textUz": "Suddan qanday natija kutyapsiz?",
+          "next": "N012",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "assume",
+          "textUz": "Demak, dökon sizni ataylab aldaganmi?",
+          "next": "N013",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N010.opus",
+      "subtitleKey": "N010"
+    },
+    {
+      "id": "N011",
+      "speaker": "CH_PLAINTIFF",
+      "textUz": "5-sentabrda sotib oldim. 8-sentabrda öça boşladi. 9-sentabrda almaştirişni yozma söradim. 2-oktabrda rad javobi berişdi. Keyin telefonni servisda tekşirtirdim.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "askgoal",
+          "textUz": "Endi talabingizni aniqlaylik.",
+          "next": "N012",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "file",
+          "textUz": "Hujjatlarni körib çiqamiz.",
+          "next": "N020",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N011.opus",
+      "subtitleKey": "N011"
+    },
+    {
+      "id": "N012",
+      "speaker": "CH_PLAINTIFF",
+      "textUz": "Şartnomani bekor qilib, tölagan 2 million 400 ming sömimni qaytarişni sörayman. Telefonni qaytarişga tayyorman. Işga tegişli hujjatlarimni sudga taqdim etişingizga roziman.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "confirm",
+          "textUz": "Talabingizni qayd etaman. Avval dalillarni tekşiramiz.",
+          "next": "N020",
+          "effects": [
+            "flag:clientConfirmed"
+          ],
+          "requires": []
+        },
+        {
+          "id": "repair",
+          "textUz": "Hozirça faqat ta’mirlaşni sörasak-çi?",
+          "next": "N014",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "L13",
+        "L16",
+        "L17"
+      ],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N012.opus",
+      "subtitleKey": "N012"
+    },
+    {
+      "id": "N013",
+      "speaker": "CH_PLAINTIFF",
+      "textUz": "Ularning niyatini bilmayman. Men telefon işlamaganini va murojaatim bajarilmaganini ayta olaman.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "correct",
+          "textUz": "Töğri, taxminni fakt deb olmaymiz. Talabingizni aniqlaylik.",
+          "next": "N012",
+          "effects": [
+            "learning:separateIntent"
+          ],
+          "requires": []
+        },
+        {
+          "id": "continue",
+          "textUz": "Hujjatlarni tekşirişga ötaylik.",
+          "next": "N020",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N013.opus",
+      "subtitleKey": "N013"
+    },
+    {
+      "id": "N014",
+      "speaker": "CH_PLAINTIFF",
+      "textUz": "Menga hozir pulni qaytariş talabi ma’qul. Avval almaştirişni söragan edim, u ham bajarilmadi. Talabimni özgartirişdan oldin men bilan kelişişingizni xohlayman.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "respect",
+          "textUz": "Tuşunarli. Sizning talabingiz bilan işlaymiz.",
+          "next": "N020",
+          "effects": [
+            "flag:clientConfirmed"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N014.opus",
+      "subtitleKey": "N014"
+    },
+    {
+      "id": "N020",
+      "speaker": "SYSTEM",
+      "textUz": "Tayyorgarlik vaqti. Hujjatlarni oçing, manbasini tekşiring va savollaringizni belgilang.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "client",
+          "textUz": "Dilnoza bilan yana gaplaşiş",
+          "next": "N010",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "folder",
+          "textUz": "Mijoz papkasini tekşiriş",
+          "next": "N021",
+          "effects": [
+            "panel:clientEvidence"
+          ],
+          "requires": []
+        },
+        {
+          "id": "respondent",
+          "textUz": "Sotuvçi vakilidan hujjat söraş",
+          "next": "N030",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "clerk",
+          "textUz": "Kotibdan iş nusxasini söraş",
+          "next": "N040",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "device",
+          "textUz": "Telefonni közdan keçiriş tartibini söraş",
+          "next": "N045",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "public",
+          "textUz": "Jamoat galereyasini köriş",
+          "next": "N046",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "hint",
+          "textUz": "QonunAI yordami",
+          "next": "N900",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "ready",
+          "textUz": "Sud majlisiga tayyorman",
+          "next": "N050",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": null,
+      "subtitleKey": "N020"
+    },
+    {
+      "id": "N021",
+      "speaker": "CH_QONUNAI",
+      "textUz": "Har bir hujjatning sanasi, kim bergani va qaysi telefonga tegişli ekanini tekşiring. Papkada borligi uning sudda tekşirilganini anglatmaydi.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "open",
+          "textUz": "Hujjatlar röyxatini oçiş",
+          "next": "N020",
+          "effects": [
+            "panel:clientEvidence"
+          ],
+          "requires": []
+        },
+        {
+          "id": "back",
+          "textUz": "Tayyorgarlikka qaytiş",
+          "next": "N020",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P71",
+        "P80"
+      ],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N021.opus",
+      "subtitleKey": "N021"
+    },
+    {
+      "id": "N030",
+      "speaker": "CH_RESPONDENT",
+      "textUz": "Men Navröz Mobil nomidan qatnaşyapman. Qadoq oçilgan edi. Bizning qaytarib oliş böyiça içki qoidamiz bor.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "policy",
+          "textUz": "Içki qoida nuqsonli tovarga ham qöllanadimi?",
+          "next": "N031",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "records",
+          "textUz": "Qabul qiliş dalolatnomasi nusxasini bera olasizmi?",
+          "next": "N032",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "serial",
+          "textUz": "Sinov varaqasidagi raqamni soliştiraylik.",
+          "next": "N033",
+          "effects": [],
+          "requires": [
+            "inspected:E01",
+            "inspected:E07"
+          ]
+        },
+        {
+          "id": "back",
+          "textUz": "Rahmat. Majlisda aniqlaştiramiz.",
+          "next": "N020",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "L21"
+      ],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N030.opus",
+      "subtitleKey": "N030"
+    },
+    {
+      "id": "N031",
+      "speaker": "CH_RESPONDENT",
+      "textUz": "Rad javobida şu qoida körsatilgan. Nuqson haqidagi hujjatlarni sud baholaydi. Menda qabul qiliş dalolatnomasining nusxasi ham bor.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "get",
+          "textUz": "Nusxasini sörayman.",
+          "next": "N032",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "source",
+          "textUz": "Tegişli qonun manbasini köriş",
+          "next": "N034",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "back",
+          "textUz": "Tayyorgarlikka qaytiş",
+          "next": "N020",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N031.opus",
+      "subtitleKey": "N031"
+    },
+    {
+      "id": "N032",
+      "speaker": "CH_RESPONDENT",
+      "textUz": "Mana, nusxasi. 9-sentabr kuni telefon qabul qilingan. Qabul paytida taşqi zarba yoki namlik izi qayd etilmagan. Bu içki holatni töliq tekşirganimizni bildirmaydi.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "inspect",
+          "textUz": "Hujjatni tekşiriş",
+          "next": "N020",
+          "effects": [
+            "acquire:E04",
+            "inspect:E04"
+          ],
+          "requires": []
+        },
+        {
+          "id": "take",
+          "textUz": "Nusxani olib, keyin köriş",
+          "next": "N020",
+          "effects": [
+            "acquire:E04"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N032.opus",
+      "subtitleKey": "N032"
+    },
+    {
+      "id": "N033",
+      "speaker": "CH_RESPONDENT",
+      "textUz": "Çekda QV26-0418, sinov varaqasida esa QV26-0481 yozilgan. Ha, raqamlar mos emas. Bu varaq Dilnozaning telefonida namlik bölganini tasdiqlamaydi.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "scope",
+          "textUz": "Demak, nuqson sababini boşqa dalillar bilan tekşiriş kerak.",
+          "next": "N020",
+          "effects": [
+            "flag:serialCompared",
+            "learning:identity"
+          ],
+          "requires": []
+        },
+        {
+          "id": "leap",
+          "textUz": "Demak, telefon zavoddan nuqsonli bölgan.",
+          "next": "N035",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N033.opus",
+      "subtitleKey": "N033"
+    },
+    {
+      "id": "N034",
+      "speaker": "CH_QONUNAI",
+      "textUz": "21-modda iste’molçi huquqlarini çeklaydigan va qonunçilikka zid şartlar haqida. Içki qoida qonunda berilgan huquqni bekor qila olmaydi. Ammo nuqson va talabning asosini ham tekşiriş kerak.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "source",
+          "textUz": "Lex.uz manbasini köriş",
+          "next": "N030",
+          "effects": [
+            "source:L21"
+          ],
+          "requires": []
+        },
+        {
+          "id": "back",
+          "textUz": "Suhbatga qaytiş",
+          "next": "N030",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "L21"
+      ],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N034.opus",
+      "subtitleKey": "N034"
+    },
+    {
+      "id": "N035",
+      "speaker": "CH_QONUNAI",
+      "textUz": "Raqamdagi farq bu varaqning aynan şu telefonga aloqasini zaiflaştiradi. Bu hali nuqsonning sababini özi isbotlamaydi. Servis hisoboti va boşqa hujjatlarni ham tekşiring.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "correct",
+          "textUz": "Xulosani çeklab, tekşirişni davom ettiraman.",
+          "next": "N020",
+          "effects": [
+            "flag:serialCompared",
+            "learning:limits"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P73",
+        "P80"
+      ],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N035.opus",
+      "subtitleKey": "N035"
+    },
+    {
+      "id": "N040",
+      "speaker": "CH_CLERK",
+      "textUz": "Iş materiallarining tanişiş uçun ajratilgan nusxasi şu yerda. Da’vo talabi va vakolat hujjatlari bilan tanişişingiz mumkin. Huquqiy maslahatni men bermayman.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "inspect",
+          "textUz": "Da’vo arizasi va vakolatni köriş",
+          "next": "N020",
+          "effects": [
+            "acquire:E10",
+            "inspect:E10"
+          ],
+          "requires": []
+        },
+        {
+          "id": "back",
+          "textUz": "Rahmat.",
+          "next": "N020",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N040.opus",
+      "subtitleKey": "N040"
+    },
+    {
+      "id": "N045",
+      "speaker": "CH_CLERK",
+      "textUz": "Telefon dalil saqlaş joyida. Uni közdan keçirişni suddan söraşingiz mumkin. Mustaqil oçib köriş yoki qismlarga ajratiş mumkin emas.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "note",
+          "textUz": "Majlisda ruxsat söraşni belgilayman.",
+          "next": "N020",
+          "effects": [
+            "flag:deviceRequestPlanned"
+          ],
+          "requires": []
+        },
+        {
+          "id": "back",
+          "textUz": "Tuşunarli.",
+          "next": "N020",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N045.opus",
+      "subtitleKey": "N045"
+    },
+    {
+      "id": "N046",
+      "speaker": "CH_SECURITY",
+      "textUz": "Majlis boşlangunça şu yölakdan yurişingiz mumkin. Sudya joylaşgan qismga ruxsatsiz ötilmaydi.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "s1",
+          "textUz": "Saodat bilan salomlaşiş",
+          "next": "N047",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "s2",
+          "textUz": "Jamşid bilan salomlaşiş",
+          "next": "N048",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "s3",
+          "textUz": "Odil bilan salomlaşiş",
+          "next": "N049",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "back",
+          "textUz": "Tayyorgarlikka qaytiş",
+          "next": "N020",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N046.opus",
+      "subtitleKey": "N046"
+    },
+    {
+      "id": "N047",
+      "speaker": "CH_PUBLIC_1",
+      "textUz": "Assalomu alaykum. Majlisni tinglaş uçun keldim. Sizlarga xalaqit bermayman.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "back",
+          "textUz": "Va alaykum assalom.",
+          "next": "N020",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N047.opus",
+      "subtitleKey": "N047"
+    },
+    {
+      "id": "N048",
+      "speaker": "CH_PUBLIC_2",
+      "textUz": "Men ham talabaman. Sud majlisi qanday ötişini körmoqçiman. Hozir daftarimni tayyorlab olaman.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "back",
+          "textUz": "Yaxşi kuzatuv bölsin.",
+          "next": "N020",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N048.opus",
+      "subtitleKey": "N048"
+    },
+    {
+      "id": "N049",
+      "speaker": "CH_PUBLIC_3",
+      "textUz": "Assalomu alaykum. Men bu işning holatlarini bilmayman, tinglaş uçun keldim.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "back",
+          "textUz": "Tuşunarli, rahmat.",
+          "next": "N020",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N049.opus",
+      "subtitleKey": "N049"
+    },
+    {
+      "id": "N050",
+      "speaker": "SYSTEM",
+      "textUz": "Majlisni boşlaşdan oldin talab va hujjatlarni yana tekşirişingiz mumkin. Oçilmagan hujjatlar keyin ham ruxsat bilan köriladi.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "start",
+          "textUz": "Majlisni boşlaş",
+          "next": "N100",
+          "effects": [
+            "phase:hearing"
+          ],
+          "requires": []
+        },
+        {
+          "id": "back",
+          "textUz": "Tayyorgarlikka qaytiş",
+          "next": "N020",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": null,
+      "subtitleKey": "N050"
+    },
+    {
+      "id": "N100",
+      "speaker": "CH_CLERK",
+      "textUz": "Sud majlisi boşlanmoqda. Dilnoza Saidovaning Navröz Mobil MÇJga nisbatan iste’molçi huquqlariga oid fuqarolik işi köriladi. Taraflarning kelgani va vakolatlari tekşirildi.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "listen",
+          "textUz": "Tinglaş",
+          "next": "N101",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C01",
+      "onEnter": [],
+      "voiceAsset": "N100.opus",
+      "subtitleKey": "N100"
+    },
+    {
+      "id": "N101",
+      "speaker": "CH_JUDGE",
+      "textUz": "Taraflarga tuşuntiriş beriş, dalil taqdim etiş va iltimosnoma bildiriş imkoniyati beriladi. Bugun telefonning nuqsoni, avvalgi talab va söralgan huquqiy natijani aniqlaymiz.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "claim",
+          "textUz": "Da’vo talabini bayon etiş",
+          "next": "N102",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "request",
+          "textUz": "Avval hujjatlarni tekşirişni söraş",
+          "next": "N110",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P40",
+        "P72"
+      ],
+      "camera": "C03",
+      "onEnter": [],
+      "voiceAsset": "N101.opus",
+      "subtitleKey": "N101"
+    },
+    {
+      "id": "N102",
+      "speaker": "CH_ADVOCATE",
+      "textUz": "Da’vogar nomidan oldi-sotdi şartnomasini bekor qiliş va tölangan 2 million 400 ming sömni qaytarişni söraymiz. Avvalgi almaştiriş talabi bajarilmagan. Bu holatlarni hujjatlar bilan asoslaymiz.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "continue",
+          "textUz": "Javobgar tuşuntirişini tinglaş",
+          "next": "N103",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "L13",
+        "L16",
+        "L17"
+      ],
+      "camera": "C04",
+      "onEnter": [],
+      "voiceAsset": "N102.opus",
+      "subtitleKey": "N102"
+    },
+    {
+      "id": "N103",
+      "speaker": "CH_RESPONDENT",
+      "textUz": "Da’voga e’tirozimiz bor. Telefon işlatilgan va qadoq oçilgan. Sinov varaqasida namlik qayd etilgan. Sotuv va narx haqidagi hujjatlarni körişga tayyormiz.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "questions",
+          "textUz": "Savollar va hujjatlar tekşiruviga ötiş",
+          "next": "N110",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C05",
+      "onEnter": [],
+      "voiceAsset": "N103.opus",
+      "subtitleKey": "N103"
+    },
+    {
+      "id": "N110",
+      "speaker": "CH_JUDGE",
+      "textUz": "Endi işga tegişli dalillarni tekşiramiz. Savol yoki iltimosnomangizni ayting.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "submit",
+          "textUz": "Tayyor hujjatlarni taqdim etiş",
+          "next": "N111",
+          "effects": [
+            "panel:submitEvidence"
+          ],
+          "requires": []
+        },
+        {
+          "id": "question",
+          "textUz": "Javobgar vakiliga savol beriş",
+          "next": "N120",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "witness",
+          "textUz": "Guvohni çaqirişni söraş",
+          "next": "N130",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "device",
+          "textUz": "Telefonni közdan keçirişni söraş",
+          "next": "N140",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "obtain",
+          "textUz": "Qabul hujjati nusxasini söraş",
+          "next": "N150",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "source",
+          "textUz": "Manba kartasini oçiş",
+          "next": "N910",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "close",
+          "textUz": "Yakuniy fikrga ötiş",
+          "next": "N160",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C03",
+      "onEnter": [],
+      "voiceAsset": "N110.opus",
+      "subtitleKey": "N110"
+    },
+    {
+      "id": "N111",
+      "speaker": "CH_ADVOCATE",
+      "textUz": "Tanlangan hujjatlarni işga tegişli holatlarni aniqlaş uçun taqdim etişni va sudda tekşirişni sörayman.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "examine",
+          "textUz": "Taraflar bilan birga tekşiriş",
+          "next": "N112",
+          "effects": [
+            "panel:examineSubmitted"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P71",
+        "P73",
+        "P80"
+      ],
+      "camera": "C04",
+      "onEnter": [],
+      "voiceAsset": "N111.opus",
+      "subtitleKey": "N111"
+    },
+    {
+      "id": "N112",
+      "speaker": "CH_JUDGE",
+      "textUz": "Hujjatlarning kim tomonidan berilgani, sanasi va qaysi telefonga oidligini tekşiramiz. Javobgar vakili, har bir hujjat yuzasidan fikringizni bildiring.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "return",
+          "textUz": "Tekşiruvdan söng savollarga qaytiş",
+          "next": "N110",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P80"
+      ],
+      "camera": "C03",
+      "onEnter": [],
+      "voiceAsset": "N112.opus",
+      "subtitleKey": "N112"
+    },
+    {
+      "id": "N120",
+      "speaker": "CH_ADVOCATE",
+      "textUz": "Javobgar vakiliga savol berişga ruxsat sörayman.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "serial",
+          "textUz": "Sinov varaqasi qaysi seriya raqamli telefonga tegişli?",
+          "next": "N121",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "replacement",
+          "textUz": "9-sentabrdagi almaştiriş talabiga nima javob berilgan?",
+          "next": "N122",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "blame",
+          "textUz": "Nega mijozni ataylab aldadingiz?",
+          "next": "N123",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "purchase",
+          "textUz": "Çekdagi sotuv, narx va kafolatga e’tirozingiz bormi?",
+          "next": "N124",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "back",
+          "textUz": "Savol bermay qaytiş",
+          "next": "N110",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C04",
+      "onEnter": [],
+      "voiceAsset": "N120.opus",
+      "subtitleKey": "N120"
+    },
+    {
+      "id": "N121",
+      "speaker": "CH_RESPONDENT",
+      "textUz": "Varaqda QV26-0481 yozilgan. Işdagi çek va qabul hujjatida QV26-0418 turibdi. Uşbu varaq bilan Dilnozaning telefoniga namlik tuşganini tasdiqlay olmayman.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "record",
+          "textUz": "Farqni qayd etişni va varaqni tekşirişni sörayman.",
+          "next": "N110",
+          "effects": [
+            "acquire:E07",
+            "inspect:E07",
+            "submit:E07",
+            "examine:E07",
+            "flag:serialCompared"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C05",
+      "onEnter": [],
+      "voiceAsset": "N121.opus",
+      "subtitleKey": "N121"
+    },
+    {
+      "id": "N122",
+      "speaker": "CH_RESPONDENT",
+      "textUz": "Talab olingan, tekşiriş zarurligi aytilgan. Şu model omborda bor edi. 2-oktabrdagi xat bilan almaştiriş rad etilgan. Almaştiriş ham, ta’mirlaş ham bajarilmagan.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "record",
+          "textUz": "Tuşuntirişni va yozma javobni qayd etişni sörayman.",
+          "next": "N110",
+          "effects": [
+            "oral:T_UNFULFILLED",
+            "learning:chronology"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C05",
+      "onEnter": [],
+      "voiceAsset": "N122.opus",
+      "subtitleKey": "N122"
+    },
+    {
+      "id": "N123",
+      "speaker": "CH_JUDGE",
+      "textUz": "Niyat haqidagi taxminni fakt sifatida qöymang. Savolni hujjat yoki işga tegişli holatga boğlab bering.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "correct",
+          "textUz": "Savolimni hujjatdagi raqam haqida qayta tuzaman.",
+          "next": "N121",
+          "effects": [
+            "learning:rephrase"
+          ],
+          "requires": []
+        },
+        {
+          "id": "back",
+          "textUz": "Savolni hozirça qaytarib olaman.",
+          "next": "N110",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P73"
+      ],
+      "camera": "C03",
+      "onEnter": [],
+      "voiceAsset": "N123.opus",
+      "subtitleKey": "N123"
+    },
+    {
+      "id": "N124",
+      "speaker": "CH_RESPONDENT",
+      "textUz": "Çekdagi dökon, narx va kafolat hujjatiga e’tirozim yöq. Sotilgan telefon QV26-0418. Bahsimiz telefonning holati va qaytariş talabi böyiça.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "record",
+          "textUz": "Tuşuntiriş qayd etilişini sörayman.",
+          "next": "N110",
+          "effects": [
+            "oral:T_PURCHASE"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C05",
+      "onEnter": [],
+      "voiceAsset": "N124.opus",
+      "subtitleKey": "N124"
+    },
+    {
+      "id": "N130",
+      "speaker": "CH_JUDGE",
+      "textUz": "Guvohning körsatmasi işga tegişli holatlar böyiça tinglanadi. Şaxsi aniqlanadi va tegişli protsessual tuşuntirişlar beriladi. Aziz Rasulov, da’vogar bilan munosabatingizni ayting.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "listen",
+          "textUz": "Guvohni tinglaş",
+          "next": "N131",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P71"
+      ],
+      "camera": "C06",
+      "onEnter": [],
+      "voiceAsset": "N130.opus",
+      "subtitleKey": "N130"
+    },
+    {
+      "id": "N131",
+      "speaker": "CH_WITNESS",
+      "textUz": "Dilnoza bilan bir guruhda öqiymiz. 8-sentabr kuni darsga tayyorlanayotganda telefon öçib qolganini kördim. Içki qismlarini körmaganman.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "observed",
+          "textUz": "Aynan nimalarni kördingiz?",
+          "next": "N132",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "cause",
+          "textUz": "Telefonning nega öçganini bilasizmi?",
+          "next": "N133",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "lead",
+          "textUz": "Zavod nuqsoni ekanini tasdiqlaysizmi?",
+          "next": "N134",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "finish",
+          "textUz": "Hozirça boşqa savolim yöq.",
+          "next": "N135",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C06",
+      "onEnter": [],
+      "voiceAsset": "N131.opus",
+      "subtitleKey": "N131"
+    },
+    {
+      "id": "N132",
+      "speaker": "CH_WITNESS",
+      "textUz": "Dilnoza matn öqiyotganda ekran öçdi. Qayta yoqqaç, yana öçdi. Öşa paytda telefon yiqilganini yoki unga suyuqlik tekkanini körmadim. Boşqa vaqtda nima bölganini bilmayman.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "limits",
+          "textUz": "Sababini bilişingiz çegarasini ham aniqlaylik.",
+          "next": "N133",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "finish",
+          "textUz": "Rahmat. Körsatma qayd etilsin.",
+          "next": "N135",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C06",
+      "onEnter": [],
+      "voiceAsset": "N132.opus",
+      "subtitleKey": "N132"
+    },
+    {
+      "id": "N133",
+      "speaker": "CH_WITNESS",
+      "textUz": "Yöq. Men texnik tekşiruv ötkazmaganman. Faqat öşa paytdagi öçib qolişni kördim.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "finish",
+          "textUz": "Kuzatuvingiz va bilmaydigan jihatlaringizni qayd etişni sörayman.",
+          "next": "N135",
+          "effects": [
+            "learning:witnessLimits"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C06",
+      "onEnter": [],
+      "voiceAsset": "N133.opus",
+      "subtitleKey": "N133"
+    },
+    {
+      "id": "N134",
+      "speaker": "CH_WITNESS",
+      "textUz": "Buni tasdiqlay olmayman. Men faqat körganimni ayta olaman.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "correct",
+          "textUz": "Unda faqat körgan holatingizni qayd etamiz.",
+          "next": "N135",
+          "effects": [
+            "learning:witnessLimits"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C06",
+      "onEnter": [],
+      "voiceAsset": "N134.opus",
+      "subtitleKey": "N134"
+    },
+    {
+      "id": "N135",
+      "speaker": "CH_JUDGE",
+      "textUz": "Guvohning körsatmasi boşqa dalillar bilan birga baholanadi. Taraflarga savol beriş imkoniyati taqdim etildi.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "return",
+          "textUz": "Hujjatlar va savollarga qaytiş",
+          "next": "N110",
+          "effects": [
+            "oral:E09"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P80"
+      ],
+      "camera": "C03",
+      "onEnter": [],
+      "voiceAsset": "N135.opus",
+      "subtitleKey": "N135"
+    },
+    {
+      "id": "N140",
+      "speaker": "CH_JUDGE",
+      "textUz": "Telefonning taşqi holati va seriya raqamini taraflar iştirokida közdan keçiramiz. Uni oçiş yoki texnik tajriba ötkaziş bu közdan keçirişga kirmaydi.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "inspect",
+          "textUz": "Seriya raqami va saqlaş qaydini köriş",
+          "next": "N110",
+          "effects": [
+            "acquire:E08",
+            "inspect:E08",
+            "submit:E08",
+            "examine:E08"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P80"
+      ],
+      "camera": "C07",
+      "onEnter": [],
+      "voiceAsset": "N140.opus",
+      "subtitleKey": "N140"
+    },
+    {
+      "id": "N150",
+      "speaker": "CH_ADVOCATE",
+      "textUz": "Javobgarda saqlanayotgan qabul qiliş dalolatnomasi nusxasini olişda sud kömaklaşişini sörayman. U telefon raqami va qabul paytidagi holatni aniqlaş uçun kerak.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "get",
+          "textUz": "Sud ruxsati bilan nusxani oliş",
+          "next": "N151",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P72"
+      ],
+      "camera": "C04",
+      "onEnter": [],
+      "voiceAsset": "N150.opus",
+      "subtitleKey": "N150"
+    },
+    {
+      "id": "N151",
+      "speaker": "CH_JUDGE",
+      "textUz": "Iltimosnoma uşbu işdagi holatlarni aniqlaşga qaratilgan. Nusxa taraflarga taqdim etiladi va tekşiriladi.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "examine",
+          "textUz": "Qabul hujjatini tekşiriş",
+          "next": "N110",
+          "effects": [
+            "acquire:E04",
+            "inspect:E04",
+            "submit:E04",
+            "examine:E04"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P72",
+        "P80"
+      ],
+      "camera": "C03",
+      "onEnter": [],
+      "voiceAsset": "N151.opus",
+      "subtitleKey": "N151"
+    },
+    {
+      "id": "N160",
+      "speaker": "CH_JUDGE",
+      "textUz": "Yakuniy fikrni aytişdan oldin aniqlaştiramiz: telefonning qaysi hujjatlar bilan boğlangani, nuqsoni va avvalgi talab natijasi yuzasidan qöşimça dalil yoki iltimosnomangiz bormi?",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "return",
+          "textUz": "Hujjatlar tekşiruviga qaytiş",
+          "next": "N110",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "interval",
+          "textUz": "Yetişmayotgan hujjatni oliş uçun vaqt söraş",
+          "next": "N170",
+          "effects": [
+            "flag:intervalRequested"
+          ],
+          "requires": []
+        },
+        {
+          "id": "closing",
+          "textUz": "Mavjud tekşirilgan dalillar bilan yakuniy fikr bildiriş",
+          "next": "N180",
+          "effects": [
+            "flag:clarificationOffered"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P72"
+      ],
+      "camera": "C03",
+      "onEnter": [],
+      "voiceAsset": "N160.opus",
+      "subtitleKey": "N160"
+    },
+    {
+      "id": "N170",
+      "speaker": "CH_JUDGE",
+      "textUz": "Söralgan hujjat işga tegişli. Uni taqdim etiş uçun imkoniyat beriladi. Öquv maşqida vaqt oraliği qisqartiriladi; keyin dalillar tekşiruviga qaytamiz.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "retrieve",
+          "textUz": "Körsatilgan hujjatlarni oliş va tekşiriş",
+          "next": "N171",
+          "effects": [
+            "phase:evidence_interval",
+            "panel:retrieveMissing"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P72"
+      ],
+      "camera": "C03",
+      "onEnter": [],
+      "voiceAsset": "N170.opus",
+      "subtitleKey": "N170"
+    },
+    {
+      "id": "N171",
+      "speaker": "CH_QONUNAI",
+      "textUz": "Bu hali yakuniy qaror emas. Olingan hujjatlarni sudda taqdim etiş va tekşiriş kerak. Vaqt berilişi haqiqiy işda hamişa avtomatik bölmaydi.",
+      "stage": "evidence_interval",
+      "choices": [
+        {
+          "id": "resume",
+          "textUz": "Majlisning dalillar bosqiçiga qaytiş",
+          "next": "N110",
+          "effects": [
+            "phase:hearing"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P72"
+      ],
+      "camera": "C03",
+      "onEnter": [],
+      "voiceAsset": "N171.opus",
+      "subtitleKey": "N171"
+    },
+    {
+      "id": "N180",
+      "speaker": "CH_ADVOCATE",
+      "textUz": "Yakuniy fikrimni tekşirilgan fakt, uni asoslovçi dalil va söralgan natija bilan bayon qilaman.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "build",
+          "textUz": "Fakt — dalil — huquqiy asos — talabni tuziş",
+          "next": "N181",
+          "effects": [
+            "panel:argumentBuilder"
+          ],
+          "requires": []
+        },
+        {
+          "id": "back",
+          "textUz": "Dalillar tekşiruviga qaytiş",
+          "next": "N110",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C04",
+      "onEnter": [],
+      "voiceAsset": "N180.opus",
+      "subtitleKey": "N180"
+    },
+    {
+      "id": "N181",
+      "speaker": "CH_JUDGE",
+      "textUz": "Taraflarning yakuniy fikrlari tinglanadi. Yangi hujjat bölsa, avval uni tekşiriş masalasi hal etiladi. Da’voning pul miqdori va talabi iş materiallarida körsatilgan.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "new",
+          "textUz": "Yangi hujjatni tekşirişni söraş",
+          "next": "N110",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "finish",
+          "textUz": "Yakuniy fikrni tugatiş",
+          "next": "N182",
+          "effects": [
+            "record:close"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C03",
+      "onEnter": [],
+      "voiceAsset": "N181.opus",
+      "subtitleKey": "N181"
+    },
+    {
+      "id": "N182",
+      "speaker": "CH_JUDGE",
+      "textUz": "Sud tekşirilgan dalillar va taraflarning tuşuntirişlarini baholaydi. Qonun raqamini yoddan aytişning özi faktning isboti böla olmaydi.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "ruling",
+          "textUz": "Hal qiluv qarorini tinglaş",
+          "next": "ROUTE_OUTCOME",
+          "effects": [
+            "route:evaluate"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P80"
+      ],
+      "camera": "C03",
+      "onEnter": [],
+      "voiceAsset": "N182.opus",
+      "subtitleKey": "N182"
+    },
+    {
+      "id": "O_REFUND",
+      "speaker": "CH_JUDGE",
+      "textUz": "Da’vo qanoatlantiriladi. Uşbu maşqdagi tekşirilgan dalillar telefonning nuqsoni va avvalgi almaştiriş talabi bajarilmaganini tasdiqlaydi. Şartnoma bekor qilinib, 2 million 400 ming söm qaytarilişi, telefon esa sotuvçiga qaytarilişi belgilanadi.",
+      "stage": "outcome",
+      "choices": [
+        {
+          "id": "reasons",
+          "textUz": "Qarorning asoslarini köriş",
+          "next": "O_REASONS",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "L13",
+        "L16",
+        "L17",
+        "P80"
+      ],
+      "camera": "C08",
+      "onEnter": [],
+      "voiceAsset": "O_REFUND.opus",
+      "subtitleKey": "O_REFUND"
+    },
+    {
+      "id": "O_INSUFFICIENT",
+      "speaker": "CH_JUDGE",
+      "textUz": "Da’vo qanoatlantirilmaydi. Uşbu maşqda işning hal qiluvçi holatlari tekşirilgan dalillar bilan yetarli darajada tasdiqlanmadi. Bu telefon albatta soz bölganini yoki har qanday qaytariş talabi asossizligini anglatmaydi.",
+      "stage": "outcome",
+      "choices": [
+        {
+          "id": "reasons",
+          "textUz": "Qaysi holatlar tasdiqlanmaganini köriş",
+          "next": "O_REASONS",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P72",
+        "P80"
+      ],
+      "camera": "C08",
+      "onEnter": [],
+      "voiceAsset": "O_INSUFFICIENT.opus",
+      "subtitleKey": "O_INSUFFICIENT"
+    },
+    {
+      "id": "O_REASONS",
+      "speaker": "SYSTEM",
+      "textUz": "Qaror asoslari: har bir bahsli holat uçun tekşirilgan manbalar va aniqlanmagan jihatlar alohida körsatiladi.",
+      "stage": "outcome",
+      "choices": [
+        {
+          "id": "debrief",
+          "textUz": "QonunAI bilan tahlil qiliş",
+          "next": "N950",
+          "effects": [
+            "panel:outcomeReasons"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C03",
+      "onEnter": [],
+      "voiceAsset": null,
+      "subtitleKey": "O_REASONS"
+    },
+    {
+      "id": "N900",
+      "speaker": "CH_QONUNAI",
+      "textUz": "Qaysi masalani birga körib çiqamiz? Yordamdan foydalaniş natijangizni pasaytirmaydi.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "nudge",
+          "textUz": "Keyingi kiçik qadam",
+          "next": "N901",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "law",
+          "textUz": "Huquqiy asosni tuşuntiring.",
+          "next": "N902",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "example",
+          "textUz": "Dalillarni taqqoslaş misoli",
+          "next": "N903",
+          "effects": [],
+          "requires": []
+        },
+        {
+          "id": "back",
+          "textUz": "Hozirça davom etaman.",
+          "next": "N020",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N900.opus",
+      "subtitleKey": "N900"
+    },
+    {
+      "id": "N901",
+      "speaker": "CH_QONUNAI",
+      "textUz": "Avval talabni va vaqt jadvalini tekşiring. Keyin çek, qabul hujjati va sinov varaqasidagi telefon raqamlarini yonma-yon soliştiring.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "do",
+          "textUz": "Tekşirişga qaytiş",
+          "next": "N020",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N901.opus",
+      "subtitleKey": "N901"
+    },
+    {
+      "id": "N902",
+      "speaker": "CH_QONUNAI",
+      "textUz": "13-modda nuqsonli tovar böyiça huquqlarni belgilaydi. Bu işda avvalgi almaştiriş talabi bajarilmagani uçun 16-modda ham muhim. Manbani öqib, aynan qaysi faktga boğlayotganingizni belgilang.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "open",
+          "textUz": "Manbalarni oçiş",
+          "next": "N020",
+          "effects": [
+            "source:L13",
+            "source:L16"
+          ],
+          "requires": []
+        },
+        {
+          "id": "back",
+          "textUz": "Tekşirişga qaytiş",
+          "next": "N020",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "L13",
+        "L16"
+      ],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N902.opus",
+      "subtitleKey": "N902"
+    },
+    {
+      "id": "N903",
+      "speaker": "CH_QONUNAI",
+      "textUz": "Masalan: “Bu sinov varaqasi boşqa raqamli telefonga tegişli”. Dalil — varaq va çekdagi raqamlar. Çegarasi — bu farqning özi nuqson sababini isbotlamaydi.",
+      "stage": "preparation",
+      "choices": [
+        {
+          "id": "back",
+          "textUz": "Özim taqqoslayman.",
+          "next": "N020",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P80"
+      ],
+      "camera": "C02",
+      "onEnter": [],
+      "voiceAsset": "N903.opus",
+      "subtitleKey": "N903"
+    },
+    {
+      "id": "N910",
+      "speaker": "CH_QONUNAI",
+      "textUz": "Sudda gapirilayotganda ovozim öçiriladi. Manba kartasini matn körinişida oçişingiz mumkin. U sudga taqdim etilgan dalilning örnini bosmaydi.",
+      "stage": "hearing",
+      "choices": [
+        {
+          "id": "sources",
+          "textUz": "Tegişli manbalarni öqiş",
+          "next": "N110",
+          "effects": [
+            "panel:sourceCards"
+          ],
+          "requires": []
+        },
+        {
+          "id": "back",
+          "textUz": "Majlisga qaytiş",
+          "next": "N110",
+          "effects": [],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "P80"
+      ],
+      "camera": "C03",
+      "onEnter": [],
+      "voiceAsset": "N910.opus",
+      "subtitleKey": "N910"
+    },
+    {
+      "id": "N950",
+      "speaker": "CH_QONUNAI",
+      "textUz": "Natijani faqat yutuq yoki yutqaziş deb körmaylik. Qaysi faktni nimaga tayangan holda körsatdingiz? Guvohning kuzatuvi bilan texnik xulosani ajrata oldingizmi?",
+      "stage": "debrief",
+      "choices": [
+        {
+          "id": "review",
+          "textUz": "Qaror va dalillar zanjirini köriş",
+          "next": "N951",
+          "effects": [
+            "panel:debrief"
+          ],
+          "requires": []
+        },
+        {
+          "id": "replay",
+          "textUz": "Tanlangan bosqiçni qayta öynaş",
+          "next": "REPLAY_CHECKPOINT",
+          "effects": [
+            "route:replay"
+          ],
+          "requires": []
+        },
+        {
+          "id": "end",
+          "textUz": "Maşqni yakunlaş",
+          "next": "END",
+          "effects": [
+            "route:complete"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [],
+      "camera": "C03",
+      "onEnter": [],
+      "voiceAsset": "N950.opus",
+      "subtitleKey": "N950"
+    },
+    {
+      "id": "N951",
+      "speaker": "CH_QONUNAI",
+      "textUz": "Içki qoida, telefon nuqsoni va söralgan huquqiy natija — uç alohida masala. Har birini tegişli fakt va manba bilan boğlang. Haqiqiy işda boşqa dalillar yoki talablar ham bölişi mumkin.",
+      "stage": "debrief",
+      "choices": [
+        {
+          "id": "replay",
+          "textUz": "Dalillar bosqiçiga qaytib maşq qiliş",
+          "next": "REPLAY_CHECKPOINT",
+          "effects": [
+            "route:replay"
+          ],
+          "requires": []
+        },
+        {
+          "id": "end",
+          "textUz": "Maşqni yakunlaş",
+          "next": "END",
+          "effects": [
+            "route:complete"
+          ],
+          "requires": []
+        }
+      ],
+      "sourceClaimIds": [
+        "L21",
+        "P80"
+      ],
+      "camera": "C03",
+      "onEnter": [],
+      "voiceAsset": "N951.opus",
+      "subtitleKey": "N951"
+    }
+  ],
+  "panels": {
+    "clientEvidence": "Select an owned evidence item; open complete bodyUz text with date, origin and device ID. body is the English production explanation. Inspect marks only inspected, never submitted.",
+    "submitEvidence": "Select any owned inspected documents. Show recipient and purpose. Commit SUBMIT only after confirmation. Empty selection is allowed and commits nothing.",
+    "examineSubmitted": "For each submitted item, read its origin and relevant content, allow both sides to comment, then EXAMINE. Preserve E07 as weak adverse evidence; do not delete it.",
+    "retrieveMissing": "Select missing E04 from retailer or client-owned unopened E01/E02/E03/E05/E06/E07. Acquire a copy and inspect, but do not auto-submit or auto-examine. Return to N110.",
+    "argumentBuilder": "Choose fact records from examined evidence, a source card and a request. Offer a plain-language submission without article recital. Mistaken pairings prompt review, never alter facts.",
+    "sourceCards": "Render registry paraphraseUz, article, official title, checked date and edition URL. Explicit external-link control. paraphrase is English production context.",
+    "outcomeReasons": "Render evaluator findings with evidence IDs mapped to player-facing titles. List missing issues, limits and rejected relevance of E07.",
+    "debrief": "Show learning behaviors and the complete examined record; no grade reduction for hints. Replay restores the selected checkpoint and labels previous knowledge."
+  },
+  "effectGrammar": {
+    "flag:name": "set boolean true, except reserved recordClosed",
+    "record:close": "dispatch validated CLOSE_RECORD after clarification",
+    "hints:on|manual": "set hint mode",
+    "phase:value": "set phase",
+    "learning:name": "add a learning observation without changing outcome",
+    "acquire:Eid": "add evidence to owned set",
+    "inspect:Eid": "open readable evidence panel; mark inspected only on panel completion",
+    "submit:Eid": "add an owned inspected item to submitted set",
+    "examine:Eid": "add a submitted item to examined set after shared review",
+    "oral:id": "record a heard and examined statement",
+    "panel:name": "invoke specified UI panel and resume the target node on close",
+    "source:claimId": "open a source card; never treat as evidence",
+    "route:value": "delegate to outcome, replay or completion handler"
+  },
+  "conditionGrammar": "requires is AND across flags such as flag:name, inspected:E01, examined:E04; unmet choices show a concise reason and a path to the required inspection",
+  "proceduralCompression": "Attendance, authority and service are stipulated; full procedural explanations, opposing question opportunities, deliberation and judgment formalities require approved cinematic interstitials. This graph is an educational adaptation, not a complete hearing transcript.",
+  "companionFallbacks": [
+    {
+      "id": "AI_OUT_OF_SCOPE",
+      "speaker": "CH_QONUNAI",
+      "textUz": "Bu savol uşbu maşq doirasidan taşqarida. Tekşirilmagan qoida yoki modda aytmayman. Maşqdagi manbalarni körişingiz mumkin.",
+      "sourceClaimIds": [],
+      "voiceAsset": "AI_OUT_OF_SCOPE.opus"
+    },
+    {
+      "id": "AI_LINK_UNAVAILABLE",
+      "speaker": "CH_QONUNAI",
+      "textUz": "Lex.uz sahifasi hozir oçilmadi. Saqlangan izoh va tekşirilgan sana kartada bor. Havolani keyin yana oçişingiz mumkin.",
+      "sourceClaimIds": [],
+      "voiceAsset": "AI_LINK_UNAVAILABLE.opus"
+    },
+    {
+      "id": "AI_UNCERTAIN",
+      "speaker": "CH_QONUNAI",
+      "textUz": "Bu hozirça taxmin. Uni tasdiqlaydigan dalil bormi yoki savolni aniqlaştiramizmi?",
+      "sourceClaimIds": [],
+      "voiceAsset": "AI_UNCERTAIN.opus"
+    }
+  ]
+}

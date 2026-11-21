@@ -1,0 +1,30 @@
+HUQUQBEK 0.2 — LOCAL PLAYABLE BUILD
+
+RUN
+Install/use Node.js 24 or newer. Extract the ZIP completely, then double-click Start-HuquqBek.cmd. The application opens http://127.0.0.1:4189/.
+The built application needs no npm installation. Development: npm ci, npm run build, npm start.
+
+IMPLEMENTED
+50 distinct sourced educational case adaptations: 17 consumer, 17 employment, 16 criminal procedure.
+200 original fictional teaching exhibits and 300 case-specific decisions, plus role-responsibility questions.
+Case/category/search/role selection; seven character profiles with compatible roles.
+Client clarification, negotiation for appropriate civil roles, hearings, evidence read/submit/examine stages, final position, learning score, feedback, retry and JSON report export.
+Local attempt history and teacher comments. Original detailed advocate mission preserved.
+Optional 3D courtroom using unchanged original GLBs. Optional new-alphabet UI display; source text is preserved.
+Local Node backend for Groq/Gemini analysis, source-ID validation, VoiceLab short-lived STT tickets and WAV TTS. Password fields send provider credentials to server memory only. Environment variables GROQ_API_KEY, GEMINI_API_KEY and VOICELAB_API_KEY are also supported. Keys are not included in this package.
+
+VERIFICATION
+Production TypeScript/Vite build passed.
+13 automated tests passed, including all supported case/role combinations, evidence lifecycle, invalid saves and invented AI references.
+40 GLB containers validated; 41 original asset/manifest hashes unchanged.
+Browser: desktop library, prosecutor filter, character selection, decisions, evidence lifecycle, final report, mobile viewport and 3D rendering checked; no page errors observed.
+API: status 200; foreign-origin credential request rejected 403; unconfigured analysis returns 503 rather than a fabricated AI answer.
+
+LIMITATIONS
+Live paid-provider authentication, account quota, Uzbek speech quality and legal-feedback quality have NOT been verified. Enter replacement credentials in Ovoz va AI, then use Tekshirish. The text simulator works without providers.
+All 50 cases await educator and Uzbek legal review. They are teaching adaptations of official reports, not 50 complete court-record reconstructions. Synthetic dialogue and exhibits are labelled; source outcomes and known source anomalies are kept separate.
+The learning score is based on authored choices and evidence/argument preparation. It is NOT validation of a free-text legal opinion or a prediction of a real judgment. Final reasoning requires review; AI observations are provisional.
+Teacher view is browser-local, without accounts, classroom sync or access control. Do not use it as a hosted institutional service without further identity/privacy work.
+New-alphabet conversion is a display aid with basic substitutions; spelling exceptions and pronunciation still need review.
+The LexUZ Offline installer database was studied separately; its opaque full-text corpus has NOT been decoded or imported. Cases link official legal references; historical editions require review.
+Original character models remain base art. Voice animation is generic, not word-timed lip sync. Client/negotiation conversations are authored choices with optional AI feedback, not unlimited autonomous roleplay.

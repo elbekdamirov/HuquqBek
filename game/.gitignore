@@ -1,0 +1,12 @@
+node_modules/
+dist/
+qa/
+test-results/
+*.tsbuildinfo
+.env*
+!.env.example
+
+.local/
+# Large ZIP archives
+dist/*.zip
+game_backup_before_*.zip

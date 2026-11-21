@@ -1,0 +1,73 @@
+{
+  "browser": "157.0.8103.80",
+  "viewport": "1280x720",
+  "checks": [
+    {
+      "name": "keyboard-movement",
+      "before": "-0.45,0.00,0.30",
+      "after": "-0.45,0.00,-1.97"
+    },
+    {
+      "name": "full-refund-playthrough",
+      "passed": true
+    },
+    {
+      "name": "save-after-reload",
+      "passed": true
+    },
+    {
+      "name": "no-prosecutor-download",
+      "passed": true
+    },
+    {
+      "name": "mobile-no-horizontal-overflow",
+      "passed": true
+    },
+    {
+      "name": "text-mode-control",
+      "passed": true
+    },
+    {
+      "name": "webgl-loss-preserves-text-playthrough",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "renderer": {
+    "renderer": "ANGLE (AMD, AMD Radeon 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "WebKit"
+  },
+  "menuStats": {
+    "fps": 10,
+    "calls": 160,
+    "triangles": 262774,
+    "textures": 230,
+    "estimatedTextureMB": 229,
+    "geometries": 121
+  },
+  "finalStats": {
+    "fps": 24,
+    "calls": 160,
+    "triangles": 262774,
+    "textures": 230,
+    "estimatedTextureMB": 228,
+    "geometries": 121
+  },
+  "glbResources": [
+    "http://127.0.0.1:5173/assets/environment/courtroom_colliders.glb",
+    "http://127.0.0.1:5173/assets/environment/courtroom.glb",
+    "http://127.0.0.1:5173/assets/characters/advokat.glb",
+    "http://127.0.0.1:5173/assets/animations/qv_female_clips.glb",
+    "http://127.0.0.1:5173/assets/characters/tomoshabin_yosh_lod2.glb",
+    "http://127.0.0.1:5173/assets/characters/sudya.glb",
+    "http://127.0.0.1:5173/assets/characters/javobgar.glb",
+    "http://127.0.0.1:5173/assets/characters/kotib_lod2.glb",
+    "http://127.0.0.1:5173/assets/characters/qoriqchi_lod2.glb",
+    "http://127.0.0.1:5173/assets/characters/tomoshabin_ayol_lod2.glb",
+    "http://127.0.0.1:5173/assets/characters/tomoshabin_erkak_lod2.glb",
+    "http://127.0.0.1:5173/assets/characters/guvoh_lod2.glb",
+    "http://127.0.0.1:5173/assets/animations/qv_male_clips.glb",
+    "http://127.0.0.1:5173/assets/characters/qonunai.glb"
+  ]
+}

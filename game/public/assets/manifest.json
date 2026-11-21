@@ -1,0 +1,3150 @@
+{
+  "project": "QonunVerse",
+  "generated": "2026-11-20",
+  "coordinates": {
+    "units": "metres",
+    "up": "+Y",
+    "forward_of_room": "-Z points from the gallery towards the judge",
+    "character_facing": "+Z at yaw 0 (towards the gallery); yaw_rad rotates about +Y",
+    "note": "Positions are already converted from Blender (x, y, z) to three.js (x, z, -y)."
+  },
+  "threejs_notes": {
+    "bone_names": "GLTFLoader sanitises 'mixamorig:Hips' to 'mixamorigHips' (same as Mixamo FBX in three.js).",
+    "face_layer": "Clips with layer=='face' only animate morph weights; play them on a second AnimationAction alongside a body clip.",
+    "in_place": "Walk/turn clips are in place. Move the root yourself (Walk speed_mps in clip meta).",
+    "lods": "LOD1/LOD2 GLBs contain no clips; play LOD0 clips on them via AnimationMixer (same bone names)."
+  },
+  "environment": {
+    "files": {
+      "lod0": "/assets/environment/courtroom.glb",
+      "lod1": "/assets/environment/courtroom_lod1.glb",
+      "colliders": "/assets/environment/courtroom_colliders.glb"
+    },
+    "draw_calls_est": 29,
+    "triangles": 30744,
+    "interactive_nodes": [
+      "INTERACT_SecurityDoor_Leaf0",
+      "INTERACT_MainDoor_Leaf0",
+      "INTERACT_MainDoor_Leaf1",
+      "INTERACT_Flag_Uzbekistan",
+      "INTERACT_CourtDisplay_Screen",
+      "INTERACT_EvidenceFolder_A",
+      "INTERACT_EvidenceFolder_P"
+    ],
+    "markers": {
+      "SEAT_Chair_sudya": {
+        "position": [
+          0.0,
+          0.93,
+          -7.72
+        ],
+        "yaw_rad": 0.0,
+        "type": "seat",
+        "seat_height": 0.48
+      },
+      "SEAT_Chair_kotib": {
+        "position": [
+          4.9,
+          0.73,
+          -7.6
+        ],
+        "yaw_rad": 0.0,
+        "type": "seat",
+        "seat_height": 0.48
+      },
+      "SEAT_Chair_advokat": {
+        "position": [
+          -2.3,
+          0.48,
+          -3.32
+        ],
+        "yaw_rad": 0.0,
+        "type": "seat",
+        "seat_height": 0.48
+      },
+      "SEAT_Chair_davogar": {
+        "position": [
+          -4.75,
+          0.48,
+          -2.75
+        ],
+        "yaw_rad": 1.0821,
+        "type": "seat",
+        "seat_height": 0.48
+      },
+      "PROP_EvidenceFolder_A": {
+        "position": [
+          -2.3,
+          0.85,
+          -2.75
+        ],
+        "yaw_rad": 0.0,
+        "type": "prop",
+        "prop": "evidence_folder"
+      },
+      "SEAT_Chair_prokuror": {
+        "position": [
+          1.9,
+          0.48,
+          -5.72
+        ],
+        "yaw_rad": 0.0,
+        "type": "seat",
+        "seat_height": 0.48
+      },
+      "PROP_EvidenceFolder_P": {
+        "position": [
+          2.65,
+          0.82,
+          -5.2
+        ],
+        "yaw_rad": 0.0,
+        "type": "prop",
+        "prop": "evidence_folder"
+      },
+      "SEAT_Chair_javobgar": {
+        "position": [
+          5.0,
+          0.48,
+          -3.78
+        ],
+        "yaw_rad": -0.4887,
+        "type": "seat",
+        "seat_height": 0.48
+      },
+      "SEAT_Chair_guvoh": {
+        "position": [
+          4.75,
+          0.48,
+          -0.2
+        ],
+        "yaw_rad": -3.1416,
+        "type": "seat",
+        "seat_height": 0.48
+      },
+      "SPAWN_sudya": {
+        "position": [
+          0.0,
+          0.45,
+          -7.62
+        ],
+        "yaw_rad": 0.0,
+        "type": "spawn",
+        "role": "judge",
+        "pose": "seated",
+        "character": "sudya"
+      },
+      "SPAWN_advokat": {
+        "position": [
+          -2.05,
+          0.0,
+          -3.45
+        ],
+        "yaw_rad": 2.6529,
+        "type": "spawn",
+        "role": "lawyer",
+        "pose": "standing",
+        "character": "advokat"
+      },
+      "SPAWN_prokuror": {
+        "position": [
+          1.9,
+          0.0,
+          -5.62
+        ],
+        "yaw_rad": 0.0,
+        "type": "spawn",
+        "role": "prosecutor",
+        "pose": "seated",
+        "character": "prokuror"
+      },
+      "SPAWN_davogar": {
+        "position": [
+          -4.75,
+          0.0,
+          -2.75
+        ],
+        "yaw_rad": 1.0821,
+        "type": "spawn",
+        "role": "plaintiff",
+        "pose": "seated",
+        "character": "davogar"
+      },
+      "SPAWN_javobgar": {
+        "position": [
+          5.0,
+          0.0,
+          -3.72
+        ],
+        "yaw_rad": -0.4887,
+        "type": "spawn",
+        "role": "defendant",
+        "pose": "seated",
+        "character": "javobgar"
+      },
+      "SPAWN_guvoh": {
+        "position": [
+          4.75,
+          0.0,
+          -0.2
+        ],
+        "yaw_rad": -3.1416,
+        "type": "spawn",
+        "role": "witness",
+        "pose": "seated",
+        "character": "guvoh"
+      },
+      "SPAWN_kotib": {
+        "position": [
+          4.9,
+          0.25,
+          -7.52
+        ],
+        "yaw_rad": 0.0,
+        "type": "spawn",
+        "role": "clerk",
+        "pose": "seated",
+        "character": "kotib"
+      },
+      "SPAWN_qoriqchi": {
+        "position": [
+          6.55,
+          0.0,
+          -8.05
+        ],
+        "yaw_rad": -0.384,
+        "type": "spawn",
+        "role": "security",
+        "pose": "standing",
+        "character": "qoriqchi"
+      },
+      "SPAWN_tomoshabin_ayol": {
+        "position": [
+          -4.3,
+          0.0,
+          2.07
+        ],
+        "yaw_rad": 3.002,
+        "type": "spawn",
+        "role": "spectator",
+        "pose": "seated",
+        "character": "tomoshabin_ayol"
+      },
+      "SPAWN_tomoshabin_erkak": {
+        "position": [
+          -0.95,
+          0.0,
+          2.07
+        ],
+        "yaw_rad": -3.1416,
+        "type": "spawn",
+        "role": "spectator",
+        "pose": "seated",
+        "character": "tomoshabin_erkak"
+      },
+      "SPAWN_tomoshabin_yosh": {
+        "position": [
+          3.3,
+          0.0,
+          3.37
+        ],
+        "yaw_rad": -3.0369,
+        "type": "spawn",
+        "role": "spectator",
+        "pose": "seated",
+        "character": "tomoshabin_yosh"
+      },
+      "SPAWN_qonunai": {
+        "position": [
+          -5.7,
+          0.55,
+          -5.4
+        ],
+        "yaw_rad": -0.6109,
+        "type": "spawn",
+        "role": "guide",
+        "pose": "floating",
+        "character": "qonunai"
+      },
+      "WAYPOINT_advokat_0": {
+        "position": [
+          -2.05,
+          0.0,
+          -3.45
+        ],
+        "yaw_rad": 2.6529,
+        "type": "waypoint",
+        "path": "advokat_to_bench",
+        "index": 0
+      },
+      "WAYPOINT_advokat_1": {
+        "position": [
+          -0.9,
+          0.0,
+          -4.4
+        ],
+        "yaw_rad": 2.9671,
+        "type": "waypoint",
+        "path": "advokat_to_bench",
+        "index": 1
+      },
+      "WAYPOINT_advokat_2": {
+        "position": [
+          -0.3,
+          0.0,
+          -5.9
+        ],
+        "yaw_rad": -3.1416,
+        "type": "waypoint",
+        "path": "advokat_to_bench",
+        "index": 2
+      },
+      "WAYPOINT_advokat_3": {
+        "position": [
+          -0.3,
+          0.0,
+          -6.05
+        ],
+        "yaw_rad": -3.1416,
+        "type": "waypoint",
+        "path": "advokat_to_bench",
+        "index": 3
+      },
+      "POINT_evidence_handover": {
+        "position": [
+          -0.3,
+          1.24,
+          -6.25
+        ],
+        "yaw_rad": -3.1416,
+        "type": "interaction",
+        "action": "present_evidence"
+      },
+      "POINT_witness_stand_entry": {
+        "position": [
+          3.4,
+          0.0,
+          -0.2
+        ],
+        "yaw_rad": 1.5708,
+        "type": "waypoint",
+        "path": "witness_entry",
+        "index": 0
+      },
+      "POINT_security_door": {
+        "position": [
+          6.9,
+          0.0,
+          -7.55
+        ],
+        "yaw_rad": -1.5708,
+        "type": "interaction",
+        "action": "door"
+      },
+      "POINT_gallery_gate": {
+        "position": [
+          0.0,
+          0.0,
+          0.95
+        ],
+        "yaw_rad": -3.1416,
+        "type": "waypoint",
+        "path": "gallery_gate",
+        "index": 0
+      },
+      "CAM_reference": {
+        "position": [
+          -0.3,
+          1.32,
+          3.1
+        ],
+        "yaw_rad": -0.0883,
+        "type": "camera",
+        "fov_deg": 64.55,
+        "target": [
+          0.55,
+          1.7,
+          -6.5
+        ]
+      },
+      "CAM_overview": {
+        "position": [
+          0.0,
+          4.3,
+          5.6
+        ],
+        "yaw_rad": 0.0,
+        "type": "camera",
+        "fov_deg": 67.38,
+        "target": [
+          0.0,
+          0.6,
+          -4.5
+        ]
+      },
+      "CAM_judge_pov": {
+        "position": [
+          0.0,
+          1.65,
+          -7.4
+        ],
+        "yaw_rad": -3.1416,
+        "type": "camera",
+        "fov_deg": 49.55,
+        "target": [
+          0.0,
+          1.0,
+          -0.0
+        ]
+      },
+      "CAM_advocate_closeup": {
+        "position": [
+          -0.6,
+          1.55,
+          -1.2
+        ],
+        "yaw_rad": 0.5725,
+        "type": "camera",
+        "fov_deg": 26.99,
+        "target": [
+          -2.05,
+          1.5,
+          -3.45
+        ]
+      },
+      "CAM_witness": {
+        "position": [
+          2.6,
+          1.5,
+          -2.6
+        ],
+        "yaw_rad": -2.4111,
+        "type": "camera",
+        "fov_deg": 33.4,
+        "target": [
+          4.75,
+          1.1,
+          -0.2
+        ]
+      }
+    },
+    "lights_reference": [
+      {
+        "name": "Sconce_R0_Light",
+        "type": "POINT",
+        "color": [
+          1.0,
+          0.8199999928474426,
+          0.6000000238418579
+        ],
+        "blender_energy": 60.0,
+        "position": [
+          7.19,
+          3.0,
+          -3.7
+        ]
+      },
+      {
+        "name": "Sconce_R1_Light",
+        "type": "POINT",
+        "color": [
+          1.0,
+          0.8199999928474426,
+          0.6000000238418579
+        ],
+        "blender_energy": 60.0,
+        "position": [
+          7.19,
+          3.0,
+          -6.4
+        ]
+      },
+      {
+        "name": "Sconce_B0_Light",
+        "type": "POINT",
+        "color": [
+          1.0,
+          0.8199999928474426,
+          0.6000000238418579
+        ],
+        "blender_energy": 60.0,
+        "position": [
+          -3.95,
+          3.2,
+          -8.63
+        ]
+      },
+      {
+        "name": "Sconce_B1_Light",
+        "type": "POINT",
+        "color": [
+          1.0,
+          0.8199999928474426,
+          0.6000000238418579
+        ],
+        "blender_energy": 60.0,
+        "position": [
+          3.95,
+          3.2,
+          -8.63
+        ]
+      },
+      {
+        "name": "Sun_Windows",
+        "type": "SUN",
+        "color": [
+          1.0,
+          0.949999988079071,
+          0.8799999952316284
+        ],
+        "blender_energy": 4.5,
+        "position": [
+          0.0,
+          0.0,
+          -0.0
+        ]
+      },
+      {
+        "name": "Area_-2_0",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          -5.6,
+          5.55,
+          4.0
+        ]
+      },
+      {
+        "name": "Area_-2_1",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          -5.6,
+          5.55,
+          0.4
+        ]
+      },
+      {
+        "name": "Area_-2_2",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          -5.6,
+          5.55,
+          -3.2
+        ]
+      },
+      {
+        "name": "Area_-2_3",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          -5.6,
+          5.55,
+          -6.8
+        ]
+      },
+      {
+        "name": "Area_-1_0",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          -2.8,
+          5.55,
+          4.0
+        ]
+      },
+      {
+        "name": "Area_-1_1",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          -2.8,
+          5.55,
+          0.4
+        ]
+      },
+      {
+        "name": "Area_-1_2",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          -2.8,
+          5.55,
+          -3.2
+        ]
+      },
+      {
+        "name": "Area_-1_3",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          -2.8,
+          5.55,
+          -6.8
+        ]
+      },
+      {
+        "name": "Area_0_0",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          0.0,
+          5.55,
+          4.0
+        ]
+      },
+      {
+        "name": "Area_0_1",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          0.0,
+          5.55,
+          0.4
+        ]
+      },
+      {
+        "name": "Area_0_2",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          0.0,
+          5.55,
+          -3.2
+        ]
+      },
+      {
+        "name": "Area_0_3",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          0.0,
+          5.55,
+          -6.8
+        ]
+      },
+      {
+        "name": "Area_1_0",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          2.8,
+          5.55,
+          4.0
+        ]
+      },
+      {
+        "name": "Area_1_1",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          2.8,
+          5.55,
+          0.4
+        ]
+      },
+      {
+        "name": "Area_1_2",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          2.8,
+          5.55,
+          -3.2
+        ]
+      },
+      {
+        "name": "Area_1_3",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          2.8,
+          5.55,
+          -6.8
+        ]
+      },
+      {
+        "name": "Area_2_0",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          5.6,
+          5.55,
+          4.0
+        ]
+      },
+      {
+        "name": "Area_2_1",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          5.6,
+          5.55,
+          0.4
+        ]
+      },
+      {
+        "name": "Area_2_2",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          5.6,
+          5.55,
+          -3.2
+        ]
+      },
+      {
+        "name": "Area_2_3",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8600000143051147
+        ],
+        "blender_energy": 140.0,
+        "position": [
+          5.6,
+          5.55,
+          -6.8
+        ]
+      },
+      {
+        "name": "Fill_Bench",
+        "type": "AREA",
+        "color": [
+          1.0,
+          0.8799999952316284,
+          0.7200000286102295
+        ],
+        "blender_energy": 300.0,
+        "position": [
+          0.0,
+          3.6,
+          -4.5
+        ]
+      }
+    ],
+    "recommended_lighting": {
+      "hemisphere": {
+        "sky": "#fff4e6",
+        "ground": "#3a2a20",
+        "intensity": 0.6
+      },
+      "directional_sun": {
+        "color": "#fff1dd",
+        "intensity": 2.2,
+        "position": [
+          8,
+          6,
+          -2
+        ],
+        "castShadow": true
+      },
+      "fill_points": "use lights_reference sconces (warm #ffd19a) at 2-4 cd; ceiling panels as RectAreaLights",
+      "tone_mapping": "ACESFilmic or AgX, exposure 1.0, sRGB output"
+    },
+    "source_blend": "blender/courtroom.blend"
+  },
+  "characters": [
+    {
+      "id": "sudya",
+      "role": "judge",
+      "label_uz": "Sudya",
+      "label_en": "Judge",
+      "status": "built",
+      "asset_quality": "mpfb_base_needs_art_pass",
+      "files": {
+        "lod0": "/assets/characters/sudya.glb",
+        "lod1": "/assets/characters/sudya_lod1.glb",
+        "lod2": "/assets/characters/sudya_lod2.glb"
+      },
+      "source_blend": "blender/characters/sudya.blend",
+      "height_m": 1.745,
+      "spawn": {
+        "position": [
+          0.0,
+          0.45,
+          -7.62
+        ],
+        "yaw_rad": 0.0,
+        "pose": "seated",
+        "marker": "SPAWN_sudya"
+      },
+      "seat_marker": "SEAT_Chair_sudya",
+      "clips": {
+        "Idle_Stand": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated_Lap": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Walk": {
+          "duration_s": 1.067,
+          "loop": true,
+          "root_motion": "in_place",
+          "speed_mps": 1.067
+        },
+        "Sit_Down": {
+          "duration_s": 1.6,
+          "loop": false,
+          "start_offset_m": [
+            0,
+            -0.32,
+            0
+          ],
+          "note": "Root sits at the seat origin; clip starts standing 0.32 m in front"
+        },
+        "Stand_Up": {
+          "duration_s": 1.6,
+          "loop": false,
+          "end_offset_m": [
+            0,
+            -0.32,
+            0
+          ]
+        },
+        "Talk_Seated": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Talk_Standing": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Read_Document_Seated": {
+          "duration_s": 4.0,
+          "loop": true
+        },
+        "Head_Nod": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Head_Shake": {
+          "duration_s": 1.4,
+          "loop": false
+        },
+        "Look_Left": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Gesture_Point": {
+          "duration_s": 2.2,
+          "loop": false
+        },
+        "Deliver_Verdict": {
+          "duration_s": 4.0,
+          "loop": false,
+          "face_clip": "Face_Talk"
+        },
+        "React_Concerned": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "Turn_Left_90": {
+          "duration_s": 1.0,
+          "loop": false,
+          "root_yaw_delta_deg": 90,
+          "note": "Hips rotate 90 deg in-clip; on finish add the yaw to the root and play an idle"
+        },
+        "Turn_Right_90": {
+          "duration_s": 1.0,
+          "loop": false,
+          "root_yaw_delta_deg": -90,
+          "note": "Hips rotate 90 deg in-clip; on finish add the yaw to the root and play an idle"
+        },
+        "Head_Nod_Seated": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Head_Shake_Seated": {
+          "duration_s": 1.4,
+          "loop": false
+        },
+        "Look_Left_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Gesture_Point_Seated": {
+          "duration_s": 2.2,
+          "loop": false
+        },
+        "React_Concerned_Seated": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "Face_Idle": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Talk": {
+          "duration_s": 3.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Smile": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Concerned": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Surprised": {
+          "duration_s": 3.0,
+          "loop": false,
+          "layer": "face"
+        },
+        "Face_Stern": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Blink": {
+          "duration_s": 0.4,
+          "loop": false,
+          "layer": "face"
+        }
+      },
+      "morph_targets": [
+        "Blink_L",
+        "Blink_R",
+        "Eye_Wide_L",
+        "Eye_Wide_R",
+        "Eye_Squint_L",
+        "Eye_Squint_R",
+        "Brow_Up_L",
+        "Brow_Up_R",
+        "Brow_Down_L",
+        "Brow_Down_R",
+        "Brow_Inner_Up_L",
+        "Brow_Inner_Up_R",
+        "Mouth_Open",
+        "Smile",
+        "Frown",
+        "Mouth_Pursing",
+        "Mouth_Wide",
+        "Mouth_Compress"
+      ],
+      "outfit_brief": "Black judicial robe with light ornamental trim, white shirt, dark tie",
+      "procedural_garments": [
+        "sudya_Robe",
+        "sudya_RobeSkirt"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "advokat",
+      "role": "lawyer",
+      "label_uz": "Advokat",
+      "label_en": "Defence lawyer",
+      "status": "built",
+      "asset_quality": "mpfb_base_needs_art_pass",
+      "files": {
+        "lod0": "/assets/characters/advokat.glb",
+        "lod1": "/assets/characters/advokat_lod1.glb",
+        "lod2": "/assets/characters/advokat_lod2.glb"
+      },
+      "source_blend": "blender/characters/advokat.blend",
+      "height_m": 1.61,
+      "spawn": {
+        "position": [
+          -2.05,
+          0.0,
+          -3.45
+        ],
+        "yaw_rad": 2.6529,
+        "pose": "standing",
+        "marker": "SPAWN_advokat"
+      },
+      "seat_marker": "SEAT_Chair_advokat",
+      "clips": {
+        "Idle_Stand": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated_Lap": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Walk": {
+          "duration_s": 1.067,
+          "loop": true,
+          "root_motion": "in_place",
+          "speed_mps": 0.952
+        },
+        "Turn_Left_90": {
+          "duration_s": 1.0,
+          "loop": false,
+          "root_yaw_delta_deg": 90,
+          "note": "Hips rotate 90 deg in-clip; on finish add the yaw to the root and play an idle"
+        },
+        "Turn_Right_90": {
+          "duration_s": 1.0,
+          "loop": false,
+          "root_yaw_delta_deg": -90,
+          "note": "Hips rotate 90 deg in-clip; on finish add the yaw to the root and play an idle"
+        },
+        "Sit_Down": {
+          "duration_s": 1.6,
+          "loop": false,
+          "start_offset_m": [
+            0,
+            -0.32,
+            0
+          ],
+          "note": "Root sits at the seat origin; clip starts standing 0.32 m in front"
+        },
+        "Stand_Up": {
+          "duration_s": 1.6,
+          "loop": false,
+          "end_offset_m": [
+            0,
+            -0.32,
+            0
+          ]
+        },
+        "Talk_Standing": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Talk_Seated": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Address_Judge": {
+          "duration_s": 5.2,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Present_Evidence": {
+          "duration_s": 3.6,
+          "loop": false,
+          "prop_socket": "mixamorig:RightHand",
+          "prop": "evidence_folder",
+          "events": {
+            "grab": 0.5,
+            "handover": 2.3
+          }
+        },
+        "Read_Document_Seated": {
+          "duration_s": 4.0,
+          "loop": true
+        },
+        "Read_Document_Standing": {
+          "duration_s": 4.0,
+          "loop": true,
+          "prop_socket": "mixamorig:RightHand"
+        },
+        "Gesture_OpenHand": {
+          "duration_s": 2.0,
+          "loop": false
+        },
+        "Gesture_Point": {
+          "duration_s": 2.2,
+          "loop": false
+        },
+        "Objection": {
+          "duration_s": 2.0,
+          "loop": false
+        },
+        "Head_Nod": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Head_Shake": {
+          "duration_s": 1.4,
+          "loop": false
+        },
+        "Look_Left": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "React_Surprised": {
+          "duration_s": 1.6,
+          "loop": false
+        },
+        "React_Concerned": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "Gesture_OpenHand_Seated": {
+          "duration_s": 2.0,
+          "loop": false
+        },
+        "Gesture_Point_Seated": {
+          "duration_s": 2.2,
+          "loop": false
+        },
+        "Objection_Seated": {
+          "duration_s": 2.0,
+          "loop": false
+        },
+        "Head_Nod_Seated": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Head_Shake_Seated": {
+          "duration_s": 1.4,
+          "loop": false
+        },
+        "Look_Left_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "React_Surprised_Seated": {
+          "duration_s": 1.6,
+          "loop": false
+        },
+        "React_Concerned_Seated": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "Face_Idle": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Talk": {
+          "duration_s": 3.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Smile": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Concerned": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Surprised": {
+          "duration_s": 3.0,
+          "loop": false,
+          "layer": "face"
+        },
+        "Face_Stern": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Blink": {
+          "duration_s": 0.4,
+          "loop": false,
+          "layer": "face"
+        }
+      },
+      "morph_targets": [
+        "Blink_L",
+        "Blink_R",
+        "Eye_Wide_L",
+        "Eye_Wide_R",
+        "Eye_Squint_L",
+        "Eye_Squint_R",
+        "Brow_Up_L",
+        "Brow_Up_R",
+        "Brow_Down_L",
+        "Brow_Down_R",
+        "Brow_Inner_Up_L",
+        "Brow_Inner_Up_R",
+        "Mouth_Open",
+        "Smile",
+        "Frown",
+        "Mouth_Pursing",
+        "Mouth_Wide",
+        "Mouth_Compress"
+      ],
+      "outfit_brief": "Tailored black suit, white blouse, dark hair in a low bun",
+      "procedural_garments": [
+        "advokat_HairBun"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "prokuror",
+      "role": "prosecutor",
+      "label_uz": "Prokuror",
+      "label_en": "Prosecutor",
+      "status": "built",
+      "asset_quality": "mpfb_base_needs_art_pass",
+      "files": {
+        "lod0": "/assets/characters/prokuror.glb",
+        "lod1": "/assets/characters/prokuror_lod1.glb",
+        "lod2": "/assets/characters/prokuror_lod2.glb"
+      },
+      "source_blend": "blender/characters/prokuror.blend",
+      "height_m": 1.791,
+      "spawn": {
+        "position": [
+          1.9,
+          0.0,
+          -5.62
+        ],
+        "yaw_rad": 0.0,
+        "pose": "seated",
+        "marker": "SPAWN_prokuror"
+      },
+      "seat_marker": "SEAT_Chair_prokuror",
+      "clips": {
+        "Idle_Stand": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated_Lap": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Walk": {
+          "duration_s": 1.067,
+          "loop": true,
+          "root_motion": "in_place",
+          "speed_mps": 1.104
+        },
+        "Sit_Down": {
+          "duration_s": 1.6,
+          "loop": false,
+          "start_offset_m": [
+            0,
+            -0.32,
+            0
+          ],
+          "note": "Root sits at the seat origin; clip starts standing 0.32 m in front"
+        },
+        "Stand_Up": {
+          "duration_s": 1.6,
+          "loop": false,
+          "end_offset_m": [
+            0,
+            -0.32,
+            0
+          ]
+        },
+        "Talk_Seated": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Talk_Standing": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Read_Document_Seated": {
+          "duration_s": 4.0,
+          "loop": true
+        },
+        "Gesture_Point": {
+          "duration_s": 2.2,
+          "loop": false
+        },
+        "Gesture_OpenHand": {
+          "duration_s": 2.0,
+          "loop": false
+        },
+        "Present_Evidence": {
+          "duration_s": 3.6,
+          "loop": false,
+          "prop_socket": "mixamorig:RightHand",
+          "prop": "evidence_folder",
+          "events": {
+            "grab": 0.5,
+            "handover": 2.3
+          }
+        },
+        "Objection": {
+          "duration_s": 2.0,
+          "loop": false
+        },
+        "Head_Nod": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Head_Shake": {
+          "duration_s": 1.4,
+          "loop": false
+        },
+        "Look_Left": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Turn_Left_90": {
+          "duration_s": 1.0,
+          "loop": false,
+          "root_yaw_delta_deg": 90,
+          "note": "Hips rotate 90 deg in-clip; on finish add the yaw to the root and play an idle"
+        },
+        "Turn_Right_90": {
+          "duration_s": 1.0,
+          "loop": false,
+          "root_yaw_delta_deg": -90,
+          "note": "Hips rotate 90 deg in-clip; on finish add the yaw to the root and play an idle"
+        },
+        "React_Concerned": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "Gesture_Point_Seated": {
+          "duration_s": 2.2,
+          "loop": false
+        },
+        "Gesture_OpenHand_Seated": {
+          "duration_s": 2.0,
+          "loop": false
+        },
+        "Objection_Seated": {
+          "duration_s": 2.0,
+          "loop": false
+        },
+        "Head_Nod_Seated": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Head_Shake_Seated": {
+          "duration_s": 1.4,
+          "loop": false
+        },
+        "Look_Left_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "React_Concerned_Seated": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "Face_Idle": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Talk": {
+          "duration_s": 3.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Smile": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Concerned": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Surprised": {
+          "duration_s": 3.0,
+          "loop": false,
+          "layer": "face"
+        },
+        "Face_Stern": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Blink": {
+          "duration_s": 0.4,
+          "loop": false,
+          "layer": "face"
+        }
+      },
+      "morph_targets": [
+        "Blink_L",
+        "Blink_R",
+        "Eye_Wide_L",
+        "Eye_Wide_R",
+        "Eye_Squint_L",
+        "Eye_Squint_R",
+        "Brow_Up_L",
+        "Brow_Up_R",
+        "Brow_Down_L",
+        "Brow_Down_R",
+        "Brow_Inner_Up_L",
+        "Brow_Inner_Up_R",
+        "Mouth_Open",
+        "Smile",
+        "Frown",
+        "Mouth_Pursing",
+        "Mouth_Wide",
+        "Mouth_Compress"
+      ],
+      "outfit_brief": "Dark navy prosecutor's uniform with gold shoulder boards (verify insignia against official sources)",
+      "procedural_garments": [
+        "prokuror_Epaulette_Left",
+        "prokuror_EpauletteStripe_Left",
+        "prokuror_Epaulette_Right",
+        "prokuror_EpauletteStripe_Right"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "davogar",
+      "role": "plaintiff",
+      "label_uz": "Da’vogar",
+      "label_en": "Plaintiff",
+      "status": "built",
+      "asset_quality": "mpfb_base_needs_art_pass",
+      "files": {
+        "lod0": "/assets/characters/davogar.glb",
+        "lod1": "/assets/characters/davogar_lod1.glb",
+        "lod2": "/assets/characters/davogar_lod2.glb"
+      },
+      "source_blend": "blender/characters/davogar.blend",
+      "height_m": 1.786,
+      "spawn": {
+        "position": [
+          -4.75,
+          0.0,
+          -2.75
+        ],
+        "yaw_rad": 1.0821,
+        "pose": "seated",
+        "marker": "SPAWN_davogar"
+      },
+      "seat_marker": "SEAT_Chair_davogar",
+      "clips": {
+        "Idle_Stand": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated_Lap": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Walk": {
+          "duration_s": 1.067,
+          "loop": true,
+          "root_motion": "in_place",
+          "speed_mps": 1.1
+        },
+        "Sit_Down": {
+          "duration_s": 1.6,
+          "loop": false,
+          "start_offset_m": [
+            0,
+            -0.32,
+            0
+          ],
+          "note": "Root sits at the seat origin; clip starts standing 0.32 m in front"
+        },
+        "Stand_Up": {
+          "duration_s": 1.6,
+          "loop": false,
+          "end_offset_m": [
+            0,
+            -0.32,
+            0
+          ]
+        },
+        "Talk_Seated": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Talk_Standing": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Head_Nod": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Head_Shake": {
+          "duration_s": 1.4,
+          "loop": false
+        },
+        "Look_Left": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "React_Concerned": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "React_Surprised": {
+          "duration_s": 1.6,
+          "loop": false
+        },
+        "Head_Nod_Seated": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Head_Shake_Seated": {
+          "duration_s": 1.4,
+          "loop": false
+        },
+        "Look_Left_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "React_Concerned_Seated": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "React_Surprised_Seated": {
+          "duration_s": 1.6,
+          "loop": false
+        },
+        "Face_Idle": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Talk": {
+          "duration_s": 3.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Smile": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Concerned": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Surprised": {
+          "duration_s": 3.0,
+          "loop": false,
+          "layer": "face"
+        },
+        "Face_Stern": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Blink": {
+          "duration_s": 0.4,
+          "loop": false,
+          "layer": "face"
+        }
+      },
+      "morph_targets": [
+        "Blink_L",
+        "Blink_R",
+        "Eye_Wide_L",
+        "Eye_Wide_R",
+        "Eye_Squint_L",
+        "Eye_Squint_R",
+        "Brow_Up_L",
+        "Brow_Up_R",
+        "Brow_Down_L",
+        "Brow_Down_R",
+        "Brow_Inner_Up_L",
+        "Brow_Inner_Up_R",
+        "Mouth_Open",
+        "Smile",
+        "Frown",
+        "Mouth_Pursing",
+        "Mouth_Wide",
+        "Mouth_Compress"
+      ],
+      "outfit_brief": "White button-down shirt, dark trousers",
+      "procedural_garments": [],
+      "warnings": []
+    },
+    {
+      "id": "javobgar",
+      "role": "defendant",
+      "label_uz": "Ayblanuvchi",
+      "label_en": "Defendant",
+      "status": "built",
+      "asset_quality": "mpfb_base_needs_art_pass",
+      "files": {
+        "lod0": "/assets/characters/javobgar.glb",
+        "lod1": "/assets/characters/javobgar_lod1.glb",
+        "lod2": "/assets/characters/javobgar_lod2.glb"
+      },
+      "source_blend": "blender/characters/javobgar.blend",
+      "height_m": 1.737,
+      "spawn": {
+        "position": [
+          5.0,
+          0.0,
+          -3.72
+        ],
+        "yaw_rad": -0.4887,
+        "pose": "seated",
+        "marker": "SPAWN_javobgar"
+      },
+      "seat_marker": "SEAT_Chair_javobgar",
+      "clips": {
+        "Idle_Stand": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated_Lap": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Walk": {
+          "duration_s": 1.067,
+          "loop": true,
+          "root_motion": "in_place",
+          "speed_mps": 1.061
+        },
+        "Sit_Down": {
+          "duration_s": 1.6,
+          "loop": false,
+          "start_offset_m": [
+            0,
+            -0.32,
+            0
+          ],
+          "note": "Root sits at the seat origin; clip starts standing 0.32 m in front"
+        },
+        "Stand_Up": {
+          "duration_s": 1.6,
+          "loop": false,
+          "end_offset_m": [
+            0,
+            -0.32,
+            0
+          ]
+        },
+        "Talk_Seated": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Talk_Standing": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Head_Nod": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Head_Shake": {
+          "duration_s": 1.4,
+          "loop": false
+        },
+        "Look_Left": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "React_Concerned": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "React_Surprised": {
+          "duration_s": 1.6,
+          "loop": false
+        },
+        "Head_Nod_Seated": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Head_Shake_Seated": {
+          "duration_s": 1.4,
+          "loop": false
+        },
+        "Look_Left_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "React_Concerned_Seated": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "React_Surprised_Seated": {
+          "duration_s": 1.6,
+          "loop": false
+        },
+        "Face_Idle": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Talk": {
+          "duration_s": 3.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Smile": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Concerned": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Surprised": {
+          "duration_s": 3.0,
+          "loop": false,
+          "layer": "face"
+        },
+        "Face_Stern": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Blink": {
+          "duration_s": 0.4,
+          "loop": false,
+          "layer": "face"
+        }
+      },
+      "morph_targets": [
+        "Blink_L",
+        "Blink_R",
+        "Eye_Wide_L",
+        "Eye_Wide_R",
+        "Eye_Squint_L",
+        "Eye_Squint_R",
+        "Brow_Up_L",
+        "Brow_Up_R",
+        "Brow_Down_L",
+        "Brow_Down_R",
+        "Brow_Inner_Up_L",
+        "Brow_Inner_Up_R",
+        "Mouth_Open",
+        "Smile",
+        "Frown",
+        "Mouth_Pursing",
+        "Mouth_Wide",
+        "Mouth_Compress"
+      ],
+      "outfit_brief": "Dark charcoal shirt, dark trousers",
+      "procedural_garments": [],
+      "warnings": []
+    },
+    {
+      "id": "guvoh",
+      "role": "witness",
+      "label_uz": "Guvoh",
+      "label_en": "Witness",
+      "status": "built",
+      "asset_quality": "mpfb_base_needs_art_pass",
+      "files": {
+        "lod0": "/assets/characters/guvoh.glb",
+        "lod1": "/assets/characters/guvoh_lod1.glb",
+        "lod2": "/assets/characters/guvoh_lod2.glb"
+      },
+      "source_blend": "blender/characters/guvoh.blend",
+      "height_m": 1.605,
+      "spawn": {
+        "position": [
+          4.75,
+          0.0,
+          -0.2
+        ],
+        "yaw_rad": 3.1416,
+        "pose": "seated",
+        "marker": "SPAWN_guvoh"
+      },
+      "seat_marker": "SEAT_Chair_guvoh",
+      "clips": {
+        "Idle_Stand": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated_Lap": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Walk": {
+          "duration_s": 1.067,
+          "loop": true,
+          "root_motion": "in_place",
+          "speed_mps": 0.944
+        },
+        "Turn_Left_90": {
+          "duration_s": 1.0,
+          "loop": false,
+          "root_yaw_delta_deg": 90,
+          "note": "Hips rotate 90 deg in-clip; on finish add the yaw to the root and play an idle"
+        },
+        "Turn_Right_90": {
+          "duration_s": 1.0,
+          "loop": false,
+          "root_yaw_delta_deg": -90,
+          "note": "Hips rotate 90 deg in-clip; on finish add the yaw to the root and play an idle"
+        },
+        "Sit_Down": {
+          "duration_s": 1.6,
+          "loop": false,
+          "start_offset_m": [
+            0,
+            -0.32,
+            0
+          ],
+          "note": "Root sits at the seat origin; clip starts standing 0.32 m in front"
+        },
+        "Stand_Up": {
+          "duration_s": 1.6,
+          "loop": false,
+          "end_offset_m": [
+            0,
+            -0.32,
+            0
+          ]
+        },
+        "Talk_Seated": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Talk_Standing": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Testify": {
+          "duration_s": 5.0,
+          "loop": false,
+          "face_clip": "Face_Talk"
+        },
+        "Head_Nod": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Head_Shake": {
+          "duration_s": 1.4,
+          "loop": false
+        },
+        "Look_Left": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "React_Concerned": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "React_Surprised": {
+          "duration_s": 1.6,
+          "loop": false
+        },
+        "Nervous_Idle": {
+          "duration_s": 6.0,
+          "loop": true
+        },
+        "Head_Nod_Seated": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Head_Shake_Seated": {
+          "duration_s": 1.4,
+          "loop": false
+        },
+        "Look_Left_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "React_Concerned_Seated": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "React_Surprised_Seated": {
+          "duration_s": 1.6,
+          "loop": false
+        },
+        "Face_Idle": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Talk": {
+          "duration_s": 3.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Smile": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Concerned": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Surprised": {
+          "duration_s": 3.0,
+          "loop": false,
+          "layer": "face"
+        },
+        "Face_Stern": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Blink": {
+          "duration_s": 0.4,
+          "loop": false,
+          "layer": "face"
+        }
+      },
+      "morph_targets": [
+        "Blink_L",
+        "Blink_R",
+        "Eye_Wide_L",
+        "Eye_Wide_R",
+        "Eye_Squint_L",
+        "Eye_Squint_R",
+        "Brow_Up_L",
+        "Brow_Up_R",
+        "Brow_Down_L",
+        "Brow_Down_R",
+        "Brow_Inner_Up_L",
+        "Brow_Inner_Up_R",
+        "Mouth_Open",
+        "Smile",
+        "Frown",
+        "Mouth_Pursing",
+        "Mouth_Wide",
+        "Mouth_Compress"
+      ],
+      "outfit_brief": "Cream blouse, modest dark trousers, dark hair pulled back",
+      "procedural_garments": [],
+      "warnings": []
+    },
+    {
+      "id": "kotib",
+      "role": "clerk",
+      "label_uz": "Sud majlisi kotibi",
+      "label_en": "Court clerk",
+      "status": "built",
+      "asset_quality": "mpfb_base_needs_art_pass",
+      "files": {
+        "lod0": "/assets/characters/kotib.glb",
+        "lod1": "/assets/characters/kotib_lod1.glb",
+        "lod2": "/assets/characters/kotib_lod2.glb"
+      },
+      "source_blend": "blender/characters/kotib.blend",
+      "height_m": 1.6,
+      "spawn": {
+        "position": [
+          4.9,
+          0.25,
+          -7.52
+        ],
+        "yaw_rad": 0.0,
+        "pose": "seated",
+        "marker": "SPAWN_kotib"
+      },
+      "seat_marker": "SEAT_Chair_kotib",
+      "clips": {
+        "Idle_Stand": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated_Lap": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Walk": {
+          "duration_s": 1.067,
+          "loop": true,
+          "root_motion": "in_place",
+          "speed_mps": 0.941
+        },
+        "Sit_Down": {
+          "duration_s": 1.6,
+          "loop": false,
+          "start_offset_m": [
+            0,
+            -0.32,
+            0
+          ],
+          "note": "Root sits at the seat origin; clip starts standing 0.32 m in front"
+        },
+        "Stand_Up": {
+          "duration_s": 1.6,
+          "loop": false,
+          "end_offset_m": [
+            0,
+            -0.32,
+            0
+          ]
+        },
+        "Typing": {
+          "duration_s": 2.0,
+          "loop": true
+        },
+        "Talk_Seated": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Announce": {
+          "duration_s": 3.0,
+          "loop": false,
+          "face_clip": "Face_Talk"
+        },
+        "Read_Document_Seated": {
+          "duration_s": 4.0,
+          "loop": true
+        },
+        "Head_Nod": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Look_Left": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Head_Nod_Seated": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Look_Left_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Face_Idle": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Talk": {
+          "duration_s": 3.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Smile": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Concerned": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Surprised": {
+          "duration_s": 3.0,
+          "loop": false,
+          "layer": "face"
+        },
+        "Face_Stern": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Blink": {
+          "duration_s": 0.4,
+          "loop": false,
+          "layer": "face"
+        }
+      },
+      "morph_targets": [
+        "Blink_L",
+        "Blink_R",
+        "Eye_Wide_L",
+        "Eye_Wide_R",
+        "Eye_Squint_L",
+        "Eye_Squint_R",
+        "Brow_Up_L",
+        "Brow_Up_R",
+        "Brow_Down_L",
+        "Brow_Down_R",
+        "Brow_Inner_Up_L",
+        "Brow_Inner_Up_R",
+        "Mouth_Open",
+        "Smile",
+        "Frown",
+        "Mouth_Pursing",
+        "Mouth_Wide",
+        "Mouth_Compress"
+      ],
+      "outfit_brief": "Dark formal jacket, white shirt, shoulder-length dark hair",
+      "procedural_garments": [],
+      "warnings": []
+    },
+    {
+      "id": "qoriqchi",
+      "role": "security",
+      "label_uz": "Sud qo‘riqchisi",
+      "label_en": "Court security officer",
+      "status": "built",
+      "asset_quality": "mpfb_base_needs_art_pass",
+      "files": {
+        "lod0": "/assets/characters/qoriqchi.glb",
+        "lod1": "/assets/characters/qoriqchi_lod1.glb",
+        "lod2": "/assets/characters/qoriqchi_lod2.glb"
+      },
+      "source_blend": "blender/characters/qoriqchi.blend",
+      "height_m": 1.864,
+      "spawn": {
+        "position": [
+          6.55,
+          0.0,
+          -8.05
+        ],
+        "yaw_rad": -0.384,
+        "pose": "standing",
+        "marker": "SPAWN_qoriqchi"
+      },
+      "seat_marker": null,
+      "clips": {
+        "Idle_Stand": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated_Lap": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Walk": {
+          "duration_s": 1.067,
+          "loop": true,
+          "root_motion": "in_place",
+          "speed_mps": 1.158
+        },
+        "Guard_Idle": {
+          "duration_s": 12.0,
+          "loop": true
+        },
+        "Turn_Left_90": {
+          "duration_s": 1.0,
+          "loop": false,
+          "root_yaw_delta_deg": 90,
+          "note": "Hips rotate 90 deg in-clip; on finish add the yaw to the root and play an idle"
+        },
+        "Turn_Right_90": {
+          "duration_s": 1.0,
+          "loop": false,
+          "root_yaw_delta_deg": -90,
+          "note": "Hips rotate 90 deg in-clip; on finish add the yaw to the root and play an idle"
+        },
+        "Look_Left": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Head_Nod": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Gesture_Point": {
+          "duration_s": 2.2,
+          "loop": false
+        },
+        "Talk_Standing": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Look_Left_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Head_Nod_Seated": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Gesture_Point_Seated": {
+          "duration_s": 2.2,
+          "loop": false
+        },
+        "Face_Idle": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Talk": {
+          "duration_s": 3.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Smile": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Concerned": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Surprised": {
+          "duration_s": 3.0,
+          "loop": false,
+          "layer": "face"
+        },
+        "Face_Stern": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Blink": {
+          "duration_s": 0.4,
+          "loop": false,
+          "layer": "face"
+        }
+      },
+      "morph_targets": [
+        "Blink_L",
+        "Blink_R",
+        "Eye_Wide_L",
+        "Eye_Wide_R",
+        "Eye_Squint_L",
+        "Eye_Squint_R",
+        "Brow_Up_L",
+        "Brow_Up_R",
+        "Brow_Down_L",
+        "Brow_Down_R",
+        "Brow_Inner_Up_L",
+        "Brow_Inner_Up_R",
+        "Mouth_Open",
+        "Smile",
+        "Frown",
+        "Mouth_Pursing",
+        "Mouth_Wide",
+        "Mouth_Compress"
+      ],
+      "outfit_brief": "Dark navy security uniform, peaked cap, badge (verify details)",
+      "procedural_garments": [
+        "qoriqchi_CapBand",
+        "qoriqchi_CapCrown",
+        "qoriqchi_CapTop",
+        "qoriqchi_CapVisor",
+        "qoriqchi_CapBadge",
+        "qoriqchi_Badge",
+        "qoriqchi_Epaulette_Left",
+        "qoriqchi_EpauletteStripe_Left",
+        "qoriqchi_Epaulette_Right",
+        "qoriqchi_EpauletteStripe_Right"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "tomoshabin_ayol",
+      "role": "spectator",
+      "label_uz": "Tomoshabin 01",
+      "label_en": "Spectator (woman, headscarf)",
+      "status": "built",
+      "asset_quality": "mpfb_base_needs_art_pass",
+      "files": {
+        "lod0": "/assets/characters/tomoshabin_ayol.glb",
+        "lod1": "/assets/characters/tomoshabin_ayol_lod1.glb",
+        "lod2": "/assets/characters/tomoshabin_ayol_lod2.glb"
+      },
+      "source_blend": "blender/characters/tomoshabin_ayol.blend",
+      "height_m": 1.565,
+      "spawn": {
+        "position": [
+          -4.3,
+          0.0,
+          2.07
+        ],
+        "yaw_rad": 3.002,
+        "pose": "seated",
+        "marker": "SPAWN_tomoshabin_ayol"
+      },
+      "seat_marker": "SPAWN_tomoshabin_ayol",
+      "clips": {
+        "Idle_Stand": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated_Lap": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Walk": {
+          "duration_s": 1.067,
+          "loop": true,
+          "root_motion": "in_place",
+          "speed_mps": 0.912
+        },
+        "Head_Nod": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Look_Left": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "React_Concerned": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "Talk_Seated": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Sit_Down": {
+          "duration_s": 1.6,
+          "loop": false,
+          "start_offset_m": [
+            0,
+            -0.32,
+            0
+          ],
+          "note": "Root sits at the seat origin; clip starts standing 0.32 m in front"
+        },
+        "Stand_Up": {
+          "duration_s": 1.6,
+          "loop": false,
+          "end_offset_m": [
+            0,
+            -0.32,
+            0
+          ]
+        },
+        "Head_Nod_Seated": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Look_Left_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "React_Concerned_Seated": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "Face_Idle": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Talk": {
+          "duration_s": 3.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Smile": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Concerned": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Surprised": {
+          "duration_s": 3.0,
+          "loop": false,
+          "layer": "face"
+        },
+        "Face_Stern": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Blink": {
+          "duration_s": 0.4,
+          "loop": false,
+          "layer": "face"
+        }
+      },
+      "morph_targets": [
+        "Blink_L",
+        "Blink_R",
+        "Eye_Wide_L",
+        "Eye_Wide_R",
+        "Eye_Squint_L",
+        "Eye_Squint_R",
+        "Brow_Up_L",
+        "Brow_Up_R",
+        "Brow_Down_L",
+        "Brow_Down_R",
+        "Brow_Inner_Up_L",
+        "Brow_Inner_Up_R",
+        "Mouth_Open",
+        "Smile",
+        "Frown",
+        "Mouth_Pursing",
+        "Mouth_Wide",
+        "Mouth_Compress"
+      ],
+      "outfit_brief": "Patterned headscarf, dark neutral coat",
+      "procedural_garments": [
+        "tomoshabin_ayol_Headscarf.001"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "tomoshabin_erkak",
+      "role": "spectator",
+      "label_uz": "Tomoshabin 02",
+      "label_en": "Spectator (man, grey jacket)",
+      "status": "built",
+      "asset_quality": "mpfb_base_needs_art_pass",
+      "files": {
+        "lod0": "/assets/characters/tomoshabin_erkak.glb",
+        "lod1": "/assets/characters/tomoshabin_erkak_lod1.glb",
+        "lod2": "/assets/characters/tomoshabin_erkak_lod2.glb"
+      },
+      "source_blend": "blender/characters/tomoshabin_erkak.blend",
+      "height_m": 1.802,
+      "spawn": {
+        "position": [
+          -0.95,
+          0.0,
+          2.07
+        ],
+        "yaw_rad": 3.1416,
+        "pose": "seated",
+        "marker": "SPAWN_tomoshabin_erkak"
+      },
+      "seat_marker": "SPAWN_tomoshabin_erkak",
+      "clips": {
+        "Idle_Stand": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated_Lap": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Walk": {
+          "duration_s": 1.067,
+          "loop": true,
+          "root_motion": "in_place",
+          "speed_mps": 1.109
+        },
+        "Head_Nod": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Look_Left": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "React_Concerned": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "Talk_Seated": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Sit_Down": {
+          "duration_s": 1.6,
+          "loop": false,
+          "start_offset_m": [
+            0,
+            -0.32,
+            0
+          ],
+          "note": "Root sits at the seat origin; clip starts standing 0.32 m in front"
+        },
+        "Stand_Up": {
+          "duration_s": 1.6,
+          "loop": false,
+          "end_offset_m": [
+            0,
+            -0.32,
+            0
+          ]
+        },
+        "Head_Nod_Seated": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Look_Left_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "React_Concerned_Seated": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "Face_Idle": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Talk": {
+          "duration_s": 3.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Smile": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Concerned": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Surprised": {
+          "duration_s": 3.0,
+          "loop": false,
+          "layer": "face"
+        },
+        "Face_Stern": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Blink": {
+          "duration_s": 0.4,
+          "loop": false,
+          "layer": "face"
+        }
+      },
+      "morph_targets": [
+        "Blink_L",
+        "Blink_R",
+        "Eye_Wide_L",
+        "Eye_Wide_R",
+        "Eye_Squint_L",
+        "Eye_Squint_R",
+        "Brow_Up_L",
+        "Brow_Up_R",
+        "Brow_Down_L",
+        "Brow_Down_R",
+        "Brow_Inner_Up_L",
+        "Brow_Inner_Up_R",
+        "Mouth_Open",
+        "Smile",
+        "Frown",
+        "Mouth_Pursing",
+        "Mouth_Wide",
+        "Mouth_Compress"
+      ],
+      "outfit_brief": "Dark grey jacket",
+      "procedural_garments": [],
+      "warnings": []
+    },
+    {
+      "id": "tomoshabin_yosh",
+      "role": "spectator",
+      "label_uz": "Tomoshabin 03",
+      "label_en": "Spectator (young woman)",
+      "status": "built",
+      "asset_quality": "mpfb_base_needs_art_pass",
+      "files": {
+        "lod0": "/assets/characters/tomoshabin_yosh.glb",
+        "lod1": "/assets/characters/tomoshabin_yosh_lod1.glb",
+        "lod2": "/assets/characters/tomoshabin_yosh_lod2.glb"
+      },
+      "source_blend": "blender/characters/tomoshabin_yosh.blend",
+      "height_m": 1.581,
+      "spawn": {
+        "position": [
+          3.3,
+          0.0,
+          3.37
+        ],
+        "yaw_rad": 3.2463,
+        "pose": "seated",
+        "marker": "SPAWN_tomoshabin_yosh"
+      },
+      "seat_marker": "SPAWN_tomoshabin_yosh",
+      "clips": {
+        "Idle_Stand": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Idle_Seated_Lap": {
+          "duration_s": 8.0,
+          "loop": true
+        },
+        "Walk": {
+          "duration_s": 1.067,
+          "loop": true,
+          "root_motion": "in_place",
+          "speed_mps": 0.935
+        },
+        "Head_Nod": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Look_Left": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "React_Surprised": {
+          "duration_s": 1.6,
+          "loop": false
+        },
+        "Talk_Seated": {
+          "duration_s": 4.0,
+          "loop": true,
+          "face_clip": "Face_Talk"
+        },
+        "Sit_Down": {
+          "duration_s": 1.6,
+          "loop": false,
+          "start_offset_m": [
+            0,
+            -0.32,
+            0
+          ],
+          "note": "Root sits at the seat origin; clip starts standing 0.32 m in front"
+        },
+        "Stand_Up": {
+          "duration_s": 1.6,
+          "loop": false,
+          "end_offset_m": [
+            0,
+            -0.32,
+            0
+          ]
+        },
+        "Head_Nod_Seated": {
+          "duration_s": 1.2,
+          "loop": false
+        },
+        "Look_Left_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Look_Right_Seated": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "React_Surprised_Seated": {
+          "duration_s": 1.6,
+          "loop": false
+        },
+        "Face_Idle": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Talk": {
+          "duration_s": 3.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Smile": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Concerned": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Surprised": {
+          "duration_s": 3.0,
+          "loop": false,
+          "layer": "face"
+        },
+        "Face_Stern": {
+          "duration_s": 4.0,
+          "loop": true,
+          "layer": "face"
+        },
+        "Face_Blink": {
+          "duration_s": 0.4,
+          "loop": false,
+          "layer": "face"
+        }
+      },
+      "morph_targets": [
+        "Blink_L",
+        "Blink_R",
+        "Eye_Wide_L",
+        "Eye_Wide_R",
+        "Eye_Squint_L",
+        "Eye_Squint_R",
+        "Brow_Up_L",
+        "Brow_Up_R",
+        "Brow_Down_L",
+        "Brow_Down_R",
+        "Brow_Inner_Up_L",
+        "Brow_Inner_Up_R",
+        "Mouth_Open",
+        "Smile",
+        "Frown",
+        "Mouth_Pursing",
+        "Mouth_Wide",
+        "Mouth_Compress"
+      ],
+      "outfit_brief": "Long-sleeved cream blouse, dark trousers, tied dark hair",
+      "procedural_garments": [],
+      "warnings": []
+    },
+    {
+      "id": "qonunai",
+      "role": "guide",
+      "label_uz": "QonunAI",
+      "label_en": "Legal assistant mascot",
+      "status": "built",
+      "asset_quality": "stylised_final_candidate",
+      "files": {
+        "lod0": "/assets/characters/qonunai.glb",
+        "lod1": "/assets/characters/qonunai_lod1.glb",
+        "portrait": "/assets/characters/qonunai_portrait.png"
+      },
+      "source_blend": "blender/qonunai.blend",
+      "height_m": 1.0,
+      "spawn": {
+        "position": [
+          -5.7,
+          0.55,
+          -5.4
+        ],
+        "yaw_rad": -0.6109,
+        "pose": "floating",
+        "marker": "SPAWN_qonunai"
+      },
+      "seat_marker": null,
+      "clips": {
+        "Idle_Float": {
+          "duration_s": 4.0,
+          "loop": true
+        },
+        "Greet": {
+          "duration_s": 2.4,
+          "loop": false
+        },
+        "Point": {
+          "duration_s": 2.0,
+          "loop": false
+        },
+        "Explain": {
+          "duration_s": 4.0,
+          "loop": true
+        },
+        "Positive": {
+          "duration_s": 2.0,
+          "loop": false
+        },
+        "Concerned": {
+          "duration_s": 3.0,
+          "loop": false
+        },
+        "Speak": {
+          "duration_s": 3.0,
+          "loop": true
+        },
+        "Appear": {
+          "duration_s": 1.0,
+          "loop": false
+        },
+        "Disappear": {
+          "duration_s": 0.8,
+          "loop": false
+        }
+      },
+      "morph_targets": [
+        "Blink",
+        "Happy",
+        "Concerned",
+        "Mouth_Open",
+        "Smile"
+      ],
+      "outfit_brief": null,
+      "procedural_garments": [],
+      "warnings": []
+    }
+  ],
+  "animation_libraries": {
+    "female": {
+      "file": "/assets/animations/qv_female_clips.glb",
+      "source_character": "advokat",
+      "clips": [
+        "Address_Judge",
+        "Announce",
+        "Deliver_Verdict",
+        "Gesture_OpenHand",
+        "Gesture_OpenHand_Seated",
+        "Gesture_Point",
+        "Gesture_Point_Seated",
+        "Guard_Idle",
+        "Head_Nod",
+        "Head_Nod_Seated",
+        "Head_Shake",
+        "Head_Shake_Seated",
+        "Idle_Seated",
+        "Idle_Seated_Lap",
+        "Idle_Stand",
+        "Look_Left",
+        "Look_Left_Seated",
+        "Look_Right",
+        "Look_Right_Seated",
+        "Nervous_Idle",
+        "Objection",
+        "Objection_Seated",
+        "Present_Evidence",
+        "React_Concerned",
+        "React_Concerned_Seated",
+        "React_Surprised",
+        "React_Surprised_Seated",
+        "Read_Document_Seated",
+        "Read_Document_Standing",
+        "Sit_Down",
+        "Stand_Up",
+        "Talk_Seated",
+        "Talk_Standing",
+        "Testify",
+        "Turn_Left_90",
+        "Turn_Right_90",
+        "Typing",
+        "Walk"
+      ]
+    },
+    "male": {
+      "file": "/assets/animations/qv_male_clips.glb",
+      "source_character": "davogar",
+      "clips": [
+        "Address_Judge",
+        "Announce",
+        "Deliver_Verdict",
+        "Gesture_OpenHand",
+        "Gesture_OpenHand_Seated",
+        "Gesture_Point",
+        "Gesture_Point_Seated",
+        "Guard_Idle",
+        "Head_Nod",
+        "Head_Nod_Seated",
+        "Head_Shake",
+        "Head_Shake_Seated",
+        "Idle_Seated",
+        "Idle_Seated_Lap",
+        "Idle_Stand",
+        "Look_Left",
+        "Look_Left_Seated",
+        "Look_Right",
+        "Look_Right_Seated",
+        "Nervous_Idle",
+        "Objection",
+        "Objection_Seated",
+        "Present_Evidence",
+        "React_Concerned",
+        "React_Concerned_Seated",
+        "React_Surprised",
+        "React_Surprised_Seated",
+        "Read_Document_Seated",
+        "Read_Document_Standing",
+        "Sit_Down",
+        "Stand_Up",
+        "Talk_Seated",
+        "Talk_Standing",
+        "Testify",
+        "Turn_Left_90",
+        "Turn_Right_90",
+        "Typing",
+        "Walk"
+      ]
+    }
+  },
+  "action_map": {
+    "humans": {
+      "idle": {
+        "standing": "Idle_Stand",
+        "seated": "Idle_Seated"
+      },
+      "walk": "Walk",
+      "turn_left": "Turn_Left_90",
+      "turn_right": "Turn_Right_90",
+      "sit_down": "Sit_Down",
+      "stand_up": "Stand_Up",
+      "talk": {
+        "standing": "Talk_Standing",
+        "seated": "Talk_Seated"
+      },
+      "nod": {
+        "standing": "Head_Nod",
+        "seated": "Head_Nod_Seated"
+      },
+      "shake_head": {
+        "standing": "Head_Shake",
+        "seated": "Head_Shake_Seated"
+      },
+      "look_left": {
+        "standing": "Look_Left",
+        "seated": "Look_Left_Seated"
+      },
+      "look_right": {
+        "standing": "Look_Right",
+        "seated": "Look_Right_Seated"
+      },
+      "gesture": {
+        "standing": "Gesture_OpenHand",
+        "seated": "Gesture_OpenHand_Seated"
+      },
+      "point": {
+        "standing": "Gesture_Point",
+        "seated": "Gesture_Point_Seated"
+      },
+      "objection": {
+        "standing": "Objection",
+        "seated": "Objection_Seated"
+      },
+      "surprised": {
+        "standing": "React_Surprised",
+        "seated": "React_Surprised_Seated"
+      },
+      "concerned": {
+        "standing": "React_Concerned",
+        "seated": "React_Concerned_Seated"
+      },
+      "address_judge": "Address_Judge",
+      "present_evidence": "Present_Evidence",
+      "read_document": {
+        "standing": "Read_Document_Standing",
+        "seated": "Read_Document_Seated"
+      },
+      "deliver_verdict": "Deliver_Verdict",
+      "typing": "Typing",
+      "announce": "Announce",
+      "testify": "Testify",
+      "nervous": "Nervous_Idle",
+      "guard_idle": "Guard_Idle",
+      "face": {
+        "neutral": "Face_Idle",
+        "talk": "Face_Talk",
+        "smile": "Face_Smile",
+        "concerned": "Face_Concerned",
+        "surprised": "Face_Surprised",
+        "stern": "Face_Stern",
+        "blink": "Face_Blink"
+      }
+    },
+    "qonunai": {
+      "idle": "Idle_Float",
+      "greet": "Greet",
+      "point": "Point",
+      "explain": "Explain",
+      "positive": "Positive",
+      "concerned": "Concerned",
+      "speak": "Speak",
+      "appear": "Appear",
+      "disappear": "Disappear"
+    }
+  }
+}
