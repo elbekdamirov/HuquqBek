@@ -203,7 +203,8 @@ export function HuquqBekCertificateArt({
       {/* ID and issue date come from backend; don't invent verification IDs */}
       <g fontFamily="Arial, sans-serif">
         <text x="517" y="847" letterSpacing="3" fill="#e7ebf6" fontSize="17">{t.certId}</text>
-        <text x="517" y="887" fill="#fff" fontSize="26" fontWeight="800">{certificateId || "—"}</text>
+        {/* Long IDs are fitted into the column (517 → 749 divider) instead of running into the date. */}
+        <text x="517" y="887" fill="#fff" fontSize={(certificateId || "").length > 14 ? 21 : 26} fontWeight="800" {...((certificateId || "").length > 14 ? { textLength: 215, lengthAdjust: "spacingAndGlyphs" } : {})}>{certificateId || "—"}</text>
         <line x1="749" y1="819" x2="749" y2="891" stroke="#cbd3e1" strokeOpacity=".7"/>
         <text x="796" y="847" letterSpacing="3" fill="#e7ebf6" fontSize="17">{t.date}</text>
         <text x="796" y="887" fill="#fff" fontSize="26" fontWeight="800">{dateString}</text>
