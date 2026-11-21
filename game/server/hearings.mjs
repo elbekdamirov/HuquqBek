@@ -1,35 +1,565 @@
-import {randomUUID}from'node:crypto';import{readFileSync}from'node:fs';import{ApiError}from'./runtime.mjs';import{converse,hearingDecision}from'./ai.mjs';
-const cases=JSON.parse(readFileSync(new URL('../src/content/scenarios.json',import.meta.url),'utf8'));
-export const hearingStages=['arrival','opening','rights','statements','examination','debate','last_word','deliberation','decision','closed'];
-export const hearingLabels={arrival:'Zalga kirish',opening:'Rasmiy ochilish',rights:'Tarkib va huquqlar',statements:'Taraflar bayonoti',examination:'Sud tekshiruvi',debate:'Sud muzokarasi',last_word:'Sudlanuvchining oxirgi so‘zi',deliberation:'Maslahat va asoslash',decision:'Qarorni e’lon qilish',closed:'Majlis yakunlandi'};
-const msg=(actor,text,stage,who='npc')=>({id:randomUUID(),actor,text,stage,who,at:new Date().toISOString()});
-const ownActor=role=>({advokat:'CH_ADVOCATE',sudya:'CH_JUDGE',prokuror:'CH_PROSECUTOR'}[role]);
-export function trialActors(c,role){return ['CH_JUDGE','CH_CLERK',...((c.courtType==='criminal'||c.trial?.prosecutorRequired)?['CH_PROSECUTOR']:[]),'CH_ADVOCATE','CH_OPPOSING_COUNSEL',c.courtType==='criminal'?'CH_VICTIM':'CH_PLAINTIFF','CH_RESPONDENT','CH_WITNESS','CH_QONUNAI'].filter(a=>a!==ownActor(role));}
-export function hearingMissing(s,c){const missing=[];if(s.phase==='statements'&&!s.messages.some(m=>m.stage==='statements'&&m.who==='user'))missing.push('O‘z pozitsiyangizni kamida bir marta bayon qiling.');if(s.phase==='examination'){if(s.examined.length<Math.min(2,c.evidence.length))missing.push('Kamida ikki materialni taqdim etib, sudda tekshiring.');if(!s.questioned.includes('CH_WITNESS'))missing.push('Guvohni chaqirib, uning ko‘rsatmasini savol bilan tekshiring.');if(!s.questioned.includes('CH_RESPONDENT'))missing.push('Javobgar yoki sudlanuvchining izohini tinglang va savol bering.');}if(s.phase==='debate'&&!s.messages.some(m=>m.stage==='debate'&&m.who==='user'&&m.text.length>=40))missing.push('Dalil va qarama-qarshi fikrni bog‘lab sud nutqingizni bildiring.');return missing;}
-export function createHearing(c,role){return {version:1,caseId:c.id,role,phase:'arrival',read:[],submitted:[],examined:[],excluded:[],questioned:[],witnessCalled:false,messages:[msg('CH_QONUNAI',`${c.title}. Ish materiallari bilan tanishing. Rasmiy ochilish tugmasi bilan majlisga kiring.`, 'arrival')],events:[],reason:null,decision:null,revision:0};}
-export function applyHearing(s,c,action,body={}){const next=structuredClone(s);const stage=s.phase;const requireOpen=()=>{if(!['examination'].includes(stage))throw new ApiError(409,'Bu harakat sud tekshiruvi bosqichida bajariladi.');};const add=(actor,text)=>next.messages.push(msg(actor,text,next.phase));if(s.paused&&!['resume','read'].includes(action))throw new ApiError(409,'Tanaffusda majlis davom ettirilmaydi. Avval tanaffusni yakunlang.');if(['closed','decision'].includes(stage)&&action!=='close')throw new ApiError(409,'Qaror chiqarilgan. Yangi urinish boshlang.');
- if(action==='pause'){if(['arrival','deliberation','decision','closed'].includes(stage))throw new ApiError(409,'Hozir tanaffus so‘ralmaydi.');next.paused=true;add('CH_JUDGE','Sud majlisida tanaffus e’lon qilindi.');}
- else if(action==='resume'){if(!s.paused)throw new ApiError(409,'Tanaffus e’lon qilinmagan.');next.paused=false;add('CH_JUDGE','Tanaffus tugadi. Sud majlisi davom etadi.');}
- else if(action==='read'){if(!c.evidence.some(e=>e.id===body.evidenceId))throw new ApiError(400,'Material topilmadi.');if(!next.read.includes(body.evidenceId))next.read.push(body.evidenceId);}
- else if(action==='present'){requireOpen();if(!next.read.includes(body.evidenceId))throw new ApiError(409,'Avval materialni o‘qing.');if(!next.submitted.includes(body.evidenceId))next.submitted.push(body.evidenceId);add('CH_JUDGE',`${body.evidenceId} ishga taqdim etildi. Qabul qilish uning ishonchliligi isbotlanganini anglatmaydi; mazmunini tekshiramiz.`);}
- else if(action==='examine'){requireOpen();if(!next.submitted.includes(body.evidenceId)||next.excluded.includes(body.evidenceId))throw new ApiError(409,'Avval qabul qilingan materialni taqdim eting.');if(!next.examined.includes(body.evidenceId))next.examined.push(body.evidenceId);add('CH_JUDGE',`${body.evidenceId} muhokama qilindi. Taraflar mazmuni, kelib chiqishi va cheklovlari yuzasidan savol berishi mumkin.`);}
- else if(action==='call_witness'){requireOpen();next.witnessCalled=true;add('CH_CLERK','Guvoh zalga taklif qilinadi. Shaxsi va taraflar bilan munosabati aniqlanadi.');add('CH_JUDGE','Guvohga huquq va majburiyatlari tushuntiriladi. O‘zingiz kuzatgan holatni eshitgan gap yoki taxmindan ajrating.');}
- else if(action==='objection'){requireOpen();if(typeof body.text!=='string'||body.text.trim().length<20)throw new ApiError(400,'E’tiroz sababini kamida 20 belgi bilan asoslang.');if(!next.submitted.includes(body.evidenceId))throw new ApiError(409,'E’tiroz bildirilayotgan materialni tanlang.');next.messages.push(msg(ownActor(s.role),body.text.slice(0,3000),stage,'user'));next.events.push({type:'objection',evidenceId:body.evidenceId,text:body.text.slice(0,3000)});if(s.role==='sudya'&&['exclude','retain'].includes(body.ruling)){if(body.ruling==='exclude'){next.excluded=[...new Set([...next.excluded,body.evidenceId])];next.examined=next.examined.filter(id=>id!==body.evidenceId);}else next.excluded=next.excluded.filter(id=>id!==body.evidenceId);}add('CH_JUDGE','E’tiroz va unga qarshi fikr qayd etildi. Maqbullik masalasi protsessual asos bilan baholanadi; e’tirozning o‘zi dalilni chiqarib tashlamaydi.');}
- else if(action==='reopen'){if(!['debate','last_word','deliberation'].includes(stage))throw new ApiError(409,'Sud tekshiruvi hozir qayta ochilmaydi.');next.phase='examination';next.reason=null;next.draft=null;add('CH_JUDGE','Yangi yoki tekshirilmagan muhim holat sabab sud tekshiruvi qayta ochildi. Dalillar qayta muhokama qilinadi, keyin muzokara takrorlanadi.');}
- else if(action==='close'){if(stage!=='decision')throw new ApiError(409,'Avval qaror e’lon qilinsin.');next.phase='closed';add('CH_CLERK','O‘quv sud majlisi yakunlandi. Qaror, protsessual qaydlar va tahlil hisoboti saqlandi.');}
- else if(action==='next'){
- const missing=hearingMissing(s,c);if(missing.length)throw new ApiError(409,missing.join(' '));const sequence=hearingStages.filter(p=>c.courtType==='criminal'||p!=='last_word');const index=sequence.indexOf(stage);if(index<0||stage==='deliberation')throw new ApiError(409,'Qaror uchun o‘z asoslaringizni topshiring.');next.phase=sequence[index+1];
- if(next.phase==='opening'){add('CH_CLERK','Barchangiz o‘rningizdan turing. Sud kirib kelmoqda. Sud majlisiga raislik qiluvchi sudya.');add('CH_JUDGE',`Sud majlisi ochiq deb e’lon qilinadi. Ko‘riladigan ish: ${c.title}. Kotib, ishtirokchilar kelganini ma’lum qiling.`);add('CH_CLERK','Taraflar va ularning vakillari ishtiroki qayd etildi. Guvoh alohida kutmoqda. Ochiq majlisda 24 nafar tinglovchi bor. Shaxs va vakolat hujjatlari o‘quv modelida taqdim etilgan deb olinadi.');}
- if(next.phase==='rights'){add('CH_JUDGE','Sud tarkibi e’lon qilinadi. Rad etish haqidagi arizalar, taraflarning huquq va majburiyatlari hamda iltimosnomalari muhokama qilinadi. Teng eshitilish imkoniyati ta’minlanadi. Tarjimon yoki himoyachi zarurati bo‘lsa bildiring.');}
- if(next.phase==='statements'){add(c.courtType==='criminal'?'CH_PROSECUTOR':'CH_ADVOCATE',c.client.opening);add('CH_RESPONDENT',c.opponent.position);add('CH_OPPOSING_COUNSEL',c.courtType==='criminal'?'Jabrlanuvchining vakili sifatida zarar va ish materiallari tekshirilishini so‘rayman. Hozirgi materiallardan tashqari holatni tasdiqlamayman.':c.opponent.position);}
- if(next.phase==='examination')add('CH_JUDGE','Tekshirish tartibi muhokama qilinadi. Materiallarni o‘qing, taqdim eting va mazmunini taraflar bilan tekshiring. Guvoh alohida chaqiriladi. O‘quv nusxasi asl hujjat o‘rnini bosmaydi.');
- if(next.phase==='debate'){add('CH_JUDGE','Sud tekshiruvi yakunlandi. Taraflar muzokaraga o‘tadi. Faqat tekshirilgan materiallarga tayaning. Yangi holat zarur bo‘lsa tekshiruvni qayta ochish so‘raladi.');add('CH_OPPOSING_COUNSEL',`Qarama-qarshi pozitsiya: ${c.opponent.position}`);}
- if(next.phase==='last_word')add('CH_RESPONDENT',c.opponent.position+' Bu mening oxirgi so‘zim.');
- if(next.phase==='deliberation')add('CH_JUDGE','Sud maslahatga kirishadi. O‘quv mashqida har bir ishtirokchi o‘z yakuniy pozitsiyasi, tekshirilgan dalillar va huquqiy asoslarni alohida topshiradi.');
- }else throw new ApiError(400,'Harakat topilmadi.');next.revision++;next.events.push({type:action,from:stage,to:next.phase,at:new Date().toISOString()});next.messages=next.messages.slice(-150);return next;}
+import { randomUUID } from "node:crypto";
+import { readFileSync } from "node:fs";
+import { ApiError } from "./runtime.mjs";
+import { converse, hearingDecision } from "./ai.mjs";
+const cases = JSON.parse(
+  readFileSync(
+    new URL("../src/content/scenarios.json", import.meta.url),
+    "utf8",
+  ),
+);
+export const hearingStages = [
+  "arrival",
+  "opening",
+  "rights",
+  "statements",
+  "examination",
+  "debate",
+  "last_word",
+  "deliberation",
+  "decision",
+  "closed",
+];
+export const hearingLabels = {
+  arrival: "Zalga kirish",
+  opening: "Rasmiy ochilish",
+  rights: "Tarkib va huquqlar",
+  statements: "Taraflar bayonoti",
+  examination: "Sud tekshiruvi",
+  debate: "Sud muzokarasi",
+  last_word: "Sudlanuvchining oxirgi so‘zi",
+  deliberation: "Maslahat va asoslash",
+  decision: "Qarorni e’lon qilish",
+  closed: "Majlis yakunlandi",
+};
+const msg = (actor, text, stage, who = "npc") => ({
+  id: randomUUID(),
+  actor,
+  text,
+  stage,
+  who,
+  at: new Date().toISOString(),
+});
+const ownActor = (role) =>
+  ({ advokat: "CH_ADVOCATE", sudya: "CH_JUDGE", prokuror: "CH_PROSECUTOR" })[
+    role
+  ];
+export function trialActors(c, role) {
+  return [
+    "CH_JUDGE",
+    "CH_CLERK",
+    ...(c.courtType === "criminal" || c.trial?.prosecutorRequired
+      ? ["CH_PROSECUTOR"]
+      : []),
+    "CH_ADVOCATE",
+    "CH_OPPOSING_COUNSEL",
+    c.courtType === "criminal" ? "CH_VICTIM" : "CH_PLAINTIFF",
+    "CH_RESPONDENT",
+    "CH_WITNESS",
+    "CH_QONUNAI",
+  ].filter((a) => a !== ownActor(role));
+}
+export function hearingMissing(s, c) {
+  const missing = [];
+  if (
+    s.phase === "statements" &&
+    !s.messages.some((m) => m.stage === "statements" && m.who === "user")
+  )
+    missing.push("O‘z pozitsiyangizni kamida bir marta bayon qiling.");
+  if (s.phase === "examination") {
+    if (s.examined.length < Math.min(2, c.evidence.length))
+      missing.push("Kamida ikki materialni taqdim etib, sudda tekshiring.");
+    if (!s.questioned.includes("CH_WITNESS"))
+      missing.push(
+        "Guvohni chaqirib, uning ko‘rsatmasini savol bilan tekshiring.",
+      );
+    if (!s.questioned.includes("CH_RESPONDENT"))
+      missing.push(
+        "Javobgar yoki sudlanuvchining izohini tinglang va savol bering.",
+      );
+  }
+  if (
+    s.phase === "debate" &&
+    !s.messages.some(
+      (m) => m.stage === "debate" && m.who === "user" && m.text.length >= 40,
+    )
+  )
+    missing.push(
+      "Dalil va qarama-qarshi fikrni bog‘lab sud nutqingizni bildiring.",
+    );
+  return missing;
+}
+export function createHearing(c, role) {
+  return {
+    version: 1,
+    caseId: c.id,
+    role,
+    phase: "arrival",
+    read: [],
+    submitted: [],
+    examined: [],
+    excluded: [],
+    questioned: [],
+    witnessCalled: false,
+    messages: [
+      msg(
+        "CH_QONUNAI",
+        `${c.title}. Ish materiallari bilan tanishing. Rasmiy ochilish tugmasi bilan majlisga kiring.`,
+        "arrival",
+      ),
+    ],
+    events: [],
+    reason: null,
+    decision: null,
+    revision: 0,
+  };
+}
+export function applyHearing(s, c, action, body = {}) {
+  const next = structuredClone(s);
+  const stage = s.phase;
+  const requireOpen = () => {
+    if (!["examination"].includes(stage))
+      throw new ApiError(
+        409,
+        "Bu harakat sud tekshiruvi bosqichida bajariladi.",
+      );
+  };
+  const add = (actor, text) => next.messages.push(msg(actor, text, next.phase));
+  if (s.paused && !["resume", "read"].includes(action))
+    throw new ApiError(
+      409,
+      "Tanaffusda majlis davom ettirilmaydi. Avval tanaffusni yakunlang.",
+    );
+  if (["closed", "decision"].includes(stage) && action !== "close")
+    throw new ApiError(409, "Qaror chiqarilgan. Yangi urinish boshlang.");
+  if (action === "pause") {
+    if (["arrival", "deliberation", "decision", "closed"].includes(stage))
+      throw new ApiError(409, "Hozir tanaffus so‘ralmaydi.");
+    next.paused = true;
+    add("CH_JUDGE", "Sud majlisida tanaffus e’lon qilindi.");
+  } else if (action === "resume") {
+    if (!s.paused) throw new ApiError(409, "Tanaffus e’lon qilinmagan.");
+    next.paused = false;
+    add("CH_JUDGE", "Tanaffus tugadi. Sud majlisi davom etadi.");
+  } else if (action === "read") {
+    if (!c.evidence.some((e) => e.id === body.evidenceId))
+      throw new ApiError(400, "Material topilmadi.");
+    if (!next.read.includes(body.evidenceId)) next.read.push(body.evidenceId);
+  } else if (action === "present") {
+    requireOpen();
+    if (!next.read.includes(body.evidenceId))
+      throw new ApiError(409, "Avval materialni o‘qing.");
+    if (!next.submitted.includes(body.evidenceId))
+      next.submitted.push(body.evidenceId);
+    add(
+      "CH_JUDGE",
+      `${body.evidenceId} ishga taqdim etildi. Qabul qilish uning ishonchliligi isbotlanganini anglatmaydi; mazmunini tekshiramiz.`,
+    );
+  } else if (action === "examine") {
+    requireOpen();
+    if (
+      !next.submitted.includes(body.evidenceId) ||
+      next.excluded.includes(body.evidenceId)
+    )
+      throw new ApiError(409, "Avval qabul qilingan materialni taqdim eting.");
+    if (!next.examined.includes(body.evidenceId))
+      next.examined.push(body.evidenceId);
+    add(
+      "CH_JUDGE",
+      `${body.evidenceId} muhokama qilindi. Taraflar mazmuni, kelib chiqishi va cheklovlari yuzasidan savol berishi mumkin.`,
+    );
+  } else if (action === "call_witness") {
+    requireOpen();
+    next.witnessCalled = true;
+    add(
+      "CH_CLERK",
+      "Guvoh zalga taklif qilinadi. Shaxsi va taraflar bilan munosabati aniqlanadi.",
+    );
+    add(
+      "CH_JUDGE",
+      "Guvohga huquq va majburiyatlari tushuntiriladi. O‘zingiz kuzatgan holatni eshitgan gap yoki taxmindan ajrating.",
+    );
+  } else if (action === "objection") {
+    requireOpen();
+    if (typeof body.text !== "string" || body.text.trim().length < 20)
+      throw new ApiError(
+        400,
+        "E’tiroz sababini kamida 20 belgi bilan asoslang.",
+      );
+    if (!next.submitted.includes(body.evidenceId))
+      throw new ApiError(409, "E’tiroz bildirilayotgan materialni tanlang.");
+    next.messages.push(
+      msg(ownActor(s.role), body.text.slice(0, 3000), stage, "user"),
+    );
+    next.events.push({
+      type: "objection",
+      evidenceId: body.evidenceId,
+      text: body.text.slice(0, 3000),
+    });
+    if (s.role === "sudya" && ["exclude", "retain"].includes(body.ruling)) {
+      if (body.ruling === "exclude") {
+        next.excluded = [...new Set([...next.excluded, body.evidenceId])];
+        next.examined = next.examined.filter((id) => id !== body.evidenceId);
+      } else
+        next.excluded = next.excluded.filter((id) => id !== body.evidenceId);
+    }
+    add(
+      "CH_JUDGE",
+      "E’tiroz va unga qarshi fikr qayd etildi. Maqbullik masalasi protsessual asos bilan baholanadi; e’tirozning o‘zi dalilni chiqarib tashlamaydi.",
+    );
+  } else if (action === "reopen") {
+    if (!["debate", "last_word", "deliberation"].includes(stage))
+      throw new ApiError(409, "Sud tekshiruvi hozir qayta ochilmaydi.");
+    next.phase = "examination";
+    next.reason = null;
+    next.draft = null;
+    add(
+      "CH_JUDGE",
+      "Yangi yoki tekshirilmagan muhim holat sabab sud tekshiruvi qayta ochildi. Dalillar qayta muhokama qilinadi, keyin muzokara takrorlanadi.",
+    );
+  } else if (action === "close") {
+    if (stage !== "decision")
+      throw new ApiError(409, "Avval qaror e’lon qilinsin.");
+    next.phase = "closed";
+    add(
+      "CH_CLERK",
+      "O‘quv sud majlisi yakunlandi. Qaror, protsessual qaydlar va tahlil hisoboti saqlandi.",
+    );
+  } else if (action === "next") {
+    const missing = hearingMissing(s, c);
+    if (missing.length) throw new ApiError(409, missing.join(" "));
+    const sequence = hearingStages.filter(
+      (p) => c.courtType === "criminal" || p !== "last_word",
+    );
+    const index = sequence.indexOf(stage);
+    if (index < 0 || stage === "deliberation")
+      throw new ApiError(409, "Qaror uchun o‘z asoslaringizni topshiring.");
+    next.phase = sequence[index + 1];
+    if (next.phase === "opening") {
+      add(
+        "CH_CLERK",
+        "Barchangiz o‘rningizdan turing. Sud kirib kelmoqda. Sud majlisiga raislik qiluvchi sudya.",
+      );
+      add(
+        "CH_JUDGE",
+        `Sud majlisi ochiq deb e’lon qilinadi. Ko‘riladigan ish: ${c.title}. Kotib, ishtirokchilar kelganini ma’lum qiling.`,
+      );
+      add(
+        "CH_CLERK",
+        "Taraflar va ularning vakillari ishtiroki qayd etildi. Guvoh alohida kutmoqda. Ochiq majlisda 24 nafar tinglovchi bor. Shaxs va vakolat hujjatlari o‘quv modelida taqdim etilgan deb olinadi.",
+      );
+    }
+    if (next.phase === "rights") {
+      add(
+        "CH_JUDGE",
+        "Sud tarkibi e’lon qilinadi. Rad etish haqidagi arizalar, taraflarning huquq va majburiyatlari hamda iltimosnomalari muhokama qilinadi. Teng eshitilish imkoniyati ta’minlanadi. Tarjimon yoki himoyachi zarurati bo‘lsa bildiring.",
+      );
+    }
+    if (next.phase === "statements") {
+      add(
+        c.courtType === "criminal" ? "CH_PROSECUTOR" : "CH_ADVOCATE",
+        c.client.opening,
+      );
+      add("CH_RESPONDENT", c.opponent.position);
+      add(
+        "CH_OPPOSING_COUNSEL",
+        c.courtType === "criminal"
+          ? "Jabrlanuvchining vakili sifatida zarar va ish materiallari tekshirilishini so‘rayman. Hozirgi materiallardan tashqari holatni tasdiqlamayman."
+          : c.opponent.position,
+      );
+    }
+    if (next.phase === "examination")
+      add(
+        "CH_JUDGE",
+        "Tekshirish tartibi muhokama qilinadi. Materiallarni o‘qing, taqdim eting va mazmunini taraflar bilan tekshiring. Guvoh alohida chaqiriladi. O‘quv nusxasi asl hujjat o‘rnini bosmaydi.",
+      );
+    if (next.phase === "debate") {
+      add(
+        "CH_JUDGE",
+        "Sud tekshiruvi yakunlandi. Taraflar muzokaraga o‘tadi. Faqat tekshirilgan materiallarga tayaning. Yangi holat zarur bo‘lsa tekshiruvni qayta ochish so‘raladi.",
+      );
+      add(
+        "CH_OPPOSING_COUNSEL",
+        `Qarama-qarshi pozitsiya: ${c.opponent.position}`,
+      );
+    }
+    if (next.phase === "last_word")
+      add("CH_RESPONDENT", c.opponent.position + " Bu mening oxirgi so‘zim.");
+    if (next.phase === "deliberation")
+      add(
+        "CH_JUDGE",
+        "Sud maslahatga kirishadi. O‘quv mashqida har bir ishtirokchi o‘z yakuniy pozitsiyasi, tekshirilgan dalillar va huquqiy asoslarni alohida topshiradi.",
+      );
+  } else throw new ApiError(400, "Harakat topilmadi.");
+  next.revision++;
+  next.events.push({
+    type: action,
+    from: stage,
+    to: next.phase,
+    at: new Date().toISOString(),
+  });
+  next.messages = next.messages.slice(-150);
+  return next;
+}
 
-export function createHearingStore(db){db.exec('CREATE TABLE IF NOT EXISTS hearings(id TEXT PRIMARY KEY,owner TEXT NOT NULL,client TEXT NOT NULL,caseId TEXT NOT NULL,role TEXT NOT NULL,state TEXT NOT NULL,updated TEXT NOT NULL,UNIQUE(owner,client))');const locate=(owner,id)=>{const r=db.prepare('SELECT * FROM hearings WHERE id=? AND owner=?').get(id,owner);if(!r)throw new ApiError(404,'Sud mashqi topilmadi.');return {row:r,state:JSON.parse(r.state),c:cases.find(c=>c.id===r.caseId)};};const save=(r,state)=>{db.prepare('UPDATE hearings SET state=?,updated=? WHERE id=?').run(JSON.stringify(state),new Date().toISOString(),r.id);return{id:r.id,...state};};const publicState=r=>({id:r.row.id,...r.state,actors:trialActors(r.c,r.row.role),missing:hearingMissing(r.state,r.c)});
- return {start(owner,body){if(!['advokat','sudya','prokuror'].includes(body.role)||typeof body.attemptId!=='string'||body.attemptId.length>80)throw new ApiError(400,'Rol yoki urinish mos emas.');const c=cases.find(c=>c.id===body.caseId);if(!c)throw new ApiError(404,'Ish topilmadi.');if(c.trial?.available===false)throw new ApiError(409,c.trial.reason);if(body.role==='prokuror'&&!c.trial?.prosecutorAllowed)throw new ApiError(409,'Bu xususiy nizoda prokurorning protsessual ishtiroki uchun asos berilmagan. Advokat yoki sudya rolini tanlang.');let r=db.prepare('SELECT id,caseId,role FROM hearings WHERE owner=? AND client=?').get(owner,body.attemptId);if(r&&(r.caseId!==body.caseId||r.role!==body.role))throw new ApiError(409,'Urinish boshqa ishga tegishli.');if(!r){const id=randomUUID();db.prepare('INSERT INTO hearings VALUES(?,?,?,?,?,?,?)').run(id,owner,body.attemptId,c.id,body.role,JSON.stringify(createHearing(c,body.role)),new Date().toISOString());r={id};}return publicState(locate(owner,r.id));},resume(owner,id){return publicState(locate(owner,id));},action(owner,body){const r=locate(owner,body.id);save(r.row,applyHearing(r.state,r.c,body.action,body));return this.resume(owner,body.id);},
- async speak(owner,body,credentials,language){const r=locate(owner,body.id),s=r.state,c=r.c;if(s.paused&&body.actor!=='CH_QONUNAI')throw new ApiError(409,'Avval tanaffusni yakunlang.');if(['decision','closed','deliberation','last_word'].includes(s.phase)&&body.actor!=='CH_QONUNAI')throw new ApiError(409,'Bu bosqichda erkin savol berilmaydi.');if(typeof body.text!=='string'||body.text.trim().length<10||body.text.length>3000)throw new ApiError(400,'Fikringiz 10–3000 belgi bo‘lsin.');const valid=trialActors(c,s.role);if(!valid.includes(body.actor)&&!(s.role==='sudya'&&body.actor==='CH_JUDGE'))throw new ApiError(400,'Suhbatdosh mos emas.');if(body.actor==='CH_WITNESS'&&!s.witnessCalled)throw new ApiError(409,'Guvohni avval sud chaqirishi kerak.');const target=body.actor;const history=[...s.messages,msg(body.actor,body.text,s.phase,'user')];let reply;try{reply=await converse(credentials,c,{role:s.role,actor:target,text:body.text,language,sessionId:r.row.id+':'+body.actor,history,courtState:{phase:s.phase,examined:s.examined},intentHint:body.objection?'objection':null,evidence:Object.fromEntries(c.evidence.map(e=>[e.id,s.examined.includes(e.id)?'examined':s.submitted.includes(e.id)?'submitted':s.read.includes(e.id)?'read':'unread']))});}catch(e){if(credentials.groq)throw e;const actor=c.trial?.participants?.[body.actor];reply={text:actor?.statement||(body.actor==='CH_RESPONDENT'?c.opponent.position:body.actor==='CH_WITNESS'?'Men faqat ish kartasidagi yozma bayonot doirasida javob bera olaman. Asl guvohlik bayonnomasi berilmagan.':c.client.opening),provider:'offline'};}
- const current=locate(owner,body.id);if(current.state.revision!==s.revision)throw new ApiError(409,'Jarayon yangilandi. Xabarni qayta yuboring.');if(body.actor==='CH_JUDGE'&&body.objection&&s.submitted.includes(body.evidenceId)&&reply.ruling&&reply.sourceIds?.length&&!reply.grounding?.unverifiedArticles?.length){if(reply.ruling==='sustained'){s.excluded=[...new Set([...s.excluded,body.evidenceId])];s.examined=s.examined.filter(id=>id!==body.evidenceId);}s.events.push({type:'ruling',evidenceId:body.evidenceId,ruling:reply.ruling});}s.messages=[...history,msg(body.actor,reply.text,s.phase)];s.messages.at(-1).provider=reply.provider;const requests={begin_hearing:s.phase==='arrival'?'next':null,call_witness:'call_witness',submit_evidence:'present',examine_evidence:'examine',closing_argument:s.phase==='examination'?'next':null,final_statement:s.phase==='debate'?'next':null,request_break:'pause'};const proposed=body.actor==='CH_JUDGE'||(s.role==='sudya'&&body.actor==='CH_CLERK')?requests[reply.intent]:null;if(proposed){try{Object.assign(s,applyHearing(s,c,proposed,{evidenceId:reply.evidenceId}));}catch(e){s.messages.push(msg('CH_JUDGE',e.message,s.phase));}}s.questioned=[...new Set([...s.questioned,body.actor])];s.revision++;save(r.row,s);return this.resume(owner,body.id);},
- async decide(owner,body,credentials,language){const r=locate(owner,body.id),s=r.state;if(s.phase!=='deliberation')throw new ApiError(409,'Qaror uchun barcha bosqichlarni bajaring.');if(typeof body.text!=='string'||body.text.trim().length<100||body.text.length>5000)throw new ApiError(400,'Dalil va sabablaringizni 100–5000 belgi bilan yozing.');if(!Array.isArray(body.evidenceIds)||body.evidenceIds.length<2||!body.evidenceIds.every(id=>s.examined.includes(id)))throw new ApiError(400,'Kamida ikki tekshirilgan materialni tanlang.');if(!Array.isArray(body.sourceIds)||!body.sourceIds.length||!body.sourceIds.every(id=>r.c.legalRefs.some(ref=>ref.id===id)))throw new ApiError(400,'Ishga biriktirilgan huquqiy manbani tanlang.');s.draft={text:body.text,position:String(body.position||'').slice(0,200),evidenceIds:body.evidenceIds,sourceIds:body.sourceIds};s.revision++;save(r.row,s);const decision=await hearingDecision(credentials,r.c,{state:s,text:body.text,position:body.position,evidenceIds:body.evidenceIds,sourceIds:body.sourceIds,language});const current=locate(owner,body.id);if(current.state.revision!==s.revision)throw new ApiError(409,'Jarayon yangilandi. Asoslaringizni qayta yuboring.');s.reason={text:body.text,position:String(body.position||'').slice(0,200),evidenceIds:body.evidenceIds,sourceIds:body.sourceIds};s.decision=decision;s.draft=null;s.phase='decision';s.messages.push(msg('CH_JUDGE',decision.text,'decision'));s.revision++;save(r.row,s);return this.resume(owner,body.id);}};}
+export function createHearingStore(db) {
+  db.exec(
+    "CREATE TABLE IF NOT EXISTS hearings(id TEXT PRIMARY KEY,owner TEXT NOT NULL,client TEXT NOT NULL,caseId TEXT NOT NULL,role TEXT NOT NULL,state TEXT NOT NULL,updated TEXT NOT NULL,UNIQUE(owner,client))",
+  );
+  const locate = (owner, id) => {
+    const r = db
+      .prepare("SELECT * FROM hearings WHERE id=? AND owner=?")
+      .get(id, owner);
+    if (!r) throw new ApiError(404, "Sud mashqi topilmadi.");
+    return {
+      row: r,
+      state: JSON.parse(r.state),
+      c: cases.find((c) => c.id === r.caseId),
+    };
+  };
+  const save = (r, state) => {
+    db.prepare("UPDATE hearings SET state=?,updated=? WHERE id=?").run(
+      JSON.stringify(state),
+      new Date().toISOString(),
+      r.id,
+    );
+    return { id: r.id, ...state };
+  };
+  const publicState = (r) => ({
+    id: r.row.id,
+    ...r.state,
+    actors: trialActors(r.c, r.row.role),
+    missing: hearingMissing(r.state, r.c),
+  });
+  return {
+    start(owner, body) {
+      if (
+        !["advokat", "sudya", "prokuror"].includes(body.role) ||
+        typeof body.attemptId !== "string" ||
+        body.attemptId.length > 80
+      )
+        throw new ApiError(400, "Rol yoki urinish mos emas.");
+      const c = cases.find((c) => c.id === body.caseId);
+      if (!c) throw new ApiError(404, "Ish topilmadi.");
+      if (c.trial?.available === false) throw new ApiError(409, c.trial.reason);
+      if (body.role === "prokuror" && !c.trial?.prosecutorAllowed)
+        throw new ApiError(
+          409,
+          "Bu xususiy nizoda prokurorning protsessual ishtiroki uchun asos berilmagan. Advokat yoki sudya rolini tanlang.",
+        );
+      let r = db
+        .prepare(
+          "SELECT id,caseId,role FROM hearings WHERE owner=? AND client=?",
+        )
+        .get(owner, body.attemptId);
+      if (r && (r.caseId !== body.caseId || r.role !== body.role))
+        throw new ApiError(409, "Urinish boshqa ishga tegishli.");
+      if (!r) {
+        const id = randomUUID();
+        db.prepare("INSERT INTO hearings VALUES(?,?,?,?,?,?,?)").run(
+          id,
+          owner,
+          body.attemptId,
+          c.id,
+          body.role,
+          JSON.stringify(createHearing(c, body.role)),
+          new Date().toISOString(),
+        );
+        r = { id };
+      }
+      return publicState(locate(owner, r.id));
+    },
+    resume(owner, id) {
+      return publicState(locate(owner, id));
+    },
+    action(owner, body) {
+      const r = locate(owner, body.id);
+      save(r.row, applyHearing(r.state, r.c, body.action, body));
+      return this.resume(owner, body.id);
+    },
+    async speak(owner, body, credentials, language) {
+      const r = locate(owner, body.id),
+        s = r.state,
+        c = r.c;
+      if (s.paused && body.actor !== "CH_QONUNAI")
+        throw new ApiError(409, "Avval tanaffusni yakunlang.");
+      if (
+        ["decision", "closed", "deliberation", "last_word"].includes(s.phase) &&
+        body.actor !== "CH_QONUNAI"
+      )
+        throw new ApiError(409, "Bu bosqichda erkin savol berilmaydi.");
+      if (
+        typeof body.text !== "string" ||
+        body.text.trim().length < 10 ||
+        body.text.length > 3000
+      )
+        throw new ApiError(400, "Fikringiz 10–3000 belgi bo‘lsin.");
+      const valid = trialActors(c, s.role);
+      if (
+        !valid.includes(body.actor) &&
+        !(s.role === "sudya" && body.actor === "CH_JUDGE")
+      )
+        throw new ApiError(400, "Suhbatdosh mos emas.");
+      if (body.actor === "CH_WITNESS" && !s.witnessCalled)
+        throw new ApiError(409, "Guvohni avval sud chaqirishi kerak.");
+      const target = body.actor;
+      const history = [
+        ...s.messages,
+        msg(body.actor, body.text, s.phase, "user"),
+      ];
+      let reply;
+      try {
+        reply = await converse(credentials, c, {
+          role: s.role,
+          actor: target,
+          text: body.text,
+          language,
+          sessionId: r.row.id + ":" + body.actor,
+          history,
+          courtState: { phase: s.phase, examined: s.examined },
+          intentHint: body.objection ? "objection" : null,
+          evidence: Object.fromEntries(
+            c.evidence.map((e) => [
+              e.id,
+              s.examined.includes(e.id)
+                ? "examined"
+                : s.submitted.includes(e.id)
+                  ? "submitted"
+                  : s.read.includes(e.id)
+                    ? "read"
+                    : "unread",
+            ]),
+          ),
+        });
+      } catch (e) {
+        if (credentials.groq) throw e;
+        const actor = c.trial?.participants?.[body.actor];
+        reply = {
+          text:
+            actor?.statement ||
+            (body.actor === "CH_RESPONDENT"
+              ? c.opponent.position
+              : body.actor === "CH_WITNESS"
+                ? "Men faqat ish kartasidagi yozma bayonot doirasida javob bera olaman. Asl guvohlik bayonnomasi berilmagan."
+                : c.client.opening),
+          provider: "offline",
+        };
+      }
+      const current = locate(owner, body.id);
+      if (current.state.revision !== s.revision)
+        throw new ApiError(409, "Jarayon yangilandi. Xabarni qayta yuboring.");
+      if (
+        body.actor === "CH_JUDGE" &&
+        body.objection &&
+        s.submitted.includes(body.evidenceId) &&
+        reply.ruling &&
+        reply.sourceIds?.length &&
+        !reply.grounding?.unverifiedArticles?.length
+      ) {
+        if (reply.ruling === "sustained") {
+          s.excluded = [...new Set([...s.excluded, body.evidenceId])];
+          s.examined = s.examined.filter((id) => id !== body.evidenceId);
+        }
+        s.events.push({
+          type: "ruling",
+          evidenceId: body.evidenceId,
+          ruling: reply.ruling,
+        });
+      }
+      s.messages = [...history, msg(body.actor, reply.text, s.phase)];
+      s.messages.at(-1).provider = reply.provider;
+      const requests = {
+        begin_hearing: s.phase === "arrival" ? "next" : null,
+        call_witness: "call_witness",
+        submit_evidence: "present",
+        examine_evidence: "examine",
+        closing_argument: s.phase === "examination" ? "next" : null,
+        final_statement: s.phase === "debate" ? "next" : null,
+        request_break: "pause",
+      };
+      const proposed =
+        body.actor === "CH_JUDGE" ||
+        (s.role === "sudya" && body.actor === "CH_CLERK")
+          ? requests[reply.intent]
+          : null;
+      if (proposed) {
+        try {
+          Object.assign(
+            s,
+            applyHearing(s, c, proposed, { evidenceId: reply.evidenceId }),
+          );
+        } catch (e) {
+          s.messages.push(msg("CH_JUDGE", e.message, s.phase));
+        }
+      }
+      s.questioned = [...new Set([...s.questioned, body.actor])];
+      s.revision++;
+      save(r.row, s);
+      return this.resume(owner, body.id);
+    },
+    async decide(owner, body, credentials, language) {
+      const r = locate(owner, body.id),
+        s = r.state;
+      if (s.phase !== "deliberation")
+        throw new ApiError(409, "Qaror uchun barcha bosqichlarni bajaring.");
+      if (
+        typeof body.text !== "string" ||
+        body.text.trim().length < 100 ||
+        body.text.length > 5000
+      )
+        throw new ApiError(
+          400,
+          "Dalil va sabablaringizni 100–5000 belgi bilan yozing.",
+        );
+      if (
+        !Array.isArray(body.evidenceIds) ||
+        body.evidenceIds.length < 2 ||
+        !body.evidenceIds.every((id) => s.examined.includes(id))
+      )
+        throw new ApiError(400, "Kamida ikki tekshirilgan materialni tanlang.");
+      if (
+        !Array.isArray(body.sourceIds) ||
+        !body.sourceIds.length ||
+        !body.sourceIds.every((id) =>
+          r.c.legalRefs.some((ref) => ref.id === id),
+        )
+      )
+        throw new ApiError(400, "Ishga biriktirilgan huquqiy manbani tanlang.");
+      s.draft = {
+        text: body.text,
+        position: String(body.position || "").slice(0, 200),
+        evidenceIds: body.evidenceIds,
+        sourceIds: body.sourceIds,
+      };
+      s.revision++;
+      save(r.row, s);
+      const decision = await hearingDecision(credentials, r.c, {
+        state: s,
+        text: body.text,
+        position: body.position,
+        evidenceIds: body.evidenceIds,
+        sourceIds: body.sourceIds,
+        language,
+      });
+      const current = locate(owner, body.id);
+      if (current.state.revision !== s.revision)
+        throw new ApiError(
+          409,
+          "Jarayon yangilandi. Asoslaringizni qayta yuboring.",
+        );
+      s.reason = {
+        text: body.text,
+        position: String(body.position || "").slice(0, 200),
+        evidenceIds: body.evidenceIds,
+        sourceIds: body.sourceIds,
+      };
+      s.decision = decision;
+      s.draft = null;
+      s.phase = "decision";
+      s.messages.push(msg("CH_JUDGE", decision.text, "decision"));
+      s.revision++;
+      save(r.row, s);
+      return this.resume(owner, body.id);
+    },
+  };
+}

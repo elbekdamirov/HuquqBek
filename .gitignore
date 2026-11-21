@@ -10,3 +10,4 @@ test-results/
 # Large ZIP archives
 dist/*.zip
 game_backup_before_*.zip
+pitch/
